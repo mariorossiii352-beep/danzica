@@ -49,6 +49,10 @@ async function avvia() {
   collegaMappa();
   collegaSpese();
   caricaTassi();
+  // un'app installata resta aperta in sottofondo per giorni: riprovo quando
+  // torna in primo piano e quando torna la connessione
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) caricaTassi(); });
+  window.addEventListener('online', () => caricaTassi(true));
   disegna();
   registraServiceWorker();
 }
@@ -986,18 +990,48 @@ function modaleSpesa(esistente) {
 
 // --- info --------------------------------------------------------------
 
-async function caricaTassi() {
+// La BCE pubblica un cambio al giorno: chiederlo piu' spesso non serve.
+const OGNI_QUANTO_MS = 30 * 60 * 1000;
+let scaricoInCorso = false;
+
+async function caricaTassi(forza) {
+  if (!tasso.data) {
+    try {
+      const salvato = JSON.parse(localStorage.getItem('danzica:tassi') || 'null');
+      if (salvato) tasso = salvato;
+    } catch (e) { /* niente */ }
+  }
+  if (scaricoInCorso) return;
+  if (!forza && tasso.controllato && Date.now() - tasso.controllato < OGNI_QUANTO_MS) return;
+  scaricoInCorso = true;
   try {
-    const salvato = JSON.parse(localStorage.getItem('danzica:tassi') || 'null');
-    if (salvato) tasso = salvato;
-  } catch (e) { /* niente */ }
-  try {
-    const r = await fetch('https://api.frankfurter.dev/v1/latest?base=PLN&symbols=EUR,DKK');
+    const r = await fetch('https://api.frankfurter.dev/v1/latest?base=PLN&symbols=EUR,DKK', { cache: 'no-store' });
     const d = await r.json();
-    tasso = { EUR: d.rates.EUR, DKK: d.rates.DKK, data: d.date };
+    tasso = { EUR: d.rates.EUR, DKK: d.rates.DKK, data: d.date, controllato: Date.now() };
     localStorage.setItem('danzica:tassi', JSON.stringify(tasso));
-    if (vista === 'info' || vista === 'spese') disegna();
-  } catch (e) { /* offline: resta la cache */ }
+    // aggiorno i numeri senza ridisegnare: la cifra che si sta scrivendo resta
+    const box = document.querySelector('#info .conv-box');
+    if (box && box.ricalcola) box.ricalcola();
+    if (vista === 'spese') disegna();
+  } catch (e) {
+    /* offline: restano i tassi salvati */
+  } finally {
+    scaricoInCorso = false;
+    const box = document.querySelector('#info .conv-box');
+    if (box && box.etichetta) box.etichetta();
+  }
+}
+
+function statoTassi() {
+  if (!tasso.data) return 'tassi non ancora scaricati: uso una stima';
+  const base = 'tassi BCE del ' + dataIt(tasso.data);
+  if (!tasso.controllato) return base + ', salvati per l\'uso offline';
+  const quando = new Date(tasso.controllato);
+  const ora = String(quando.getHours()).padStart(2, '0') + ':' + String(quando.getMinutes()).padStart(2, '0');
+  const oggi = new Date().toDateString() === quando.toDateString();
+  const vecchio = Date.now() - tasso.controllato > 6 * 3600 * 1000;
+  return base + ' · controllati ' + (oggi ? 'alle ' + ora : 'il ' + quando.getDate() + '/' + (quando.getMonth() + 1)) +
+    (vecchio && !navigator.onLine ? ' (sei offline)' : '');
 }
 
 function disegnaInfo() {
@@ -1006,14 +1040,15 @@ function disegnaInfo() {
   cont.innerHTML = '';
 
   const conv = document.createElement('div');
-  conv.className = 'info-blocco';
+  conv.className = 'info-blocco conv-box';
   conv.innerHTML = '<h2>Convertitore</h2><div class="conv">' +
-    '<label>PLN<input type="text" inputmode="decimal" data-val="PLN" value="100"></label>' +
-    '<label>EUR<input type="text" inputmode="decimal" data-val="EUR"></label>' +
-    '<label>DKK<input type="text" inputmode="decimal" data-val="DKK"></label></div>' +
-    '<small>' + (tasso.data ? 'tassi BCE del ' + dataIt(tasso.data) + ', salvati per l\'uso offline' : 'tassi non ancora scaricati: uso una stima') + '</small>';
+    '<label>PLN<input id="conv-pln" type="text" inputmode="decimal" data-val="PLN" value="100"></label>' +
+    '<label>EUR<input id="conv-eur" type="text" inputmode="decimal" data-val="EUR"></label>' +
+    '<label>DKK<input id="conv-dkk" type="text" inputmode="decimal" data-val="DKK"></label></div>' +
+    '<small class="conv-stato"></small>';
   cont.appendChild(conv);
   collegaConvertitore(conv);
+  caricaTassi();
 
   cont.appendChild(blocco('Info pratiche', [
     'Emergenze: 112.',
@@ -1075,8 +1110,12 @@ function collegaConvertitore(box) {
       c.value = k ? (inPln * k).toFixed(2).replace('.', ',') : '';
     }
   }
-  campi.forEach((c) => c.addEventListener('input', () => aggiorna(c)));
+  let ultimo = campi[0];
+  campi.forEach((c) => c.addEventListener('input', () => { ultimo = c; aggiorna(c); }));
+  box.ricalcola = () => aggiorna(ultimo);
+  box.etichetta = () => { box.querySelector('.conv-stato').textContent = statoTassi(); };
   aggiorna(campi[0]);
+  box.etichetta();
 }
 
 // --- pezzi di modulo ---------------------------------------------------

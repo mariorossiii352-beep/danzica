@@ -58,6 +58,11 @@ button{cursor:pointer}
 .pin-shopping i{background:#C2185B}
 .pin-gita i{background:#2E7D32}
 .sopra-mappa{position:absolute;left:0;right:0;top:0;z-index:4}
+/* sopra la mappa chiara i filtri devono avere un fondo pieno, o spariscono */
+.sopra-mappa .chip{background:var(--card);color:var(--fg);border-color:#4a3c2c;font-weight:600;
+  box-shadow:0 2px 8px rgba(0,0,0,.45)}
+.sopra-mappa .chip.on{background:var(--acc);color:var(--accfg);border-color:var(--acc)}
+.sopra-mappa .search{box-shadow:0 2px 10px rgba(0,0,0,.4)}
 .senza-mappa{padding:70px 14px 14px;overflow-y:auto;height:100%;font-size:14px;color:var(--muted)}
 .risultati{position:absolute;left:12px;right:12px;top:96px;z-index:6;background:var(--card);border:1px solid var(--line);max-height:60%;overflow-y:auto}
 .risultati button{display:block;width:100%;text-align:left;padding:12px;border-bottom:1px solid var(--line);font-size:14px}
