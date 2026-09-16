@@ -1,0 +1,188 @@
+/* Tema "Ambra": scuro e caldo, come l'ambra controluce.
+   Un solo colore forte, l'oro, su fondo bruno. Niente riquadri: la struttura
+   la fanno le righe sottili e i nomi in un carattere con grazie. */
+:root{
+  --bg:#171310;--fg:#F3E9DB;--muted:#A08D77;--card:#201913;--line:#2E2519;
+  --acc:#E0A03F;--acc2:#8FA6A0;--accfg:#1A1208;--head:#171310;--headfg:#F3E9DB;--nav:#1B1510;
+  --chip:#211A14;--chipfg:#C9B69C;--okBg:#1C2A21;--okFg:#93C2A0;--noBg:#2E1A18;--noFg:#E4938A;
+  --warnBg:#2B2113;--warnFg:#E4B963;--saldoBg:#201913;--saldoFg:#F3E9DB;
+  --rCard:2px;--rChip:2px;--rBtn:2px;
+  --fontTitle:"Fraunces",Georgia,"Times New Roman",serif;--titleSp:-.01em;
+  --fontBody:"Karla",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --sicuroSopra:env(safe-area-inset-top);--sicuroSotto:env(safe-area-inset-bottom);
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;overscroll-behavior:none}
+body{
+  background:var(--bg);color:var(--fg);
+  font-family:var(--fontBody);font-size:16px;
+  display:flex;flex-direction:column;height:100dvh;overflow:hidden;
+}
+button,input,select,textarea{font:inherit;font-size:16px;color:inherit;background:none;border:none}
+button{cursor:pointer}
+.nascosto{display:none !important}
+
+.head{flex:none;padding:calc(14px + var(--sicuroSopra)) 16px 12px;background:var(--head);color:var(--headfg);
+  border-bottom:1px solid var(--line)}
+.h1{font-size:26px;font-weight:600;font-family:var(--fontTitle);letter-spacing:var(--titleSp)}
+.sub{font-size:13px;color:var(--muted);margin-top:2px}
+
+#corpo{flex:1;position:relative;overflow:hidden}
+.vista{position:absolute;inset:0;display:flex;flex-direction:column;overflow:hidden}
+.scroll{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:0 12px calc(24px + var(--sicuroSotto))}
+
+.tabs{flex:none;display:flex;background:var(--nav);border-top:1px solid var(--line);padding:6px 0 calc(8px + var(--sicuroSotto))}
+.tabs button{flex:1;text-align:center;font-size:11px;color:var(--muted);line-height:1.5;padding:2px 0}
+.tabs b{display:block;font-size:20px;font-weight:400}
+.tabs .on{color:var(--acc);font-weight:700}
+
+.chips{display:flex;gap:6px;padding:8px 12px;overflow-x:auto;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{font-size:12px;letter-spacing:.04em;padding:7px 13px;border-radius:var(--rChip);background:transparent;color:var(--chipfg);border:1px solid var(--line);white-space:nowrap}
+.chip.on{background:var(--acc);color:var(--accfg);border-color:var(--acc)}
+.search{width:calc(100% - 24px);margin:8px 12px 0;padding:12px;border-radius:var(--rCard);background:var(--card);border:1px solid var(--line)}
+
+/* mappa */
+/* lo z-index tiene i livelli di Leaflet dentro il riquadro della mappa,
+   altrimenti coprirebbero la barra di ricerca qui sopra */
+#mappa{position:absolute;inset:0;background:#e9ebe6;z-index:1}
+
+/* segnaposto: pallini colorati per categoria, disegnati in CSS */
+.pin i{display:block;width:16px;height:16px;margin:3px;border-radius:50%;
+  background:#6b7280;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)}
+.pin-cibo i,.pin-bar i{background:#C62828}
+.pin-dolci i,.pin-caffe i{background:#E08A1E}
+.pin-museo i,.pin-chiesa i{background:#3F51B5}
+.pin-vista i{background:#00897B}
+.pin-attrazione i{background:#7B4FA0}
+.pin-shopping i{background:#C2185B}
+.pin-gita i{background:#2E7D32}
+.sopra-mappa{position:absolute;left:0;right:0;top:0;z-index:4}
+.senza-mappa{padding:70px 14px 14px;overflow-y:auto;height:100%;font-size:14px;color:var(--muted)}
+.risultati{position:absolute;left:12px;right:12px;top:96px;z-index:6;background:var(--card);border:1px solid var(--line);max-height:60%;overflow-y:auto}
+.risultati button{display:block;width:100%;text-align:left;padding:12px;border-bottom:1px solid var(--line);font-size:14px}
+.risultati small{display:block;color:var(--muted);font-size:12px}
+
+/* scheda posto */
+.velo{position:fixed;inset:0;background:#000a;z-index:8}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:9;background:var(--card);border-top:2px solid var(--acc);
+  padding:12px 16px calc(16px + var(--sicuroSotto));max-height:88%;overflow-y:auto}
+.grab{width:38px;height:4px;border-radius:3px;background:var(--line);margin:0 auto 10px}
+.occhiello{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--acc);margin-bottom:5px}
+.nome{font-size:26px;font-weight:600;font-family:var(--fontTitle);letter-spacing:var(--titleSp);line-height:1.15}
+.indirizzo{font-size:13px;color:var(--muted);margin-top:3px}
+.descrizione{font-size:15px;line-height:1.6;color:var(--fg);margin-top:14px;max-width:62ch}
+/* fatti: etichetta a sinistra, valore a destra, righe sottili */
+.fatti{margin-top:14px;border-top:1px solid var(--line)}
+.fatto{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}
+.fatto dt{color:var(--muted);flex:none}
+.fatto dd{text-align:right;font-variant-numeric:tabular-nums}
+.links{margin-top:6px}
+.links a{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 0;
+  border-bottom:1px solid var(--line);color:var(--acc);text-decoration:none;font-size:15px;font-weight:600}
+.links a span{color:var(--muted);font-weight:400;font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.links a:focus-visible,.btn:focus-visible,.chip:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.btn.aggiungi{margin-top:12px}
+.riga{display:flex;gap:8px;align-items:center;font-size:13px;margin-top:8px;flex-wrap:wrap}
+.tag{font-size:12px;padding:4px 9px;border-radius:var(--rChip);background:var(--chip);border:1px solid var(--line)}
+.tag.ok{background:var(--okBg);color:var(--okFg);border-color:transparent}
+.tag.no{background:var(--noBg);color:var(--noFg);border-color:transparent}
+.tag.warn{background:var(--warnBg);color:var(--warnFg);border-color:transparent}
+.perche{font-size:14px;color:var(--muted);margin-top:10px;line-height:1.5}
+.cuori{display:flex;gap:8px;margin-top:12px}
+.cuore{flex:1;text-align:center;font-size:14px;padding:11px;border-radius:var(--rCard);border:1px solid var(--line);
+  background:transparent;color:var(--muted)}
+.cuore.on{color:var(--acc);border-color:var(--acc);font-weight:700}
+.btns{display:flex;gap:8px;margin-top:12px}
+.btn{flex:1;text-align:center;padding:14px;border-radius:var(--rBtn);background:var(--acc);color:var(--accfg);font-weight:700;font-size:15px;display:block;width:100%}
+.btn.sec{background:transparent;color:var(--acc);border:1.5px solid var(--acc)}
+.btn.grigio{background:var(--chip);color:var(--fg);border:1px solid var(--line)}
+.fonte{font-size:11px;color:var(--muted);margin-top:10px;word-break:break-all}
+.fonte a{color:var(--muted)}
+
+/* piano */
+.giorni{flex:none;display:flex;gap:6px;padding:10px 12px 4px}
+.g{flex:1;text-align:center;font-size:12px;padding:8px 0;border-radius:var(--rChip);background:var(--chip);border:1px solid var(--line);line-height:1.3}
+.g b{display:block;font-size:16px}
+.g.on{background:var(--acc);color:var(--accfg);border-color:var(--acc)}
+.avviso{display:flex;gap:8px;font-size:13px;padding:10px 12px;border-radius:var(--rCard);background:var(--warnBg);color:var(--warnFg);margin:6px 0;line-height:1.4}
+.tappa{display:flex;gap:10px;margin:2px 0;touch-action:pan-y}
+.tappa.presa{opacity:.6}
+.ora{width:50px;flex:none;font-size:16px;font-weight:600;font-family:var(--fontTitle);color:var(--acc);
+  padding-top:15px;font-variant-numeric:tabular-nums}
+/* niente riquadri: le tappe sono separate da una riga sottile */
+.box{flex:1;background:transparent;border:0;border-top:1px solid var(--line);border-radius:0;
+  padding:14px 0 14px 2px;position:relative}
+.box.lock{box-shadow:inset 3px 0 0 var(--acc);padding-left:12px}
+.box .t{font-size:18px;font-weight:600;font-family:var(--fontTitle);letter-spacing:var(--titleSp);
+  line-height:1.2;padding-right:26px}
+.box .d{font-size:12px;color:var(--muted);margin-top:3px;line-height:1.4}
+.drag{position:absolute;right:6px;top:6px;color:var(--muted);font-size:16px;padding:6px;letter-spacing:2px;touch-action:none}
+.viaggio{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted);padding:5px 0 5px 56px}
+.viaggio button{font-size:12px;color:var(--acc);text-decoration:underline}
+.torta{font-size:13px;padding:10px 12px;border-radius:var(--rCard);background:var(--okBg);color:var(--okFg);margin:6px 0}
+.chiusure{font-size:13px;padding:10px 12px;border-radius:var(--rCard);background:var(--chip);margin:6px 0;line-height:1.5}
+.chiusure b{display:block;margin-bottom:4px}
+
+/* posti e spese */
+.sez{font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:var(--acc);padding:16px 4px 6px}
+.sp{display:flex;align-items:center;gap:10px;padding:12px 4px;border-bottom:1px solid var(--line);width:100%;text-align:left}
+.av{width:32px;height:32px;border-radius:50%;background:var(--acc);color:var(--accfg);font-size:14px;font-weight:700;display:flex;align-items:center;justify-content:center;flex:none}
+.av.a{background:var(--acc2)}
+.sp .n{flex:1;font-size:15px}
+.sp .n span{display:block;font-family:var(--fontTitle);font-weight:600;font-size:18px;
+  letter-spacing:var(--titleSp);line-height:1.2}
+.sp .n small{display:block;color:var(--muted);font-size:12px;margin-top:3px;letter-spacing:.02em}
+.sp .z{text-align:right;font-size:15px;font-weight:700;font-variant-numeric:tabular-nums}
+.sp .z small{display:block;font-weight:400;color:var(--muted);font-size:11px}
+.saldo{margin:12px 0;padding:16px;background:var(--saldoBg);color:var(--saldoFg)}
+.saldo .p{font-size:12px;opacity:.8}
+.saldo{border:1px solid var(--line)}
+.saldo .v{font-size:27px;font-weight:600;font-family:var(--fontTitle);color:var(--acc);
+  letter-spacing:var(--titleSp);margin-top:4px;line-height:1.2}
+.saldo .e{font-size:12px;opacity:.75;margin-top:4px}
+.saldo .b{display:inline-block;margin-top:12px;padding:10px 16px;border-radius:var(--rBtn);background:var(--saldoFg);color:var(--saldoBg);font-size:13px;font-weight:700}
+.fab{position:absolute;right:16px;bottom:calc(16px + var(--sicuroSotto));padding:14px 20px;border-radius:var(--rBtn);background:var(--acc);color:var(--accfg);font-weight:700;font-size:15px;box-shadow:0 6px 18px #0004;z-index:5}
+
+/* info */
+.info-blocco{border-bottom:1px solid var(--line);padding:14px 0}
+.info-blocco h2{font-size:16px;font-family:var(--fontTitle);margin-bottom:8px}
+.info-blocco p,.info-blocco li{font-size:14px;line-height:1.55;color:var(--fg)}
+.info-blocco li{margin:0 0 8px 18px}
+.info-blocco small{color:var(--muted);font-size:11px;display:block;margin-top:3px}
+.conv{display:flex;gap:8px;margin-bottom:8px}
+.conv label{flex:1;font-size:12px;color:var(--muted)}
+.conv input{width:100%;padding:12px;border:1px solid var(--line);border-radius:var(--rCard);margin-top:4px;font-variant-numeric:tabular-nums}
+
+/* moduli e finestre */
+.modale{position:fixed;inset:0;z-index:10;background:var(--bg);display:flex;flex-direction:column;
+  padding:calc(14px + var(--sicuroSopra)) 16px calc(14px + var(--sicuroSotto));overflow-y:auto}
+.modale h2{font-size:20px;font-family:var(--fontTitle);margin-bottom:12px}
+.campo{margin-bottom:12px}
+.campo label{display:block;font-size:12px;color:var(--muted);margin-bottom:4px}
+.campo input,.campo select,.campo textarea{width:100%;padding:12px;border:1px solid var(--line);border-radius:var(--rCard);background:var(--card)}
+.scelte{display:flex;gap:6px}
+.scelte button{flex:1;padding:11px;border:1px solid var(--line);border-radius:var(--rCard);background:var(--chip);font-size:14px}
+.scelte button.on{background:var(--acc);color:var(--accfg);border-color:var(--acc);font-weight:700}
+.errore{color:var(--noFg);font-size:13px;margin-top:8px;min-height:18px}
+
+/* elenco completo dei posti, per aggiungere una tappa */
+.pesca-cerca{width:100%;padding:12px;border:1px solid var(--line);border-radius:var(--rCard);background:var(--card)}
+.pesca-chips{margin:8px -16px 0;padding-left:16px;padding-right:16px}
+.pesca-lista{margin-top:10px;border-top:1px solid var(--line)}
+.pesca-lista button{display:block;width:100%;text-align:left;padding:13px 2px;border-bottom:1px solid var(--line);font-size:15px}
+.pesca-lista button span{display:block;font-family:var(--fontTitle);font-weight:600;font-size:18px;
+  letter-spacing:var(--titleSp);line-height:1.2}
+.pesca-lista small{display:block;color:var(--muted);font-size:12px;margin-top:3px}
+.risultati button span{display:block;font-family:var(--fontTitle);font-weight:600;font-size:16px}
+
+/* schermo di avvio */
+.schermo{position:fixed;inset:0;z-index:20;background:var(--bg);display:flex;align-items:center;justify-content:center;padding:24px}
+.avvio-box{width:100%;max-width:360px}
+.avvio-box .h1{color:var(--fg)}
+.avvio-box .sub{color:var(--muted);margin-bottom:24px}
+.avvio-box label{display:block;font-size:12px;color:var(--muted);margin:14px 0 4px}
+.avvio-box input{width:100%;padding:13px;border:1px solid var(--line);border-radius:var(--rCard)}
+.scelta-chi{display:flex;gap:8px}
+.scelta-chi .cuore{cursor:pointer}
+#entra{margin-top:20px}

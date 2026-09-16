@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<meta name="theme-color" content="#171310">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Danzica">
+<title>Danzica</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icone/icona-180.png">
+<link rel="stylesheet" href="vendor/font.css">
+<link rel="stylesheet" href="vendor/leaflet.css">
+<link rel="stylesheet" href="stile.css">
+</head>
+<body>
+
+<!-- primo avvio: codice viaggio e chi sei -->
+<div id="avvio" class="schermo nascosto">
+  <div class="avvio-box">
+    <div class="h1">Danzica</div>
+    <p class="sub">9 - 12 ottobre 2026</p>
+    <label for="campo-codice">Codice viaggio</label>
+    <input id="campo-codice" type="text" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="almeno 12 caratteri">
+    <label>Chi sei?</label>
+    <div class="scelta-chi">
+      <button class="cuore" data-chi="D">Daniele</button>
+      <button class="cuore" data-chi="A">Alessia</button>
+    </div>
+    <button id="entra" class="btn">Entra</button>
+    <p id="avvio-errore" class="errore"></p>
+  </div>
+</div>
+
+<header class="head">
+  <div class="h1" id="titolo">Danzica</div>
+  <div class="sub" id="sottotitolo"></div>
+</header>
+
+<main id="corpo">
+
+  <section class="vista" id="v-mappa">
+    <div id="mappa"></div>
+    <div class="sopra-mappa">
+      <input id="cerca" class="search" type="search" placeholder="Cerca un posto a Danzica" enterkeyhint="search">
+      <div class="chips" id="filtri"></div>
+    </div>
+    <div id="risultati" class="risultati nascosto"></div>
+  </section>
+
+  <section class="vista nascosto" id="v-piano">
+    <div class="giorni" id="giorni"></div>
+    <div class="scroll" id="timeline"></div>
+  </section>
+
+  <section class="vista nascosto" id="v-posti">
+    <div class="chips" id="filtri-posti">
+      <button class="chip on" data-filtro="tutti">Con un cuore</button>
+      <button class="chip" data-filtro="due">Piace a tutti e due</button>
+    </div>
+    <div class="scroll" id="lista-posti"></div>
+  </section>
+
+  <section class="vista nascosto" id="v-spese">
+    <div class="scroll" id="lista-spese"></div>
+    <button class="fab" id="nuova-spesa">+ Spesa</button>
+  </section>
+
+  <section class="vista nascosto" id="v-info">
+    <div class="scroll" id="info"></div>
+  </section>
+
+</main>
+
+<nav class="tabs" id="tabs">
+  <button data-vista="mappa" class="on"><b>&#9673;</b>Mappa</button>
+  <button data-vista="piano"><b>&#8801;</b>Piano</button>
+  <button data-vista="posti"><b>&#9825;</b>Posti</button>
+  <button data-vista="spese"><b>z&#322;</b>Spese</button>
+  <button data-vista="info"><b>i</b>Info</button>
+</nav>
+
+<div id="foglio" class="sheet nascosto"></div>
+<div id="velo" class="velo nascosto"></div>
+<div id="modale" class="modale nascosto"></div>
+
+<script src="seme.js" type="module"></script>
+<script src="app.js" type="module"></script>
+</body>
+</html>

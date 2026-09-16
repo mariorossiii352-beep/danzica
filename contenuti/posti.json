@@ -1,0 +1,4290 @@
+[
+ {
+  "id": "bar-leon",
+  "nome": "Bar Leon",
+  "categoria": "cibo",
+  "zona": "Stare Miasto",
+  "indirizzo": "Stągiewna 5",
+  "lat": 54.347371,
+  "lng": 18.657885,
+  "orari": {
+   "lun": [
+    [
+     "14:00",
+     "24:00"
+    ]
+   ],
+   "mar": [
+    [
+     "14:00",
+     "24:00"
+    ]
+   ],
+   "mer": [
+    [
+     "14:00",
+     "24:00"
+    ]
+   ],
+   "gio": [
+    [
+     "14:00",
+     "24:00"
+    ]
+   ],
+   "ven": [
+    [
+     "13:00",
+     "02:00"
+    ]
+   ],
+   "sab": [
+    [
+     "09:00",
+     "02:00"
+    ]
+   ],
+   "dom": null
+  },
+  "orari_nota": "Colazione sabato e domenica 09:00-13:00.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "",
+  "perche": "Ristorante mediorientale in posizione centrale.",
+  "durata_min": 75,
+  "fonti": [
+   "https://maps.app.goo.gl/9WWjkRCKeZoQtD7U6"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Ristorante di cucina mediorientale in via Stągiewna, a due passi dal centro. Nel fine settimana fa anche colazione, dalle 9 alle 13.",
+  "sito": "https://linktr.ee/barleongdansk",
+  "instagram": "https://www.instagram.com/_bar_leon_/"
+ },
+ {
+  "id": "dobra-paczkarnia-gdansk",
+  "nome": "Dobra Pączkarnia Gdańsk",
+  "categoria": "dolci",
+  "zona": "Centro storico",
+  "indirizzo": "pl. Dominikański 1",
+  "lat": 54.352486,
+  "lng": 18.651759,
+  "orari": {
+   "lun": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "mar": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "mer": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "gio": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "ven": [
+    [
+     "08:00",
+     "17:00"
+    ]
+   ],
+   "sab": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "dom": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "si",
+  "sconto_studenti": "",
+  "perche": "Pasticceria nota per pączki molto leggeri, incluso il gusto Raffaello.",
+  "durata_min": 30,
+  "fonti": [
+   "https://maps.app.goo.gl/WZuLGoUX3W4rzHtYA",
+   "TikTok @cidi.jpg"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Pasticceria specializzata in pączki, i bomboloni polacchi, famosi per essere leggerissimi. Nelle recensioni dei creator spicca il gusto Raffaello. Ottima per una colazione veloce in piazza Dominikański.",
+  "sito": "https://dobrapaczkarnia.pl/nasze-punkty/gdansk-dominikanski/",
+  "instagram": "https://www.instagram.com/dobrapaczkarnia/"
+ },
+ {
+  "id": "omni-kaiser-patisserie",
+  "nome": "OMNI KAISER Patisserie",
+  "categoria": "dolci",
+  "zona": "Lungofiume",
+  "indirizzo": "Długie Pobrzeże 13",
+  "lat": 54.349548,
+  "lng": 18.656818,
+  "orari": {
+   "lun": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "mar": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "mer": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "20:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "20:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "19:00"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "si",
+  "sconto_studenti": "",
+  "perche": "Pasticceria sul lungofiume.",
+  "durata_min": 30,
+  "fonti": [
+   "https://maps.app.goo.gl/WZuLGoUX3W4rzHtYA"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Pasticceria artigianale sul lungofiume Długie Pobrzeże: dolci, torte, cioccolato, pane e caffè. Fa parte di una piccola catena del nord della Polonia.",
+  "sito": "https://omnikaiser.pl/",
+  "instagram": "https://www.instagram.com/omnikaiserpatisserie/"
+ },
+ {
+  "id": "umam-cukiernia-gdanska",
+  "nome": "UMAM Cukiernia Gdańska",
+  "categoria": "dolci",
+  "zona": "Centro storico",
+  "indirizzo": "Grobla II 12/14/C1",
+  "lat": 54.35155,
+  "lng": 18.654072,
+  "orari": {
+   "lun": [
+    [
+     "10:00",
+     "20:00"
+    ]
+   ],
+   "mar": [
+    [
+     "10:00",
+     "20:00"
+    ]
+   ],
+   "mer": [
+    [
+     "10:00",
+     "20:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "20:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "20:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "20:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "20:00"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "si",
+  "sconto_studenti": "",
+  "perche": "Pasticceria celebre per il kubik alla nocciola e le monoporzioni.",
+  "durata_min": 30,
+  "fonti": [
+   "https://maps.app.goo.gl/WZuLGoUX3W4rzHtYA",
+   "TikTok @alemomastyle"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Pasticceria nota per le monoporzioni e per il \"kubik\", il cubo di pasta sfogliata ripieno di crema alla nocciola diventato virale. Fa anche colazione francese dolce con caffè.",
+  "sito": "https://www.umam.pl/",
+  "instagram": "https://www.instagram.com/umam_cukiernia_gdanska/"
+ },
+ {
+  "id": "kawiarnia-drukarnia",
+  "nome": "Kawiarnia Drukarnia",
+  "categoria": "caffe",
+  "zona": "Mariacka",
+  "indirizzo": "Mariacka 36",
+  "lat": 54.349628,
+  "lng": 18.655946,
+  "orari": {
+   "lun": [
+    [
+     "09:00",
+     "21:00"
+    ]
+   ],
+   "mar": [
+    [
+     "09:00",
+     "21:00"
+    ]
+   ],
+   "mer": [
+    [
+     "09:00",
+     "21:00"
+    ]
+   ],
+   "gio": [
+    [
+     "09:00",
+     "21:00"
+    ]
+   ],
+   "ven": [
+    [
+     "09:00",
+     "22:00"
+    ]
+   ],
+   "sab": [
+    [
+     "09:00",
+     "22:00"
+    ]
+   ],
+   "dom": [
+    [
+     "09:00",
+     "21:00"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "si",
+  "sconto_studenti": "",
+  "perche": "Caffè su Mariacka consigliato per colazione, chai e croissant al pistacchio.",
+  "durata_min": 60,
+  "fonti": [
+   "https://maps.app.goo.gl/WZuLGoUX3W4rzHtYA",
+   "TikTok @alemomastyle",
+   "TikTok @cidi.jpg",
+   "TikTok @vpcn.travel"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Caffè su via Mariacka, la via dell'ambra, citato in tre video su sei: è la colazione più consigliata di Danzica. Famoso il croissant al pistacchio; tra i consigli anche iced chai e yogurt con frutta e muesli."
+ },
+ {
+  "id": "bar-neptun",
+  "nome": "Bar Neptun",
+  "categoria": "cibo",
+  "zona": "Centro storico",
+  "indirizzo": "Długa 33/34",
+  "lat": 54.348782,
+  "lng": 18.651699,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzi da confermare."
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "",
+  "perche": "Bar mleczny di cucina polacca sulla via Długa.",
+  "durata_min": 60,
+  "fonti": [
+   "https://maps.app.goo.gl/vk7ASSbP4MoPth9x8"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "Bar mleczny, cioè una latteria: le mense popolari polacche con piatti tradizionali a prezzi bassi. Sta sulla via Długa, in pieno centro. Il voto su Google è basso: 3,4.",
+  "sito": "https://www.facebook.com/barneptungdansk/"
+ },
+ {
+  "id": "akademicki-bar-mleczny",
+  "nome": "Akademicki Bar Mleczny",
+  "categoria": "cibo",
+  "zona": "Wrzeszcz",
+  "indirizzo": "Grunwaldzka 35",
+  "lat": 54.376464,
+  "lng": 18.613409,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzi da confermare."
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "10% con tessera universitaria.",
+  "perche": "Bar mleczny polacco economico, fuori dal centro storico.",
+  "durata_min": 60,
+  "fonti": [
+   "https://maps.app.goo.gl/vk7ASSbP4MoPth9x8"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "Bar mleczny economico a Wrzeszcz, il quartiere universitario fuori dal centro storico. Cucina polacca da mensa, voto alto su Google (4,4).",
+  "sito": "http://barakademickigdansk.pl/"
+ },
+ {
+  "id": "bar-turystyczny",
+  "nome": "Bar Turystyczny",
+  "categoria": "cibo",
+  "zona": "Stare Miasto",
+  "indirizzo": "Szeroka 8/10",
+  "lat": 54.351665,
+  "lng": 18.650299,
+  "orari": {
+   "lun": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "mar": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "mer": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "08:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ],
+   "dom": [
+    [
+     "09:00",
+     "17:00"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "",
+  "perche": "Bar mleczny polacco centrale.",
+  "durata_min": 60,
+  "fonti": [
+   "https://maps.app.goo.gl/vk7ASSbP4MoPth9x8"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Bar mleczny storico in via Szeroka, apprezzato dai residenti e d'estate pieno di turisti. Cucina polacca tradizionale a prezzi bassi, aperto anche a colazione.",
+  "sito": "http://bar-turystyczny.pl/"
+ },
+ {
+  "id": "gdansk-sweet-factory-store",
+  "nome": "Gdańsk Sweet Factory Store",
+  "categoria": "dolci",
+  "zona": "Centro storico",
+  "indirizzo": "Długa 32; seconda sede Granaria, Stągiewna 27",
+  "lat": 54.348808,
+  "lng": 18.651581,
+  "orari": {
+   "lun": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "mar": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "mer": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "gio": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "ven": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "sab": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "dom": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Caramelle a prezzo unico al peso."
+  },
+  "pescatariano": "si",
+  "sconto_studenti": "",
+  "perche": "Negozio di caramelle gommose a peso con molta scelta vegana.",
+  "durata_min": 30,
+  "fonti": [
+   "TikTok @alemomastyle"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Negozio di caramelle gommose con molta scelta vegana, tutte allo stesso prezzo a peso. Ha una seconda sede alla Granaria, in via Stągiewna 27.",
+  "sito": "https://www.sweetfactorystore.pl/"
+ },
+ {
+  "id": "pierogarnia-mandu-srodmiescie",
+  "nome": "Pierogarnia Mandu Śródmieście",
+  "categoria": "cibo",
+  "zona": "Śródmieście",
+  "indirizzo": "Elżbietańska 4/8",
+  "lat": 54.353757,
+  "lng": 18.646767,
+  "orari": {
+   "lun": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "mar": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "mer": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "gio": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "ven": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sab": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "dom": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ]
+  },
+  "orari_nota": "In centro, vicino alla stazione Gdańsk Główny.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "",
+  "perche": "Catena molto citata per pierogi fatti al momento, anche al forno.",
+  "durata_min": 75,
+  "fonti": [
+   "TikTok @alemomastyle",
+   "TikTok @vpcn.travel",
+   "TikTok @simi.larity",
+   "TikTok @giuliaarinaldii"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": false,
+  "descrizione": "La pierogarnia più citata dai creator: quattro video su sei la consigliano, qualcuno la chiama i migliori pierogi mangiati in Polonia. Si fanno al momento, anche al forno. Da provare quelli di manzo con salsa ai funghi. Questa sede è in centro, vicino alla stazione Gdańsk Główny.",
+  "sito": "http://www.pierogarnia-mandu.pl/",
+  "instagram": "https://www.instagram.com/pierogarniamandu/"
+ },
+ {
+  "id": "restauracja-bazar",
+  "nome": "Restauracja Bazar",
+  "categoria": "cibo",
+  "zona": "Lungofiume",
+  "indirizzo": "Szafarnia 6",
+  "lat": 54.350003,
+  "lng": 18.660373,
+  "orari": {
+   "lun": [
+    [
+     "13:00",
+     "22:00"
+    ]
+   ],
+   "mar": [
+    [
+     "13:00",
+     "22:00"
+    ]
+   ],
+   "mer": [
+    [
+     "13:00",
+     "22:00"
+    ]
+   ],
+   "gio": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "ven": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sab": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "dom": [
+    [
+     "13:00",
+     "22:00"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "",
+  "perche": "Ristorante polacco moderno noto per la cheesecake alla zucca.",
+  "durata_min": 90,
+  "fonti": [
+   "TikTok @alemomastyle"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Ristorante di cucina polacca rivisitata in chiave moderna, sulla riva del fiume in via Szafarnia. Il dolce da non perdere, secondo chi lo consiglia, è la cheesecake alla zucca con confettura di rose.",
+  "sito": "http://www.restauracjabazar.pl/"
+ },
+ {
+  "id": "slony-spichlerz",
+  "nome": "Słony Spichlerz",
+  "categoria": "cibo",
+  "zona": "Isola dei granai",
+  "indirizzo": "Chmielna 10",
+  "lat": 54.348914,
+  "lng": 18.658058,
+  "orari": {
+   "lun": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "mar": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "mer": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "gio": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "ven": [
+    [
+     "12:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "12:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ]
+  },
+  "orari_nota": "Food hall con 10 cucine e 2 bar.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "",
+  "perche": "Food hall curato sul lungofiume con proposte diverse.",
+  "durata_min": 75,
+  "fonti": [
+   "TikTok @alemomastyle",
+   "TikTok @cidi.jpg"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Food hall ricavata in un granaio sull'isola dei granai: dieci cucine e due bar sotto lo stesso tetto. Comodo quando si hanno voglie diverse; tra i banchi consigliati ci sono NEON e Amito. Da provare i pierogi all'anatra.",
+  "sito": "https://slonyspichlerz.pl/",
+  "instagram": "https://www.instagram.com/slonyspichlerz/"
+ },
+ {
+  "id": "neon",
+  "nome": "NEON",
+  "categoria": "cibo",
+  "zona": "Słony Spichlerz",
+  "indirizzo": "Chmielna 10",
+  "lat": 54.348914,
+  "lng": 18.658058,
+  "orari": {
+   "lun": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "mar": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "mer": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "gio": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "ven": [
+    [
+     "12:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "12:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ]
+  },
+  "orari_nota": "Orari associati al food hall Słony Spichlerz.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "",
+  "perche": "Locale del food hall consigliato per pad thai e bao.",
+  "durata_min": 60,
+  "fonti": [
+   "TikTok @cidi.jpg"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Banco asiatico dentro il food hall Słony Spichlerz. Consigliato per pad thai e bao."
+ },
+ {
+  "id": "amito-ramen-sushi",
+  "nome": "Amito Ramen & Sushi",
+  "categoria": "cibo",
+  "zona": "Słony Spichlerz",
+  "indirizzo": "Chmielna 10",
+  "lat": 54.348914,
+  "lng": 18.658058,
+  "orari": {
+   "lun": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "mar": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "mer": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "gio": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ],
+   "ven": [
+    [
+     "12:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "12:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "12:00",
+     "23:00"
+    ]
+   ]
+  },
+  "orari_nota": "Orari associati al food hall Słony Spichlerz.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "si",
+  "sconto_studenti": "",
+  "perche": "Locale nel food hall consigliato per shoyu ramen e sushi.",
+  "durata_min": 60,
+  "fonti": [
+   "TikTok @cidi.jpg"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Banco di ramen e sushi dentro il food hall Słony Spichlerz. Consigliato lo shoyu ramen."
+ },
+ {
+  "id": "pijalnia-czekolady-e-wedel",
+  "nome": "Pijalnia Czekolady E.Wedel",
+  "categoria": "dolci",
+  "zona": "Isola dei granai",
+  "indirizzo": "Chmielna 10",
+  "lat": 54.348914,
+  "lng": 18.658058,
+  "orari": {
+   "lun": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "mar": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "mer": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "gio": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "ven": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "sab": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "dom": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "si",
+  "sconto_studenti": "",
+  "perche": "Cioccolateria consigliata per cioccolata calda e croissant dolci.",
+  "durata_min": 45,
+  "fonti": [
+   "TikTok @cidi.jpg"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Cioccolateria dello storico marchio polacco E.Wedel, nello stesso edificio di Słony Spichlerz. Cioccolata calda e croissant con mascarpone al cioccolato e fragole hanno preso 9 su 10 da chi l'ha provata.",
+  "sito": "https://www.wedelpijalnie.pl/pl"
+ },
+ {
+  "id": "pierogarnia-stary-mlyn",
+  "nome": "Pierogarnia Stary Młyn",
+  "categoria": "cibo",
+  "zona": "Główne Miasto",
+  "indirizzo": "ul. Świętego Ducha 64",
+  "lat": 54.350128,
+  "lng": 18.654633,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "Orari da confermare. Servizio lento: tenere margine.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzi da confermare."
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "",
+  "perche": "Ristorante di pierogi consigliato per pierogi misti e limonate.",
+  "durata_min": 75,
+  "fonti": [
+   "TikTok @cidi.jpg",
+   "TikTok @simi.larity"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "Ristorante di pierogi \"cotti al forno\", molto amato: 4,6 su quasi 18.000 recensioni. Consigliati i pierogi misti, quelli alle castagne quando sono di stagione e le limonate. Il servizio è lento: meglio non avere fretta. Qui c'è il pranzo prenotato del 10 ottobre.",
+  "sito": "https://www.pierogarnie.com/restauracje/stary-mlyn-gdansk/",
+  "instagram": "https://www.instagram.com/pierogarnie_stary_mlyn/"
+ },
+ {
+  "id": "bar-mleczny-stagiewna",
+  "nome": "Bar Mleczny Stągiewna",
+  "categoria": "cibo",
+  "zona": "Stare Miasto",
+  "indirizzo": "Stągiewna 15",
+  "lat": 54.347257,
+  "lng": 18.658914,
+  "orari": {
+   "lun": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "mar": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "mer": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "dom": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Bar del latte economico."
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "",
+  "perche": "Bar mleczny economico con piatti polacchi tradizionali.",
+  "durata_min": 60,
+  "fonti": [
+   "TikTok @cidi.jpg"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Bar mleczny economico in via Stągiewna, con piatti polacchi tradizionali. Una creator ci è tornata due volte: involtini di cavolo, naleśniki (crêpes) e polpette di pollo ripiene.",
+  "sito": "http://www.barstagiewna.pl/"
+ },
+ {
+  "id": "zabka",
+  "nome": "Żabka",
+  "categoria": "shopping",
+  "zona": "",
+  "indirizzo": "",
+  "lat": null,
+  "lng": null,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "Catena di minimarket; gli orari dipendono dalla sede.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "si",
+  "sconto_studenti": "10% con tessera universitaria da Żabusia; condizioni da confermare per Żabka.",
+  "perche": "Minimarket utile per hot dog e spuntini, aperto anche in molte domeniche senza commercio.",
+  "durata_min": 15,
+  "fonti": [
+   "TikTok @cidi.jpg"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "La catena di minimarket che trovi a ogni angolo, aperta anche nelle domeniche in cui gli altri negozi sono chiusi. Utile per uno spuntino: l'hot dog della Żabka è un piccolo classico polacco."
+ },
+ {
+  "id": "pomelo-bistro-bar",
+  "nome": "Pomelo Bistro Bar",
+  "categoria": "cibo",
+  "zona": "Centro storico",
+  "indirizzo": "Ogarna 121/122",
+  "lat": 54.348568,
+  "lng": 18.648937,
+  "orari": {
+   "lun": [
+    [
+     "09:00",
+     "21:00"
+    ]
+   ],
+   "mar": [
+    [
+     "09:00",
+     "21:00"
+    ]
+   ],
+   "mer": [
+    [
+     "09:00",
+     "21:00"
+    ]
+   ],
+   "gio": [
+    [
+     "09:00",
+     "21:00"
+    ]
+   ],
+   "ven": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "sab": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ],
+   "dom": [
+    [
+     "09:00",
+     "21:00"
+    ]
+   ]
+  },
+  "orari_nota": "Colazioni 09:00-13:00.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "10% con tessera universitaria.",
+  "perche": "Bistrot consigliato per colazioni, brunch e cucina tradizionale.",
+  "durata_min": 75,
+  "fonti": [
+   "TikTok @simi.larity"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Bistrot in via Ogarna, nel centro storico ma lontano dal traffico turistico. Si vanta di fare in casa tutto quello che può: dolci, fermentati, pane. Colazioni e brunch dalle 9 alle 13, poi cucina tradizionale. Sconto del 10% con la tessera universitaria.",
+  "sito": "https://www.pomelogdansk.pl/",
+  "instagram": "https://www.instagram.com/pomelogdansk/"
+ },
+ {
+  "id": "rednek",
+  "nome": "Rednek",
+  "categoria": "cibo",
+  "zona": "Stare Miasto",
+  "indirizzo": "Szeroka 8/10",
+  "lat": 54.351665,
+  "lng": 18.650299,
+  "orari": {
+   "lun": [
+    [
+     "12:00",
+     "23:30"
+    ]
+   ],
+   "mar": [
+    [
+     "12:00",
+     "23:30"
+    ]
+   ],
+   "mer": [
+    [
+     "12:00",
+     "23:30"
+    ]
+   ],
+   "gio": [
+    [
+     "12:00",
+     "23:30"
+    ]
+   ],
+   "ven": [
+    [
+     "12:00",
+     "03:00"
+    ]
+   ],
+   "sab": [
+    [
+     "12:00",
+     "03:00"
+    ]
+   ],
+   "dom": [
+    [
+     "12:00",
+     "23:30"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": 40,
+   "ridotto_zl": null,
+   "nota": "Circa 40-60 zł a persona."
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "",
+  "perche": "Street food polacco per zapiekanka e burger, con opzioni vegetariane.",
+  "durata_min": 60,
+  "fonti": [
+   "TikTok @socializzi.amo.ci"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Street food polacco in via Szeroka: burger di maiale sfilacciato, smash burger e zapiekanka, il panino aperto gratinato tipico polacco. Ha anche opzioni vegetariane.",
+  "sito": "https://www.rednek.pl/",
+  "instagram": "https://www.instagram.com/rednekburgers/"
+ },
+ {
+  "id": "treinta-y-tres",
+  "nome": "Treinta y Tres",
+  "categoria": "cibo",
+  "zona": "Olivia Star",
+  "indirizzo": "al. Grunwaldzka 472C, piano 33",
+  "lat": 54.40335,
+  "lng": 18.570861,
+  "orari": {
+   "lun": [],
+   "mar": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "mer": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "gio": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "ven": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "sab": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ],
+   "dom": [
+    [
+     "12:00",
+     "15:00"
+    ],
+    [
+     "17:00",
+     "22:00"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzi nel menu ufficiale."
+  },
+  "pescatariano": "si",
+  "sconto_studenti": "",
+  "perche": "Ristorante Bib Gourmand 2026 di tapas e pesce al trentatreesimo piano.",
+  "durata_min": 90,
+  "fonti": [
+   "oliviastar.pl"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Ristorante spagnolo al trentatreesimo piano di Olivia Star, con Bib Gourmand Michelin 2026: tapas, pesce e frutti di mare con vista sulla città. Qui c'è la cena di compleanno del 10 ottobre alle 20:30.",
+  "sito": "https://www.oliviastar.pl/restauracje/treinta-y-tres/"
+ },
+ {
+  "id": "dom-mlynarza",
+  "nome": "Dom Młynarza",
+  "categoria": "cibo",
+  "zona": "Wyspa Młyńska",
+  "indirizzo": "",
+  "lat": 54.354455,
+  "lng": 18.650717,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "Orari e indirizzo da confermare.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzi da confermare."
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "",
+  "perche": "Ristorante nella storica casa della corporazione dei mugnai vicino al ponte dei lucchetti.",
+  "durata_min": 75,
+  "fonti": [
+   "TikTok @vpcn.travel"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "Ristorante nella casa della corporazione dei mugnai, sull'isola del mulino (Wyspa Młyńska), vicino al ponte dei lucchetti."
+ },
+ {
+  "id": "under-beer",
+  "nome": "Under Beer",
+  "categoria": "bar",
+  "zona": "Centro storico",
+  "indirizzo": "Garbary 6",
+  "lat": 54.348899,
+  "lng": 18.64814,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzi da confermare."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "10% con tessera universitaria.",
+  "perche": "Locale partner dello sconto studenti.",
+  "durata_min": 60,
+  "fonti": [
+   "Lista Maps"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": true,
+  "descrizione": "Pub con pizzeria in via Garbary, in centro. È tra i locali che fanno il 10% di sconto con la tessera universitaria.",
+  "sito": "https://www.facebook.com/UnderbeerBarGdansk"
+ },
+ {
+  "id": "faloviec",
+  "nome": "Faloviec",
+  "categoria": "cibo",
+  "zona": "",
+  "indirizzo": "",
+  "lat": 54.409047,
+  "lng": 18.597855,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "Indirizzo e orari da confermare.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzi da confermare."
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "10% con tessera universitaria.",
+  "perche": "Locale partner dello sconto studenti.",
+  "durata_min": 60,
+  "fonti": [
+   "Lista Maps"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "Ristorante di cucina vegetale. È tra i locali che fanno il 10% di sconto con la tessera universitaria.",
+  "sito": "https://www.faloviec.pl/restaurants/faloviec",
+  "instagram": "https://www.instagram.com/faloviec/"
+ },
+ {
+  "id": "masna-micha",
+  "nome": "Masna Micha",
+  "categoria": "cibo",
+  "zona": "",
+  "indirizzo": "",
+  "lat": 54.382964,
+  "lng": 18.592862,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "Sono riportati solo gli orari dello sconto; gli orari di apertura sono da confermare.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "15% lunedì-venerdì 16:00-19:00.",
+  "perche": "Locale con sconto studenti pomeridiano.",
+  "durata_min": 60,
+  "fonti": [
+   "Lista Maps"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "Ristorante che fa il 15% di sconto agli studenti dal lunedì al venerdì, dalle 16 alle 19.",
+  "sito": "http://masnamicha.pl/"
+ },
+ {
+  "id": "jaros",
+  "nome": "Jaros",
+  "categoria": "cibo",
+  "zona": "",
+  "indirizzo": "",
+  "lat": 54.413096,
+  "lng": 18.598464,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "Indirizzo e orari da confermare.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzi da confermare."
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "",
+  "perche": "Latteria economica segnalata fuori dal centro.",
+  "durata_min": 60,
+  "fonti": [
+   "Reddit"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "Bar mleczny economico fuori dal centro, segnalato su Reddit dai residenti. Voto molto alto su Google (4,7)."
+ },
+ {
+  "id": "fala",
+  "nome": "Fala",
+  "categoria": "cibo",
+  "zona": "Przymorze",
+  "indirizzo": "Opolska 3",
+  "lat": 54.403478,
+  "lng": 18.599308,
+  "orari": {
+   "mer": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "dom": [],
+   "lun": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "mar": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ]
+  },
+  "orari_nota": "Orari da Google Maps, letti a settembre.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzi da confermare."
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "",
+  "perche": "Latteria economica segnalata fuori dal centro.",
+  "durata_min": 60,
+  "fonti": [
+   "Reddit"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": true,
+  "descrizione": "Bar mleczny economico a Przymorze, fuori dal centro, segnalato su Reddit dai residenti. Chiuso la domenica.",
+  "sito": "https://www.facebook.com/Bar-Mleczny-Fala-111366793843901"
+ },
+ {
+  "id": "kebab-mim",
+  "nome": "Kebab MIM",
+  "categoria": "cibo",
+  "zona": "Wrzeszcz",
+  "indirizzo": "Antoniego Lendziona 1a",
+  "lat": 54.381165,
+  "lng": 18.604755,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzi da confermare."
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "",
+  "perche": "Kebab segnalato a Wrzeszcz.",
+  "durata_min": 45,
+  "fonti": [
+   "Reddit"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": true,
+  "descrizione": "Kebab a Wrzeszcz segnalato su Reddit. Aperto 24 ore su 24.",
+  "sito": "http://www.mimkebab.pl/"
+ },
+ {
+  "id": "crackhouse",
+  "nome": "Crackhouse",
+  "categoria": "bar",
+  "zona": "",
+  "indirizzo": "",
+  "lat": 54.364778,
+  "lng": 18.645621,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "Indirizzo e orari da confermare.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzi da confermare."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Locale techno segnalato su Reddit.",
+  "durata_min": 120,
+  "fonti": [
+   "Reddit"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "Locale di musica techno segnalato su Reddit.",
+  "sito": "http://crackhou.se/",
+  "instagram": "https://www.instagram.com/crackhouse.3c/"
+ },
+ {
+  "id": "museo-seconda-guerra-mondiale",
+  "nome": "Museo della Seconda guerra mondiale",
+  "categoria": "museo",
+  "zona": "",
+  "indirizzo": "pl. Bartoszewskiego 1",
+  "lat": 54.355942,
+  "lng": 18.661121,
+  "orari": {
+   "lun": [],
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "Chiuso il lunedì. Orari degli altri giorni da confermare; il martedì ingresso gratis 10-16 (max 2500 persone, senza prenotazione).",
+  "prezzo": {
+   "normale_zl": 33,
+   "ridotto_zl": 23,
+   "nota": "Ultima mezz'ora 17/12 zł; audioguida italiana 12 zł."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "Ridotto fino a 26 anni.",
+  "perche": "Grande museo storico, indicato come uno dei migliori al mondo.",
+  "durata_min": 120,
+  "fonti": [
+   "muzeum1939.pl",
+   "TikTok @vpcn.travel",
+   "TikTok @simi.larity"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "Uno dei musei più importanti di Danzica, inaugurato nel 2017 e considerato tra i migliori al mondo sull'argomento. Racconta la guerra soprattutto dal punto di vista dei civili. Servono almeno due ore. È chiuso il lunedì; il martedì dalle 10 alle 16 l'ingresso è gratuito.",
+  "sito": "https://muzeum1939.pl/",
+  "instagram": "https://www.instagram.com/muzeum1939/"
+ },
+ {
+  "id": "museo-ambra",
+  "nome": "Museo dell'ambra",
+  "categoria": "museo",
+  "zona": "Wielki Młyn",
+  "indirizzo": "Wielkie Młyny 16",
+  "lat": 54.354032,
+  "lng": 18.649904,
+  "orari": {
+   "lun": [
+    [
+     "12:00",
+     "18:00"
+    ]
+   ],
+   "mar": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "mer": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ]
+  },
+  "orari_nota": "Gratuito il lunedì.",
+  "prezzo": {
+   "normale_zl": 37,
+   "ridotto_zl": 26,
+   "nota": "Audioguida 10 zł."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "Ridotto per studenti con tessera valida.",
+  "perche": "Museo dedicato all'ambra, consigliato da più creator.",
+  "durata_min": 90,
+  "fonti": [
+   "muzeumgdansk.pl",
+   "TikTok @vpcn.travel",
+   "TikTok @simi.larity",
+   "TikTok @giuliaarinaldii"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Il museo dell'ambra, la resina fossile che ha reso ricca Danzica, ospitato nel Grande Mulino. Consigliato da tre creator su sei. Il lunedì dalle 12 alle 18 è gratuito, ed è uno dei pochi musei aperti quel giorno.",
+  "sito": "https://muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy/",
+  "instagram": "https://www.instagram.com/muzeumgdansk/"
+ },
+ {
+  "id": "ratusz-glownego-miasta",
+  "nome": "Ratusz Głównego Miasta",
+  "categoria": "museo",
+  "zona": "Centro storico",
+  "indirizzo": "Długa 46/47",
+  "lat": 54.348895,
+  "lng": 18.652642,
+  "orari": {
+   "lun": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "mar": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "mer": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ]
+  },
+  "orari_nota": "Gratuito il lunedì.",
+  "prezzo": {
+   "normale_zl": 26,
+   "ridotto_zl": 19,
+   "nota": "Audioguida 10 zł."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "Ridotto per studenti con tessera valida.",
+  "perche": "Storico municipio sede del Muzeum Gdańska.",
+  "durata_min": 90,
+  "fonti": [
+   "muzeumgdansk.pl",
+   "TikTok @simi.larity"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Il Municipio della Città Principale, con la torre che domina via Długa. Dentro ci sono le sale storiche del consiglio cittadino, oggi sede del Muzeum Gdańska. Gratuito il lunedì.",
+  "sito": "https://muzeumgdansk.pl/",
+  "instagram": "https://www.instagram.com/muzeumgdansk/"
+ },
+ {
+  "id": "dwor-artusa",
+  "nome": "Dwór Artusa",
+  "categoria": "museo",
+  "zona": "Centro storico",
+  "indirizzo": "Długi Targ 43/44",
+  "lat": 54.348333,
+  "lng": 18.653841,
+  "orari": {
+   "lun": [
+    [
+     "12:00",
+     "18:00"
+    ]
+   ],
+   "mar": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "mer": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ]
+  },
+  "orari_nota": "Gratuito il lunedì.",
+  "prezzo": {
+   "normale_zl": 26,
+   "ridotto_zl": 19,
+   "nota": "Audioguida 10 zł."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "Ridotto per studenti con tessera valida.",
+  "perche": "Storica corte di Artù nel cuore della città.",
+  "durata_min": 90,
+  "fonti": [
+   "muzeumgdansk.pl",
+   "TikTok @simi.larity"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "La Corte di Artù, dove si riunivano i ricchi mercanti della città, affacciata sul Długi Targ accanto alla Fontana di Nettuno. Dentro c'è una grande sala gotica e una stufa in maiolica tra le più alte d'Europa. Gratuita il lunedì.",
+  "sito": "https://muzeumgdansk.pl/",
+  "instagram": "https://www.instagram.com/muzeumgdansk/"
+ },
+ {
+  "id": "dom-uphagena",
+  "nome": "Dom Uphagena",
+  "categoria": "museo",
+  "zona": "Centro storico",
+  "indirizzo": "Długa 12",
+  "lat": 54.349219,
+  "lng": 18.649262,
+  "orari": {
+   "lun": [
+    [
+     "12:00",
+     "18:00"
+    ]
+   ],
+   "mar": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "mer": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ]
+  },
+  "orari_nota": "Gratuito il lunedì.",
+  "prezzo": {
+   "normale_zl": 26,
+   "ridotto_zl": 19,
+   "nota": "Audioguida 10 zł."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "Ridotto per studenti con tessera valida.",
+  "perche": "Casa-museo storica lungo Długa.",
+  "durata_min": 75,
+  "fonti": [
+   "muzeumgdansk.pl",
+   "TikTok @simi.larity"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "La casa di un ricco mercante del Settecento, con gli interni arredati come allora. Sta su via Długa. Gratuita il lunedì.",
+  "sito": "https://muzeumgdansk.pl/oddzialy-muzeum/dom-uphagena/",
+  "instagram": "https://www.instagram.com/muzeumgdansk/"
+ },
+ {
+  "id": "katownia-brama-wyzynna",
+  "nome": "Katownia e Brama Wyżynna",
+  "categoria": "museo",
+  "zona": "Centro storico",
+  "indirizzo": "Targ Węglowy 26",
+  "lat": 54.349811,
+  "lng": 18.647437,
+  "orari": {
+   "lun": [
+    [
+     "12:00",
+     "18:00"
+    ]
+   ],
+   "mar": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "mer": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": 18,
+   "ridotto_zl": 13,
+   "nota": "Audioguida 10 zł."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "Ridotto per studenti con tessera valida.",
+  "perche": "Museo ospitato nella torre della tortura e presso la Porta Alta.",
+  "durata_min": 75,
+  "fonti": [
+   "muzeumgdansk.pl",
+   "TikTok @simi.larity"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "La Porta Alta, ingresso monumentale della Via Reale, e accanto la Torre della Prigione con l'ex camera della tortura, oggi museo del Muzeum Gdańska.",
+  "sito": "https://www.prot.gda.pl/kontakt/"
+ },
+ {
+  "id": "torre-santa-caterina",
+  "nome": "Torre di Santa Caterina",
+  "categoria": "museo",
+  "zona": "Centro storico",
+  "indirizzo": "Wielkie Młyny 10",
+  "lat": 54.354025,
+  "lng": 18.650553,
+  "orari": {
+   "lun": [
+    [
+     "12:00",
+     "14:00"
+    ]
+   ],
+   "mar": [],
+   "mer": [],
+   "gio": [],
+   "ven": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ]
+  },
+  "orari_nota": "Orari non riportati per martedì-giovedì.",
+  "prezzo": {
+   "normale_zl": 26,
+   "ridotto_zl": 19,
+   "nota": "Audioguida 10 zł."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "Ridotto per studenti con tessera valida.",
+  "perche": "Torre del Muzeum Nauki Gdańskiej.",
+  "durata_min": 60,
+  "fonti": [
+   "muzeumgdansk.pl"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "La torre della chiesa di Santa Caterina, oggi sede del Muzeum Nauki Gdańskiej, il museo della scienza, con gli orologi da torre. Aperta solo in alcuni giorni: il lunedì dalle 12 alle 14, poi da venerdì a domenica.",
+  "sito": "https://muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy/",
+  "instagram": "https://www.instagram.com/muzeumgdansk/"
+ },
+ {
+  "id": "poczta-polska",
+  "nome": "Poczta Polska",
+  "categoria": "museo",
+  "zona": "",
+  "indirizzo": "",
+  "lat": 54.355415,
+  "lng": 18.656945,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "Riapre il 05/10/2026; orari da confermare.",
+  "prezzo": {
+   "normale_zl": 15,
+   "ridotto_zl": 10,
+   "nota": ""
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Sede museale del Muzeum Gdańska.",
+  "durata_min": 60,
+  "fonti": [
+   "muzeumgdansk.pl"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "L'ufficio postale polacco difeso dai suoi impiegati il 1° settembre 1939, il giorno in cui cominciò la Seconda guerra mondiale. Oggi è un museo. Riapre il 5 ottobre 2026.",
+  "sito": "https://muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy/",
+  "instagram": "https://www.instagram.com/muzeumgdansk/"
+ },
+ {
+  "id": "westerplatte",
+  "nome": "Westerplatte",
+  "categoria": "museo",
+  "zona": "",
+  "indirizzo": "Sucharskiego",
+  "lat": 54.406701,
+  "lng": 18.666969,
+  "orari": {
+   "lun": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "mar": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "mer": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": 8,
+   "ridotto_zl": 5,
+   "nota": ""
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Sede storica visitabile del Muzeum Gdańska.",
+  "durata_min": 90,
+  "fonti": [
+   "muzeumgdansk.pl"
+  ],
+  "verificato": "2026-09-14",
+  "descrizione": "La penisola dove il 1° settembre 1939 cominciò la Seconda guerra mondiale. Si visitano il monumento e le rovine delle difese polacche. C'è anche una crociera in battello dal centro, circa 100 minuti."
+ },
+ {
+  "id": "twierdza-wisloujscie",
+  "nome": "Twierdza Wisłoujście",
+  "categoria": "museo",
+  "zona": "",
+  "indirizzo": "Stara Twierdza 1",
+  "lat": 54.394278,
+  "lng": 18.679221,
+  "orari": {
+   "lun": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "mar": [],
+   "mer": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ]
+  },
+  "orari_nota": "Gratuito il lunedì; chiuso il martedì.",
+  "prezzo": {
+   "normale_zl": 37,
+   "ridotto_zl": 26,
+   "nota": ""
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "Ridotto per studenti con tessera valida.",
+  "perche": "Fortezza storica del Muzeum Gdańska.",
+  "durata_min": 90,
+  "fonti": [
+   "muzeumgdansk.pl"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Fortezza alla foce della Vistola che per secoli ha difeso l'accesso al porto. Il lunedì è gratuita, il martedì chiusa.",
+  "sito": "https://muzeumgdansk.pl/",
+  "instagram": "https://www.instagram.com/muzeumgdansk/"
+ },
+ {
+  "id": "europejskie-centrum-solidarnosci",
+  "nome": "Europejskie Centrum Solidarności",
+  "categoria": "museo",
+  "zona": "",
+  "indirizzo": "pl. Solidarności 1",
+  "lat": 54.361361,
+  "lng": 18.649419,
+  "orari": {
+   "lun": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "mar": [],
+   "mer": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": 40,
+   "ridotto_zl": 35,
+   "nota": "Audioguida inclusa."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "Ridotto fino a 26 anni.",
+  "perche": "Centro espositivo dedicato alla storia di Solidarność.",
+  "durata_min": 120,
+  "fonti": [
+   "Lista Maps"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Il Centro europeo di Solidarność, accanto ai cantieri navali dove nacque il sindacato che fece cadere il comunismo in Polonia. La mostra permanente racconta quella rivoluzione. Audioguida inclusa nel biglietto. Chiuso il martedì.",
+  "sito": "http://www.ecs.gda.pl/",
+  "instagram": "https://www.instagram.com/ecsgdansk/"
+ },
+ {
+  "id": "museo-nazionale",
+  "nome": "Museo Nazionale",
+  "categoria": "museo",
+  "zona": "",
+  "indirizzo": "Toruńska 1",
+  "lat": 54.345554,
+  "lng": 18.646903,
+  "orari": {
+   "lun": [],
+   "mar": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "mer": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ]
+  },
+  "orari_nota": "Il Giudizio universale di Memling non è esposto nel 2026.",
+  "prezzo": {
+   "normale_zl": 20,
+   "ridotto_zl": 10,
+   "nota": ""
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Museo nazionale cittadino.",
+  "durata_min": 90,
+  "fonti": [
+   "Lista Maps"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Il Museo Nazionale di Danzica, in un ex convento francescano. Attenzione: il suo pezzo più famoso, il Giudizio universale di Memling, nel 2026 non è esposto. Chiuso il lunedì.",
+  "sito": "http://mng.gda.pl/",
+  "instagram": "https://www.instagram.com/mngdansk/"
+ },
+ {
+  "id": "zuraw",
+  "nome": "Żuraw",
+  "categoria": "museo",
+  "zona": "Lungofiume",
+  "indirizzo": "Szeroka 67/68",
+  "lat": 54.35056,
+  "lng": 18.657483,
+  "orari": {
+   "lun": [],
+   "mar": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "mer": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ]
+  },
+  "orari_nota": "Orari validi da aprile a ottobre.",
+  "prezzo": {
+   "normale_zl": 20,
+   "ridotto_zl": 12,
+   "nota": ""
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Gru portuale medievale, parte del Museo Marittimo.",
+  "durata_min": 60,
+  "fonti": [
+   "TikTok @simi.larity"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "La gru portuale medievale sul fiume Motława, simbolo della città: una delle più grandi gru portuali del Medioevo europeo. Fa parte del Museo Marittimo.",
+  "sito": "https://www.nmm.pl/zuraw"
+ },
+ {
+  "id": "hevelianum",
+  "nome": "Hevelianum",
+  "categoria": "museo",
+  "zona": "Góra Gradowa",
+  "indirizzo": "Gradowa 6",
+  "lat": 54.357128,
+  "lng": 18.640775,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": 25,
+   "ridotto_zl": 15,
+   "nota": "Collina panoramica gratuita; prezzo per il centro della scienza."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "Ridotto studenti 15 zł.",
+  "perche": "Centro della scienza sulla collina panoramica Góra Gradowa.",
+  "durata_min": 120,
+  "fonti": [
+   "Lista Maps"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "Centro della scienza dentro un forte ottocentesco sulla collina Góra Gradowa, intitolato all'astronomo Johannes Hevelius. La collina, con il panorama sulla città vecchia, è gratuita; si paga solo il centro della scienza.",
+  "sito": "https://hevelianum.pl/"
+ },
+ {
+  "id": "basilica-santa-maria",
+  "nome": "Basilica di Santa Maria",
+  "categoria": "chiesa",
+  "zona": "Centro storico",
+  "indirizzo": "",
+  "lat": 54.349808,
+  "lng": 18.653009,
+  "orari": {
+   "lun": [
+    [
+     "08:30",
+     "17:00"
+    ]
+   ],
+   "mar": [
+    [
+     "08:30",
+     "17:00"
+    ]
+   ],
+   "mer": [
+    [
+     "08:30",
+     "17:00"
+    ]
+   ],
+   "gio": [
+    [
+     "08:30",
+     "17:00"
+    ]
+   ],
+   "ven": [
+    [
+     "08:30",
+     "17:00"
+    ]
+   ],
+   "sab": [
+    [
+     "08:30",
+     "17:00"
+    ]
+   ],
+   "dom": [
+    [
+     "13:00",
+     "17:00"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Grande basilica storica nel cuore della città vecchia.",
+  "durata_min": 60,
+  "fonti": [
+   "TikTok @simi.larity",
+   "TikTok @giuliaarinaldii"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "La Basilica di Santa Maria, una delle più grandi chiese in mattoni del mondo, nel cuore della città vecchia. Dentro, da vedere l'orologio astronomico.",
+  "sito": "https://bazylikamariacka.gdansk.pl/"
+ },
+ {
+  "id": "torre-basilica-santa-maria",
+  "nome": "Torre della Basilica di Santa Maria",
+  "categoria": "vista",
+  "zona": "Centro storico",
+  "indirizzo": "",
+  "lat": 54.349808,
+  "lng": 18.653009,
+  "orari": {
+   "lun": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "mar": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "mer": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "dom": []
+  },
+  "orari_nota": "402 gradini, 78 m; chiusa con vento forte. Prezzo da confermare in loco.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Fonti non allineate: 10-18 zł."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Torre panoramica con vista sulla città dopo 402 gradini.",
+  "durata_min": 45,
+  "fonti": [
+   "TikTok @giuliaarinaldii"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "La torre della Basilica di Santa Maria: 402 gradini ripidi fino a 78 metri, con una vista su tutta la città vecchia che secondo chi l'ha fatta vale la fatica. Chiude quando c'è vento forte.",
+  "sito": "https://bazylikamariacka.gdansk.pl/"
+ },
+ {
+  "id": "basilica-santa-brigida",
+  "nome": "Basilica di Santa Brigida",
+  "categoria": "chiesa",
+  "zona": "",
+  "indirizzo": "",
+  "lat": 54.35459,
+  "lng": 18.652253,
+  "orari": {
+   "lun": [
+    [
+     "10:00",
+     "18:30"
+    ]
+   ],
+   "mar": [
+    [
+     "10:00",
+     "18:30"
+    ]
+   ],
+   "mer": [
+    [
+     "10:00",
+     "18:30"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "18:30"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "18:30"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "18:30"
+    ]
+   ],
+   "dom": [
+    [
+     "13:30",
+     "18:30"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": 4,
+   "ridotto_zl": null,
+   "nota": "Offerta indicata."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Chiesa con un eccezionale altare d'ambra.",
+  "durata_min": 45,
+  "fonti": [
+   "TikTok @vpcn.travel"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Chiesa famosa per l'altare quasi tutto d'ambra, circa una tonnellata, unico al mondo. Ingresso con un'offerta di 4 zł.",
+  "sito": "http://brygida.gdansk.pl/"
+ },
+ {
+  "id": "olivia-star-top",
+  "nome": "Olivia Star Top",
+  "categoria": "vista",
+  "zona": "Olivia Business Centre",
+  "indirizzo": "al. Grunwaldzka 472C, piano 32",
+  "lat": 54.40342,
+  "lng": 18.570619,
+  "orari": {
+   "lun": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "mar": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "mer": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "gio": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "ven": [
+    [
+     "12:00",
+     "01:00"
+    ]
+   ],
+   "sab": [
+    [
+     "11:00",
+     "01:00"
+    ]
+   ],
+   "dom": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ]
+  },
+  "orari_nota": "Ultimo ingresso 1 ora e 20 minuti prima della chiusura.",
+  "prezzo": {
+   "normale_zl": 16,
+   "ridotto_zl": 13,
+   "nota": "Prezzo online da ottobre; in loco +2 zł. Ridotto per studenti fino a 26 anni, -30% acquistando 3 giorni prima."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "Ridotto studenti fino a 26 anni.",
+  "perche": "Terrazza panoramica al trentaduesimo piano, con Olivia Garden incluso nel biglietto.",
+  "durata_min": 60,
+  "fonti": [
+   "oliviastar.pl"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Terrazza panoramica al trentaduesimo piano del grattacielo Olivia Star, con il giardino Olivia Garden compreso nel biglietto. Da ottobre il biglietto online costa meno, e comprandolo tre giorni prima c'è il 30% di sconto. Qui c'è l'aperitivo del 10 ottobre alle 19:15.",
+  "sito": "https://www.oliviastar.pl/pietro-widokowe/",
+  "instagram": "https://www.instagram.com/oliviastar.gdansk/"
+ },
+ {
+  "id": "ambra-sky",
+  "nome": "AmberSky",
+  "categoria": "vista",
+  "zona": "",
+  "indirizzo": "",
+  "lat": 54.352724,
+  "lng": 18.66161,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "Fonti non ufficiali indicano 10:00-18:00 in ottobre; da confermare.",
+  "prezzo": {
+   "normale_zl": 42,
+   "ridotto_zl": 32,
+   "nota": "Giro di 15 minuti; ridotto studenti."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "Ridotto studenti 32 zł.",
+  "perche": "Ruota panoramica alta 60 metri con giro di circa 15 minuti.",
+  "durata_min": 30,
+  "fonti": [
+   "TikTok @simi.larity"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "Ruota panoramica alta 60 metri, un giro dura circa 15 minuti. C'è il ridotto per gli studenti.",
+  "sito": "http://ambersky.pl/",
+  "instagram": "https://www.instagram.com/ambersky_kolowidokowe/"
+ },
+ {
+  "id": "gora-gradowa",
+  "nome": "Góra Gradowa",
+  "categoria": "vista",
+  "zona": "",
+  "indirizzo": "Gradowa 6",
+  "lat": 54.357128,
+  "lng": 18.640775,
+  "orari": {
+   "lun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mar": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mer": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "gio": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "ven": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "orari_nota": "Collina panoramica gratuita; accesso e orari da confermare.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Vista gratuita."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Collina con forte e panorama sulla città vecchia.",
+  "durata_min": 45,
+  "fonti": [
+   "TikTok @simi.larity"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "La collina che sovrasta la stazione, con un forte e il panorama più bello sulla città vecchia. Salire è gratuito.",
+  "sito": "https://hevelianum.pl/",
+  "instagram": "https://www.instagram.com/hevelianum/"
+ },
+ {
+  "id": "scritta-neon-gdansk",
+  "nome": "Scritta al neon Gdańsk",
+  "categoria": "vista",
+  "zona": "Ołowianka",
+  "indirizzo": "",
+  "lat": 54.352936,
+  "lng": 18.659928,
+  "orari": {
+   "lun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mar": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mer": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "gio": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "ven": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Installazione al neon consigliata per una foto panoramica.",
+  "durata_min": 30,
+  "fonti": [
+   "TikTok @simi.larity"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": true,
+  "descrizione": "La grande scritta al neon \"Gdańsk\", tappa fissa per la foto ricordo."
+ },
+ {
+  "id": "fontana-nettuno",
+  "nome": "Fontana di Nettuno",
+  "categoria": "attrazione",
+  "zona": "Centro storico",
+  "indirizzo": "Długi Targ",
+  "lat": 54.348333,
+  "lng": 18.653841,
+  "orari": {
+   "lun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mar": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mer": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "gio": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "ven": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "orari_nota": "Monumento all'aperto.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Accesso gratuito."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Iconica fontana della piazza principale di Danzica.",
+  "durata_min": 30,
+  "fonti": [
+   "TikTok @simi.larity",
+   "TikTok @giuliaarinaldii"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "La fontana del Seicento con la statua in bronzo di Nettuno, simbolo di Danzica, nel Długi Targ davanti alla Corte di Artù."
+ },
+ {
+  "id": "porta-doro",
+  "nome": "Porta d'oro",
+  "categoria": "attrazione",
+  "zona": "Centro storico",
+  "indirizzo": "Długa",
+  "lat": 54.349677,
+  "lng": 18.648047,
+  "orari": {
+   "lun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mar": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mer": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "gio": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "ven": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "orari_nota": "Monumento all'aperto.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Accesso gratuito."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Porta monumentale che introduce alla via Długa.",
+  "durata_min": 30,
+  "fonti": [
+   "TikTok @vpcn.travel",
+   "TikTok @giuliaarinaldii"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": false,
+  "descrizione": "Porta monumentale del primo Seicento, all'inizio di via Długa: da qui comincia la Via Reale che attraversa il centro storico."
+ },
+ {
+  "id": "porta-verde",
+  "nome": "Porta verde",
+  "categoria": "attrazione",
+  "zona": "Lungofiume",
+  "indirizzo": "",
+  "lat": 54.347957,
+  "lng": 18.655744,
+  "orari": {
+   "lun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mar": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mer": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "gio": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "ven": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "orari_nota": "Monumento all'aperto.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Accesso gratuito."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Storica porta presso il lungofiume.",
+  "durata_min": 30,
+  "fonti": [
+   "TikTok @giuliaarinaldii"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Porta rinascimentale in fondo al Długi Targ, affacciata sul fiume Motława. Era pensata come residenza per i re in visita; oggi ospita mostre del Museo Nazionale.",
+  "sito": "http://mng.gda.pl/",
+  "instagram": "https://www.instagram.com/mngdansk/"
+ },
+ {
+  "id": "mariacka",
+  "nome": "Mariacka",
+  "categoria": "attrazione",
+  "zona": "Centro storico",
+  "indirizzo": "Mariacka",
+  "lat": 54.349631,
+  "lng": 18.65528,
+  "orari": {
+   "lun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mar": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mer": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "gio": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "ven": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "orari_nota": "Via pubblica.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Accesso gratuito."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Suggestiva via storica celebre per i negozi d'ambra.",
+  "durata_min": 45,
+  "fonti": [
+   "TikTok @alemomastyle",
+   "TikTok @vpcn.travel",
+   "TikTok @giuliaarinaldii"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "La via più fotografata di Danzica: case strette con le terrazze in pietra davanti all'ingresso, e botteghe d'ambra una dopo l'altra, fino alla Basilica di Santa Maria."
+ },
+ {
+  "id": "dluga",
+  "nome": "Długa",
+  "categoria": "attrazione",
+  "zona": "Centro storico",
+  "indirizzo": "Długa",
+  "lat": 54.349133,
+  "lng": 18.650727,
+  "orari": {
+   "lun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mar": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mer": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "gio": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "ven": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "orari_nota": "Via pubblica.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Accesso gratuito."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Asse principale della Via Reale nel centro storico.",
+  "durata_min": 45,
+  "fonti": [
+   "TikTok @simi.larity",
+   "TikTok @giuliaarinaldii"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "La via principale della Via Reale, tra la Porta d'oro e il Długi Targ, fiancheggiata da case storiche colorate. Il centro storico si gira tutto a piedi da qui."
+ },
+ {
+  "id": "piwna",
+  "nome": "Piwna",
+  "categoria": "attrazione",
+  "zona": "Centro storico",
+  "indirizzo": "Piwna",
+  "lat": 54.349708,
+  "lng": 18.652082,
+  "orari": {
+   "lun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mar": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mer": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "gio": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "ven": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "orari_nota": "Via pubblica.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Accesso gratuito."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Via storica indicata come via della birra.",
+  "durata_min": 30,
+  "fonti": [
+   "TikTok @giuliaarinaldii"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "La \"via della birra\", parallela a Mariacka, nel centro storico."
+ },
+ {
+  "id": "ponte-dei-lucchetti",
+  "nome": "Ponte dei lucchetti",
+  "categoria": "attrazione",
+  "zona": "Wyspa Młyńska",
+  "indirizzo": "",
+  "lat": 54.354455,
+  "lng": 18.650717,
+  "orari": {
+   "lun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mar": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mer": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "gio": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "ven": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "orari_nota": "Ponte pubblico; indirizzo da confermare.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Accesso gratuito."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Ponte romantico con lucchetti vicino alla Casa del Mugnaio.",
+  "durata_min": 30,
+  "fonti": [
+   "TikTok @vpcn.travel"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "Piccolo ponte pedonale sull'isola del mulino (Wyspa Młyńska), pieno di lucchetti lasciati dalle coppie. Sta vicino alla casa dei mugnai.",
+  "sito": "https://www.nocowanie.pl/most_chlebowy__most_milosci_,139403.html"
+ },
+ {
+  "id": "albero-del-millennio",
+  "nome": "Albero del millennio",
+  "categoria": "attrazione",
+  "zona": "Centro storico",
+  "indirizzo": "Targ Węglowy",
+  "lat": 54.350179,
+  "lng": 18.648132,
+  "orari": {
+   "lun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mar": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mer": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "gio": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "ven": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Albero segnalato lungo il percorso della Via Reale.",
+  "durata_min": 15,
+  "fonti": [
+   "TikTok @giuliaarinaldii"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": true,
+  "descrizione": "Scultura a forma di albero in piazza Targ Węglowy, vicino alla Porta Alta, lungo il percorso della Via Reale."
+ },
+ {
+  "id": "dawid-ambra",
+  "nome": "Dawid",
+  "categoria": "shopping",
+  "zona": "Mariacka",
+  "indirizzo": "Mariacka 13/15",
+  "lat": 54.349577,
+  "lng": 18.655173,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzi da confermare."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Negozio di ambra sulla celebre via Mariacka.",
+  "durata_min": 30,
+  "fonti": [
+   "TikTok @giuliaarinaldii"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "Laboratorio di gioielli in ambra su via Mariacka, ai civici 13-15. Voto pieno su Google."
+ },
+ {
+  "id": "pamiatki-gdanskie",
+  "nome": "Pamiątki Gdańskie",
+  "categoria": "shopping",
+  "zona": "Mariacka",
+  "indirizzo": "",
+  "lat": 54.349631,
+  "lng": 18.65528,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "Indirizzo e orari da confermare.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzi da confermare."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Negozio di souvenir con casette di Danzica.",
+  "durata_min": 30,
+  "fonti": [
+   "TikTok @giuliaarinaldii"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "Negozio di souvenir con le casette in miniatura di Danzica."
+ },
+ {
+  "id": "castello-di-malbork",
+  "nome": "Castello di Malbork",
+  "categoria": "gita",
+  "zona": "Malbork",
+  "indirizzo": "",
+  "lat": 54.040018,
+  "lng": 19.027818,
+  "orari": {
+   "lun": [
+    [
+     "09:00",
+     "16:00"
+    ]
+   ],
+   "mar": [
+    [
+     "09:00",
+     "15:00"
+    ]
+   ],
+   "mer": [
+    [
+     "09:00",
+     "15:00"
+    ]
+   ],
+   "gio": [
+    [
+     "09:00",
+     "15:00"
+    ]
+   ],
+   "ven": [
+    [
+     "09:00",
+     "15:00"
+    ]
+   ],
+   "sab": [
+    [
+     "09:00",
+     "15:00"
+    ]
+   ],
+   "dom": [
+    [
+     "09:00",
+     "15:00"
+    ]
+   ]
+  },
+  "orari_nota": "Da ottobre, mar-dom percorso completo con ultimo ingresso alle 12:45; lunedì gratuito solo percorso esterno.",
+  "prezzo": {
+   "normale_zl": 29.5,
+   "ridotto_zl": 20.5,
+   "nota": "Prezzi del percorso completo."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "Ridotto disponibile.",
+  "perche": "Gita al grande castello raggiungibile in treno da Gdańsk Główny.",
+  "durata_min": 300,
+  "fonti": [
+   "TikTok @giuliaarinaldii"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Il castello dei Cavalieri Teutonici, il più grande castello in mattoni del mondo e patrimonio UNESCO. Si raggiunge in treno da Gdańsk Główny in 25-50 minuti. Da ottobre il percorso completo chiude presto: ultimo ingresso alle 12:45. Il lunedì è gratuito ma solo il percorso esterno.",
+  "sito": "https://zamek.malbork.pl/"
+ },
+ {
+  "id": "sopot",
+  "nome": "Sopot",
+  "categoria": "gita",
+  "zona": "Sopot",
+  "indirizzo": "",
+  "lat": 54.444172,
+  "lng": 18.567013,
+  "orari": {
+   "lun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mar": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mer": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "gio": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "ven": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
+  },
+  "orari_nota": "Treno SKM da Gdańsk Główny ogni 7-15 minuti, viaggio 15-25 minuti.",
+  "prezzo": {
+   "normale_zl": 5.2,
+   "ridotto_zl": null,
+   "nota": "Circa 5,20 zł per il treno."
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "",
+  "perche": "Gita di mare per il centro e il lungo molo di legno.",
+  "durata_min": 300,
+  "fonti": [
+   "TikTok @simi.larity",
+   "TikTok @giuliaarinaldii"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": false,
+  "descrizione": "Località di mare a 15-25 minuti di treno da Danzica, con il molo di legno più lungo d'Europa e la via pedonale Monte Cassino. Il treno SKM passa ogni 7-15 minuti."
+ },
+ {
+  "id": "molo-di-sopot",
+  "nome": "Molo di Sopot",
+  "categoria": "vista",
+  "zona": "Sopot",
+  "indirizzo": "",
+  "lat": 54.445346,
+  "lng": 18.571118,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "Orari e prezzo da confermare.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzo da confermare."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Molo di legno indicato come il più lungo d'Europa.",
+  "durata_min": 45,
+  "fonti": [
+   "TikTok @simi.larity"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "Il molo di legno più lungo d'Europa, oltre mezzo chilometro dentro il Baltico.",
+  "sito": "http://www.molo.sopot.pl/",
+  "instagram": "https://www.instagram.com/mosirsopot/"
+ },
+ {
+  "id": "nave-museo-blyskawica",
+  "nome": "Nave museo Błyskawica",
+  "categoria": "museo",
+  "zona": "Gdynia",
+  "indirizzo": "",
+  "lat": 54.519556,
+  "lng": 18.551186,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzo da confermare."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Nave museo a Gdynia, raggiungibile in circa 30 minuti di treno.",
+  "durata_min": 90,
+  "fonti": [
+   "Reddit"
+  ],
+  "verificato": "2026-09-14",
+  "da_confermare": true,
+  "descrizione": "Il cacciatorpediniere Błyskawica, nave da guerra polacca della Seconda guerra mondiale oggi museo, ormeggiato a Gdynia. Circa 30 minuti di treno da Danzica.",
+  "sito": "https://muzeummw.pl/"
+ },
+ {
+  "id": "100cznia",
+  "nome": "100cznia",
+  "categoria": "cibo",
+  "zona": "Ex cantiere navale",
+  "indirizzo": "Księdza Jerzego Popiełuszki 5",
+  "lat": 54.363786,
+  "lng": 18.64507,
+  "orari": {
+   "mer": [
+    [
+     "13:00",
+     "22:00"
+    ]
+   ],
+   "gio": [
+    [
+     "13:00",
+     "22:00"
+    ]
+   ],
+   "ven": [
+    [
+     "13:00",
+     "02:00"
+    ]
+   ],
+   "sab": [
+    [
+     "12:00",
+     "02:00"
+    ]
+   ],
+   "dom": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "lun": [],
+   "mar": [
+    [
+     "13:00",
+     "22:00"
+    ]
+   ]
+  },
+  "orari_nota": "Orari da Google Maps, letti a settembre.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "40-60 zł a persona, secondo Google Maps."
+  },
+  "pescatariano": "",
+  "sconto_studenti": "",
+  "perche": "Street food e bar nell'ex cantiere navale.",
+  "descrizione": "Spazio di street food e bar all'aperto nell'area dell'ex cantiere navale, dove nacque Solidarność. Il nome gioca con \"stocznia\", cantiere. Nel fine settimana resta aperto fino alle 2 di notte. Chiuso il lunedì.",
+  "durata_min": 90,
+  "fonti": [
+   "Lista Google Maps di Alessia «Danzica food»",
+   "100cznia.pl"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": true,
+  "sito": "https://100cznia.pl/",
+  "instagram": "https://www.instagram.com/100cznia/"
+ },
+ {
+  "id": "montownia",
+  "nome": "Montownia Food Hall",
+  "categoria": "cibo",
+  "zona": "Ex cantiere navale",
+  "indirizzo": "Lisia Grobla 7",
+  "lat": 54.359601,
+  "lng": 18.654096,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "40-60 zł a persona, secondo Google Maps."
+  },
+  "pescatariano": "",
+  "sconto_studenti": "",
+  "perche": "Food hall in un ex capannone del cantiere navale.",
+  "descrizione": "Food hall ricavata in un ex capannone di montaggio del cantiere navale, con tante cucine diverse sotto lo stesso tetto.",
+  "durata_min": 75,
+  "fonti": [
+   "Lista Google Maps di Alessia «Danzica food»",
+   "montowniafoodhall.pl"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": true,
+  "sito": "http://www.montowniafoodhall.pl/",
+  "instagram": "https://www.instagram.com/foodhallmontownia/"
+ },
+ {
+  "id": "gyozilla",
+  "nome": "Gyozilla Ramen",
+  "categoria": "cibo",
+  "zona": "Wrzeszcz",
+  "indirizzo": "Do Studzienki 23",
+  "lat": 54.373887,
+  "lng": 18.612216,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "40-60 zł a persona, secondo Google Maps."
+  },
+  "pescatariano": "",
+  "sconto_studenti": "",
+  "perche": "Ramen, sushi e burger giapponesi a Wrzeszcz.",
+  "descrizione": "Ristorante giapponese a Wrzeszcz: ramen, sushi e burger alla griglia. Voto molto alto su Google (4,8).",
+  "durata_min": 60,
+  "fonti": [
+   "Lista Google Maps di Alessia «Danzica food»",
+   "gyozillarestauracja.pl"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": true,
+  "sito": "http://gyozillarestauracja.pl/"
+ },
+ {
+  "id": "pyra-bar",
+  "nome": "Pyra Bar",
+  "categoria": "cibo",
+  "zona": "Centro storico",
+  "indirizzo": "Garbary 6/7",
+  "lat": 54.34885,
+  "lng": 18.648113,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "20-40 zł a persona, secondo Google Maps."
+  },
+  "pescatariano": "",
+  "sconto_studenti": "",
+  "perche": "Piatti d'autore tutti a base di patate.",
+  "descrizione": "Ristorante che fa piatti d'autore tutti a base di patate, la \"pyra\" del dialetto di Poznań. Sta in via Garbary, in centro. Tra i più economici della lista di Alessia.",
+  "durata_min": 60,
+  "fonti": [
+   "Lista Google Maps di Alessia «Danzica food»",
+   "pyrabar.pl"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": true,
+  "sito": "http://pyrabar.pl/",
+  "instagram": "https://www.instagram.com/pyrabar_/"
+ },
+ {
+  "id": "targ-rybny",
+  "nome": "Targ Rybny - Fishmarkt",
+  "categoria": "cibo",
+  "zona": "Lungofiume",
+  "indirizzo": "Targ Rybny 6C",
+  "lat": 54.352972,
+  "lng": 18.657342,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzi da confermare."
+  },
+  "pescatariano": "si",
+  "sconto_studenti": "",
+  "perche": "Ristorante di pesce sul vecchio mercato del pesce.",
+  "descrizione": "Ristorante di pesce e frutti di mare sulla piazza del vecchio mercato del pesce, affacciata sul fiume. È il posto più adatto a chi mangia pesce.",
+  "durata_min": 90,
+  "fonti": [
+   "Lista Google Maps di Alessia «Danzica food»",
+   "targrybny.pl"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": true,
+  "sito": "http://www.targrybny.pl/",
+  "instagram": "https://www.instagram.com/targrybnyfishmarkt/"
+ },
+ {
+  "id": "laka-bar",
+  "nome": "Łąka Bar",
+  "categoria": "cibo",
+  "zona": "Dolne Miasto",
+  "indirizzo": "Łąkowa 35/38",
+  "lat": 54.341271,
+  "lng": 18.661145,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "40-60 zł a persona, secondo Google Maps."
+  },
+  "pescatariano": "",
+  "sconto_studenti": "",
+  "perche": "Street food asiatico e cocktail a Dolne Miasto.",
+  "descrizione": "Street food asiatico e cocktail bar in uno spazio post-industriale a Dolne Miasto, con l'atmosfera da giungla urbana. Si può prenotare online.",
+  "durata_min": 90,
+  "fonti": [
+   "Lista Google Maps di Alessia «Danzica food»",
+   "laka.bar"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": true,
+  "sito": "http://www.laka.bar/",
+  "instagram": "https://www.instagram.com/lakahappybar/"
+ },
+ {
+  "id": "mimosa",
+  "nome": "Mimosa Wajdeloty",
+  "categoria": "dolci",
+  "zona": "Wrzeszcz",
+  "indirizzo": "Wajdeloty 17",
+  "lat": 54.381535,
+  "lng": 18.609619,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzi da confermare."
+  },
+  "pescatariano": "",
+  "sconto_studenti": "",
+  "perche": "Panetteria artigianale con lievito madre e caffe'.",
+  "descrizione": "Panetteria artigianale a Wrzeszcz: pane a lievito madre, croissant, jagodzianki (panini dolci ai mirtilli), pączki e caffè specialty. Buona per una colazione fuori dal centro.",
+  "durata_min": 30,
+  "fonti": [
+   "Lista Google Maps di Alessia «Danzica food»",
+   "mimosawypieki.pl"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": true,
+  "sito": "https://mimosawypieki.pl/",
+  "instagram": "https://www.instagram.com/mimosa.wypieki/"
+ },
+ {
+  "id": "deja-vu",
+  "nome": "DeJa Vu Muzeum",
+  "categoria": "museo",
+  "zona": "Długie Ogrody",
+  "indirizzo": "Długie Ogrody 18",
+  "lat": 54.347283,
+  "lng": 18.663369,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzi sul sito ufficiale."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Museo delle illusioni ottiche, interattivo.",
+  "descrizione": "Museo delle illusioni: illusioni ottiche e arte digitale, tutto interattivo e fatto per le foto. A Długie Ogrody, appena oltre il fiume dal centro storico.",
+  "durata_min": 60,
+  "fonti": [
+   "Lista Google Maps di Alessia «Danzica must visit»",
+   "dejavumuzeum.pl"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": true,
+  "sito": "http://www.dejavumuzeum.pl/",
+  "instagram": "https://www.instagram.com/dejavumuzeum/"
+ },
+ {
+  "id": "oliwski-park",
+  "nome": "Park Oliwski",
+  "categoria": "attrazione",
+  "zona": "Oliwa",
+  "indirizzo": "Opata Jacka Rybińskiego",
+  "lat": 54.411221,
+  "lng": 18.562081,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Ingresso gratuito."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Grande parco storico accanto alla cattedrale di Oliwa.",
+  "descrizione": "Grande parco storico a Oliwa, accanto alla cattedrale, lontano dal centro. Voto altissimo su Google con decine di migliaia di recensioni.",
+  "durata_min": 90,
+  "fonti": [
+   "Lista Google Maps di Alessia «Danzica must visit»",
+   "parkoliwski.gdansk.pl"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": true,
+  "sito": "http://www.parkoliwski.gdansk.pl/"
+ },
+ {
+  "id": "krzywy-domek",
+  "nome": "Krzywy Domek",
+  "categoria": "attrazione",
+  "zona": "Sopot",
+  "indirizzo": "Bohaterów Monte Cassino 53",
+  "lat": 54.444196,
+  "lng": 18.566748,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Si guarda da fuori, gratis."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "La \"casa storta\" sulla via principale di Sopot.",
+  "descrizione": "La \"casa storta\" di Sopot, sulla via pedonale Monte Cassino: un edificio dalle forme deformate, come disegnato da un bambino. Si guarda da fuori; dentro ci sono negozi e una food hall.",
+  "durata_min": 15,
+  "fonti": [
+   "Lista Google Maps di Alessia «Danzica must visit»",
+   "krzywydomek.info"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": true,
+  "sito": "https://krzywydomek.info/"
+ },
+ {
+  "id": "filharmonia",
+  "nome": "Filharmonia Bałtycka",
+  "categoria": "attrazione",
+  "zona": "Ołowianka",
+  "indirizzo": "Ołowianka 1",
+  "lat": 54.352398,
+  "lng": 18.660008,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Biglietti dei concerti sul sito ufficiale."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "La Filarmonica in una ex centrale sul fiume.",
+  "descrizione": "La Filarmonica Baltica, sull'isola di Ołowianka in una ex centrale elettrica sul fiume. Vale la pena controllare il programma dei concerti per le vostre date.",
+  "durata_min": 45,
+  "fonti": [
+   "Lista Google Maps di Alessia «Danzica must visit»",
+   "filharmonia.gda.pl"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": true,
+  "sito": "http://www.filharmonia.gda.pl/",
+  "instagram": "https://www.instagram.com/polska_filharmonia_baltycka/"
+ },
+ {
+  "id": "sopot-centrum",
+  "nome": "Sopot Centrum",
+  "categoria": "shopping",
+  "zona": "Sopot",
+  "indirizzo": "Tadeusza Kościuszki 14",
+  "lat": 54.440835,
+  "lng": 18.562959,
+  "orari": {
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
+  },
+  "orari_nota": "",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": ""
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "",
+  "perche": "Centro commerciale nel centro di Sopot.",
+  "descrizione": "Centro commerciale nel centro di Sopot, vicino alla stazione.",
+  "durata_min": 45,
+  "fonti": [
+   "Lista Google Maps di Alessia «Danzica must visit»",
+   "sopotcentrum.com.pl"
+  ],
+  "verificato": "2026-09-16",
+  "da_confermare": true,
+  "sito": "http://www.sopotcentrum.com.pl/"
+ }
+]

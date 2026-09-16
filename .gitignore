@@ -1,0 +1,18 @@
+# Il repository e' pubblico: qui dentro c'e' tutto quello che NON deve finirci.
+
+# Archivio privato: la chat di ricerca originale (23 MB), il piano con i voli,
+# le copie di sicurezza dei dati.
+archivio/
+
+# Materiale di lavoro, non serve all'app pubblicata.
+mockup/
+BRIEF.md
+PROMPT_APP.md
+contenuti/fonti_grezze.md
+
+# Roba generata dal computer.
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
