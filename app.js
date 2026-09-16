@@ -95,10 +95,33 @@ function indicizza() {
   for (const p of tutti) INDICE[p.id] = p;
 }
 
+// Quando esce una versione nuova il service worker la scarica in sottofondo,
+// ma la pagina aperta continuerebbe a usare i file vecchi fino alla riapertura
+// successiva. Quindi ricarico una volta, appena il nuovo prende il controllo.
+// Se e' aperto un modulo o una scheda aspetto che l'app vada in sottofondo,
+// per non far perdere quello che si sta scrivendo.
 function registraServiceWorker() {
-  if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
-    navigator.serviceWorker.register('sw.js').catch(() => {});
-  }
+  if (!('serviceWorker' in navigator) || !location.protocol.startsWith('http')) return;
+  const eraGiaInstallata = !!navigator.serviceWorker.controller;
+  let ricaricata = false, inAttesa = false;
+  const ricarica = () => { if (!ricaricata) { ricaricata = true; location.reload(); } };
+  const occupato = () => !$('#modale').classList.contains('nascosto') || !$('#foglio').classList.contains('nascosto');
+
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!eraGiaInstallata) return; // primo avvio: niente da aggiornare
+    if (occupato()) inAttesa = true;
+    else ricarica();
+  });
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden && inAttesa) ricarica();
+  });
+
+  navigator.serviceWorker.register('sw.js').then((reg) => {
+    // controllo se c'e' una versione nuova ogni volta che l'app torna in primo piano
+    document.addEventListener('visibilitychange', () => {
+      if (!document.hidden) reg.update().catch(() => {});
+    });
+  }).catch(() => {});
 }
 
 // --- navigazione -------------------------------------------------------
