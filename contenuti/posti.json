@@ -10,43 +10,48 @@
   "orari": {
    "lun": [
     [
-     "14:00",
-     "24:00"
+     "13:00",
+     "23:00"
     ]
    ],
    "mar": [
     [
-     "14:00",
-     "24:00"
+     "13:00",
+     "23:00"
     ]
    ],
    "mer": [
     [
-     "14:00",
-     "24:00"
+     "13:00",
+     "23:00"
     ]
    ],
    "gio": [
     [
-     "14:00",
-     "24:00"
+     "13:00",
+     "23:00"
     ]
    ],
    "ven": [
     [
      "13:00",
-     "02:00"
+     "01:00"
     ]
    ],
    "sab": [
     [
      "09:00",
-     "02:00"
+     "01:00"
     ]
    ],
-   "dom": null
+   "dom": [
+    [
+     "09:00",
+     "23:00"
+    ]
+   ]
   },
-  "orari_nota": "Colazione sabato e domenica 09:00-13:00.",
+  "orari_nota": "Colazione sab-dom 9-13.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -57,9 +62,10 @@
   "perche": "Ristorante mediorientale in posizione centrale.",
   "durata_min": 75,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "https://maps.app.goo.gl/9WWjkRCKeZoQtD7U6"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Ristorante di cucina mediorientale in via Stągiewna, a due passi dal centro. Nel fine settimana fa anche colazione, dalle 9 alle 13.",
   "sito": "https://linktr.ee/barleongdansk",
@@ -77,31 +83,31 @@
    "lun": [
     [
      "08:00",
-     "17:00"
+     "18:00"
     ]
    ],
    "mar": [
     [
      "08:00",
-     "17:00"
+     "18:00"
     ]
    ],
    "mer": [
     [
      "08:00",
-     "17:00"
+     "18:00"
     ]
    ],
    "gio": [
     [
      "08:00",
-     "17:00"
+     "18:00"
     ]
    ],
    "ven": [
     [
      "08:00",
-     "17:00"
+     "18:00"
     ]
    ],
    "sab": [
@@ -117,7 +123,7 @@
     ]
    ]
   },
-  "orari_nota": "",
+  "orari_nota": "Tutti i giorni 8-18; il sito avverte che l'orario può variare di un'ora.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -128,10 +134,11 @@
   "perche": "Pasticceria nota per pączki molto leggeri, incluso il gusto Raffaello.",
   "durata_min": 30,
   "fonti": [
+   "sito ufficiale dobrapaczkarnia.pl (letto il 25/09/2026)",
    "https://maps.app.goo.gl/WZuLGoUX3W4rzHtYA",
    "TikTok @cidi.jpg"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Pasticceria specializzata in pączki, i bomboloni polacchi, famosi per essere leggerissimi. Nelle recensioni dei creator spicca il gusto Raffaello. Ottima per una colazione veloce in piazza Dominikański.",
   "sito": "https://dobrapaczkarnia.pl/nasze-punkty/gdansk-dominikanski/",
@@ -173,7 +180,7 @@
    "ven": [
     [
      "10:00",
-     "20:00"
+     "19:00"
     ]
    ],
    "sab": [
@@ -200,9 +207,10 @@
   "perche": "Pasticceria sul lungofiume.",
   "durata_min": 30,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "https://maps.app.goo.gl/WZuLGoUX3W4rzHtYA"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Pasticceria artigianale sul lungofiume Długie Pobrzeże: dolci, torte, cioccolato, pane e caffè. Fa parte di una piccola catena del nord della Polonia.",
   "sito": "https://omnikaiser.pl/",
@@ -219,44 +227,44 @@
   "orari": {
    "lun": [
     [
-     "10:00",
-     "20:00"
+     "08:00",
+     "20:30"
     ]
    ],
    "mar": [
     [
-     "10:00",
-     "20:00"
+     "08:00",
+     "20:30"
     ]
    ],
    "mer": [
     [
-     "10:00",
-     "20:00"
+     "08:00",
+     "20:30"
     ]
    ],
    "gio": [
     [
-     "10:00",
-     "20:00"
+     "08:00",
+     "20:30"
     ]
    ],
    "ven": [
     [
-     "10:00",
-     "20:00"
+     "08:00",
+     "20:30"
     ]
    ],
    "sab": [
     [
-     "10:00",
-     "20:00"
+     "08:00",
+     "20:30"
     ]
    ],
    "dom": [
     [
-     "10:00",
-     "20:00"
+     "08:00",
+     "20:30"
     ]
    ]
   },
@@ -271,10 +279,11 @@
   "perche": "Pasticceria celebre per il kubik alla nocciola e le monoporzioni.",
   "durata_min": 30,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "https://maps.app.goo.gl/WZuLGoUX3W4rzHtYA",
    "TikTok @alemomastyle"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Pasticceria nota per le monoporzioni e per il \"kubik\", il cubo di pasta sfogliata ripieno di crema alla nocciola diventato virale. Fa anche colazione francese dolce con caffè.",
   "sito": "https://www.umam.pl/",
@@ -291,44 +300,44 @@
   "orari": {
    "lun": [
     [
-     "09:00",
-     "21:00"
+     "08:00",
+     "20:00"
     ]
    ],
    "mar": [
     [
-     "09:00",
-     "21:00"
+     "08:00",
+     "20:00"
     ]
    ],
    "mer": [
     [
-     "09:00",
-     "21:00"
+     "08:00",
+     "20:00"
     ]
    ],
    "gio": [
     [
-     "09:00",
-     "21:00"
+     "08:00",
+     "20:00"
     ]
    ],
    "ven": [
     [
-     "09:00",
-     "22:00"
+     "08:00",
+     "21:30"
     ]
    ],
    "sab": [
     [
-     "09:00",
-     "22:00"
+     "08:00",
+     "21:30"
     ]
    ],
    "dom": [
     [
-     "09:00",
-     "21:00"
+     "08:00",
+     "20:00"
     ]
    ]
   },
@@ -343,12 +352,13 @@
   "perche": "Caffè su Mariacka consigliato per colazione, chai e croissant al pistacchio.",
   "durata_min": 60,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "https://maps.app.goo.gl/WZuLGoUX3W4rzHtYA",
    "TikTok @alemomastyle",
    "TikTok @cidi.jpg",
    "TikTok @vpcn.travel"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Caffè su via Mariacka, la via dell'ambra, citato in tre video su sei: è la colazione più consigliata di Danzica. Famoso il croissant al pistacchio; tra i consigli anche iced chai e yogurt con frutta e muesli."
  },
@@ -361,13 +371,48 @@
   "lat": 54.348782,
   "lng": 18.651699,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "mar": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "mer": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "09:00",
+     "19:00"
+    ]
+   ],
+   "dom": [
+    [
+     "09:00",
+     "19:00"
+    ]
+   ]
   },
   "orari_nota": "",
   "prezzo": {
@@ -380,10 +425,11 @@
   "perche": "Bar mleczny di cucina polacca sulla via Długa.",
   "durata_min": 60,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "https://maps.app.goo.gl/vk7ASSbP4MoPth9x8"
   ],
-  "verificato": "2026-09-14",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "descrizione": "Bar mleczny, cioè una latteria: le mense popolari polacche con piatti tradizionali a prezzi bassi. Sta sulla via Długa, in pieno centro. Il voto su Google è basso: 3,4.",
   "sito": "https://www.facebook.com/barneptungdansk/"
  },
@@ -396,15 +442,45 @@
   "lat": 54.376464,
   "lng": 18.613409,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "11:00",
+     "18:00"
+    ]
+   ],
+   "mar": [
+    [
+     "11:00",
+     "18:00"
+    ]
+   ],
+   "mer": [
+    [
+     "11:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "11:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "11:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "11:00",
+     "17:00"
+    ]
+   ],
+   "dom": []
   },
-  "orari_nota": "",
+  "orari_nota": "Domenica chiuso.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -415,10 +491,11 @@
   "perche": "Bar mleczny polacco economico, fuori dal centro storico.",
   "durata_min": 60,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "https://maps.app.goo.gl/vk7ASSbP4MoPth9x8"
   ],
-  "verificato": "2026-09-14",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "descrizione": "Bar mleczny economico a Wrzeszcz, il quartiere universitario fuori dal centro storico. Cucina polacca da mensa, voto alto su Google (4,4).",
   "sito": "http://barakademickigdansk.pl/"
  },
@@ -463,18 +540,18 @@
    ],
    "sab": [
     [
-     "09:00",
-     "17:00"
+     "08:00",
+     "18:00"
     ]
    ],
    "dom": [
     [
-     "09:00",
-     "17:00"
+     "08:00",
+     "18:00"
     ]
    ]
   },
-  "orari_nota": "",
+  "orari_nota": "Tutti i giorni 8-18.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -485,9 +562,10 @@
   "perche": "Bar mleczny polacco centrale.",
   "durata_min": 60,
   "fonti": [
+   "sito ufficiale bar-turystyczny.pl (letto il 25/09/2026)",
    "https://maps.app.goo.gl/vk7ASSbP4MoPth9x8"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Bar mleczny storico in via Szeroka, apprezzato dai residenti e d'estate pieno di turisti. Cucina polacca tradizionale a prezzi bassi, aperto anche a colazione.",
   "sito": "http://bar-turystyczny.pl/"
@@ -497,50 +575,50 @@
   "nome": "Gdańsk Sweet Factory Store",
   "categoria": "dolci",
   "zona": "Centro storico",
-  "indirizzo": "Długa 32; seconda sede Granaria, Stągiewna 27",
+  "indirizzo": "Długa 30/31",
   "lat": 54.348808,
   "lng": 18.651581,
   "orari": {
    "lun": [
     [
-     "09:00",
-     "23:00"
+     "10:00",
+     "22:00"
     ]
    ],
    "mar": [
     [
-     "09:00",
-     "23:00"
+     "10:00",
+     "22:00"
     ]
    ],
    "mer": [
     [
-     "09:00",
-     "23:00"
+     "10:00",
+     "22:00"
     ]
    ],
    "gio": [
     [
-     "09:00",
-     "23:00"
+     "10:00",
+     "22:00"
     ]
    ],
    "ven": [
     [
-     "09:00",
-     "23:00"
+     "10:00",
+     "22:00"
     ]
    ],
    "sab": [
     [
-     "09:00",
-     "23:00"
+     "10:00",
+     "22:00"
     ]
    ],
    "dom": [
     [
-     "09:00",
-     "23:00"
+     "10:00",
+     "22:00"
     ]
    ]
   },
@@ -555,9 +633,10 @@
   "perche": "Negozio di caramelle gommose a peso con molta scelta vegana.",
   "durata_min": 30,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "TikTok @alemomastyle"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Negozio di caramelle gommose con molta scelta vegana, tutte allo stesso prezzo a peso. Ha una seconda sede alla Granaria, in via Stągiewna 27.",
   "sito": "https://www.sweetfactorystore.pl/"
@@ -625,12 +704,13 @@
   "perche": "Catena molto citata per pierogi fatti al momento, anche al forno.",
   "durata_min": 75,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "TikTok @alemomastyle",
    "TikTok @vpcn.travel",
    "TikTok @simi.larity",
    "TikTok @giuliaarinaldii"
   ],
-  "verificato": "2026-09-16",
+  "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "La pierogarnia più citata dai creator: quattro video su sei la consigliano, qualcuno la chiama i migliori pierogi mangiati in Polonia. Si fanno al momento, anche al forno. Da provare quelli di manzo con salsa ai funghi. Questa sede è in centro, vicino alla stazione Gdańsk Główny.",
   "sito": "http://www.pierogarnia-mandu.pl/",
@@ -665,13 +745,13 @@
    ],
    "gio": [
     [
-     "12:00",
+     "13:00",
      "22:00"
     ]
    ],
    "ven": [
     [
-     "12:00",
+     "13:00",
      "22:00"
     ]
    ],
@@ -683,7 +763,7 @@
    ],
    "dom": [
     [
-     "13:00",
+     "12:00",
      "22:00"
     ]
    ]
@@ -699,9 +779,10 @@
   "perche": "Ristorante polacco moderno noto per la cheesecake alla zucca.",
   "durata_min": 90,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "TikTok @alemomastyle"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Ristorante di cucina polacca rivisitata in chiave moderna, sulla riva del fiume in via Szafarnia. Il dolce da non perdere, secondo chi lo consiglia, è la cheesecake alla zucca con confettura di rose.",
   "sito": "http://www.restauracjabazar.pl/"
@@ -927,44 +1008,44 @@
   "orari": {
    "lun": [
     [
-     "09:00",
-     "23:00"
+     "10:00",
+     "22:00"
     ]
    ],
    "mar": [
     [
-     "09:00",
-     "23:00"
+     "10:00",
+     "22:00"
     ]
    ],
    "mer": [
     [
-     "09:00",
-     "23:00"
+     "10:00",
+     "22:00"
     ]
    ],
    "gio": [
     [
-     "09:00",
-     "23:00"
+     "10:00",
+     "22:00"
     ]
    ],
    "ven": [
     [
-     "09:00",
-     "23:00"
+     "10:00",
+     "22:00"
     ]
    ],
    "sab": [
     [
-     "09:00",
-     "23:00"
+     "10:00",
+     "22:00"
     ]
    ],
    "dom": [
     [
-     "09:00",
-     "23:00"
+     "10:00",
+     "22:00"
     ]
    ]
   },
@@ -979,9 +1060,10 @@
   "perche": "Cioccolateria consigliata per cioccolata calda e croissant dolci.",
   "durata_min": 45,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "TikTok @cidi.jpg"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Cioccolateria dello storico marchio polacco E.Wedel, nello stesso edificio di Słony Spichlerz. Cioccolata calda e croissant con mascarpone al cioccolato e fragole hanno preso 9 su 10 da chi l'ha provata.",
   "sito": "https://www.wedelpijalnie.pl/pl"
@@ -1075,7 +1157,7 @@
     ]
    ]
   },
-  "orari_nota": "",
+  "orari_nota": "Tutti i giorni 9-18 (9-19 solo giugno-agosto).",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -1086,9 +1168,10 @@
   "perche": "Bar mleczny economico con piatti polacchi tradizionali.",
   "durata_min": 60,
   "fonti": [
+   "sito ufficiale barstagiewna.pl (letto il 25/09/2026)",
    "TikTok @cidi.jpg"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Bar mleczny economico in via Stągiewna, con piatti polacchi tradizionali. Una creator ci è tornata due volte: involtini di cavolo, naleśniki (crêpes) e polpette di pollo ripiene.",
   "sito": "http://www.barstagiewna.pl/"
@@ -1163,13 +1246,13 @@
    "ven": [
     [
      "09:00",
-     "23:00"
+     "22:00"
     ]
    ],
    "sab": [
     [
      "09:00",
-     "23:00"
+     "22:00"
     ]
    ],
    "dom": [
@@ -1179,7 +1262,7 @@
     ]
    ]
   },
-  "orari_nota": "Colazioni 09:00-13:00.",
+  "orari_nota": "Lun-gio e dom 9-21, ven-sab 9-22. Colazioni 9-13 (Google Maps).",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -1190,9 +1273,10 @@
   "perche": "Bistrot consigliato per colazioni, brunch e cucina tradizionale.",
   "durata_min": 75,
   "fonti": [
+   "sito ufficiale pomelogdansk.pl (letto il 25/09/2026)",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Bistrot in via Ogarna, nel centro storico ma lontano dal traffico turistico. Si vanta di fare in casa tutto quello che può: dolci, fermentati, pane. Colazioni e brunch dalle 9 alle 13, poi cucina tradizionale. Sconto del 10% con la tessera universitaria.",
   "sito": "https://www.pomelogdansk.pl/",
@@ -1210,47 +1294,47 @@
    "lun": [
     [
      "12:00",
-     "23:30"
+     "22:00"
     ]
    ],
    "mar": [
     [
      "12:00",
-     "23:30"
+     "22:00"
     ]
    ],
    "mer": [
     [
      "12:00",
-     "23:30"
+     "22:00"
     ]
    ],
    "gio": [
     [
      "12:00",
-     "23:30"
+     "22:00"
     ]
    ],
    "ven": [
     [
      "12:00",
-     "03:00"
+     "24:00"
     ]
    ],
    "sab": [
     [
      "12:00",
-     "03:00"
+     "24:00"
     ]
    ],
    "dom": [
     [
      "12:00",
-     "23:30"
+     "22:00"
     ]
    ]
   },
-  "orari_nota": "",
+  "orari_nota": "Sede di via Szeroka: lun-gio 12-22, ven-sab 12-24, dom 12-22.",
   "prezzo": {
    "normale_zl": 40,
    "ridotto_zl": null,
@@ -1261,9 +1345,10 @@
   "perche": "Street food polacco per zapiekanka e burger, con opzioni vegetariane.",
   "durata_min": 60,
   "fonti": [
+   "sito ufficiale rednek.pl (letto il 25/09/2026)",
    "TikTok @socializzi.amo.ci"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Street food polacco in via Szeroka: burger di maiale sfilacciato, smash burger e zapiekanka, il panino aperto gratinato tipico polacco. Ha anche opzioni vegetariane.",
   "sito": "https://www.rednek.pl/",
@@ -1281,66 +1366,42 @@
    "lun": [],
    "mar": [
     [
-     "12:00",
-     "15:00"
-    ],
-    [
-     "17:00",
-     "22:00"
+     "16:00",
+     "24:00"
     ]
    ],
    "mer": [
     [
-     "12:00",
-     "15:00"
-    ],
-    [
-     "17:00",
-     "22:00"
+     "16:00",
+     "24:00"
     ]
    ],
    "gio": [
     [
-     "12:00",
-     "15:00"
-    ],
-    [
-     "17:00",
-     "22:00"
+     "16:00",
+     "24:00"
     ]
    ],
    "ven": [
     [
-     "12:00",
-     "15:00"
-    ],
-    [
-     "17:00",
-     "22:00"
+     "16:00",
+     "24:00"
     ]
    ],
    "sab": [
     [
      "12:00",
-     "15:00"
-    ],
-    [
-     "17:00",
-     "22:00"
+     "24:00"
     ]
    ],
    "dom": [
     [
-     "12:00",
-     "15:00"
-    ],
-    [
-     "17:00",
-     "22:00"
+     "13:00",
+     "18:00"
     ]
    ]
   },
-  "orari_nota": "",
+  "orari_nota": "Lunedì chiuso; mar-ven 16-24; sabato 12-24; domenica 13-18.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -1351,9 +1412,10 @@
   "perche": "Ristorante Bib Gourmand 2026 di tapas e pesce al trentatreesimo piano.",
   "durata_min": 90,
   "fonti": [
+   "sito ufficiale oliviastar.pl/restauracje/treinta-y-tres (letto il 25/09/2026)",
    "oliviastar.pl"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Ristorante spagnolo al trentatreesimo piano di Olivia Star, con Bib Gourmand Michelin 2026: tapas, pesce e frutti di mare con vista sulla città. Qui c'è la cena di compleanno del 10 ottobre alle 20:30.",
   "sito": "https://www.oliviastar.pl/restauracje/treinta-y-tres/"
@@ -1401,13 +1463,48 @@
   "lat": 54.348899,
   "lng": 18.64814,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "mar": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "mer": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "gio": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ],
+   "ven": [
+    [
+     "11:00",
+     "01:30"
+    ]
+   ],
+   "sab": [
+    [
+     "11:00",
+     "01:30"
+    ]
+   ],
+   "dom": [
+    [
+     "11:00",
+     "23:00"
+    ]
+   ]
   },
   "orari_nota": "",
   "prezzo": {
@@ -1420,10 +1517,11 @@
   "perche": "Locale partner dello sconto studenti.",
   "durata_min": 60,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "Lista Maps"
   ],
-  "verificato": "2026-09-16",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "descrizione": "Pub con pizzeria in via Garbary, in centro. È tra i locali che fanno il 10% di sconto con la tessera universitaria.",
   "sito": "https://www.facebook.com/UnderbeerBarGdansk"
  },
@@ -1436,15 +1534,50 @@
   "lat": 54.409047,
   "lng": 18.597855,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "mar": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "mer": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "gio": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ],
+   "ven": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "sab": [
+    [
+     "11:00",
+     "20:00"
+    ]
+   ],
+   "dom": [
+    [
+     "11:00",
+     "19:00"
+    ]
+   ]
   },
-  "orari_nota": "Indirizzo e orari da confermare.",
+  "orari_nota": "Il sito indica il ritiro asporto fino alle 18:45 (ven-sab 19:45).",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -1455,10 +1588,11 @@
   "perche": "Locale partner dello sconto studenti.",
   "durata_min": 60,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari); faloviec.pl",
    "Lista Maps"
   ],
-  "verificato": "2026-09-14",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "descrizione": "Ristorante di cucina vegetale. È tra i locali che fanno il 10% di sconto con la tessera universitaria.",
   "sito": "https://www.faloviec.pl/restaurants/faloviec",
   "instagram": "https://www.instagram.com/faloviec/"
@@ -1468,19 +1602,54 @@
   "nome": "Masna Micha",
   "categoria": "cibo",
   "zona": "",
-  "indirizzo": "",
+  "indirizzo": "Mariana Hemara 23",
   "lat": 54.382964,
   "lng": 18.592862,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "mar": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "mer": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "dom": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ]
   },
-  "orari_nota": "Sono riportati solo gli orari dello sconto; gli orari di apertura sono da confermare.",
+  "orari_nota": "Sconto studenti 15% lun-ven 16-19 (raccolta locali del 14/09).",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -1491,56 +1660,35 @@
   "perche": "Locale con sconto studenti pomeridiano.",
   "durata_min": 60,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "Lista Maps"
   ],
-  "verificato": "2026-09-14",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "descrizione": "Ristorante che fa il 15% di sconto agli studenti dal lunedì al venerdì, dalle 16 alle 19.",
   "sito": "http://masnamicha.pl/"
  },
  {
   "id": "jaros",
-  "nome": "Jaros",
+  "nome": "Bar Mleczny Jaros",
   "categoria": "cibo",
   "zona": "",
-  "indirizzo": "",
+  "indirizzo": "Jagiellońska 38",
   "lat": 54.413096,
   "lng": 18.598464,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
-  },
-  "orari_nota": "Indirizzo e orari da confermare.",
-  "prezzo": {
-   "normale_zl": null,
-   "ridotto_zl": null,
-   "nota": "Prezzi da confermare."
-  },
-  "pescatariano": "opzioni",
-  "sconto_studenti": "",
-  "perche": "Latteria economica segnalata fuori dal centro.",
-  "durata_min": 60,
-  "fonti": [
-   "Reddit"
-  ],
-  "verificato": "2026-09-14",
-  "da_confermare": true,
-  "descrizione": "Bar mleczny economico fuori dal centro, segnalato su Reddit dai residenti. Voto molto alto su Google (4,7)."
- },
- {
-  "id": "fala",
-  "nome": "Fala",
-  "categoria": "cibo",
-  "zona": "Przymorze",
-  "indirizzo": "Opolska 3",
-  "lat": 54.403478,
-  "lng": 18.599308,
-  "orari": {
+   "lun": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "mar": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
    "mer": [
     [
      "09:00",
@@ -1565,7 +1713,35 @@
      "17:00"
     ]
    ],
-   "dom": [],
+   "dom": []
+  },
+  "orari_nota": "Domenica chiuso.",
+  "prezzo": {
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Prezzi da confermare."
+  },
+  "pescatariano": "opzioni",
+  "sconto_studenti": "",
+  "perche": "Latteria economica segnalata fuori dal centro.",
+  "durata_min": 60,
+  "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
+   "Reddit"
+  ],
+  "verificato": "2026-09-25",
+  "da_confermare": false,
+  "descrizione": "Bar mleczny economico fuori dal centro, segnalato su Reddit dai residenti. Voto molto alto su Google (4,7)."
+ },
+ {
+  "id": "fala",
+  "nome": "Bar Mleczny Fala",
+  "categoria": "cibo",
+  "zona": "Przymorze",
+  "indirizzo": "Opolska 3",
+  "lat": 54.403478,
+  "lng": 18.599308,
+  "orari": {
    "lun": [
     [
      "09:00",
@@ -1577,9 +1753,34 @@
      "09:00",
      "18:00"
     ]
-   ]
+   ],
+   "mer": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "09:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "17:00"
+    ]
+   ],
+   "dom": []
   },
-  "orari_nota": "Orari da Google Maps, letti a settembre.",
+  "orari_nota": "Domenica chiuso.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -1590,10 +1791,11 @@
   "perche": "Latteria economica segnalata fuori dal centro.",
   "durata_min": 60,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "Reddit"
   ],
-  "verificato": "2026-09-16",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "descrizione": "Bar mleczny economico a Przymorze, fuori dal centro, segnalato su Reddit dai residenti. Chiuso la domenica.",
   "sito": "https://www.facebook.com/Bar-Mleczny-Fala-111366793843901"
  },
@@ -1606,15 +1808,50 @@
   "lat": 54.381165,
   "lng": 18.604755,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mar": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mer": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "gio": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "ven": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
   },
-  "orari_nota": "",
+  "orari_nota": "Aperto 24 ore su 24.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -1625,10 +1862,11 @@
   "perche": "Kebab segnalato a Wrzeszcz.",
   "durata_min": 45,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "Reddit"
   ],
-  "verificato": "2026-09-16",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "descrizione": "Kebab a Wrzeszcz segnalato su Reddit. Aperto 24 ore su 24.",
   "sito": "http://www.mimkebab.pl/"
  },
@@ -1637,19 +1875,38 @@
   "nome": "Crackhouse",
   "categoria": "bar",
   "zona": "",
-  "indirizzo": "",
+  "indirizzo": "Niterów 29b",
   "lat": 54.364778,
   "lng": 18.645621,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [],
+   "mar": [],
+   "mer": [],
+   "gio": [],
+   "ven": [
+    [
+     "22:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "00:00",
+     "08:00"
+    ],
+    [
+     "22:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "00:00",
+     "08:00"
+    ]
+   ]
   },
-  "orari_nota": "Indirizzo e orari da confermare.",
+  "orari_nota": "Solo venerdì e sabato notte, dalle 22 alle 8.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -1660,10 +1917,11 @@
   "perche": "Locale techno segnalato su Reddit.",
   "durata_min": 120,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "Reddit"
   ],
-  "verificato": "2026-09-14",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "descrizione": "Locale di musica techno segnalato su Reddit.",
   "sito": "http://crackhou.se/",
   "instagram": "https://www.instagram.com/crackhouse.3c/"
@@ -1678,30 +1936,61 @@
   "lng": 18.661121,
   "orari": {
    "lun": [],
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "mar": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "mer": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ]
   },
-  "orari_nota": "Chiuso il lunedì. Orari degli altri giorni da confermare; il martedì ingresso gratis 10-16 (max 2500 persone, senza prenotazione).",
+  "orari_nota": "Lunedì chiuso; martedì 10-16 gratis; mer-dom 10-18. Casse fino alle 17 (mar 14:30). Chiuso anche martedì 6/10.",
   "prezzo": {
    "normale_zl": 33,
    "ridotto_zl": 23,
-   "nota": "Ultima mezz'ora 17/12 zł; audioguida italiana 12 zł."
+   "nota": "Ridotto per studenti fino a 26 anni: solo Alessia. Biglietto dell'ultima mezz'ora di cassa 17/12 zł. Audioguida 12 zł, anche in italiano. Online su bilety.muzeum1939.pl: una parte dei biglietti è venduta solo lì."
   },
   "pescatariano": "n.a.",
   "sconto_studenti": "Ridotto fino a 26 anni.",
   "perche": "Grande museo storico, indicato come uno dei migliori al mondo.",
   "durata_min": 120,
   "fonti": [
+   "sito ufficiale muzeum1939.pl (letto il 25/09/2026)",
    "muzeum1939.pl",
    "TikTok @vpcn.travel",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-14",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "descrizione": "Uno dei musei più importanti di Danzica, inaugurato nel 2017 e considerato tra i migliori al mondo sull'argomento. Racconta la guerra soprattutto dal punto di vista dei civili. Servono almeno due ore. È chiuso il lunedì; il martedì dalle 10 alle 16 l'ingresso è gratuito.",
   "sito": "https://muzeum1939.pl/",
   "instagram": "https://www.instagram.com/muzeum1939/"
@@ -2154,35 +2443,66 @@
   "nome": "Westerplatte",
   "categoria": "museo",
   "zona": "",
-  "indirizzo": "Sucharskiego",
+  "indirizzo": "Majora Henryka Sucharskiego 77 (centro visitatori)",
   "lat": 54.406701,
   "lng": 18.666969,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [],
+   "mar": [
+    [
+     "10:00",
+     "16:00"
+    ]
+   ],
+   "mer": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "dom": [
+    [
+     "13:00",
+     "19:00"
+    ]
+   ]
   },
-  "orari_nota": "La Wartownia nr 1, l'unico museo al chiuso di Westerplatte (8/5 zł), è aperta solo da aprile a settembre: a ottobre è CHIUSA. Il sito del museo non indica orari per l'area all'aperto.",
+  "orari_nota": "Orari del Muzeum Westerplatte (Museo della Seconda guerra mondiale): mostra nella Centrale elettrica e centro visitatori. Lunedì chiuso; mar 10-16; mer-sab 10-18; dom 13-19. La Wartownia nr 1 del Muzeum Gdańska è chiusa in ottobre.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
-   "nota": "Wartownia nr 1: 8/5 zł, ma chiusa in ottobre."
+   "nota": "Il prezzo della mostra nella Centrale elettrica non è scritto nella pagina dei prezzi: si compra su bilety.muzeum1939.pl."
   },
   "pescatariano": "n.a.",
   "sconto_studenti": "",
   "perche": "Sede storica visitabile del Muzeum Gdańska.",
   "durata_min": 90,
   "fonti": [
+   "sito ufficiale muzeum1939.pl (letto il 25/09/2026); muzeumgdansk.pl",
    "muzeumgdansk.pl (letto il 25/09/2026)"
   ],
   "verificato": "2026-09-25",
-  "descrizione": "La penisola dove il 1° settembre 1939 cominciò la Seconda guerra mondiale. Si visitano il monumento e le rovine delle difese polacche. La Wartownia nr 1, il corpo di guardia con il museo, a ottobre è chiusa. C'è anche una crociera in battello dal centro, circa 100 minuti.",
-  "da_confermare": true,
-  "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/guardhouse-no-1-at-westerplatte/",
+  "descrizione": "La penisola dove il 1° settembre 1939 cominciò la Seconda guerra mondiale. Oltre al monumento e alle rovine, il Museo della Seconda guerra mondiale ha aperto qui la mostra archeologica nella vecchia Centrale elettrica del deposito e un centro visitatori con ristorante e caffè sul golfo. La Wartownia nr 1 del Muzeum Gdańska a ottobre è chiusa. C'è anche una crociera in battello dal centro, circa 100 minuti.",
+  "da_confermare": false,
+  "sito": "https://www.muzeum1939.pl/en/visit-and-tickets/westerplatte-visit/opening-hours-8032",
   "instagram": "https://www.instagram.com/muzeumgdansk/"
  },
  {
@@ -2298,7 +2618,7 @@
     ]
    ]
   },
-  "orari_nota": "",
+  "orari_nota": "Ottobre: mostra permanente lun e mer-ven 10-17, sab-dom 10-18; martedì chiusa. Terrazza panoramica sul tetto gratuita, se il tempo lo permette: lun-ven 10-17, sab-dom 10-20.",
   "prezzo": {
    "normale_zl": 40,
    "ridotto_zl": 35,
@@ -2309,9 +2629,10 @@
   "perche": "Centro espositivo dedicato alla storia di Solidarność.",
   "durata_min": 120,
   "fonti": [
+   "sito ufficiale ecs.gda.pl/en/plan-your-visit/opening-hours (letto il 25/09/2026)",
    "Lista Maps"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Il Centro europeo di Solidarność, accanto ai cantieri navali dove nacque il sindacato che fece cadere il comunismo in Polonia. La mostra permanente racconta quella rivoluzione. Audioguida inclusa nel biglietto. Chiuso il martedì.",
   "sito": "http://www.ecs.gda.pl/",
@@ -2395,55 +2716,56 @@
    "lun": [],
    "mar": [
     [
-     "10:00",
-     "18:00"
+     "09:00",
+     "17:00"
     ]
    ],
    "mer": [
     [
-     "10:00",
-     "18:00"
+     "13:00",
+     "17:00"
     ]
    ],
    "gio": [
     [
-     "10:00",
-     "18:00"
+     "09:00",
+     "17:00"
     ]
    ],
    "ven": [
     [
-     "10:00",
-     "18:00"
+     "09:00",
+     "17:00"
     ]
    ],
    "sab": [
     [
-     "10:00",
-     "18:00"
+     "09:00",
+     "17:00"
     ]
    ],
    "dom": [
     [
-     "10:00",
-     "18:00"
+     "09:00",
+     "17:00"
     ]
    ]
   },
-  "orari_nota": "Orari validi da aprile a ottobre.",
+  "orari_nota": "Lunedì chiuso; mar 9-17; mer 13-17 ingresso gratuito; gio-dom 9-17. Ultimo ingresso 60 minuti prima della chiusura.",
   "prezzo": {
-   "normale_zl": 20,
-   "ridotto_zl": 12,
-   "nota": ""
+   "normale_zl": 26,
+   "ridotto_zl": 19,
+   "nota": "Listino indicato valido fino al 29/09/2026: in ottobre potrebbe cambiare."
   },
   "pescatariano": "n.a.",
   "sconto_studenti": "",
   "perche": "Gru portuale medievale, parte del Museo Marittimo.",
   "durata_min": 60,
   "fonti": [
+   "sito ufficiale nmm.pl/zuraw (letto il 25/09/2026)",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "La gru portuale medievale sul fiume Motława, simbolo della città: una delle più grandi gru portuali del Medioevo europeo. Fa parte del Museo Marittimo.",
   "sito": "https://www.nmm.pl/zuraw"
@@ -2457,29 +2779,60 @@
   "lat": 54.357128,
   "lng": 18.640775,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [],
+   "mar": [
+    [
+     "08:00",
+     "16:00"
+    ]
+   ],
+   "mer": [
+    [
+     "08:00",
+     "16:00"
+    ]
+   ],
+   "gio": [
+    [
+     "08:00",
+     "16:00"
+    ]
+   ],
+   "ven": [
+    [
+     "08:00",
+     "16:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ]
   },
-  "orari_nota": "",
+  "orari_nota": "Lunedì chiuso; mar-ven 8-16; sab-dom 10-18. Casse nelle Koszary Schronowe, accanto alla piazza del forte.",
   "prezzo": {
    "normale_zl": 25,
    "ridotto_zl": 15,
-   "nota": "Collina panoramica gratuita; prezzo per il centro della scienza."
+   "nota": "Collina panoramica gratuita; prezzo per il centro della scienza. Prezzo non ricontrollato il 25/09."
   },
   "pescatariano": "n.a.",
   "sconto_studenti": "Ridotto studenti 15 zł.",
   "perche": "Centro della scienza sulla collina panoramica Góra Gradowa.",
   "durata_min": 120,
   "fonti": [
+   "sito ufficiale hevelianum.pl/zaplanuj-wizyte-gora-gradowa (letto il 25/09/2026)",
    "Lista Maps"
   ],
-  "verificato": "2026-09-14",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "descrizione": "Centro della scienza dentro un forte ottocentesco sulla collina Góra Gradowa, intitolato all'astronomo Johannes Hevelius. La collina, con il panorama sulla città vecchia, è gratuita; si paga solo il centro della scienza.",
   "sito": "https://hevelianum.pl/"
  },
@@ -2488,54 +2841,58 @@
   "nome": "Basilica di Santa Maria",
   "categoria": "chiesa",
   "zona": "Centro storico",
-  "indirizzo": "",
+  "indirizzo": "Podkramarska 5",
   "lat": 54.349808,
   "lng": 18.653009,
   "orari": {
    "lun": [
     [
      "08:30",
-     "17:00"
+     "17:30"
     ]
    ],
    "mar": [
     [
      "08:30",
-     "17:00"
+     "17:30"
     ]
    ],
    "mer": [
     [
      "08:30",
-     "17:00"
+     "17:30"
     ]
    ],
    "gio": [
     [
      "08:30",
-     "17:00"
+     "17:30"
     ]
    ],
    "ven": [
     [
      "08:30",
-     "17:00"
+     "17:30"
     ]
    ],
    "sab": [
     [
      "08:30",
-     "17:00"
+     "17:30"
     ]
    ],
    "dom": [
     [
+     "11:00",
+     "12:00"
+    ],
+    [
      "13:00",
-     "17:00"
+     "17:30"
     ]
    ]
   },
-  "orari_nota": "",
+  "orari_nota": "Lun-sab 8:30-17:30; domenica 11-12 e 13-17:30. Non si visita durante le messe. Ogni giorno alle 11:57 lo spettacolo dell'orologio astronomico (una volta al giorno).",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -2546,10 +2903,11 @@
   "perche": "Grande basilica storica nel cuore della città vecchia.",
   "durata_min": 60,
   "fonti": [
+   "sito ufficiale bazylikamariacka.gdansk.pl/bazylika/informacja-dla-turystow (letto il 25/09/2026)",
    "TikTok @simi.larity",
    "TikTok @giuliaarinaldii"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "La Basilica di Santa Maria, una delle più grandi chiese in mattoni del mondo, nel cuore della città vecchia. Dentro, da vedere l'orologio astronomico.",
   "sito": "https://bazylikamariacka.gdansk.pl/"
@@ -2563,58 +2921,29 @@
   "lat": 54.349808,
   "lng": 18.653009,
   "orari": {
-   "lun": [
-    [
-     "10:00",
-     "16:00"
-    ]
-   ],
-   "mar": [
-    [
-     "10:00",
-     "16:00"
-    ]
-   ],
-   "mer": [
-    [
-     "10:00",
-     "16:00"
-    ]
-   ],
-   "gio": [
-    [
-     "10:00",
-     "16:00"
-    ]
-   ],
-   "ven": [
-    [
-     "10:00",
-     "16:00"
-    ]
-   ],
-   "sab": [
-    [
-     "10:00",
-     "16:00"
-    ]
-   ],
-   "dom": []
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
   },
-  "orari_nota": "402 gradini, 78 m; chiusa con vento forte. Prezzo da confermare in loco.",
+  "orari_nota": "Il sito ufficiale indica \"lun-dom 10-18 (luglio-agosto-settembre)\" e \"lun-dom 10-20\", senza dire chiaramente l'orario di ottobre. Chiusa con maltempo.",
   "prezzo": {
-   "normale_zl": null,
-   "ridotto_zl": null,
-   "nota": "Fonti non allineate: 10-18 zł."
+   "normale_zl": 20,
+   "ridotto_zl": 10,
+   "nota": "Offerta (\"cegiełka\") per la manutenzione della basilica."
   },
   "pescatariano": "n.a.",
   "sconto_studenti": "",
   "perche": "Torre panoramica con vista sulla città dopo 402 gradini.",
   "durata_min": 45,
   "fonti": [
+   "sito ufficiale bazylikamariacka.gdansk.pl/bazylika/informacja-dla-turystow (letto il 25/09/2026)",
    "TikTok @giuliaarinaldii"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": true,
   "descrizione": "La torre della Basilica di Santa Maria: 402 gradini ripidi fino a 78 metri, con una vista su tutta la città vecchia che secondo chi l'ha fatta vale la fatica. Chiude quando c'è vento forte.",
   "sito": "https://bazylikamariacka.gdansk.pl/"
@@ -2743,20 +3072,20 @@
   },
   "orari_nota": "Ultimo ingresso 1 ora e 20 minuti prima della chiusura.",
   "prezzo": {
-   "normale_zl": 16,
-   "ridotto_zl": 13,
-   "nota": "Prezzo online da ottobre; in loco +2 zł. Ridotto per studenti fino a 26 anni, -30% acquistando 3 giorni prima."
+   "normale_zl": 26,
+   "ridotto_zl": 18,
+   "nota": "Biglietto unico terrazza + Olivia Garden: online 26 zł (in cassa 29), ridotto online 18 zł (in cassa 20). Ridotto per studenti fino a 26 anni: solo Alessia. Si compra su bilety.oliviastar.pl."
   },
   "pescatariano": "n.a.",
-  "sconto_studenti": "Ridotto studenti fino a 26 anni.",
+  "sconto_studenti": "Ridotto per studenti fino a 26 anni con tessera valida: solo Alessia.",
   "perche": "Terrazza panoramica al trentaduesimo piano, con Olivia Garden incluso nel biglietto.",
   "durata_min": 60,
   "fonti": [
-   "oliviastar.pl"
+   "sito ufficiale oliviastar.pl/pietro-widokowe e /znizki (letto il 25/09/2026)"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
-  "descrizione": "Terrazza panoramica al trentaduesimo piano del grattacielo Olivia Star, con il giardino Olivia Garden compreso nel biglietto. Da ottobre il biglietto online costa meno, e comprandolo tre giorni prima c'è il 30% di sconto. Qui c'è l'aperitivo del 10 ottobre alle 19:15.",
+  "descrizione": "Terrazza panoramica al trentaduesimo piano del grattacielo Olivia Star, con il giardino Olivia Garden compreso nel biglietto. Online costa meno che in cassa. Qui c'è l'aperitivo del 10 ottobre alle 19:15.",
   "sito": "https://www.oliviastar.pl/pietro-widokowe/",
   "instagram": "https://www.instagram.com/oliviastar.gdansk/"
  },
@@ -2765,19 +3094,54 @@
   "nome": "AmberSky",
   "categoria": "vista",
   "zona": "",
-  "indirizzo": "",
+  "indirizzo": "Ołowianka 1",
   "lat": 54.352724,
   "lng": 18.66161,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "10:30",
+     "22:00"
+    ]
+   ],
+   "mar": [
+    [
+     "10:30",
+     "22:00"
+    ]
+   ],
+   "mer": [
+    [
+     "10:30",
+     "22:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:30",
+     "22:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "22:00"
+    ]
+   ]
   },
-  "orari_nota": "Fonti non ufficiali indicano 10:00-18:00 in ottobre; da confermare.",
+  "orari_nota": "Orari di Google Maps; il sito ambersky.pl non li riporta.",
   "prezzo": {
    "normale_zl": 42,
    "ridotto_zl": 32,
@@ -2788,10 +3152,11 @@
   "perche": "Ruota panoramica alta 60 metri con giro di circa 15 minuti.",
   "durata_min": 30,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-14",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "descrizione": "Ruota panoramica alta 60 metri, un giro dura circa 15 minuti. C'è il ridotto per gli studenti.",
   "sito": "http://ambersky.pl/",
   "instagram": "https://www.instagram.com/ambersky_kolowidokowe/"
@@ -3616,7 +3981,7 @@
     ]
    ]
   },
-  "orari_nota": "Da ottobre, mar-dom percorso completo con ultimo ingresso alle 12:45; lunedì gratuito solo percorso esterno.",
+  "orari_nota": "ATTENZIONE: il sito oggi pubblica solo l'orario estivo (fino al 30/09: mar-dom 9-20, ultimo ingresso al percorso storico 16:30). Quello di ottobre non è ancora pubblicato: gli orari qui sono della ricerca del 14/09, da ricontrollare prima di partire.",
   "prezzo": {
    "normale_zl": 29.5,
    "ridotto_zl": 20.5,
@@ -3627,10 +3992,11 @@
   "perche": "Gita al grande castello raggiungibile in treno da Gdańsk Główny.",
   "durata_min": 300,
   "fonti": [
+   "sito ufficiale zamek.malbork.pl/godziny-otwarcia (letto il 25/09/2026)",
    "TikTok @giuliaarinaldii"
   ],
-  "verificato": "2026-09-14",
-  "da_confermare": false,
+  "verificato": "2026-09-25",
+  "da_confermare": true,
   "descrizione": "Il castello dei Cavalieri Teutonici, il più grande castello in mattoni del mondo e patrimonio UNESCO. Si raggiunge in treno da Gdańsk Główny in 25-50 minuti. Da ottobre il percorso completo chiude presto: ultimo ingresso alle 12:45. Il lunedì è gratuito ma solo il percorso esterno.",
   "sito": "https://zamek.malbork.pl/"
  },
@@ -3709,19 +4075,54 @@
   "nome": "Molo di Sopot",
   "categoria": "vista",
   "zona": "Sopot",
-  "indirizzo": "",
+  "indirizzo": "Plac Zdrojowy 2, Sopot",
   "lat": 54.445346,
   "lng": 18.571118,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mar": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mer": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "gio": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "ven": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
   },
-  "orari_nota": "Orari e prezzo da confermare.",
+  "orari_nota": "Aperto 24 ore su 24 (Google Maps). Il biglietto d'ingresso non è stato ricontrollato.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -3732,9 +4133,10 @@
   "perche": "Molo di legno indicato come il più lungo d'Europa.",
   "durata_min": 45,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": true,
   "descrizione": "Il molo di legno più lungo d'Europa, oltre mezzo chilometro dentro il Baltico.",
   "sito": "http://www.molo.sopot.pl/",
@@ -3749,15 +4151,15 @@
   "lat": 54.519556,
   "lng": 18.551186,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [],
+   "mar": [],
+   "mer": [],
+   "gio": [],
+   "ven": [],
+   "sab": [],
+   "dom": []
   },
-  "orari_nota": "",
+  "orari_nota": "CHIUSA fino al 31/03/2027 (periodo invernale). Nella stessa zona è aperta la nave ORP Sokół, mar-dom 10-18.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -3768,11 +4170,12 @@
   "perche": "Nave museo a Gdynia, raggiungibile in circa 30 minuti di treno.",
   "durata_min": 90,
   "fonti": [
+   "sito ufficiale muzeummw.pl (letto il 25/09/2026)",
    "Reddit"
   ],
-  "verificato": "2026-09-14",
-  "da_confermare": true,
-  "descrizione": "Il cacciatorpediniere Błyskawica, nave da guerra polacca della Seconda guerra mondiale oggi museo, ormeggiato a Gdynia. Circa 30 minuti di treno da Danzica.",
+  "verificato": "2026-09-25",
+  "da_confermare": false,
+  "descrizione": "Il cacciatorpediniere Błyskawica, nave da guerra polacca della Seconda guerra mondiale, ormeggiato a Gdynia. È chiuso fino al 31 marzo 2027.",
   "sito": "https://muzeummw.pl/"
  },
  {
@@ -3784,6 +4187,13 @@
   "lat": 54.363786,
   "lng": 18.64507,
   "orari": {
+   "lun": [],
+   "mar": [
+    [
+     "13:00",
+     "22:00"
+    ]
+   ],
    "mer": [
     [
      "13:00",
@@ -3813,16 +4223,9 @@
      "12:00",
      "22:00"
     ]
-   ],
-   "lun": [],
-   "mar": [
-    [
-     "13:00",
-     "22:00"
-    ]
    ]
   },
-  "orari_nota": "Orari da Google Maps, letti a settembre.",
+  "orari_nota": "Lunedì chiuso; mar-gio 13-22; ven 13-02; sab 12-02; dom 12-22.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -3834,11 +4237,12 @@
   "descrizione": "Spazio di street food e bar all'aperto nell'area dell'ex cantiere navale, dove nacque Solidarność. Il nome gioca con \"stocznia\", cantiere. Nel fine settimana resta aperto fino alle 2 di notte. Chiuso il lunedì.",
   "durata_min": 90,
   "fonti": [
+   "sito ufficiale 100cznia.pl (letto il 25/09/2026)",
    "Lista Google Maps di Alessia «Danzica food»",
    "100cznia.pl"
   ],
-  "verificato": "2026-09-16",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "sito": "https://100cznia.pl/",
   "instagram": "https://www.instagram.com/100cznia/"
  },
@@ -3851,15 +4255,50 @@
   "lat": 54.359601,
   "lng": 18.654096,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "07:00",
+     "24:00"
+    ]
+   ],
+   "mar": [
+    [
+     "07:00",
+     "24:00"
+    ]
+   ],
+   "mer": [
+    [
+     "07:00",
+     "24:00"
+    ]
+   ],
+   "gio": [
+    [
+     "07:00",
+     "24:00"
+    ]
+   ],
+   "ven": [
+    [
+     "07:00",
+     "02:00"
+    ]
+   ],
+   "sab": [
+    [
+     "07:00",
+     "02:00"
+    ]
+   ],
+   "dom": [
+    [
+     "07:00",
+     "24:00"
+    ]
+   ]
   },
-  "orari_nota": "",
+  "orari_nota": "Orario del food hall; i singoli banchi possono aprire più tardi.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -3871,11 +4310,12 @@
   "descrizione": "Food hall ricavata in un ex capannone di montaggio del cantiere navale, con tante cucine diverse sotto lo stesso tetto.",
   "durata_min": 75,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "Lista Google Maps di Alessia «Danzica food»",
    "montowniafoodhall.pl"
   ],
-  "verificato": "2026-09-16",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "sito": "http://www.montowniafoodhall.pl/",
   "instagram": "https://www.instagram.com/foodhallmontownia/"
  },
@@ -3888,13 +4328,48 @@
   "lat": 54.373887,
   "lng": 18.612216,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "12:00",
+     "21:00"
+    ]
+   ],
+   "mar": [
+    [
+     "12:00",
+     "21:00"
+    ]
+   ],
+   "mer": [
+    [
+     "12:00",
+     "21:00"
+    ]
+   ],
+   "gio": [
+    [
+     "12:00",
+     "21:00"
+    ]
+   ],
+   "ven": [
+    [
+     "12:00",
+     "22:00"
+    ]
+   ],
+   "sab": [
+    [
+     "13:00",
+     "22:00"
+    ]
+   ],
+   "dom": [
+    [
+     "13:00",
+     "20:00"
+    ]
+   ]
   },
   "orari_nota": "",
   "prezzo": {
@@ -3908,11 +4383,12 @@
   "descrizione": "Ristorante giapponese a Wrzeszcz: ramen, sushi e burger alla griglia. Voto molto alto su Google (4,8).",
   "durata_min": 60,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "Lista Google Maps di Alessia «Danzica food»",
    "gyozillarestauracja.pl"
   ],
-  "verificato": "2026-09-16",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "sito": "http://gyozillarestauracja.pl/"
  },
  {
@@ -3924,13 +4400,48 @@
   "lat": 54.34885,
   "lng": 18.648113,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "mar": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "mer": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "gio": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ],
+   "ven": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "sab": [
+    [
+     "11:00",
+     "22:00"
+    ]
+   ],
+   "dom": [
+    [
+     "11:00",
+     "21:00"
+    ]
+   ]
   },
   "orari_nota": "",
   "prezzo": {
@@ -3944,11 +4455,12 @@
   "descrizione": "Ristorante che fa piatti d'autore tutti a base di patate, la \"pyra\" del dialetto di Poznań. Sta in via Garbary, in centro. Tra i più economici della lista di Alessia.",
   "durata_min": 60,
   "fonti": [
+   "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "Lista Google Maps di Alessia «Danzica food»",
    "pyrabar.pl"
   ],
-  "verificato": "2026-09-16",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "sito": "http://pyrabar.pl/",
   "instagram": "https://www.instagram.com/pyrabar_/"
  },
@@ -3961,15 +4473,50 @@
   "lat": 54.352972,
   "lng": 18.657342,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "13:00",
+     "24:00"
+    ]
+   ],
+   "mar": [
+    [
+     "13:00",
+     "24:00"
+    ]
+   ],
+   "mer": [
+    [
+     "13:00",
+     "24:00"
+    ]
+   ],
+   "gio": [
+    [
+     "13:00",
+     "24:00"
+    ]
+   ],
+   "ven": [
+    [
+     "13:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "13:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "13:00",
+     "24:00"
+    ]
+   ]
   },
-  "orari_nota": "",
+  "orari_nota": "Tutti i giorni 13-24.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -3981,11 +4528,12 @@
   "descrizione": "Ristorante di pesce e frutti di mare sulla piazza del vecchio mercato del pesce, affacciata sul fiume. È il posto più adatto a chi mangia pesce.",
   "durata_min": 90,
   "fonti": [
+   "sito ufficiale targrybny.pl (letto il 25/09/2026)",
    "Lista Google Maps di Alessia «Danzica food»",
    "targrybny.pl"
   ],
-  "verificato": "2026-09-16",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "sito": "http://www.targrybny.pl/",
   "instagram": "https://www.instagram.com/targrybnyfishmarkt/"
  },
@@ -3998,15 +4546,50 @@
   "lat": 54.341271,
   "lng": 18.661145,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "09:00",
+     "21:00"
+    ]
+   ],
+   "mar": [
+    [
+     "09:00",
+     "21:00"
+    ]
+   ],
+   "mer": [
+    [
+     "09:00",
+     "21:00"
+    ]
+   ],
+   "gio": [
+    [
+     "09:00",
+     "22:00"
+    ]
+   ],
+   "ven": [
+    [
+     "09:00",
+     "22:00"
+    ]
+   ],
+   "sab": [
+    [
+     "09:00",
+     "22:00"
+    ]
+   ],
+   "dom": [
+    [
+     "09:00",
+     "21:00"
+    ]
+   ]
   },
-  "orari_nota": "",
+  "orari_nota": "Lun-mer e dom 9-21; gio-sab 9-22.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -4018,11 +4601,12 @@
   "descrizione": "Street food asiatico e cocktail bar in uno spazio post-industriale a Dolne Miasto, con l'atmosfera da giungla urbana. Si può prenotare online.",
   "durata_min": 90,
   "fonti": [
+   "sito ufficiale laka.bar (letto il 25/09/2026)",
    "Lista Google Maps di Alessia «Danzica food»",
    "laka.bar"
   ],
-  "verificato": "2026-09-16",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "sito": "http://www.laka.bar/",
   "instagram": "https://www.instagram.com/lakahappybar/"
  },
@@ -4035,15 +4619,50 @@
   "lat": 54.381535,
   "lng": 18.609619,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ],
+   "mar": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ],
+   "mer": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "07:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "08:00",
+     "16:00"
+    ]
+   ],
+   "dom": [
+    [
+     "08:00",
+     "16:00"
+    ]
+   ]
   },
-  "orari_nota": "",
+  "orari_nota": "Sede di via Wajdeloty 17: lun-ven 7-18, sab-dom 8-16.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -4055,11 +4674,12 @@
   "descrizione": "Panetteria artigianale a Wrzeszcz: pane a lievito madre, croissant, jagodzianki (panini dolci ai mirtilli), pączki e caffè specialty. Buona per una colazione fuori dal centro.",
   "durata_min": 30,
   "fonti": [
+   "sito ufficiale mimosawypieki.pl (letto il 25/09/2026)",
    "Lista Google Maps di Alessia «Danzica food»",
    "mimosawypieki.pl"
   ],
-  "verificato": "2026-09-16",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "sito": "https://mimosawypieki.pl/",
   "instagram": "https://www.instagram.com/mimosa.wypieki/"
  },
@@ -4072,15 +4692,50 @@
   "lat": 54.347283,
   "lng": 18.663369,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "mar": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "mer": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "20:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "20:00"
+    ]
+   ]
   },
-  "orari_nota": "",
+  "orari_nota": "Lun-ven 10-18, sab-dom 10-20. Biglietti solo sul posto, senza prenotazione.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -4092,11 +4747,12 @@
   "descrizione": "Museo delle illusioni: illusioni ottiche e arte digitale, tutto interattivo e fatto per le foto. A Długie Ogrody, appena oltre il fiume dal centro storico.",
   "durata_min": 60,
   "fonti": [
+   "sito ufficiale dejavumuzeum.pl (letto il 25/09/2026)",
    "Lista Google Maps di Alessia «Danzica must visit»",
    "dejavumuzeum.pl"
   ],
-  "verificato": "2026-09-16",
-  "da_confermare": true,
+  "verificato": "2026-09-25",
+  "da_confermare": false,
   "sito": "http://www.dejavumuzeum.pl/",
   "instagram": "https://www.instagram.com/dejavumuzeum/"
  },

@@ -39,7 +39,7 @@ window.SEME = {
           // lascia un quarto d'ora per scendere al piano 33 con calma
           durata_min: 60,
           mezzo: null,
-          nota: 'Aperitivo sulla terrazza al 32esimo piano, prenotato per 2. Comprando il biglietto 3 giorni prima c’è il 30% di sconto; il ridotto vale solo per Alessia, under 26.'
+          nota: 'Aperitivo sulla terrazza al 32esimo piano, prenotato per 2. Biglietto online 26 zł, ridotto 18 zł solo per Alessia (studenti fino a 26 anni).'
         },
         {
           id: 'sab-cena',
@@ -47,7 +47,7 @@ window.SEME = {
           nome: 'Treinta y Tres',
           ora: '20:30',
           bloccata: true,
-          // il ristorante chiude alle 22
+          // sabato il ristorante e' aperto 12-24 (oliviastar.pl, 25/09/2026)
           durata_min: 90,
           mezzo: null,
           nota: 'Cena di compleanno, tavolo per 2 confermato. Tolleranza di 15 minuti: se tardate di più, telefonate al ristorante.'
