@@ -164,9 +164,8 @@ test('calcola crea una catena di orari e tutti gli avvisi necessari', () => {
     ]
   );
 
-  assert.ok(risultato.avvisi.some((avviso) =>
-    avviso.tipo === 'presto' && avviso.tappa === 'prima'
-  ));
+  // La giornata parte alle 9:45 per scelta: niente avviso "troppo presto".
+  assert.ok(!risultato.avvisi.some((avviso) => avviso.tipo === 'presto'));
   assert.ok(risultato.avvisi.some((avviso) =>
     avviso.tipo === 'margine' && avviso.tappa === 'seconda'
   ));

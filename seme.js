@@ -12,7 +12,8 @@ window.SEME = {
 
   giorni: {
 
-    '2026-10-09': { data: '2026-10-09', partenza: '10:00', limite: null, tappe: [] },
+    // il 9/10 siete pronti dalle 9 (Daniele, 25/09)
+    '2026-10-09': { data: '2026-10-09', partenza: '09:00', limite: null, tappe: [] },
 
     '2026-10-10': {
       data: '2026-10-10',

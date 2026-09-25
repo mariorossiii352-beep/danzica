@@ -114,6 +114,9 @@ function calcola(giorno, posti, stime) {
   const avvisi = [];
   let orologio = minuti(giorno && giorno.partenza) ;
   if (orologio === null || orologio === undefined) orologio = PRESTO;
+  // Se quel giorno avete deciso di partire prima delle 10 (il 9/10 alle 9),
+  // l'avviso "troppo presto" scatta solo prima di quell'ora.
+  const soglia = Math.min(orologio, PRESTO);
 
   for (let i = 0; i < tappe.length; i++) {
     const t = tappe[i];
@@ -178,7 +181,7 @@ function calcola(giorno, posti, stime) {
 
     // Le tappe bloccate (voli, prenotazioni) non si possono spostare: avvisare
     // che sono presto sarebbe solo rumore.
-    if (arrivo < PRESTO && !t.bloccata) {
+    if (arrivo < soglia && !t.bloccata) {
       avvisi.push({
         tipo: 'presto', tappa: t.id,
         testo: t.nome + ' alle ' + ore(arrivo) + ': prima delle 10 e\' troppo presto.'
