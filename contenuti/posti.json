@@ -69,7 +69,19 @@
   "da_confermare": false,
   "descrizione": "Ristorante di cucina mediorientale in via Stągiewna, a due passi dal centro. Nel fine settimana fa anche colazione, dalle 9 alle 13.",
   "sito": "https://linktr.ee/barleongdansk",
-  "instagram": "https://www.instagram.com/_bar_leon_/"
+  "instagram": "https://www.instagram.com/_bar_leon_/",
+  "recensioni": {
+   "voto": 4.5,
+   "numero": 1475,
+   "riassunto": "Piccoli piatti da condividere di ispirazione mediorientale, con menu che cambia spesso. La feta al forno con miele è il piatto più nominato; ottimi anche i cocktail. Via turistica e rumore alto la sera. Spesa indicata 60-100 zł a persona.",
+   "da_provare": [
+    "feta al forno con miele",
+    "hummus",
+    "cocktail"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "dobra-paczkarnia-gdansk",
@@ -142,7 +154,18 @@
   "da_confermare": false,
   "descrizione": "Pasticceria specializzata in pączki, i bomboloni polacchi, famosi per essere leggerissimi. Nelle recensioni dei creator spicca il gusto Raffaello. Ottima per una colazione veloce in piazza Dominikański.",
   "sito": "https://dobrapaczkarnia.pl/nasze-punkty/gdansk-dominikanski/",
-  "instagram": "https://www.instagram.com/dobrapaczkarnia/"
+  "instagram": "https://www.instagram.com/dobrapaczkarnia/",
+  "recensioni": {
+   "voto": 4.6,
+   "numero": 1346,
+   "riassunto": "I pączki (bomboloni polacchi) appena fatti, ben farciti, con gusti classici e nuovi: rosa, ciliegia, caramello, pistacchio. Da asporto, economici (sotto i 20 zł).",
+   "da_provare": [
+    "pączki alla rosa",
+    "pączki al pistacchio"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "omni-kaiser-patisserie",
@@ -214,7 +237,19 @@
   "da_confermare": false,
   "descrizione": "Pasticceria artigianale sul lungofiume Długie Pobrzeże: dolci, torte, cioccolato, pane e caffè. Fa parte di una piccola catena del nord della Polonia.",
   "sito": "https://omnikaiser.pl/",
-  "instagram": "https://www.instagram.com/omnikaiserpatisserie/"
+  "instagram": "https://www.instagram.com/omnikaiserpatisserie/",
+  "recensioni": {
+   "voto": 4.5,
+   "numero": 794,
+   "riassunto": "Pasticceria di stile francese sul lungofiume, su più piani con vetrate sull'acqua. Croissant e cruffin alla vaniglia molto lodati; prezzi un po' sopra la media.",
+   "da_provare": [
+    "cruffin",
+    "croissant",
+    "cappuccino"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "umam-cukiernia-gdanska",
@@ -287,7 +322,19 @@
   "da_confermare": false,
   "descrizione": "Pasticceria nota per le monoporzioni e per il \"kubik\", il cubo di pasta sfogliata ripieno di crema alla nocciola diventato virale. Fa anche colazione francese dolce con caffè.",
   "sito": "https://www.umam.pl/",
-  "instagram": "https://www.instagram.com/umam_cukiernia_gdanska/"
+  "instagram": "https://www.instagram.com/umam_cukiernia_gdanska/",
+  "recensioni": {
+   "voto": 4.5,
+   "numero": 1581,
+   "riassunto": "Pasticceria artigianale con dolci grandi e croissant burrosi; molto lodato il cruffin alla vaniglia, buoni anche i dolci al pistacchio e ai lamponi. Locale piccolo con pochi posti. Due dolci e due caffè sui 50-60 zł.",
+   "da_provare": [
+    "cruffin",
+    "croissant",
+    "dolci al pistacchio"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "kawiarnia-drukarnia",
@@ -360,7 +407,19 @@
   ],
   "verificato": "2026-09-25",
   "da_confermare": false,
-  "descrizione": "Caffè su via Mariacka, la via dell'ambra, citato in tre video su sei: è la colazione più consigliata di Danzica. Famoso il croissant al pistacchio; tra i consigli anche iced chai e yogurt con frutta e muesli."
+  "descrizione": "Caffè su via Mariacka, la via dell'ambra, citato in tre video su sei: è la colazione più consigliata di Danzica. Famoso il croissant al pistacchio; tra i consigli anche iced chai e yogurt con frutta e muesli.",
+  "recensioni": {
+   "voto": 4.7,
+   "numero": 5478,
+   "riassunto": "Caffè specialty in via Mariacka con tavolini sulla via: croissant famosissimi, flat white, chai latte, bagel e torte, opzioni vegane. Interno piccolo, spesso pieno.",
+   "da_provare": [
+    "croissant",
+    "flat white",
+    "granola bowl"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "bar-neptun",
@@ -431,7 +490,18 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Bar mleczny, cioè una latteria: le mense popolari polacche con piatti tradizionali a prezzi bassi. Sta sulla via Długa, in pieno centro. Il voto su Google è basso: 3,4.",
-  "sito": "https://www.facebook.com/barneptungdansk/"
+  "sito": "https://www.facebook.com/barneptungdansk/",
+  "recensioni": {
+   "voto": 3.4,
+   "numero": 3480,
+   "riassunto": "Bar mleczny in via Długa, economico e centralissimo. Il voto è basso: chi lo apprezza parla di cucina genuina a prezzi bassi, chi no di menu solo in polacco e poca pazienza al banco.",
+   "da_provare": [
+    "gulasch",
+    "frittelle di patate"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "akademicki-bar-mleczny",
@@ -497,7 +567,18 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Bar mleczny economico a Wrzeszcz, il quartiere universitario fuori dal centro storico. Cucina polacca da mensa, voto alto su Google (4,4).",
-  "sito": "http://barakademickigdansk.pl/"
+  "sito": "http://barakademickigdansk.pl/",
+  "recensioni": {
+   "voto": 4.4,
+   "numero": 2080,
+   "riassunto": "Mensa economica vicino all'università, frequentata da studenti: porzioni grandi e prezzi bassi. Lodati gli involtini di cavolo e il kompot. Ci sono scale fra cassa e sala.",
+   "da_provare": [
+    "involtini di cavolo (gołąbki)",
+    "kompot"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "bar-turystyczny",
@@ -568,7 +649,19 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Bar mleczny storico in via Szeroka, apprezzato dai residenti e d'estate pieno di turisti. Cucina polacca tradizionale a prezzi bassi, aperto anche a colazione.",
-  "sito": "http://bar-turystyczny.pl/"
+  "sito": "http://bar-turystyczny.pl/",
+  "recensioni": {
+   "voto": 4.4,
+   "numero": 9903,
+   "riassunto": "Bar mleczny (mensa economica polacca) in pieno centro: piatti casalinghi abbondanti a prezzi molto bassi. Attenzione alla coda all'ora di pranzo e al servizio sbrigativo. È un self service: si ordina al banco.",
+   "da_provare": [
+    "piatti del giorno",
+    "zuppe",
+    "cotoletta"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "gdansk-sweet-factory-store",
@@ -639,7 +732,15 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Negozio di caramelle gommose con molta scelta vegana, tutte allo stesso prezzo a peso. Ha una seconda sede alla Granaria, in via Stągiewna 27.",
-  "sito": "https://www.sweetfactorystore.pl/"
+  "sito": "https://www.sweetfactorystore.pl/",
+  "recensioni": {
+   "voto": 4.4,
+   "numero": 414,
+   "riassunto": "Negozio di caramelle a peso con scelta enorme, divertente con bambini. Prezzi alti; qualcuno ha trovato prodotti non freschissimi.",
+   "da_provare": [],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "pierogarnia-mandu-srodmiescie",
@@ -714,7 +815,20 @@
   "da_confermare": false,
   "descrizione": "La pierogarnia più citata dai creator: quattro video su sei la consigliano, qualcuno la chiama i migliori pierogi mangiati in Polonia. Si fanno al momento, anche al forno. Da provare quelli di manzo con salsa ai funghi. Questa sede è in centro, vicino alla stazione Gdańsk Główny.",
   "sito": "http://www.pierogarnia-mandu.pl/",
-  "instagram": "https://www.instagram.com/pierogarniamandu/"
+  "instagram": "https://www.instagram.com/pierogarniamandu/",
+  "recensioni": {
+   "voto": 4.8,
+   "numero": 17352,
+   "riassunto": "Voto altissimo su moltissime recensioni: i pierogi sono il motivo per andarci, con ripieni anche insoliti (cinghiale, chorizo). Il tema più citato dopo i pierogi è la coda (oltre 200 recensioni ne parlano).",
+   "da_provare": [
+    "pierogi",
+    "limonata",
+    "żurek",
+    "lamponi"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "restauracja-bazar",
@@ -785,7 +899,20 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Ristorante di cucina polacca rivisitata in chiave moderna, sulla riva del fiume in via Szafarnia. Il dolce da non perdere, secondo chi lo consiglia, è la cheesecake alla zucca con confettura di rose.",
-  "sito": "http://www.restauracjabazar.pl/"
+  "sito": "http://www.restauracjabazar.pl/",
+  "recensioni": {
+   "voto": 4.7,
+   "numero": 3017,
+   "riassunto": "Cucina polacca tradizionale ma curata, con piatti ben presentati. Consigliati cinghiale, bigos, żurek e zuppa di pesce; servizio gentile. Locale piccolo, a volte strapieno.",
+   "da_provare": [
+    "cinghiale",
+    "bigos",
+    "zuppa di pesce",
+    "aringa"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "slony-spichlerz",
@@ -857,7 +984,19 @@
   "da_confermare": false,
   "descrizione": "Food hall ricavata in un granaio sull'isola dei granai: dieci cucine e due bar sotto lo stesso tetto. Comodo quando si hanno voglie diverse; tra i banchi consigliati ci sono NEON e Amito. Da provare i pierogi all'anatra.",
   "sito": "https://slonyspichlerz.pl/",
-  "instagram": "https://www.instagram.com/slonyspichlerz/"
+  "instagram": "https://www.instagram.com/slonyspichlerz/",
+  "recensioni": {
+   "voto": 4.6,
+   "numero": 5873,
+   "riassunto": "Food hall sul fiume con una decina di cucine diverse (ramen, pizza, messicano, thai, greco): ognuno sceglie il suo piatto e le bevande arrivano al tavolo. Comodo per cene varie a prezzi onesti.",
+   "da_provare": [
+    "ramen",
+    "pizza",
+    "cocktail"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "neon",
@@ -926,7 +1065,19 @@
   ],
   "verificato": "2026-09-14",
   "da_confermare": false,
-  "descrizione": "Banco asiatico dentro il food hall Słony Spichlerz. Consigliato per pad thai e bao."
+  "descrizione": "Banco asiatico dentro il food hall Słony Spichlerz. Consigliato per pad thai e bao.",
+  "recensioni": {
+   "voto": 4.6,
+   "numero": 5873,
+   "riassunto": "Food hall sul fiume con una decina di cucine diverse (ramen, pizza, messicano, thai, greco): ognuno sceglie il suo piatto e le bevande arrivano al tavolo. Comodo per cene varie a prezzi onesti.",
+   "da_provare": [
+    "ramen",
+    "pizza",
+    "cocktail"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "amito-ramen-sushi",
@@ -995,7 +1146,19 @@
   ],
   "verificato": "2026-09-14",
   "da_confermare": false,
-  "descrizione": "Banco di ramen e sushi dentro il food hall Słony Spichlerz. Consigliato lo shoyu ramen."
+  "descrizione": "Banco di ramen e sushi dentro il food hall Słony Spichlerz. Consigliato lo shoyu ramen.",
+  "recensioni": {
+   "voto": 4.6,
+   "numero": 5873,
+   "riassunto": "Food hall sul fiume con una decina di cucine diverse (ramen, pizza, messicano, thai, greco): ognuno sceglie il suo piatto e le bevande arrivano al tavolo. Comodo per cene varie a prezzi onesti.",
+   "da_provare": [
+    "ramen",
+    "pizza",
+    "cocktail"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "pijalnia-czekolady-e-wedel",
@@ -1066,7 +1229,18 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Cioccolateria dello storico marchio polacco E.Wedel, nello stesso edificio di Słony Spichlerz. Cioccolata calda e croissant con mascarpone al cioccolato e fragole hanno preso 9 su 10 da chi l'ha provata.",
-  "sito": "https://www.wedelpijalnie.pl/pl"
+  "sito": "https://www.wedelpijalnie.pl/pl",
+  "recensioni": {
+   "voto": 4.1,
+   "numero": 3207,
+   "riassunto": "Sala della cioccolata E.Wedel sul fiume: la cioccolata calda è il motivo per andarci. Diverse recensioni lamentano servizio lento e poca accoglienza.",
+   "da_provare": [
+    "cioccolata calda",
+    "cheesecake"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "pierogarnia-stary-mlyn",
@@ -1103,7 +1277,20 @@
   "da_confermare": true,
   "descrizione": "Ristorante di pierogi \"cotti al forno\", molto amato: 4,6 su quasi 18.000 recensioni. Consigliati i pierogi misti, quelli alle castagne quando sono di stagione e le limonate. Il servizio è lento: meglio non avere fretta. Qui c'è il pranzo prenotato del 10 ottobre.",
   "sito": "https://www.pierogarnie.com/restauracje/stary-mlyn-gdansk/",
-  "instagram": "https://www.instagram.com/pierogarnie_stary_mlyn/"
+  "instagram": "https://www.instagram.com/pierogarnie_stary_mlyn/",
+  "recensioni": {
+   "voto": 4.6,
+   "numero": 16994,
+   "riassunto": "Il posto più amato per i pierogi in centro: molti ci tornano più volte nello stesso viaggio. Lodati i pierogi al forno, fritti e dolci, lo żurek e l'ambiente caratteristico; lo staff è descritto come simpatico.",
+   "da_provare": [
+    "pierogi al forno",
+    "żurek",
+    "frittelle di patate",
+    "bigos"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "bar-mleczny-stagiewna",
@@ -1174,7 +1361,18 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Bar mleczny economico in via Stągiewna, con piatti polacchi tradizionali. Una creator ci è tornata due volte: involtini di cavolo, naleśniki (crêpes) e polpette di pollo ripiene.",
-  "sito": "http://www.barstagiewna.pl/"
+  "sito": "http://www.barstagiewna.pl/",
+  "recensioni": {
+   "voto": 4.2,
+   "numero": 5431,
+   "riassunto": "Bar mleczny vicino al fiume, self service con vassoi. Economico, frequentato anche da turisti, con menu tradotto. Citati lo stroganoff di manzo e le uova strapazzate a colazione; a volte c'è coda.",
+   "da_provare": [
+    "stroganoff",
+    "uova strapazzate"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "zabka",
@@ -1280,7 +1478,19 @@
   "da_confermare": false,
   "descrizione": "Bistrot in via Ogarna, nel centro storico ma lontano dal traffico turistico. Si vanta di fare in casa tutto quello che può: dolci, fermentati, pane. Colazioni e brunch dalle 9 alle 13, poi cucina tradizionale. Sconto del 10% con la tessera universitaria.",
   "sito": "https://www.pomelogdansk.pl/",
-  "instagram": "https://www.instagram.com/pomelogdansk/"
+  "instagram": "https://www.instagram.com/pomelogdansk/",
+  "recensioni": {
+   "voto": 4.6,
+   "numero": 5684,
+   "riassunto": "Bistrot molto apprezzato per colazione e brunch: uova alla Benedict, shakshuka, bagel e pane fatto in casa. La sera cucina polacca curata (zuppe, aringa). Personale lodato per gentilezza.",
+   "da_provare": [
+    "uova alla Benedict",
+    "shakshuka",
+    "zuppa di pesce"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "rednek",
@@ -1352,7 +1562,18 @@
   "da_confermare": false,
   "descrizione": "Street food polacco in via Szeroka: burger di maiale sfilacciato, smash burger e zapiekanka, il panino aperto gratinato tipico polacco. Ha anche opzioni vegetariane.",
   "sito": "https://www.rednek.pl/",
-  "instagram": "https://www.instagram.com/rednekburgers/"
+  "instagram": "https://www.instagram.com/rednekburgers/",
+  "recensioni": {
+   "voto": 4.7,
+   "numero": null,
+   "riassunto": "(Descrizione dal sito del locale: le recensioni non si sono caricate.) Burger con pulled pork e zapiekanki (baguette gratinate) lunghe mezzo metro, birre artigianali, musica country e arredamento fai da te. Ci sono opzioni vegetariane.",
+   "da_provare": [
+    "burger pulled pork",
+    "zapiekanka"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "treinta-y-tres",
@@ -1418,26 +1639,73 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Ristorante spagnolo al trentatreesimo piano di Olivia Star, con Bib Gourmand Michelin 2026: tapas, pesce e frutti di mare con vista sulla città. Qui c'è la cena di compleanno del 10 ottobre alle 20:30.",
-  "sito": "https://www.oliviastar.pl/restauracje/treinta-y-tres/"
+  "sito": "https://www.oliviastar.pl/restauracje/treinta-y-tres/",
+  "recensioni": {
+   "voto": 4.5,
+   "numero": 784,
+   "riassunto": "Ristorante spagnolo raffinato al 33° piano con vista sul golfo: piatti curati, buona carta dei vini e dessert lodati. La vista è il punto forte; qualche recensione segnala un servizio non sempre all'altezza; una indica 180-200 zł a persona.",
+   "da_provare": [
+    "dessert",
+    "tapas",
+    "vini"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "dom-mlynarza",
-  "nome": "Dom Młynarza",
-  "categoria": "cibo",
+  "nome": "Dwór Cechu Młynarzy (casa dei mugnai)",
+  "categoria": "attrazione",
   "zona": "Wyspa Młyńska",
-  "indirizzo": "",
+  "indirizzo": "Młyńska 2",
   "lat": 54.354455,
   "lng": 18.650717,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mar": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "mer": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "gio": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "ven": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "sab": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ],
+   "dom": [
+    [
+     "00:00",
+     "24:00"
+    ]
+   ]
   },
-  "orari_nota": "Orari e indirizzo da confermare.",
+  "orari_nota": "Edificio storico da vedere da fuori.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -1448,11 +1716,52 @@
   "perche": "Ristorante nella storica casa della corporazione dei mugnai vicino al ponte dei lucchetti.",
   "durata_min": 75,
   "fonti": [
+   "Google Maps (letto il 25/09/2026)",
    "TikTok @vpcn.travel"
   ],
-  "verificato": "2026-09-14",
-  "da_confermare": true,
-  "descrizione": "Ristorante nella casa della corporazione dei mugnai, sull'isola del mulino (Wyspa Młyńska), vicino al ponte dei lucchetti."
+  "verificato": "2026-09-25",
+  "da_confermare": false,
+  "descrizione": "La casa della corporazione dei mugnai, a graticcio, del 1831 e ricostruita nel 1997, sull'isola dei mulini lungo il canale Radunia, vicino al Museo dell'ambra e al ponte dei lucchetti. Nel video era indicata come ristorante: su Google Maps (25/09) risulta solo come edificio storico, senza un ristorante registrato qui. Accanto, in Na Piaskach 1, c'è il Café Archer Praline.",
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Gda%C5%84sk._Dw%C3%B3r_M%C5%82ynarzy_-_panoramio.jpg/1280px-Gda%C5%84sk._Dw%C3%B3r_M%C5%82ynarzy_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Krzysztof Rakowski",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk._Dw%C3%B3r_M%C5%82ynarzy_-_panoramio.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/1423_Zabytkowe_budynki_Gda%C5%84ska._Foto_Barbara_Maliszewska.JPG/1280px-1423_Zabytkowe_budynki_Gda%C5%84ska._Foto_Barbara_Maliszewska.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Barbara Maliszewska",
+    "licenza": "CC BY-SA 3.0 pl",
+    "pagina": "https://commons.wikimedia.org/wiki/File:1423_Zabytkowe_budynki_Gda%C5%84ska._Foto_Barbara_Maliszewska.JPG"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/KanalRaduniMostChlebowy.jpg/1280px-KanalRaduniMostChlebowy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Ktyzoo",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:KanalRaduniMostChlebowy.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Gdansk_cech_mlynarzy.jpg/1280px-Gdansk_cech_mlynarzy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_cech_mlynarzy.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Gda%C5%84sk-view_for_Millers_House_from_beyond_of_the_padlocks.jpg/1280px-Gda%C5%84sk-view_for_Millers_House_from_beyond_of_the_padlocks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Mariochom",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk-view_for_Millers_House_from_beyond_of_the_padlocks.jpg"
+   }
+  ],
+  "recensioni": {
+   "voto": 4.9,
+   "numero": 100,
+   "riassunto": "Uno degli angoli più fotografati della città: casa a graticcio sul canale, bella soprattutto riflessa nell'acqua.",
+   "da_provare": [],
+   "fonte": "Google Maps",
+   "letto": "2026-09-25"
+  }
  },
  {
   "id": "under-beer",
@@ -1523,7 +1832,18 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Pub con pizzeria in via Garbary, in centro. È tra i locali che fanno il 10% di sconto con la tessera universitaria.",
-  "sito": "https://www.facebook.com/UnderbeerBarGdansk"
+  "sito": "https://www.facebook.com/UnderbeerBarGdansk",
+  "recensioni": {
+   "voto": 4.6,
+   "numero": 1856,
+   "riassunto": "Pub di birre artigianali in una via laterale del centro: grande scelta, i baristi aiutano a scegliere. Buone anche pizza e snack; la pizza \"Roulette russa\" è molto piccante. Bagno piccolo.",
+   "da_provare": [
+    "birre artigianali",
+    "pizza"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "faloviec",
@@ -1595,7 +1915,19 @@
   "da_confermare": false,
   "descrizione": "Ristorante di cucina vegetale. È tra i locali che fanno il 10% di sconto con la tessera universitaria.",
   "sito": "https://www.faloviec.pl/restaurants/faloviec",
-  "instagram": "https://www.instagram.com/faloviec/"
+  "instagram": "https://www.instagram.com/faloviec/",
+  "recensioni": {
+   "voto": 4.7,
+   "numero": 2610,
+   "riassunto": "Cucina vegetale (vegana) apprezzata anche da chi mangia carne: porzioni grandi, zuppe e limonate lodate, birra propria. Alcuni trovano i prezzi saliti.",
+   "da_provare": [
+    "pad thai",
+    "zuppa",
+    "falafel"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "masna-micha",
@@ -1666,7 +1998,18 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Ristorante che fa il 15% di sconto agli studenti dal lunedì al venerdì, dalle 16 alle 19.",
-  "sito": "http://masnamicha.pl/"
+  "sito": "http://masnamicha.pl/",
+  "recensioni": {
+   "voto": 4.5,
+   "numero": 1505,
+   "riassunto": "Bowl, zuppe e wrap, anche vegetariani e vegani, a prezzi bassi. Molti ordinano da asporto; qualche recensione recente lamenta porzioni e qualità incostanti.",
+   "da_provare": [
+    "bowl",
+    "zuppa"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "jaros",
@@ -1731,7 +2074,19 @@
   ],
   "verificato": "2026-09-25",
   "da_confermare": false,
-  "descrizione": "Bar mleczny economico fuori dal centro, segnalato su Reddit dai residenti. Voto molto alto su Google (4,7)."
+  "descrizione": "Bar mleczny economico fuori dal centro, segnalato su Reddit dai residenti. Voto molto alto su Google (4,7).",
+  "recensioni": {
+   "voto": 4.7,
+   "numero": 5264,
+   "riassunto": "Bar mleczny fuori dal centro molto amato dai residenti: cibo buono, abbondante ed economico, anche i dolci. Molto affollato a pranzo, con code lunghe ma veloci.",
+   "da_provare": [
+    "pierogi",
+    "cotoletta",
+    "cheesecake"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "fala",
@@ -1797,7 +2152,18 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Bar mleczny economico a Przymorze, fuori dal centro, segnalato su Reddit dai residenti. Chiuso la domenica.",
-  "sito": "https://www.facebook.com/Bar-Mleczny-Fala-111366793843901"
+  "sito": "https://www.facebook.com/Bar-Mleczny-Fala-111366793843901",
+  "recensioni": {
+   "voto": 4.5,
+   "numero": 1526,
+   "riassunto": "Piccolo bar mleczny di quartiere con clienti abituali: cucina polacca casalinga, porzioni abbondanti, servizio cordiale. Pranzo con zuppa, piatto e insalata sui 26-29 zł.",
+   "da_provare": [
+    "pierogi russi",
+    "piatto del giorno"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "kebab-mim",
@@ -1868,7 +2234,17 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Kebab a Wrzeszcz segnalato su Reddit. Aperto 24 ore su 24.",
-  "sito": "http://www.mimkebab.pl/"
+  "sito": "http://www.mimkebab.pl/",
+  "recensioni": {
+   "voto": 3.9,
+   "numero": 1973,
+   "riassunto": "Kebab e shawarma aperto 24 ore, porzioni grandi e prezzi bassi. Voto nella media: utile per mangiare tardi, non una meta.",
+   "da_provare": [
+    "shawarma"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "crackhouse",
@@ -1924,7 +2300,17 @@
   "da_confermare": false,
   "descrizione": "Locale di musica techno segnalato su Reddit.",
   "sito": "http://crackhou.se/",
-  "instagram": "https://www.instagram.com/crackhouse.3c/"
+  "instagram": "https://www.instagram.com/crackhouse.3c/",
+  "recensioni": {
+   "voto": 4.0,
+   "numero": 538,
+   "riassunto": "Club techno nell'ex cantiere navale, aperto solo venerdì e sabato notte. Recensioni divise: musica e atmosfera lodate, ma diverse lamentele sui buttafuori e sul prezzo d'ingresso che varia (40-60 zł).",
+   "da_provare": [
+    "techno"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "museo-seconda-guerra-mondiale",
@@ -1993,7 +2379,50 @@
   "da_confermare": false,
   "descrizione": "Uno dei musei più importanti di Danzica, inaugurato nel 2017 e considerato tra i migliori al mondo sull'argomento. Racconta la guerra soprattutto dal punto di vista dei civili. Servono almeno due ore. È chiuso il lunedì; il martedì dalle 10 alle 16 l'ingresso è gratuito.",
   "sito": "https://muzeum1939.pl/",
-  "instagram": "https://www.instagram.com/muzeum1939/"
+  "instagram": "https://www.instagram.com/muzeum1939/",
+  "recensioni": {
+   "voto": 4.8,
+   "numero": 53988,
+   "riassunto": "Considerato uno dei musei più belli e coinvolgenti visitati: percorso chiaro, ricostruzioni e testimonianze toccanti. L'audioguida (anche in italiano) parte da sola stanza per stanza. Chi lo consiglia dice di dedicargli qualche ora; la coda è citata spesso.",
+   "da_provare": [
+    "audioguida",
+    "ricostruzioni"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Museum_of_the_Second_World_War_in_Gda%C5%84sk_2025b.jpg/1280px-Museum_of_the_Second_World_War_in_Gda%C5%84sk_2025b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Adrian Grycuk",
+    "licenza": "CC BY 3.0 pl",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Second_World_War_in_Gda%C5%84sk_2025b.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/GDA%C5%83SK_20250621_100301.jpg/1280px-GDA%C5%83SK_20250621_100301.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "GdyniaPL2025@GdyniaPL2025",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:GDA%C5%83SK_20250621_100301.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/GDA%C5%83SK_20250621_100623.jpg/1280px-GDA%C5%83SK_20250621_100623.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "GdyniaPL2025@GdyniaPL2025",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:GDA%C5%83SK_20250621_100623.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/GDA%C5%83SK_20250621_100712.jpg/1280px-GDA%C5%83SK_20250621_100712.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "GdyniaPL2025@GdyniaPL2025",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:GDA%C5%83SK_20250621_100712.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/GDA%C5%83SK_20250621_102502.jpg/1280px-GDA%C5%83SK_20250621_102502.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "GdyniaPL2025@GdyniaPL2025",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:GDA%C5%83SK_20250621_102502.jpg"
+   }
+  ]
  },
  {
   "id": "museo-ambra",
@@ -2067,7 +2496,50 @@
   "da_confermare": false,
   "descrizione": "Il museo dell'ambra, la resina fossile che ha reso ricca Danzica, nel Grande Mulino costruito dai Cavalieri Teutonici. Primo piano: l'ambra in natura; secondo piano: l'ambra nella cultura. Il museo indica almeno 2 ore di visita. Consigliato da tre creator su sei. Il lunedì dalle 12 alle 18 è gratuito. Mostre temporanee in corso: \"Historie, które wydarzyły się naprawdę\" (gioielli di Marcin Tymiński) e \"Spoiler Alert 2027\" (gioielli sperimentali), entrambe fino al 21/02/2027.",
   "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/museum-of-amber/",
-  "instagram": "https://www.instagram.com/muzeumgdansk/"
+  "instagram": "https://www.instagram.com/muzeumgdansk/",
+  "recensioni": {
+   "voto": 4.7,
+   "numero": 12505,
+   "riassunto": "Museo nel vecchio mulino in mattoni: ambra grezza e lavorata, gioielli, insetti intrappolati nella resina, sezioni interattive. Gratis il lunedì, e molti lo citano per questo.",
+   "da_provare": [
+    "insetti nell'ambra",
+    "gioielli"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Gdansk_Wielki_Mlyn_3.jpg/1280px-Gdansk_Wielki_Mlyn_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Wielki_Mlyn_3.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Gdansk_Wielki_Mlyn2.jpg/1280px-Gdansk_Wielki_Mlyn2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Pankrzysztoff",
+    "licenza": "CC BY-SA 3.0 pl",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Wielki_Mlyn2.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Gda%C5%84sk._Wielki_M%C5%82yn_-_panoramio.jpg/1280px-Gda%C5%84sk._Wielki_M%C5%82yn_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Krzysztof Rakowski",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk._Wielki_M%C5%82yn_-_panoramio.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Gran_Molino%2C_Gdansk%2C_Polonia%2C_2013-05-20%2C_DD_01.jpg/1280px-Gran_Molino%2C_Gdansk%2C_Polonia%2C_2013-05-20%2C_DD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Diego Delso",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gran_Molino,_Gdansk,_Polonia,_2013-05-20,_DD_01.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Gda%C5%84sk_Wielki_M%C5%82yn_wn%C4%99trze.JPG/1280px-Gda%C5%84sk_Wielki_M%C5%82yn_wn%C4%99trze.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Artur Andrzej",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_Wielki_M%C5%82yn_wn%C4%99trze.JPG"
+   }
+  ]
  },
  {
   "id": "ratusz-glownego-miasta",
@@ -2139,7 +2611,49 @@
   "da_confermare": false,
   "descrizione": "Il Municipio della Città Principale, all'incrocio fra Długa e Długi Targ. Dentro c'è una delle più belle sale rinascimentali del Nord Europa, la porta più antica di Danzica, sotterranei e passaggi segreti. Il museo indica almeno 45 minuti. La torre panoramica ora è chiusa per lavori. Nello stesso palazzo c'è la Galleria Palowa, con mostre temporanee (ora \"Nasi Chłopcy\", sugli abitanti della Pomerania nell'esercito del Terzo Reich).",
   "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/main-town-hall/",
-  "instagram": "https://www.instagram.com/muzeumgdansk/"
+  "instagram": "https://www.instagram.com/muzeumgdansk/",
+  "recensioni": {
+   "voto": 4.6,
+   "numero": 2218,
+   "riassunto": "Sale storiche del Municipio con soffitti dipinti e arredi; racconta la storia della città. Molte recensioni parlano della torre, ma ora è chiusa per lavori.",
+   "da_provare": [
+    "soffitti dipinti"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Ayuntamiento_Principal%2C_Gdansk%2C_Polonia%2C_2013-05-20%2C_DD_02.jpg/1280px-Ayuntamiento_Principal%2C_Gdansk%2C_Polonia%2C_2013-05-20%2C_DD_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Diego Delso",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ayuntamiento_Principal,_Gdansk,_Polonia,_2013-05-20,_DD_02.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/2025-04_Gda%C5%84sk_ratusz_G%C5%82%C3%B3wnego_Miasta_%287%29.jpg/1280px-2025-04_Gda%C5%84sk_ratusz_G%C5%82%C3%B3wnego_Miasta_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Marek Mróz",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025-04_Gda%C5%84sk_ratusz_G%C5%82%C3%B3wnego_Miasta_(7).jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/2025-04_Gda%C5%84sk_ratusz_G%C5%82%C3%B3wnego_Miasta_%284%29.jpg/1280px-2025-04_Gda%C5%84sk_ratusz_G%C5%82%C3%B3wnego_Miasta_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Marek Mróz",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025-04_Gda%C5%84sk_ratusz_G%C5%82%C3%B3wnego_Miasta_(4).jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Ayuntamiento_Principal%2C_Gdansk%2C_Polonia%2C_2013-05-20%2C_DD_01.jpg/1280px-Ayuntamiento_Principal%2C_Gdansk%2C_Polonia%2C_2013-05-20%2C_DD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Diego Delso",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ayuntamiento_Principal,_Gdansk,_Polonia,_2013-05-20,_DD_01.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Ayuntamiento_Principal%2C_Gdansk%2C_Polonia%2C_2013-05-20%2C_DD_07.jpg/1280px-Ayuntamiento_Principal%2C_Gdansk%2C_Polonia%2C_2013-05-20%2C_DD_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Diego Delso",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ayuntamiento_Principal,_Gdansk,_Polonia,_2013-05-20,_DD_07.jpg"
+   }
+  ]
  },
  {
   "id": "dwor-artusa",
@@ -2220,7 +2734,50 @@
     ]
    ],
    "2026-10-10": []
-  }
+  },
+  "recensioni": {
+   "voto": 4.6,
+   "numero": 2527,
+   "riassunto": "Grande sala gotica con modelli di velieri appesi, statue e la stufa in maiolica più grande d'Europa. Meno affollato di altri musei e molto apprezzato da chi entra.",
+   "da_provare": [
+    "stufa in maiolica",
+    "modelli di navi"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/D%C5%82ugi_Targ_Square_with_Artus_Court_in_Gda%C5%84sk%2C_2016.jpg/1280px-D%C5%82ugi_Targ_Square_with_Artus_Court_in_Gda%C5%84sk%2C_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Szczecinolog",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:D%C5%82ugi_Targ_Square_with_Artus_Court_in_Gda%C5%84sk,_2016.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Dwor_Artusa_29-07-2017.jpg/1280px-Dwor_Artusa_29-07-2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Pb450",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Dwor_Artusa_29-07-2017.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Corte_Artus%2C_Gdansk%2C_Polonia%2C_2013-05-20%2C_DD_03.jpg/1280px-Corte_Artus%2C_Gdansk%2C_Polonia%2C_2013-05-20%2C_DD_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Diego Delso",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Corte_Artus,_Gdansk,_Polonia,_2013-05-20,_DD_03.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Corte_Artus%2C_Gdansk%2C_Polonia%2C_2013-05-20%2C_DD_02.jpg/1280px-Corte_Artus%2C_Gdansk%2C_Polonia%2C_2013-05-20%2C_DD_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Diego Delso",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Corte_Artus,_Gdansk,_Polonia,_2013-05-20,_DD_02.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Artus_Court_and_Neptune_Monument_in_the_Main_Town_of_Gda%C5%84sk.jpg/1280px-Artus_Court_and_Neptune_Monument_in_the_Main_Town_of_Gda%C5%84sk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "John Samuel",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Artus_Court_and_Neptune_Monument_in_the_Main_Town_of_Gda%C5%84sk.jpg"
+   }
+  ]
  },
  {
   "id": "dom-uphagena",
@@ -2292,7 +2849,37 @@
   "da_confermare": false,
   "descrizione": "La casa di Johann Uphagen, ricco mercante che la comprò nel 1775 e la arredò: dall'ingresso con lo scalone alla sala da tè, al salotto, alla sala da pranzo, alla stanza della musica, fino alle cucine. Sta su via Długa. Lunedì gratuita (12-18).",
   "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/uphagen-house/",
-  "instagram": "https://www.instagram.com/muzeumgdansk/"
+  "instagram": "https://www.instagram.com/muzeumgdansk/",
+  "recensioni": {
+   "voto": 4.3,
+   "numero": 1300,
+   "riassunto": "Casa di un mercante del Settecento con interni ricostruiti e arredati. Piacevole ma piccola: poche stanze e poche spiegazioni. Visita breve.",
+   "da_provare": [
+    "interni del Settecento"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Dom_Uphagena_-_017.JPG/1280px-Dom_Uphagena_-_017.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Piotrus",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Dom_Uphagena_-_017.JPG"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Dom_Uphagena_-_022.JPG/1280px-Dom_Uphagena_-_022.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Piotrus",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Dom_Uphagena_-_022.JPG"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Dom_Uphagena_-_049.JPG/1280px-Dom_Uphagena_-_049.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Piotrus",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Dom_Uphagena_-_049.JPG"
+   }
+  ]
  },
  {
   "id": "katownia-brama-wyzynna",
@@ -2364,7 +2951,49 @@
   "da_confermare": false,
   "descrizione": "Il complesso davanti alla Porta Alta (Brama Wyżynna), all'inizio della Via Reale: la Torre della prigione e la Katownia, dove un tempo si giudicavano e si tenevano i condannati. Dentro ci sono due mostre.",
   "sito": "https://muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy/",
-  "instagram": "https://www.instagram.com/muzeumgdansk/"
+  "instagram": "https://www.instagram.com/muzeumgdansk/",
+  "recensioni": {
+   "voto": 4.6,
+   "numero": 550,
+   "riassunto": "Museo nella vecchia prigione e sala delle torture, con mostre sulla giustizia medievale. La vista dalla torre è molto lodata. Poco affollato; testi soprattutto in inglese e polacco.",
+   "da_provare": [
+    "vista dalla torre"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Gdansk_2015_008.jpg/1280px-Gdansk_2015_008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Photograph by Mike Peel (www.mikepeel.net).",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_2015_008.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Gda%C5%84sk_-_Katownia_noc%C4%85.jpg/1280px-Gda%C5%84sk_-_Katownia_noc%C4%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Aneta Pawska",
+    "licenza": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_-_Katownia_noc%C4%85.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/635496_Katownia_%281%29.jpg/1280px-635496_Katownia_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "J.jazgarska",
+    "licenza": "CC BY-SA 3.0 pl",
+    "pagina": "https://commons.wikimedia.org/wiki/File:635496_Katownia_(1).jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/635495_Gda%C5%84sk_Wie%C5%BCa_Wi%C4%99zienna_03.JPG/1280px-635495_Gda%C5%84sk_Wie%C5%BCa_Wi%C4%99zienna_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Dawid Galus",
+    "licenza": "CC BY-SA 3.0 pl",
+    "pagina": "https://commons.wikimedia.org/wiki/File:635495_Gda%C5%84sk_Wie%C5%BCa_Wi%C4%99zienna_03.JPG"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Gdansk_Katownia2.jpg/1280px-Gdansk_Katownia2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Pankrzysztoff",
+    "licenza": "CC BY-SA 3.0 pl",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Katownia2.jpg"
+   }
+  ]
  },
  {
   "id": "torre-santa-caterina",
@@ -2400,7 +3029,47 @@
   "da_confermare": false,
   "descrizione": "Il Muzeum Nauki Gdańskiej, nella torre della chiesa di Santa Caterina: collezione di orologi da torre dal XIV secolo e il primo orologio a pulsar del mondo (2011). È stagionale, da aprile a settembre: a ottobre è chiuso.",
   "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/gdansk-museum-of-science/",
-  "instagram": "https://www.instagram.com/muzeumgdansk/"
+  "instagram": "https://www.instagram.com/muzeumgdansk/",
+  "recensioni": {
+   "voto": 4.6,
+   "numero": 301,
+   "riassunto": "Museo degli orologi da torre con salita panoramica: meccanismi antichi e il pendolo più lungo del mondo. A ottobre è chiuso.",
+   "da_provare": [],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Gda%C5%84sk_Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Katarzyny_02.jpg/1280px-Gda%C5%84sk_Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Katarzyny_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Zala",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Katarzyny_02.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Gdansk_kosciol_sw_Katarzyny_5.jpg/1280px-Gdansk_kosciol_sw_Katarzyny_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_kosciol_sw_Katarzyny_5.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Gdansk%2C_Katharinenkirche_nachts_mit_beleuchtetem_Heweliusz-Brunnen.jpg/1280px-Gdansk%2C_Katharinenkirche_nachts_mit_beleuchtetem_Heweliusz-Brunnen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Man77",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk,_Katharinenkirche_nachts_mit_beleuchtetem_Heweliusz-Brunnen.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Gda%C5%84sk_ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Katarzyny_003.jpg/1280px-Gda%C5%84sk_ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Katarzyny_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Аимаина хикари",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Katarzyny_003.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Gda%C5%84sk_-_Wie%C5%BCa_Ko%C5%9Bcio%C5%82a_%C5%9Aw._Katarzyny_-_panoramio_%281%29.jpg/1280px-Gda%C5%84sk_-_Wie%C5%BCa_Ko%C5%9Bcio%C5%82a_%C5%9Aw._Katarzyny_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "kreon1974",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_-_Wie%C5%BCa_Ko%C5%9Bcio%C5%82a_%C5%9Aw._Katarzyny_-_panoramio_(1).jpg"
+   }
+  ]
  },
  {
   "id": "poczta-polska",
@@ -2436,7 +3105,47 @@
   "da_confermare": true,
   "descrizione": "L'ufficio postale polacco difeso dai suoi impiegati il 1° settembre 1939, uno dei luoghi dove cominciò la Seconda guerra mondiale. Riapre dopo la modernizzazione con una nuova mostra sui polacchi nella Città Libera di Danzica, visitabile dal 6 ottobre.",
   "sito": "https://muzeumgdansk.pl/wydarzenia/szczegoly/news/nowe-muzeum-poczty-polskiej/",
-  "instagram": "https://www.instagram.com/muzeumgdansk/"
+  "instagram": "https://www.instagram.com/muzeumgdansk/",
+  "recensioni": {
+   "voto": 4.5,
+   "numero": 1401,
+   "riassunto": "Luogo della memoria del 1° settembre 1939, molto toccante, soprattutto il cortile delle esecuzioni. Riapre a ottobre con una mostra nuova.",
+   "da_provare": [],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Museum_of_the_Polish_Post_in_Gdansk_20250619_134744.jpg/1280px-Museum_of_the_Polish_Post_in_Gdansk_20250619_134744.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "GDANSK 2025 06",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Polish_Post_in_Gdansk_20250619_134744.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Museum_of_the_Polish_Post_in_Gdansk_20250619_135150.jpg/1280px-Museum_of_the_Polish_Post_in_Gdansk_20250619_135150.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "GDANSK 2025 06",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Polish_Post_in_Gdansk_20250619_135150.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Museum_of_the_Polish_Post_in_Gdansk_20250619_135207.jpg/1280px-Museum_of_the_Polish_Post_in_Gdansk_20250619_135207.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "GDANSK 2025 06",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Polish_Post_in_Gdansk_20250619_135207.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Museum_of_the_Polish_Post_in_Gdansk_20250619_135252.jpg/1280px-Museum_of_the_Polish_Post_in_Gdansk_20250619_135252.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "GDANSK 2025 06",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Polish_Post_in_Gdansk_20250619_135252.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Museum_of_the_Polish_Post_in_Gdansk_20250619_135349.jpg/1280px-Museum_of_the_Polish_Post_in_Gdansk_20250619_135349.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "GDANSK 2025 06",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Museum_of_the_Polish_Post_in_Gdansk_20250619_135349.jpg"
+   }
+  ]
  },
  {
   "id": "westerplatte",
@@ -2503,7 +3212,50 @@
   "descrizione": "La penisola dove il 1° settembre 1939 cominciò la Seconda guerra mondiale. Oltre al monumento e alle rovine, il Museo della Seconda guerra mondiale ha aperto qui la mostra archeologica nella vecchia Centrale elettrica del deposito e un centro visitatori con ristorante e caffè sul golfo. La Wartownia nr 1 del Muzeum Gdańska a ottobre è chiusa. C'è anche una crociera in battello dal centro, circa 100 minuti.",
   "da_confermare": false,
   "sito": "https://www.muzeum1939.pl/en/visit-and-tickets/westerplatte-visit/opening-hours-8032",
-  "instagram": "https://www.instagram.com/muzeumgdansk/"
+  "instagram": "https://www.instagram.com/muzeumgdansk/",
+  "recensioni": {
+   "voto": 4.7,
+   "numero": 28139,
+   "riassunto": "Il luogo dove iniziò la Seconda guerra mondiale: grande area verde con monumento e rovine, ingresso libero. Si arriva in autobus o in battello. Qualcuno avrebbe voluto più spiegazioni sul posto.",
+   "da_provare": [
+    "monumento",
+    "battello"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Gda%C5%84sk-Westerplatte%2C_Pomnik_Obro%C5%84c%C3%B3w_Wybrze%C5%BCa_-_2014.09.09.jpg/1280px-Gda%C5%84sk-Westerplatte%2C_Pomnik_Obro%C5%84c%C3%B3w_Wybrze%C5%BCa_-_2014.09.09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Aw58",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk-Westerplatte,_Pomnik_Obro%C5%84c%C3%B3w_Wybrze%C5%BCa_-_2014.09.09.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/06561_Westerplatte_pillars_monument.jpg/1280px-06561_Westerplatte_pillars_monument.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Virtual-Pano",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:06561_Westerplatte_pillars_monument.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Gdansk_Westerplatte_3.jpg/1280px-Gdansk_Westerplatte_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Westerplatte_3.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Gdansk_Westerplatte_pomnik_2.jpg/1280px-Gdansk_Westerplatte_pomnik_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Westerplatte_pomnik_2.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/2026.09.01_Westerplatte_%28L1029249%29_-_55501479741.jpg/1280px-2026.09.01_Westerplatte_%28L1029249%29_-_55501479741.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Piotr Molęcki",
+    "licenza": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2026.09.01_Westerplatte_(L1029249)_-_55501479741.jpg"
+   }
+  ]
  },
  {
   "id": "twierdza-wisloujscie",
@@ -2569,7 +3321,50 @@
   "da_confermare": false,
   "descrizione": "Fortezza alla foce della Vistola che per secoli ha difeso il porto; la torre centrale è del 1482. Dentro le caserme napoleoniche c'è la mostra \"Od Batorego do Groma\". Bus 106 o 138 fino a Pokładowa, poi 1,4 km a piedi (circa 18 minuti). Lunedì gratuita, martedì chiusa.",
   "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/wisloujscie-fortress/",
-  "instagram": "https://www.instagram.com/muzeumgdansk/"
+  "instagram": "https://www.instagram.com/muzeumgdansk/",
+  "recensioni": {
+   "voto": 4.6,
+   "numero": 4960,
+   "riassunto": "Fortezza alla foce della Vistola con torre panoramica. Lodata per la storia e la vista, ma alcuni hanno trovato la cassa già chiusa prima dell'orario indicato. Dalla fermata c'è da camminare.",
+   "da_provare": [
+    "torre",
+    "vista"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Gdansk_Twierdza_Wisloujscie_15.jpg/1280px-Gdansk_Twierdza_Wisloujscie_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Twierdza_Wisloujscie_15.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Gdansk_Twierdza_Wisloujscie_16.jpg/1280px-Gdansk_Twierdza_Wisloujscie_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Twierdza_Wisloujscie_16.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Gdansk_Twierdza_Wisloujscie_6.jpg/1280px-Gdansk_Twierdza_Wisloujscie_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Twierdza_Wisloujscie_6.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Gdansk_Wisloujscie_Fortress_2019_P01.jpg/1280px-Gdansk_Wisloujscie_Fortress_2019_P01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Fallaner",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Wisloujscie_Fortress_2019_P01.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Gdansk_Koszary_Napoleonskie.jpg/1280px-Gdansk_Koszary_Napoleonskie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Koszary_Napoleonskie.jpg"
+   }
+  ]
  },
  {
   "id": "europejskie-centrum-solidarnosci",
@@ -2636,7 +3431,50 @@
   "da_confermare": false,
   "descrizione": "Il Centro europeo di Solidarność, accanto ai cantieri navali dove nacque il sindacato che fece cadere il comunismo in Polonia. La mostra permanente racconta quella rivoluzione. Audioguida inclusa nel biglietto. Chiuso il martedì.",
   "sito": "http://www.ecs.gda.pl/",
-  "instagram": "https://www.instagram.com/ecsgdansk/"
+  "instagram": "https://www.instagram.com/ecsgdansk/",
+  "recensioni": {
+   "voto": 4.8,
+   "numero": 10334,
+   "riassunto": "Museo moderno e coinvolgente sulla storia di Solidarność e della fine del comunismo. L'audioguida è inclusa e parte da sola in ogni sala. Da non perdere anche la terrazza sul tetto.",
+   "da_provare": [
+    "audioguida",
+    "cantiere navale"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/European_Solidarity_Centre_2015_001.jpg/1280px-European_Solidarity_Centre_2015_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Photograph by Mike Peel (www.mikepeel.net).",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:European_Solidarity_Centre_2015_001.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/European_Solidarity_Centre_2015_002.jpg/1280px-European_Solidarity_Centre_2015_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Photograph by Mike Peel (www.mikepeel.net).",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:European_Solidarity_Centre_2015_002.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/European_Solidarity_Centre_2015_003.jpg/1280px-European_Solidarity_Centre_2015_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Photograph by Mike Peel (www.mikepeel.net).",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:European_Solidarity_Centre_2015_003.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/European_Solidarity_Centre_2015_052.jpg/1280px-European_Solidarity_Centre_2015_052.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Photograph by Mike Peel (www.mikepeel.net).",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:European_Solidarity_Centre_2015_052.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Gdansk_ECS_1.jpg/1280px-Gdansk_ECS_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_ECS_1.jpg"
+   }
+  ]
  },
  {
   "id": "museo-nazionale",
@@ -2702,7 +3540,50 @@
   "da_confermare": false,
   "descrizione": "Il Museo Nazionale di Danzica, in un ex convento francescano. Attenzione: il suo pezzo più famoso, il Giudizio universale di Memling, nel 2026 non è esposto. Chiuso il lunedì.",
   "sito": "http://mng.gda.pl/",
-  "instagram": "https://www.instagram.com/mngdansk/"
+  "instagram": "https://www.instagram.com/mngdansk/",
+  "recensioni": {
+   "voto": 4.5,
+   "numero": 2840,
+   "riassunto": "Museo nell'ex monastero francescano, suggestivo di per sé. Il Giudizio universale di Memling è l'opera più famosa, ma nel 2026 non è esposto: senza, alcuni lo trovano poca cosa.",
+   "da_provare": [
+    "Memling (non esposto nel 2026)",
+    "dipinti"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Gdansk_Muzeum_Narodowe_2.jpg/1280px-Gdansk_Muzeum_Narodowe_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Muzeum_Narodowe_2.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Muzeum_Narodowe_w_Gda%C5%84sku_001.jpg/1280px-Muzeum_Narodowe_w_Gda%C5%84sku_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Photograph by Mike Peel (www.mikepeel.net).",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Muzeum_Narodowe_w_Gda%C5%84sku_001.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Muzeum_Narodowe_w_Gda%C5%84sku_071.jpg/1280px-Muzeum_Narodowe_w_Gda%C5%84sku_071.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Photograph by Mike Peel (www.mikepeel.net).",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Muzeum_Narodowe_w_Gda%C5%84sku_071.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/635444_Klasztor%2C_ob_Muzeum_Narodowe.jpg/1280px-635444_Klasztor%2C_ob_Muzeum_Narodowe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "J.jazgarska",
+    "licenza": "CC BY-SA 3.0 pl",
+    "pagina": "https://commons.wikimedia.org/wiki/File:635444_Klasztor,_ob_Muzeum_Narodowe.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Gda%C5%84sk_dawny_klasztor_franciszkan%C3%B3w_%28wej%C5%9Bcie_z_ulicy_Rze%C5%BAnickiej%29.JPG/1280px-Gda%C5%84sk_dawny_klasztor_franciszkan%C3%B3w_%28wej%C5%9Bcie_z_ulicy_Rze%C5%BAnickiej%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Artur Andrzej",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_dawny_klasztor_franciszkan%C3%B3w_(wej%C5%9Bcie_z_ulicy_Rze%C5%BAnickiej).JPG"
+   }
+  ]
  },
  {
   "id": "zuraw",
@@ -2768,7 +3649,50 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "La gru portuale medievale sul fiume Motława, simbolo della città: una delle più grandi gru portuali del Medioevo europeo. Fa parte del Museo Marittimo.",
-  "sito": "https://www.nmm.pl/zuraw"
+  "sito": "https://www.nmm.pl/zuraw",
+  "recensioni": {
+   "voto": 4.8,
+   "numero": 1891,
+   "riassunto": "La gru medievale in legno simbolo della città, sul lungofiume: dentro si vede il meccanismo con le grandi ruote azionate a piedi. Visita breve e molto apprezzata.",
+   "da_provare": [
+    "ruote di legno",
+    "lungofiume"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Brama_%C5%BBuraw%2C_Gda%C5%84sk_2021.jpg/1280px-Brama_%C5%BBuraw%2C_Gda%C5%84sk_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Maciej Rolkowski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Brama_%C5%BBuraw,_Gda%C5%84sk_2021.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Brama_%C5%BBuraw_o_zmroku.jpg/1280px-Brama_%C5%BBuraw_o_zmroku.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Aneta Pawska",
+    "licenza": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Brama_%C5%BBuraw_o_zmroku.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/635498_%C5%BBuraw_%281%29.jpg/1280px-635498_%C5%BBuraw_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "J.jazgarska",
+    "licenza": "CC BY-SA 3.0 pl",
+    "pagina": "https://commons.wikimedia.org/wiki/File:635498_%C5%BBuraw_(1).jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/635498_Gdansk_%C5%BBuraw_01.JPG/1280px-635498_Gdansk_%C5%BBuraw_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Dawid Galus",
+    "licenza": "CC BY-SA 3.0 pl",
+    "pagina": "https://commons.wikimedia.org/wiki/File:635498_Gdansk_%C5%BBuraw_01.JPG"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Brama_%C5%BBuraw_i_SS_So%C5%82dek.jpg/1280px-Brama_%C5%BBuraw_i_SS_So%C5%82dek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Aneta Pawska",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Brama_%C5%BBuraw_i_SS_So%C5%82dek.jpg"
+   }
+  ]
  },
  {
   "id": "hevelianum",
@@ -2834,7 +3758,44 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Centro della scienza dentro un forte ottocentesco sulla collina Góra Gradowa, intitolato all'astronomo Johannes Hevelius. La collina, con il panorama sulla città vecchia, è gratuita; si paga solo il centro della scienza.",
-  "sito": "https://hevelianum.pl/"
+  "sito": "https://hevelianum.pl/",
+  "recensioni": {
+   "voto": 4.5,
+   "numero": 1931,
+   "riassunto": "Centro della scienza interattivo in un forte sulla collina Góra Gradowa, pensato soprattutto per bambini e ragazzi. Nei giorni affollati gli ingressi finiscono: meglio prenotare.",
+   "da_provare": [
+    "esperimenti",
+    "vista dalla collina"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Gdansk_Gora_Gradowa_3.jpg/1280px-Gdansk_Gora_Gradowa_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Gora_Gradowa_3.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Gdansk_Gora_Gradowa_5.jpg/1280px-Gdansk_Gora_Gradowa_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Gora_Gradowa_5.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/G%C3%B3ra_Gradowa_-_Gda%C5%84sk_-_2021-03-03.jpg/1280px-G%C3%B3ra_Gradowa_-_Gda%C5%84sk_-_2021-03-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Deway",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:G%C3%B3ra_Gradowa_-_Gda%C5%84sk_-_2021-03-03.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Gda%C5%84sk_from_Millenium_Cross_hill%2C_April_2015_%281%29.jpg/1280px-Gda%C5%84sk_from_Millenium_Cross_hill%2C_April_2015_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Edelseider",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_from_Millenium_Cross_hill,_April_2015_(1).jpg"
+   }
+  ]
  },
  {
   "id": "basilica-santa-maria",
@@ -2910,7 +3871,44 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "La Basilica di Santa Maria, una delle più grandi chiese in mattoni del mondo, nel cuore della città vecchia. Dentro, da vedere l'orologio astronomico.",
-  "sito": "https://bazylikamariacka.gdansk.pl/"
+  "sito": "https://bazylikamariacka.gdansk.pl/",
+  "recensioni": {
+   "voto": 4.7,
+   "numero": 20992,
+   "riassunto": "Enorme chiesa gotica in mattoni, una delle più grandi al mondo: organo, orologio astronomico e molte opere. Da non perdere la salita alla torre.",
+   "da_provare": [
+    "orologio astronomico",
+    "organo"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Bazylika_Mariacka%2C_Ratusz_G%C5%82%C3%B3wnego_Miasta%2C_Gda%C5%84sk.jpg/1280px-Bazylika_Mariacka%2C_Ratusz_G%C5%82%C3%B3wnego_Miasta%2C_Gda%C5%84sk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Aneta Pawska",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Bazylika_Mariacka,_Ratusz_G%C5%82%C3%B3wnego_Miasta,_Gda%C5%84sk.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Bazylika_konkatedralna_Wniebowzi%C4%99cia_Naj%C5%9Bwi%C4%99tszej_Maryi_Panny_w_Gda%C5%84sku_-_widok_z_G%C3%B3ry_Gradowej.jpg/1280px-Bazylika_konkatedralna_Wniebowzi%C4%99cia_Naj%C5%9Bwi%C4%99tszej_Maryi_Panny_w_Gda%C5%84sku_-_widok_z_G%C3%B3ry_Gradowej.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Radosław Dybała",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Bazylika_konkatedralna_Wniebowzi%C4%99cia_Naj%C5%9Bwi%C4%99tszej_Maryi_Panny_w_Gda%C5%84sku_-_widok_z_G%C3%B3ry_Gradowej.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/489A1758Bazylika_konkatedralna_Wniebowzi%C4%99cia_Naj%C5%9Bwi%C4%99tszej_Maryi_Panny_w_Gda%C5%84sku_-_widziana_z_G%C3%B3ry_Gradowej.jpg/1280px-489A1758Bazylika_konkatedralna_Wniebowzi%C4%99cia_Naj%C5%9Bwi%C4%99tszej_Maryi_Panny_w_Gda%C5%84sku_-_widziana_z_G%C3%B3ry_Gradowej.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Radosław Dybała",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:489A1758Bazylika_konkatedralna_Wniebowzi%C4%99cia_Naj%C5%9Bwi%C4%99tszej_Maryi_Panny_w_Gda%C5%84sku_-_widziana_z_G%C3%B3ry_Gradowej.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Gdansk_2023_117.jpg/1280px-Gdansk_2023_117.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Scotch Mist",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_2023_117.jpg"
+   }
+  ]
  },
  {
   "id": "torre-basilica-santa-maria",
@@ -2946,7 +3944,37 @@
   "verificato": "2026-09-25",
   "da_confermare": true,
   "descrizione": "La torre della Basilica di Santa Maria: 402 gradini ripidi fino a 78 metri, con una vista su tutta la città vecchia che secondo chi l'ha fatta vale la fatica. Chiude quando c'è vento forte.",
-  "sito": "https://bazylikamariacka.gdansk.pl/"
+  "sito": "https://bazylikamariacka.gdansk.pl/",
+  "recensioni": {
+   "voto": 4.7,
+   "numero": 613,
+   "riassunto": "Circa 400 gradini: la prima parte su una scala a chiocciola stretta e ripida, poi il panorama su tutta la città. Terrazza piccola e affollata; sconsigliata a chi soffre di claustrofobia.",
+   "da_provare": [
+    "panorama"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Bazylika_konkatedralna_Wniebowzi%C4%99cia_Naj%C5%9Bwi%C4%99tszej_Maryi_Panny_w_Gda%C5%84sku_widok_od_zachodu.jpg/1280px-Bazylika_konkatedralna_Wniebowzi%C4%99cia_Naj%C5%9Bwi%C4%99tszej_Maryi_Panny_w_Gda%C5%84sku_widok_od_zachodu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Aneta Pawska",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Bazylika_konkatedralna_Wniebowzi%C4%99cia_Naj%C5%9Bwi%C4%99tszej_Maryi_Panny_w_Gda%C5%84sku_widok_od_zachodu.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Bazylika_konkatedralna_Wniebowzi%C4%99cia_Naj%C5%9Bwi%C4%99tszej_Maryi_Panny_w_Gda%C5%84sku_-_widok_z_G%C3%B3ry_Gradowej.jpg/1280px-Bazylika_konkatedralna_Wniebowzi%C4%99cia_Naj%C5%9Bwi%C4%99tszej_Maryi_Panny_w_Gda%C5%84sku_-_widok_z_G%C3%B3ry_Gradowej.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Radosław Dybała",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Bazylika_konkatedralna_Wniebowzi%C4%99cia_Naj%C5%9Bwi%C4%99tszej_Maryi_Panny_w_Gda%C5%84sku_-_widok_z_G%C3%B3ry_Gradowej.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Bazylika_Mariacka%2C_Ratusz_G%C5%82%C3%B3wnego_Miasta%2C_Gda%C5%84sk.jpg/1280px-Bazylika_Mariacka%2C_Ratusz_G%C5%82%C3%B3wnego_Miasta%2C_Gda%C5%84sk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Aneta Pawska",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Bazylika_Mariacka,_Ratusz_G%C5%82%C3%B3wnego_Miasta,_Gda%C5%84sk.jpg"
+   }
+  ]
  },
  {
   "id": "basilica-santa-brigida",
@@ -3016,7 +4044,38 @@
   "verificato": "2026-09-14",
   "da_confermare": false,
   "descrizione": "Chiesa famosa per l'altare quasi tutto d'ambra, circa una tonnellata, unico al mondo. Ingresso con un'offerta di 4 zł.",
-  "sito": "http://brygida.gdansk.pl/"
+  "sito": "http://brygida.gdansk.pl/",
+  "recensioni": {
+   "voto": 4.7,
+   "numero": 2497,
+   "riassunto": "Chiesa legata a Solidarność con l'altare d'ambra unico al mondo, ancora in lavorazione, e una cripta. Poco citata dalle guide ma molto apprezzata da chi la visita.",
+   "da_provare": [
+    "altare d'ambra",
+    "cripta"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Gdansk_Kosciol_Brygidy1.jpg/1280px-Gdansk_Kosciol_Brygidy1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Pankrzysztoff",
+    "licenza": "CC BY-SA 3.0 pl",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Kosciol_Brygidy1.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/7703vik_Gda%C5%84sk%2C_uk%C5%82ad_urbanistyczny._Foto_Barbara_Maliszewska.jpg/1280px-7703vik_Gda%C5%84sk%2C_uk%C5%82ad_urbanistyczny._Foto_Barbara_Maliszewska.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Barbara Maliszewska",
+    "licenza": "CC BY-SA 3.0 pl",
+    "pagina": "https://commons.wikimedia.org/wiki/File:7703vik_Gda%C5%84sk,_uk%C5%82ad_urbanistyczny._Foto_Barbara_Maliszewska.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Gda%C5%84sk%2C_church_of_Saint_Bridget%2C_detail_of_a_tomb.JPG/1280px-Gda%C5%84sk%2C_church_of_Saint_Bridget%2C_detail_of_a_tomb.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Juandev",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk,_church_of_Saint_Bridget,_detail_of_a_tomb.JPG"
+   }
+  ]
  },
  {
   "id": "olivia-star-top",
@@ -3087,7 +4146,27 @@
   "da_confermare": false,
   "descrizione": "Terrazza panoramica al trentaduesimo piano del grattacielo Olivia Star, con il giardino Olivia Garden compreso nel biglietto. Online costa meno che in cassa. Qui c'è l'aperitivo del 10 ottobre alle 19:15.",
   "sito": "https://www.oliviastar.pl/pietro-widokowe/",
-  "instagram": "https://www.instagram.com/oliviastar.gdansk/"
+  "instagram": "https://www.instagram.com/oliviastar.gdansk/",
+  "recensioni": {
+   "voto": 4.6,
+   "numero": 7907,
+   "riassunto": "Terrazza panoramica al 32° piano con giardino di ulivi, pizza e cocktail. La maggior parte ne è entusiasta; una minoranza trova la vista meno speciale del previsto.",
+   "da_provare": [
+    "vista",
+    "cocktail",
+    "pizza"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Olivia_Star.jpg/1280px-Olivia_Star.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Deway",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Olivia_Star.jpg"
+   }
+  ]
  },
  {
   "id": "ambra-sky",
@@ -3159,7 +4238,18 @@
   "da_confermare": false,
   "descrizione": "Ruota panoramica alta 60 metri, un giro dura circa 15 minuti. C'è il ridotto per gli studenti.",
   "sito": "http://ambersky.pl/",
-  "instagram": "https://www.instagram.com/ambersky_kolowidokowe/"
+  "instagram": "https://www.instagram.com/ambersky_kolowidokowe/",
+  "recensioni": {
+   "voto": 4.6,
+   "numero": 22904,
+   "riassunto": "Ruota panoramica sull'isola Ołowianka, con cabine climatizzate e musica; bella soprattutto al tramonto e la sera. Alcuni la trovano veloce, con troppi giri.",
+   "da_provare": [
+    "tramonto",
+    "vista"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "gora-gradowa",
@@ -3230,7 +4320,50 @@
   "da_confermare": true,
   "descrizione": "La collina che sovrasta la stazione, con un forte e il panorama più bello sulla città vecchia. Salire è gratuito.",
   "sito": "https://hevelianum.pl/",
-  "instagram": "https://www.instagram.com/hevelianum/"
+  "instagram": "https://www.instagram.com/hevelianum/",
+  "recensioni": {
+   "voto": 4.8,
+   "numero": 8213,
+   "riassunto": "Collina a pochi minuti dalla stazione con la vista migliore sulla città vecchia, gratis. Bellissima al tramonto.",
+   "da_provare": [
+    "vista",
+    "tramonto"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/G%C3%B3ra_Gradowa_-_Gda%C5%84sk_-_2021-03-03.jpg/1280px-G%C3%B3ra_Gradowa_-_Gda%C5%84sk_-_2021-03-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Deway",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:G%C3%B3ra_Gradowa_-_Gda%C5%84sk_-_2021-03-03.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Gdansk_zimowa_panorama_z_Gradowej_Gory.jpg/1280px-Gdansk_zimowa_panorama_z_Gradowej_Gory.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_zimowa_panorama_z_Gradowej_Gory.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Grodzisko_%28Gda%C5%84sk%29.jpg/1280px-Grodzisko_%28Gda%C5%84sk%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Maciej Błędkowski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Grodzisko_(Gda%C5%84sk).jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Gdansk_Gora_Gradowa_3.jpg/1280px-Gdansk_Gora_Gradowa_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Gora_Gradowa_3.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Gda%C5%84sk_from_Millenium_Cross_hill%2C_April_2015_%281%29.jpg/1280px-Gda%C5%84sk_from_Millenium_Cross_hill%2C_April_2015_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Edelseider",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_from_Millenium_Cross_hill,_April_2015_(1).jpg"
+   }
+  ]
  },
  {
   "id": "scritta-neon-gdansk",
@@ -3369,7 +4502,47 @@
   ],
   "verificato": "2026-09-14",
   "da_confermare": false,
-  "descrizione": "La fontana del Seicento con la statua in bronzo di Nettuno, simbolo di Danzica, nel Długi Targ davanti alla Corte di Artù."
+  "descrizione": "La fontana del Seicento con la statua in bronzo di Nettuno, simbolo di Danzica, nel Długi Targ davanti alla Corte di Artù.",
+  "recensioni": {
+   "voto": 4.8,
+   "numero": 44056,
+   "riassunto": "La fontana in bronzo del Seicento simbolo della città, sul Długi Targ. Molto romantica la sera; sempre affollata.",
+   "da_provare": [],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Fontanna_Neptuna_w_Gda%C5%84sku%2C_sierpie%C5%84_2013.jpg/1280px-Fontanna_Neptuna_w_Gda%C5%84sku%2C_sierpie%C5%84_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Araspaterka",
+    "licenza": "CC BY-SA 3.0 pl",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Fontanna_Neptuna_w_Gda%C5%84sku,_sierpie%C5%84_2013.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/02024_0108_Neptune_Monument_in_Gda%C5%84sk.jpg/1280px-02024_0108_Neptune_Monument_in_Gda%C5%84sk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Silar",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:02024_0108_Neptune_Monument_in_Gda%C5%84sk.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/02024_0104_Neptune_Monument_in_Gda%C5%84sk.jpg/1280px-02024_0104_Neptune_Monument_in_Gda%C5%84sk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Silar",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:02024_0104_Neptune_Monument_in_Gda%C5%84sk.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/2025-04_Gda%C5%84sk_fontanna_Neptuna_%282%29.jpg/1280px-2025-04_Gda%C5%84sk_fontanna_Neptuna_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Marek Mróz",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2025-04_Gda%C5%84sk_fontanna_Neptuna_(2).jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/20260603.Ansichten_von_Gdansk.-078.4.jpg/1280px-20260603.Ansichten_von_Gdansk.-078.4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Bybbisch94",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:20260603.Ansichten_von_Gdansk.-078.4.jpg"
+   }
+  ]
  },
  {
   "id": "porta-doro",
@@ -3439,7 +4612,47 @@
   ],
   "verificato": "2026-09-16",
   "da_confermare": false,
-  "descrizione": "Porta monumentale del primo Seicento, all'inizio di via Długa: da qui comincia la Via Reale che attraversa il centro storico."
+  "descrizione": "Porta monumentale del primo Seicento, all'inizio di via Długa: da qui comincia la Via Reale che attraversa il centro storico.",
+  "recensioni": {
+   "voto": 4.7,
+   "numero": 13254,
+   "riassunto": "Porta seicentesca con decorazioni dorate: da qui inizia la Via Reale verso il centro.",
+   "da_provare": [],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Brama_Z%C5%82ota_Gda%C5%84sk_01.jpg/1280px-Brama_Z%C5%82ota_Gda%C5%84sk_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Аимаина хикари",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Brama_Z%C5%82ota_Gda%C5%84sk_01.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Gdansk_2015_012.jpg/1280px-Gdansk_2015_012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Photograph by Mike Peel (www.mikepeel.net).",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_2015_012.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/635493_Brama_Z%C5%82ota_%281%29.jpg/1280px-635493_Brama_Z%C5%82ota_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "J.jazgarska",
+    "licenza": "CC BY-SA 3.0 pl",
+    "pagina": "https://commons.wikimedia.org/wiki/File:635493_Brama_Z%C5%82ota_(1).jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Gdansk_Brama_z%C5%82ota1.jpg/1280px-Gdansk_Brama_z%C5%82ota1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Pankrzysztoff",
+    "licenza": "CC BY-SA 3.0 pl",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Brama_z%C5%82ota1.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Gdansk_2018_at_night_%281%29.jpg/1280px-Gdansk_2018_at_night_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "MOs810",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_2018_at_night_(1).jpg"
+   }
+  ]
  },
  {
   "id": "porta-verde",
@@ -3510,7 +4723,47 @@
   "da_confermare": false,
   "descrizione": "Porta rinascimentale in fondo al Długi Targ, affacciata sul fiume Motława. Era pensata come residenza per i re in visita; oggi ospita mostre del Museo Nazionale.",
   "sito": "http://mng.gda.pl/",
-  "instagram": "https://www.instagram.com/mngdansk/"
+  "instagram": "https://www.instagram.com/mngdansk/",
+  "recensioni": {
+   "voto": 4.7,
+   "numero": 2060,
+   "riassunto": "Porta rinascimentale fra il Długi Targ e il fiume, molto fotografata, soprattutto con la luce del mattino.",
+   "da_provare": [],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/D%C5%82ugi_Targ_Square_and_Green_Gate_in_Gda%C5%84sk_20250620_070654.jpg/1280px-D%C5%82ugi_Targ_Square_and_Green_Gate_in_Gda%C5%84sk_20250620_070654.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "GdyniaPL2025@GdyniaPL2025",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:D%C5%82ugi_Targ_Square_and_Green_Gate_in_Gda%C5%84sk_20250620_070654.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/02024_Das_Gr%C3%BCne_Tor_in_Danzig%2C_eine_Abteilung_des_Nationalmuseums.jpg/1280px-02024_Das_Gr%C3%BCne_Tor_in_Danzig%2C_eine_Abteilung_des_Nationalmuseums.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Silar",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:02024_Das_Gr%C3%BCne_Tor_in_Danzig,_eine_Abteilung_des_Nationalmuseums.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Brama_%C5%BBielona_i_Brama_Kogi%2C_%C5%9Ar%C3%B3dmie%C5%9Bcie%2C_Gda%C5%84sk.jpg/1280px-Brama_%C5%BBielona_i_Brama_Kogi%2C_%C5%9Ar%C3%B3dmie%C5%9Bcie%2C_Gda%C5%84sk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Karel Frydrýšek",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Brama_%C5%BBielona_i_Brama_Kogi,_%C5%9Ar%C3%B3dmie%C5%9Bcie,_Gda%C5%84sk.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/635492_Zielona_Brama.jpg/1280px-635492_Zielona_Brama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "J.jazgarska",
+    "licenza": "CC BY-SA 3.0 pl",
+    "pagina": "https://commons.wikimedia.org/wiki/File:635492_Zielona_Brama.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/20260603.Ansichten_von_Gdansk.-025.jpg/1280px-20260603.Ansichten_von_Gdansk.-025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Bybbisch94",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:20260603.Ansichten_von_Gdansk.-025.jpg"
+   }
+  ]
  },
  {
   "id": "mariacka",
@@ -3581,7 +4834,49 @@
   ],
   "verificato": "2026-09-14",
   "da_confermare": false,
-  "descrizione": "La via più fotografata di Danzica: case strette con le terrazze in pietra davanti all'ingresso, e botteghe d'ambra una dopo l'altra, fino alla Basilica di Santa Maria."
+  "descrizione": "La via più fotografata di Danzica: case strette con le terrazze in pietra davanti all'ingresso, e botteghe d'ambra una dopo l'altra, fino alla Basilica di Santa Maria.",
+  "recensioni": {
+   "voto": 4.9,
+   "numero": 858,
+   "riassunto": "La via più suggestiva della città: lastricata, con le terrazze delle case, negozi d'ambra e caffè. Sembra un set cinematografico.",
+   "da_provare": [
+    "negozi d'ambra"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Gdansk_-_St._Mary%27s_Street_4.jpg/1280px-Gdansk_-_St._Mary%27s_Street_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Grzegorz Gruszczyński",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_-_St._Mary%27s_Street_4.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/02024_0127_Mariacka_Street_in_Gda%C5%84sk.jpg/1280px-02024_0127_Mariacka_Street_in_Gda%C5%84sk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Silar",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:02024_0127_Mariacka_Street_in_Gda%C5%84sk.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/02024_0374_Mariacka_Street_in_Gda%C5%84sk.jpg/1280px-02024_0374_Mariacka_Street_in_Gda%C5%84sk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Silar",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:02024_0374_Mariacka_Street_in_Gda%C5%84sk.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Gdansk_-_St._Mary%27s_Street_8.jpg/1280px-Gdansk_-_St._Mary%27s_Street_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Grzegorz Gruszczyński",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_-_St._Mary%27s_Street_8.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/2016-08_Gda%C5%84sk_%2844%29.jpg/1280px-2016-08_Gda%C5%84sk_%2844%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Marek Mróz",
+    "licenza": "CC BY 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2016-08_Gda%C5%84sk_(44).jpg"
+   }
+  ]
  },
  {
   "id": "dluga",
@@ -3651,7 +4946,41 @@
   ],
   "verificato": "2026-09-14",
   "da_confermare": false,
-  "descrizione": "La via principale della Via Reale, tra la Porta d'oro e il Długi Targ, fiancheggiata da case storiche colorate. Il centro storico si gira tutto a piedi da qui."
+  "descrizione": "La via principale della Via Reale, tra la Porta d'oro e il Długi Targ, fiancheggiata da case storiche colorate. Il centro storico si gira tutto a piedi da qui.",
+  "recensioni": {
+   "voto": 4.8,
+   "numero": 16603,
+   "riassunto": "Il cuore della città: la piazza e la via lunga con facciate colorate, caffè, musicisti di strada. Sempre piena di gente, a tutte le ore.",
+   "da_provare": [],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/D%C5%82ugi_Targ_Square_and_Green_Gate_in_Gda%C5%84sk_20250620_070654.jpg/1280px-D%C5%82ugi_Targ_Square_and_Green_Gate_in_Gda%C5%84sk_20250620_070654.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "GdyniaPL2025@GdyniaPL2025",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:D%C5%82ugi_Targ_Square_and_Green_Gate_in_Gda%C5%84sk_20250620_070654.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/D%C5%82ugi_Targ_Square_with_Artus_Court_in_Gda%C5%84sk%2C_2016.jpg/1280px-D%C5%82ugi_Targ_Square_with_Artus_Court_in_Gda%C5%84sk%2C_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Szczecinolog",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:D%C5%82ugi_Targ_Square_with_Artus_Court_in_Gda%C5%84sk,_2016.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Ayuntamiento_Principal%2C_Gdansk%2C_Polonia%2C_2013-05-20%2C_DD_02.jpg/1280px-Ayuntamiento_Principal%2C_Gdansk%2C_Polonia%2C_2013-05-20%2C_DD_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Diego Delso",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ayuntamiento_Principal,_Gdansk,_Polonia,_2013-05-20,_DD_02.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Artus_Court_and_Neptune_Monument_in_the_Main_Town_of_Gda%C5%84sk.jpg/1280px-Artus_Court_and_Neptune_Monument_in_the_Main_Town_of_Gda%C5%84sk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "John Samuel",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Artus_Court_and_Neptune_Monument_in_the_Main_Town_of_Gda%C5%84sk.jpg"
+   }
+  ]
  },
  {
   "id": "piwna",
@@ -3720,7 +5049,47 @@
   ],
   "verificato": "2026-09-14",
   "da_confermare": false,
-  "descrizione": "La \"via della birra\", parallela a Mariacka, nel centro storico."
+  "descrizione": "La \"via della birra\", parallela a Mariacka, nel centro storico.",
+  "recensioni": {
+   "voto": 4.8,
+   "numero": 153,
+   "riassunto": "Via pedonale fra la Basilica e la Grande Armeria, piena di bar per birra e drink. Tranquilla la mattina.",
+   "da_provare": [],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/48_Piwna_Street_in_Gda%C5%84sk.jpg/1280px-48_Piwna_Street_in_Gda%C5%84sk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Андрей Романенко",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:48_Piwna_Street_in_Gda%C5%84sk.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Gda%C5%84sk_0100_30.jpg/1280px-Gda%C5%84sk_0100_30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "FrDr",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_0100_30.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Gda%C5%84sk_0100_35.jpg/1280px-Gda%C5%84sk_0100_35.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "FrDr",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_0100_35.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Gda%C5%84sk_0100_40.jpg/1280px-Gda%C5%84sk_0100_40.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "FrDr",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_0100_40.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Gda%C5%84sk_-_zabytkowa_zabudowa._Foto_Barbara_Maliszewska.jpg/1280px-Gda%C5%84sk_-_zabytkowa_zabudowa._Foto_Barbara_Maliszewska.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Barbara Maliszewska",
+    "licenza": "CC BY-SA 3.0 pl",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_-_zabytkowa_zabudowa._Foto_Barbara_Maliszewska.jpg"
+   }
+  ]
  },
  {
   "id": "ponte-dei-lucchetti",
@@ -3790,7 +5159,15 @@
   "verificato": "2026-09-14",
   "da_confermare": true,
   "descrizione": "Piccolo ponte pedonale sull'isola del mulino (Wyspa Młyńska), pieno di lucchetti lasciati dalle coppie. Sta vicino alla casa dei mugnai.",
-  "sito": "https://www.nocowanie.pl/most_chlebowy__most_milosci_,139403.html"
+  "sito": "https://www.nocowanie.pl/most_chlebowy__most_milosci_,139403.html",
+  "recensioni": {
+   "voto": 4.7,
+   "numero": 3032,
+   "riassunto": "Piccolo ponte sui canali vicino al Museo dell'ambra, con lucchetti degli innamorati e la casetta che si riflette nell'acqua: un posto da foto.",
+   "da_provare": [],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "albero-del-millennio",
@@ -3878,7 +5255,7 @@
    "sab": null,
    "dom": null
   },
-  "orari_nota": "",
+  "orari_nota": "NON TROVATO: il 25/09 su Google Maps non c'è un negozio \"Dawid\" in via Mariacka 13/15. Potrebbe aver chiuso o chiamarsi in altro modo.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -3891,7 +5268,7 @@
   "fonti": [
    "TikTok @giuliaarinaldii"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": true,
   "descrizione": "Laboratorio di gioielli in ambra su via Mariacka, ai civici 13-15. Voto pieno su Google."
  },
@@ -3912,7 +5289,7 @@
    "sab": null,
    "dom": null
   },
-  "orari_nota": "Indirizzo e orari da confermare.",
+  "orari_nota": "NON TROVATO: il 25/09 su Google Maps non c'è un negozio con questo nome. Nel video non c'era l'indirizzo.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -3925,7 +5302,7 @@
   "fonti": [
    "TikTok @giuliaarinaldii"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": true,
   "descrizione": "Negozio di souvenir con le casette in miniatura di Danzica."
  },
@@ -3998,7 +5375,50 @@
   "verificato": "2026-09-25",
   "da_confermare": true,
   "descrizione": "Il castello dei Cavalieri Teutonici, il più grande castello in mattoni del mondo e patrimonio UNESCO. Si raggiunge in treno da Gdańsk Główny in 25-50 minuti. Da ottobre il percorso completo chiude presto: ultimo ingresso alle 12:45. Il lunedì è gratuito ma solo il percorso esterno.",
-  "sito": "https://zamek.malbork.pl/"
+  "sito": "https://zamek.malbork.pl/",
+  "recensioni": {
+   "voto": 4.8,
+   "numero": 85432,
+   "riassunto": "Il castello in mattoni più grande del mondo: entusiasmo quasi unanime. L'audioguida con GPS parte da sola; la visita completa richiede diverse ore. Il lunedì solo il percorso esterno, gratis.",
+   "da_provare": [
+    "audioguida",
+    "lunedì gratis all'esterno"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Malbork_castle_-_outer_corner.jpg/1280px-Malbork_castle_-_outer_corner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "SimonCiminski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Malbork_castle_-_outer_corner.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Malbork_%2815253092538%29.jpg/1280px-Malbork_%2815253092538%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Lukas Plewnia from Winterthur, Schweiz",
+    "licenza": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Malbork_(15253092538).jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Malbork_Castle_2023_012.jpg/1280px-Malbork_Castle_2023_012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Scotch Mist",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Malbork_Castle_2023_012.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Malbork_Castle_2023_047.jpg/1280px-Malbork_Castle_2023_047.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Scotch Mist",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Malbork_Castle_2023_047.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Malbork_Castle_2023_083.jpg/1280px-Malbork_Castle_2023_083.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Scotch Mist",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Malbork_Castle_2023_083.jpg"
+   }
+  ]
  },
  {
   "id": "sopot",
@@ -4068,7 +5488,39 @@
   ],
   "verificato": "2026-09-14",
   "da_confermare": false,
-  "descrizione": "Località di mare a 15-25 minuti di treno da Danzica, con il molo di legno più lungo d'Europa e la via pedonale Monte Cassino. Il treno SKM passa ogni 7-15 minuti."
+  "descrizione": "Località di mare a 15-25 minuti di treno da Danzica, con il molo di legno più lungo d'Europa e la via pedonale Monte Cassino. Il treno SKM passa ogni 7-15 minuti.",
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Bohater%C3%B3w_Monte_Cassino.jpg/1280px-Bohater%C3%B3w_Monte_Cassino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "kallerna",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Bohater%C3%B3w_Monte_Cassino.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Bohater%C3%B3w_Monte_Cassino_Sopot_1.jpg/1280px-Bohater%C3%B3w_Monte_Cassino_Sopot_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Аимаина хикари",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Bohater%C3%B3w_Monte_Cassino_Sopot_1.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Sopot_2023_48.jpg/1280px-Sopot_2023_48.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Scotch Mist",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Sopot_2023_48.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Bohater%C3%B3w_Monte_Cassino_Sopot_2.jpg/1280px-Bohater%C3%B3w_Monte_Cassino_Sopot_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Аимаина хикари",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Bohater%C3%B3w_Monte_Cassino_Sopot_2.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Sopot_2023_56_Town_House.jpg/1280px-Sopot_2023_56_Town_House.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Scotch Mist",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Sopot_2023_56_Town_House.jpg"
+   }
+  ]
  },
  {
   "id": "molo-di-sopot",
@@ -4140,7 +5592,43 @@
   "da_confermare": true,
   "descrizione": "Il molo di legno più lungo d'Europa, oltre mezzo chilometro dentro il Baltico.",
   "sito": "http://www.molo.sopot.pl/",
-  "instagram": "https://www.instagram.com/mosirsopot/"
+  "instagram": "https://www.instagram.com/mosirsopot/",
+  "recensioni": {
+   "voto": 4.6,
+   "numero": 127853,
+   "riassunto": "Il molo in legno più lungo d'Europa (511 m): bella passeggiata sul mare. L'ingresso è a pagamento, con biglietto alle macchinette; il prezzo di ottobre non l'ho verificato.",
+   "da_provare": [
+    "passeggiata sul mare"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Muelle_de_Sopot%2C_Polonia%2C_2013-05-22%2C_DD_21.jpg/1280px-Muelle_de_Sopot%2C_Polonia%2C_2013-05-22%2C_DD_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Diego Delso",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Muelle_de_Sopot,_Polonia,_2013-05-22,_DD_21.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Molo_%2815436384011%29.jpg/1280px-Molo_%2815436384011%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Lukas Plewnia from Winterthur, Schweiz",
+    "licenza": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Molo_(15436384011).jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Latarnia_na_molo.jpg/1280px-Latarnia_na_molo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Michał Piętka Fotografia",
+    "licenza": "CC BY 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Latarnia_na_molo.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Molo_%2815439268852%29.jpg/1280px-Molo_%2815439268852%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Lukas Plewnia from Winterthur, Schweiz",
+    "licenza": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Molo_(15439268852).jpg"
+   }
+  ]
  },
  {
   "id": "nave-museo-blyskawica",
@@ -4176,7 +5664,35 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Il cacciatorpediniere Błyskawica, nave da guerra polacca della Seconda guerra mondiale, ormeggiato a Gdynia. È chiuso fino al 31 marzo 2027.",
-  "sito": "https://muzeummw.pl/"
+  "sito": "https://muzeummw.pl/",
+  "recensioni": {
+   "voto": 4.7,
+   "numero": 8926,
+   "riassunto": "Cacciatorpediniere della Seconda guerra mondiale visitabile dentro e fuori, ben tenuto. Ora però è chiuso fino al 31/03/2027.",
+   "da_provare": [],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/ORP_Blyskawica_po1960_2.jpg/1280px-ORP_Blyskawica_po1960_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Unknown authorUnknown author",
+    "licenza": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:ORP_Blyskawica_po1960_2.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/ORP_Blyskawica_dok.jpg/1280px-ORP_Blyskawica_dok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Unknown authorUnknown author",
+    "licenza": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:ORP_Blyskawica_dok.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Gdynia_Muzeum_Marynarki_Wojennej_ORP_B%C5%82yskawica_%C5%9Bruby_01.jpg/1280px-Gdynia_Muzeum_Marynarki_Wojennej_ORP_B%C5%82yskawica_%C5%9Bruby_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Zala",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdynia_Muzeum_Marynarki_Wojennej_ORP_B%C5%82yskawica_%C5%9Bruby_01.jpg"
+   }
+  ]
  },
  {
   "id": "100cznia",
@@ -4244,7 +5760,18 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "sito": "https://100cznia.pl/",
-  "instagram": "https://www.instagram.com/100cznia/"
+  "instagram": "https://www.instagram.com/100cznia/",
+  "recensioni": {
+   "voto": 4.8,
+   "numero": 10519,
+   "riassunto": "Zona di container colorati nell'ex cantiere navale: food truck di cucine diverse, sdraio sulla sabbia, street art, DJ e concerti. A 15-20 minuti a piedi dal centro. Più una serata che un ristorante.",
+   "da_provare": [
+    "food truck",
+    "birra"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "montownia",
@@ -4317,7 +5844,19 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "sito": "http://www.montowniafoodhall.pl/",
-  "instagram": "https://www.instagram.com/foodhallmontownia/"
+  "instagram": "https://www.instagram.com/foodhallmontownia/",
+  "recensioni": {
+   "voto": 4.7,
+   "numero": 6501,
+   "riassunto": "Grande food hall nel vecchio cantiere navale: molte cucine (ramen, thai, georgiana, fish and chips) e atmosfera giovane, a volte con concerti. Prezzi medi 20-40 zł a persona.",
+   "da_provare": [
+    "ramen",
+    "cucina georgiana",
+    "fish and chips"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "gyozilla",
@@ -4389,7 +5928,19 @@
   ],
   "verificato": "2026-09-25",
   "da_confermare": false,
-  "sito": "http://gyozillarestauracja.pl/"
+  "sito": "http://gyozillarestauracja.pl/",
+  "recensioni": {
+   "voto": 4.8,
+   "numero": 5602,
+   "riassunto": "Ramen giapponese fuori dal centro con voto altissimo: brodo tonkotsu e ramen di manzo lodatissimi, gyoza e opzioni vegane. Locale piccolo: si aspetta, e qualcuno segnala servizio lento.",
+   "da_provare": [
+    "tonkotsu ramen",
+    "ramen di manzo",
+    "gyoza"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "pyra-bar",
@@ -4462,7 +6013,19 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "sito": "http://pyrabar.pl/",
-  "instagram": "https://www.instagram.com/pyrabar_/"
+  "instagram": "https://www.instagram.com/pyrabar_/",
+  "recensioni": {
+   "voto": 4.5,
+   "numero": 9418,
+   "riassunto": "Tutto a base di patate: casseruole gratinate, frittelle e altre ricette, porzioni abbondanti e prezzi onesti. Si ordina al banco (c'è spesso coda): meglio occupare prima il tavolo.",
+   "da_provare": [
+    "casseruola di patate",
+    "patate con salmone",
+    "frittelle di patate"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "targ-rybny",
@@ -4535,7 +6098,45 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "sito": "http://www.targrybny.pl/",
-  "instagram": "https://www.instagram.com/targrybnyfishmarkt/"
+  "instagram": "https://www.instagram.com/targrybnyfishmarkt/",
+  "recensioni": {
+   "voto": 4.4,
+   "numero": 1725,
+   "riassunto": "Ristorante di pesce sul fiume con veranda: fish and chips, bouillabaisse, astice, halibut e aringa. Qualità buona, prezzi considerati corretti.",
+   "da_provare": [
+    "fish and chips",
+    "bouillabaisse",
+    "aringa"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Gda%C5%84sk_Targ_Rybny.JPG/1280px-Gda%C5%84sk_Targ_Rybny.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Artur Andrzej",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_Targ_Rybny.JPG"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Gda%C5%84sk_G%C5%82%C3%B3wne_Miasto%2C_Targ_Rybny.jpg/1280px-Gda%C5%84sk_G%C5%82%C3%B3wne_Miasto%2C_Targ_Rybny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Gdaniec",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_G%C5%82%C3%B3wne_Miasto,_Targ_Rybny.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Gda%C5%84sk_Targ_Rybny_%28Szanty_pod_%C5%BBurawiem%29.JPG/1280px-Gda%C5%84sk_Targ_Rybny_%28Szanty_pod_%C5%BBurawiem%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Artur Andrzej",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gda%C5%84sk_Targ_Rybny_(Szanty_pod_%C5%BBurawiem).JPG"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Gdansk_Targ_Rybny.jpg/1280px-Gdansk_Targ_Rybny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Targ_Rybny.jpg"
+   }
+  ]
  },
  {
   "id": "laka-bar",
@@ -4608,7 +6209,19 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "sito": "http://www.laka.bar/",
-  "instagram": "https://www.instagram.com/lakahappybar/"
+  "instagram": "https://www.instagram.com/lakahappybar/",
+  "recensioni": {
+   "voto": 4.7,
+   "numero": 4765,
+   "riassunto": "Bistrot fusion con molte opzioni vegane e un interno curato. Citati pollo al latticello con waffle, udon, pad thai e caffè vietnamita.",
+   "da_provare": [
+    "chicken and waffles",
+    "udon",
+    "caffè vietnamita"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "mimosa",
@@ -4681,7 +6294,18 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "sito": "https://mimosawypieki.pl/",
-  "instagram": "https://www.instagram.com/mimosa.wypieki/"
+  "instagram": "https://www.instagram.com/mimosa.wypieki/",
+  "recensioni": {
+   "voto": 4.7,
+   "numero": 139,
+   "riassunto": "Panetteria e pasticceria artigianale con caffè: pane e dolci molto apprezzati, servizio cordiale. Poche recensioni perché aperta da poco.",
+   "da_provare": [
+    "pane artigianale",
+    "dolci"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "deja-vu",
@@ -4754,7 +6378,18 @@
   "verificato": "2026-09-25",
   "da_confermare": false,
   "sito": "http://www.dejavumuzeum.pl/",
-  "instagram": "https://www.instagram.com/dejavumuzeum/"
+  "instagram": "https://www.instagram.com/dejavumuzeum/",
+  "recensioni": {
+   "voto": 4.6,
+   "numero": 7880,
+   "riassunto": "Museo delle illusioni ottiche piccolo ma divertente, con molte foto da fare. Si visita in meno di un'ora; qualcuno lo trova caro per la durata.",
+   "da_provare": [
+    "illusioni",
+    "foto"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "oliwski-park",
@@ -4790,7 +6425,50 @@
   ],
   "verificato": "2026-09-16",
   "da_confermare": true,
-  "sito": "http://www.parkoliwski.gdansk.pl/"
+  "sito": "http://www.parkoliwski.gdansk.pl/",
+  "recensioni": {
+   "voto": 4.8,
+   "numero": 36777,
+   "riassunto": "Grande parco curatissimo accanto alla Cattedrale di Oliwa: cascate, anatre, giardino giapponese e serra delle palme. L'organo della cattedrale accanto è tra i temi più citati.",
+   "da_provare": [
+    "giardino giapponese",
+    "cattedrale"
+   ],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Gdansk_Park_Oliwski_13.jpg/1280px-Gdansk_Park_Oliwski_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Park_Oliwski_13.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Gdansk_Park_Oliwski_21.jpg/1280px-Gdansk_Park_Oliwski_21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Park_Oliwski_21.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Gdansk_Park_Oliwski_22.jpg/1280px-Gdansk_Park_Oliwski_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Park_Oliwski_22.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Gdansk_Park_Oliwski_2.jpg/1280px-Gdansk_Park_Oliwski_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_Park_Oliwski_2.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Adam_Mickiewicz_Park_Gda%C5%84sk.jpg/1280px-Adam_Mickiewicz_Park_Gda%C5%84sk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "kallerna",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Adam_Mickiewicz_Park_Gda%C5%84sk.jpg"
+   }
+  ]
  },
  {
   "id": "krzywy-domek",
@@ -4826,7 +6504,47 @@
   ],
   "verificato": "2026-09-16",
   "da_confermare": true,
-  "sito": "https://krzywydomek.info/"
+  "sito": "https://krzywydomek.info/",
+  "recensioni": {
+   "voto": 4.3,
+   "numero": 13735,
+   "riassunto": "La \"casa storta\" di Sopot, sulla via principale: si guarda da fuori e si fa la foto; dentro c'è un piccolo centro commerciale. Gli alberi davanti coprono un po' la vista.",
+   "da_provare": [],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Krzywy_Domek%2C_Sopot%2C_Poland_2.jpg/1280px-Krzywy_Domek%2C_Sopot%2C_Poland_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Fry72 , Karel FRYDRÝŠEK",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Krzywy_Domek,_Sopot,_Poland_2.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Krzywy_domek_%2815252850940%29.jpg/1280px-Krzywy_domek_%2815252850940%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Lukas Plewnia from Winterthur, Schweiz",
+    "licenza": "CC BY-SA 2.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Krzywy_domek_(15252850940).jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Krzywy_Domek_Sopot_1.jpg/1280px-Krzywy_Domek_Sopot_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Аимаина хикари",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Krzywy_Domek_Sopot_1.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Crooked_House_in_Sopot%2C_Poland.jpg/1280px-Crooked_House_in_Sopot%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Аимаина хикари",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Crooked_House_in_Sopot,_Poland.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Sopot_%28Polen%29%2C_Krummes_H%C3%A4uschen_2016.jpg/1280px-Sopot_%28Polen%29%2C_Krummes_H%C3%A4uschen_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Stefan Didam - Schmallenberg",
+    "licenza": "CC BY-SA 3.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Sopot_(Polen),_Krummes_H%C3%A4uschen_2016.jpg"
+   }
+  ]
  },
  {
   "id": "filharmonia",
@@ -4863,7 +6581,47 @@
   "verificato": "2026-09-16",
   "da_confermare": true,
   "sito": "http://www.filharmonia.gda.pl/",
-  "instagram": "https://www.instagram.com/polska_filharmonia_baltycka/"
+  "instagram": "https://www.instagram.com/polska_filharmonia_baltycka/",
+  "recensioni": {
+   "voto": 4.8,
+   "numero": 7137,
+   "riassunto": "Sala da concerto in una ex centrale elettrica sull'isola Ołowianka, con acustica molto lodata. Programma dei concerti sul sito della Filharmonia.",
+   "da_provare": [],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  },
+  "foto": [
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Filharmonia_w_Gda%C5%84sku.jpg/1280px-Filharmonia_w_Gda%C5%84sku.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Piotr 47",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Filharmonia_w_Gda%C5%84sku.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Filharmonia_Ba%C5%82tycka_noc%C4%85.jpg/1280px-Filharmonia_Ba%C5%82tycka_noc%C4%85.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Aneta Pawska",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Filharmonia_Ba%C5%82tycka_noc%C4%85.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Filharmonia_Ba%C5%82tycka_04.jpg/1280px-Filharmonia_Ba%C5%82tycka_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Аимаина хикари",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Filharmonia_Ba%C5%82tycka_04.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Gdansk_filharmonia_10.jpg/1280px-Gdansk_filharmonia_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Andrzej Otrębski",
+    "licenza": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Gdansk_filharmonia_10.jpg"
+   },
+   {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Filharmonia_Ba%C5%82tycka_05.jpg/1280px-Filharmonia_Ba%C5%82tycka_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "autore": "Аимаина хикари",
+    "licenza": "CC0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Filharmonia_Ba%C5%82tycka_05.jpg"
+   }
+  ]
  },
  {
   "id": "sopot-centrum",
@@ -4899,7 +6657,15 @@
   ],
   "verificato": "2026-09-16",
   "da_confermare": true,
-  "sito": "http://www.sopotcentrum.com.pl/"
+  "sito": "http://www.sopotcentrum.com.pl/",
+  "recensioni": {
+   "voto": 4.4,
+   "numero": 7011,
+   "riassunto": "Centro commerciale alla stazione di Sopot: comodo per una pausa, non una meta.",
+   "da_provare": [],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  },
  {
   "id": "kuznia-wodna",
@@ -4935,6 +6701,14 @@
   "da_confermare": false,
   "descrizione": "L'unica fucina ad acqua di questo tipo rimasta: ha lavorato per circa 350 anni con l'acqua del torrente di Oliwa. È stagionale, da aprile a settembre: a ottobre è chiusa.",
   "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/hammer-forge-at-oliwa/",
-  "instagram": "https://www.instagram.com/muzeumgdansk/"
+  "instagram": "https://www.instagram.com/muzeumgdansk/",
+  "recensioni": {
+   "voto": 4.5,
+   "numero": 356,
+   "riassunto": "Fucina ad acqua storica con dimostrazioni di forgiatura, interessante soprattutto per chi ama la tecnica. A ottobre è chiusa.",
+   "da_provare": [],
+   "fonte": "Google Maps",
+   "letto": "2026-09-26"
+  }
  }
 ]

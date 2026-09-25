@@ -27,6 +27,7 @@ let INDICE = {};         // id -> posto
 let vista = 'mappa';
 let giornoScelto = '2026-10-10';
 let filtroCat = 'tutti';
+let soloAperti = false;
 let filtroPosti = 'tutti';
 let stime = {};          // chiave 'a>b' -> tempi
 let tasso = { EUR: CONFIG.tassoFallback, DKK: null, data: null };
@@ -150,22 +151,46 @@ function testa(titolo, sotto) {
 
 // --- mappa -------------------------------------------------------------
 
+// "Adesso": durante il viaggio e' oggi; prima del viaggio e' l'ora di adesso
+// nel giorno scelto nel piano, cosi' il filtro si puo' provare anche da casa.
+function adesso() {
+  const d = new Date();
+  const oggi = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  return { data: GIORNI.includes(oggi) ? oggi : giornoScelto, minuto: d.getHours() * 60 + d.getMinutes() };
+}
+
+function apertoAdesso(p) {
+  const a = adesso();
+  return P.statoApertura(p, a.data, a.minuto) === 'aperto';
+}
+
 function postiVisibili() {
-  const base = POSTI.concat(store.stato.posti || []).filter((p) => p.id !== 'aeroporto');
-  return filtroCat === 'tutti' ? base : base.filter((p) => p.categoria === filtroCat);
+  let base = POSTI.concat(store.stato.posti || []).filter((p) => p.id !== 'aeroporto');
+  if (filtroCat !== 'tutti') base = base.filter((p) => p.categoria === filtroCat);
+  if (soloAperti) base = base.filter(apertoAdesso);
+  return base;
 }
 
 function collegaMappa() {
   const filtri = $('#filtri');
   const voci = [['tutti', 'Tutti']].concat(CATEGORIE.map((c) => [c, c[0].toUpperCase() + c.slice(1)]));
   filtri.innerHTML = '';
+  const ap = document.createElement('button');
+  ap.className = 'chip aperti' + (soloAperti ? ' on' : '');
+  ap.textContent = 'Aperto ora';
+  ap.addEventListener('click', () => {
+    soloAperti = !soloAperti;
+    ap.classList.toggle('on', soloAperti);
+    disegnaMappa();
+  });
+  filtri.appendChild(ap);
   for (const [id, testo] of voci) {
     const b = document.createElement('button');
     b.className = 'chip' + (id === filtroCat ? ' on' : '');
     b.textContent = testo;
     b.addEventListener('click', () => {
       filtroCat = id;
-      filtri.querySelectorAll('.chip').forEach((x) => x.classList.toggle('on', x === b));
+      filtri.querySelectorAll('.chip:not(.aperti)').forEach((x) => x.classList.toggle('on', x === b));
       disegnaMappa();
     });
     filtri.appendChild(b);
@@ -187,7 +212,7 @@ async function cercaPosti(testo) {
     .slice(0, 8);
   box.innerHTML = '';
   for (const p of miei) {
-    const sotto = [p.categoria, p.zona, p.indirizzo].filter(Boolean).join(' · ');
+    const sotto = [votoBreve(p), p.categoria, p.zona, p.indirizzo].filter(Boolean).join(' · ');
     box.appendChild(voceRicerca(p.nome, sotto, () => apriScheda(p)));
   }
   box.classList.toggle('nascosto', !box.children.length);
@@ -204,7 +229,8 @@ function voceRicerca(titolo, sotto, azione) {
 
 async function disegnaMappa() {
   const lista = postiVisibili();
-  testa('Danzica', lista.length + ' posti · ' + LUNGHI[giornoScelto]);
+  const a = adesso();
+  testa('Danzica', lista.length + (soloAperti ? ' aperti alle ' + P.ore(a.minuto) : ' posti') + ' · ' + LUNGHI[a.data]);
   try {
     if (!mappaOsm) mappaOsm = await M.creaMappa($('#mappa'), CONFIG.centro, 14);
     segnalini.forEach((s) => s.remove());
@@ -230,7 +256,7 @@ function mappaDiRipiego(lista) {
     b.innerHTML = '<div class="n"></div><div class="z"></div>';
     b.querySelector('.n').innerHTML = '<span></span><small></small>';
     b.querySelector('.n span').textContent = p.nome;
-    b.querySelector('.n small').textContent = [p.categoria, p.zona, p.indirizzo].filter(Boolean).join(' · ');
+    b.querySelector('.n small').textContent = [votoBreve(p), p.categoria, p.zona, p.indirizzo].filter(Boolean).join(' · ');
     b.querySelector('.z').textContent = cuoriTesto(p.id);
     b.addEventListener('click', () => apriScheda(p));
     d.appendChild(b);
@@ -306,10 +332,11 @@ function voceLink(box, etichetta, href, dettaglio) {
 async function apriScheda(p) {
   const f = $('#foglio');
   const c = store.stato.cuori[p.id] || {};
-  const ora = new Date();
-  const stato = P.statoApertura(p, giornoScelto, ora.getHours() * 60 + ora.getMinutes());
+  const a = adesso();
+  const stato = P.statoApertura(p, a.data, a.minuto);
   f.innerHTML = '';
   f.appendChild(costruisci('<div class="grab"></div>'));
+  f.appendChild(galleria(p));
 
   const occhiello = document.createElement('div');
   occhiello.className = 'occhiello';
@@ -332,7 +359,7 @@ async function apriScheda(p) {
   r1.className = 'riga';
   r1.appendChild(tag(stato === 'aperto' ? 'Aperto ora' : stato === 'chiuso' ? 'Chiuso ora' : 'Orari da verificare',
     stato === 'aperto' ? 'ok' : stato === 'chiuso' ? 'no' : 'warn'));
-  if (stato !== 'ignoto') r1.appendChild(tag(orariOggi(p, giornoScelto)));
+  if (stato !== 'ignoto') r1.appendChild(tag(orariOggi(p, a.data)));
   if (p.da_confermare) r1.appendChild(tag('verifica sul posto', 'warn'));
   f.appendChild(r1);
 
@@ -343,6 +370,8 @@ async function apriScheda(p) {
     d.textContent = testoDesc;
     f.appendChild(d);
   }
+
+  if (p.recensioni) f.appendChild(bloccoRecensioni(p));
 
   const dl = document.createElement('dl');
   dl.className = 'fatti';
@@ -363,6 +392,7 @@ async function apriScheda(p) {
   voceLink(links, 'Sito ufficiale', sito, dominio(sito));
   voceLink(links, 'Instagram', ig, profiloIg(ig));
   voceLink(links, 'Apri in Google Maps', M.linkNavigazione(p), 'indicazioni');
+  voceLink(links, (p.foto && p.foto.length ? 'Altre foto' : 'Foto') + ' e recensioni', linkScheda(p), 'su Google Maps');
   f.appendChild(links);
 
   const cuori = document.createElement('div');
@@ -394,6 +424,105 @@ async function apriScheda(p) {
   f.classList.remove('nascosto');
   $('#velo').classList.remove('nascosto');
   $('#velo').onclick = chiudiFoglio;
+}
+
+// '★ 4,6' per gli elenchi
+function votoBreve(p) {
+  return p.recensioni && p.recensioni.voto ? '★ ' + String(p.recensioni.voto).replace('.', ',') : '';
+}
+
+// Scheda del posto su Google Maps (foto, recensioni): ricerca per nome e indirizzo.
+function linkScheda(p) {
+  const q = [p.nome, p.indirizzo, p.zona === 'Sopot' ? 'Sopot' : 'Gdańsk'].filter(Boolean).join(' ');
+  return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(q);
+}
+
+// Foto libere da Wikimedia Commons, a scorrimento. Ogni foto porta autore e
+// licenza, come chiedono le licenze. Senza foto la galleria non compare.
+function galleria(p) {
+  const foto = (p.foto || []).filter((x) => linkSicuro(x.src));
+  const g = document.createElement('div');
+  if (!foto.length) return g;
+  g.className = 'galleria';
+  const striscia = document.createElement('div');
+  striscia.className = 'striscia';
+  const credito = document.createElement('a');
+  credito.className = 'credito';
+  credito.target = '_blank';
+  credito.rel = 'noopener noreferrer';
+  const conta = document.createElement('span');
+  conta.className = 'conta';
+  const mostra = (i) => {
+    const x = foto[i];
+    credito.textContent = 'Foto: ' + (x.autore || 'Wikimedia Commons') + (x.licenza ? ' · ' + x.licenza : '');
+    credito.href = linkSicuro(x.pagina) || 'https://commons.wikimedia.org/';
+    conta.textContent = (i + 1) + '/' + foto.length;
+  };
+  foto.forEach((x, i) => {
+    const img = document.createElement('img');
+    img.src = x.src;
+    img.alt = p.nome;
+    img.loading = i < 2 ? 'eager' : 'lazy';
+    img.decoding = 'async';
+    img.referrerPolicy = 'no-referrer';
+    img.onerror = () => img.classList.add('rotta');
+    striscia.appendChild(img);
+  });
+  striscia.addEventListener('scroll', () => {
+    const i = Math.round(striscia.scrollLeft / Math.max(1, striscia.clientWidth));
+    mostra(Math.min(foto.length - 1, Math.max(0, i)));
+  }, { passive: true });
+  g.appendChild(striscia);
+  if (foto.length > 1) g.appendChild(conta);
+  g.appendChild(credito);
+  mostra(0);
+  return g;
+}
+
+// Cinque stelle vuote con sopra cinque stelle piene tagliate alla larghezza del voto.
+function stelle(voto) {
+  const s = document.createElement('span');
+  s.className = 'stelle';
+  s.setAttribute('role', 'img');
+  s.setAttribute('aria-label', voto + ' stelle su 5');
+  s.innerHTML = '<span class="vuote">★★★★★</span><span class="piene">★★★★★</span>';
+  s.lastChild.style.width = Math.max(0, Math.min(100, voto / 5 * 100)) + '%';
+  return s;
+}
+
+function bloccoRecensioni(p) {
+  const r = p.recensioni;
+  const box = document.createElement('div');
+  box.className = 'recensioni';
+  const testaR = document.createElement('div');
+  testaR.className = 'voto';
+  const s = stelle(r.voto);
+  const n = document.createElement('b');
+  n.textContent = String(r.voto).replace('.', ',');
+  const quante = document.createElement('small');
+  quante.textContent = (r.numero ? r.numero.toLocaleString('it-IT') + ' recensioni' : 'recensioni') + ' su ' + r.fonte;
+  testaR.appendChild(s); testaR.appendChild(n); testaR.appendChild(quante);
+  box.appendChild(testaR);
+  if (r.riassunto) {
+    const t = document.createElement('p');
+    t.textContent = r.riassunto;
+    box.appendChild(t);
+  }
+  if (r.da_provare && r.da_provare.length) {
+    const riga = document.createElement('div');
+    riga.className = 'riga';
+    const et = document.createElement('span');
+    et.className = 'etichetta';
+    et.textContent = 'Citati spesso:';
+    riga.appendChild(et);
+    r.da_provare.forEach((x) => riga.appendChild(tag(x)));
+    box.appendChild(riga);
+  }
+  const f = document.createElement('small');
+  f.className = 'nota';
+  f.textContent = 'Riassunto scritto da noi leggendo le recensioni di ' + r.fonte + ' il ' + dataIt(r.letto) + '.';
+  box.appendChild(f);
+  return box;
 }
 
 function tag(testo, cls) {
@@ -489,7 +618,7 @@ function scegliTappa(data) {
         const b = document.createElement('button');
         b.innerHTML = '<span></span><small></small>';
         b.children[0].textContent = p.nome;
-        b.children[1].textContent = [p.categoria, p.zona, p.indirizzo].filter(Boolean).join(' · ');
+        b.children[1].textContent = [votoBreve(p), p.categoria, p.zona, p.indirizzo].filter(Boolean).join(' · ');
         b.addEventListener('click', async () => {
           await aggiungiTappa(data, p);
           chiudi();
