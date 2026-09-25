@@ -251,8 +251,7 @@ function chiudiFoglio() {
 }
 
 function orariOggi(p, data) {
-  const sig = P.siglaGiorno(data);
-  const o = p.orari ? p.orari[sig] : undefined;
+  const o = P.fasceDelGiorno(p, data);
   if (o === null || o === undefined) return 'orari da verificare';
   if (Array.isArray(o) && !o.length) return 'chiuso ' + (ETICHETTE[data] ? ETICHETTE[data][1] : '');
   return o.map((f) => f[0] + '-' + f[1]).join(', ');
@@ -671,9 +670,10 @@ function riquadroLunedi() {
   d.innerHTML = '<b>Lunedi: cosa e\' chiuso</b>' +
     '<div>Chiusi: Museo della Seconda guerra mondiale, Museo Nazionale, Zuraw (Museo Marittimo).</div>' +
     '<div style="margin-top:6px"><b>Gratis o aperto</b></div>' +
-    '<div>Gratis: Museo dell\'ambra (12-18), Ratusz Glownego Miasta (10-18), Dwor Artusa (12-18), ' +
-    'Dom Uphagena (12-18), Twierdza Wisloujscie (10-16). Aperti: ECS (10-17), Torre di Santa Caterina (12-14), ' +
-    'Westerplatte (10-16), Malbork solo percorso esterno (9-16, gratis).</div>';
+    '<div>Gratis: Museo dell\'ambra (12-18), Ratusz Glownego Miasta (12-18), Dwor Artusa (12-18), ' +
+    'Dom Uphagena (12-18), Twierdza Wisloujscie (10-16). Aperti a pagamento: ECS (10-17), ' +
+    'Zespol Przedbramia/Katownia (12-18). Malbork: gratis ma solo il percorso esterno (9-16).</div>' +
+    '<div style="margin-top:6px">Chiusi in ottobre: Torre di Santa Caterina e Wartownia di Westerplatte (aperte solo aprile-settembre).</div>';
   return d;
 }
 
@@ -1086,8 +1086,8 @@ function disegnaInfo() {
   ], 'Fonti: gdansk.pl, odkryjgdansk.pl, gdanskbyjakub.pl · verificate il 13-14/09/2026'));
 
   cont.appendChild(blocco('Offerte verificate', [
-    'Musei gratis il lunedi (Muzeum Gdanska): Museo dell\'ambra 12-18, Ratusz Glownego Miasta 10-18, Dwor Artusa 12-18, Dom Uphagena 12-18, Twierdza Wisloujscie 10-16. Vale per tutti e due. Fonte: muzeumgdansk.pl, 13/09/2026.',
-    'Olivia Star terrazza: da ottobre 16 zl online, ridotto 13 zl per studenti fino a 26 anni, quindi solo Alessia. In loco 2 zl in piu\'. Comprando 3 giorni prima: -30%. Fonte: oliviastar.pl, 14/09/2026.',
+    'Musei gratis il lunedi (Muzeum Gdanska): Museo dell\'ambra 12-18, Ratusz Glownego Miasta 12-18, Dwor Artusa 12-18, Dom Uphagena 12-18, Twierdza Wisloujscie 10-16. Vale per tutti e due. Nei giorni gratuiti alcune mostre temporanee possono essere chiuse. Fonte: muzeumgdansk.pl, 25/09/2026.',
+    'Muzeum Gdanska, pass 90 giorni per tutte le sedi: 160 zl, ridotto studenti 110 zl. Con i ridotti, le 5 sedi aperte in citta\' che lo accettano (ambra 26, Ratusz 19, Artus 19, Uphagen 19, Poczta Polska 10) fanno 93 zl: il pass costa di piu\'. Fonte: muzeumgdansk.pl, 25/09/2026.',    'Olivia Star terrazza: da ottobre 16 zl online, ridotto 13 zl per studenti fino a 26 anni, quindi solo Alessia. In loco 2 zl in piu\'. Comprando 3 giorni prima: -30%. Fonte: oliviastar.pl, 14/09/2026.',
     'Malbork il lunedi: ingresso gratis ma solo percorso esterno, 9-16. Fonte: zamek.malbork.pl, 14/09/2026.',
     'Sconto 10% con la tessera universitaria da: Pomelo Bistro, Under Beer, Faloviec, Akademic Bar, Zabusia. Fonte: raccolta locali, 14/09/2026.',
     'Masna Micha: 15% dal lunedi al venerdi dalle 16 alle 19. Fonte: raccolta locali, 14/09/2026.',
@@ -1095,7 +1095,7 @@ function disegnaInfo() {
     'Too Good To Go funziona anche a Danzica: cibo invenduto a poco.',
     'Karta Turysty Odkrywca: 24h 75/60 zl, 48h 85/70, 72h 95/80. Non include i trasporti e non include il Museo della Seconda guerra mondiale; il lunedi le sedi del Muzeum Gdanska sono gia\' gratis. Nel vostro caso quasi sicuramente non conviene.',
     'Attenzione: molti sconti commerciali chiedono la ISIC, che voi non avete. La tessera universitaria normale basta solo dove scritto sopra.'
-  ], 'Tutte le offerte vengono da fonti_grezze.md, verificate il 13-14/09/2026'));
+  ], 'Tutte le offerte vengono da fonti_grezze.md, verificate il 13-14/09/2026; Muzeum Gdanska ricontrollato il 25/09/2026'));
 }
 
 function blocco(titolo, voci, nota) {

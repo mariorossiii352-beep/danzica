@@ -34,17 +34,33 @@ function siglaGiorno(dataIso) {
   return GIORNI[new Date(Date.UTC(p[0], p[1] - 1, p[2])).getUTCDay()];
 }
 
+// '2026-10-10' -> '2026-10-09'
+function giornoPrima(dataIso) {
+  const p = String(dataIso || '').split('-').map(Number);
+  if (p.length !== 3) return null;
+  return new Date(Date.UTC(p[0], p[1] - 1, p[2] - 1)).toISOString().slice(0, 10);
+}
+
+// Fasce di apertura di quel giorno preciso. Le eccezioni per data
+// ({ '2026-10-10': [] } = chiuso quel giorno) valgono piu' dell'orario settimanale.
+// undefined/null = orari non noti.
+function fasceDelGiorno(posto, dataIso) {
+  if (!posto) return undefined;
+  const ecc = posto.eccezioni;
+  if (ecc && Object.prototype.hasOwnProperty.call(ecc, dataIso)) return ecc[dataIso];
+  const sig = siglaGiorno(dataIso);
+  return posto.orari && sig ? posto.orari[sig] : undefined;
+}
+
 // 'aperto' | 'chiuso' | 'ignoto'
 // Gli intervalli che finiscono dopo la mezzanotte ("18:00"-"02:00") valgono
 // anche nelle prime ore del giorno dopo: guardo pure il giorno precedente.
 function statoApertura(posto, dataIso, minutoDelGiorno) {
-  const orari = posto && posto.orari;
-  const sig = siglaGiorno(dataIso);
-  if (!orari || !sig) return 'ignoto';
-  const oggi = orari[sig];
+  if (!posto || !siglaGiorno(dataIso)) return 'ignoto';
+  const oggi = fasceDelGiorno(posto, dataIso);
   if (oggi === null || oggi === undefined) return 'ignoto';
   if (dentro(oggi, minutoDelGiorno)) return 'aperto';
-  const ieri = orari[GIORNI[(GIORNI.indexOf(sig) + 6) % 7]];
+  const ieri = fasceDelGiorno(posto, giornoPrima(dataIso));
   if (Array.isArray(ieri) && dentro(ieri, minutoDelGiorno + 1440)) return 'aperto';
   return 'chiuso';
 }
@@ -63,8 +79,7 @@ function dentro(fasce, minuto) {
 
 // Vero se quel giorno il posto e' chiuso tutto il giorno (array vuoto).
 function chiusoTuttoIlGiorno(posto, dataIso) {
-  const sig = siglaGiorno(dataIso);
-  const o = posto && posto.orari && sig ? posto.orari[sig] : undefined;
+  const o = fasceDelGiorno(posto, dataIso);
   return Array.isArray(o) && o.length === 0;
 }
 
@@ -196,5 +211,5 @@ function calcola(giorno, posti, stime) {
   return { righe: righe, avvisi: avvisi };
 }
 
-export { GIORNI, PRESTO, MARGINE_MIN, minuti, ore, siglaGiorno, statoApertura, chiusoTuttoIlGiorno, scegliMezzo, durataMezzo, chiaveTratta, calcola };
-export default { minuti, ore, siglaGiorno, statoApertura, chiusoTuttoIlGiorno, scegliMezzo, calcola };
+export { GIORNI, PRESTO, MARGINE_MIN, minuti, ore, siglaGiorno, fasceDelGiorno, statoApertura, chiusoTuttoIlGiorno, scegliMezzo, durataMezzo, chiaveTratta, calcola };
+export default { minuti, ore, siglaGiorno, fasceDelGiorno, statoApertura, chiusoTuttoIlGiorno, scegliMezzo, calcola };

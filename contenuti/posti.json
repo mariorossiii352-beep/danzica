@@ -1758,26 +1758,26 @@
     ]
    ]
   },
-  "orari_nota": "Gratuito il lunedì.",
+  "orari_nota": "Lunedì 12-18 ingresso gratuito. Nei giorni a ingresso gratuito alcune mostre temporanee possono non essere visitabili. Biglietti fino a 60 minuti prima della chiusura. Non si prenota.",
   "prezzo": {
    "normale_zl": 37,
    "ridotto_zl": 26,
-   "nota": "Audioguida 10 zł."
+   "nota": "Ridotto per studenti con tessera valida. Pass 90 giorni per tutte le sedi: 160 zł, ridotto 110 zł."
   },
   "pescatariano": "n.a.",
   "sconto_studenti": "Ridotto per studenti con tessera valida.",
   "perche": "Museo dedicato all'ambra, consigliato da più creator.",
-  "durata_min": 90,
+  "durata_min": 120,
   "fonti": [
-   "muzeumgdansk.pl",
+   "muzeumgdansk.pl (letto il 25/09/2026)",
    "TikTok @vpcn.travel",
    "TikTok @simi.larity",
    "TikTok @giuliaarinaldii"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
-  "descrizione": "Il museo dell'ambra, la resina fossile che ha reso ricca Danzica, ospitato nel Grande Mulino. Consigliato da tre creator su sei. Il lunedì dalle 12 alle 18 è gratuito, ed è uno dei pochi musei aperti quel giorno.",
-  "sito": "https://muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy/",
+  "descrizione": "Il museo dell'ambra, la resina fossile che ha reso ricca Danzica, nel Grande Mulino costruito dai Cavalieri Teutonici. Primo piano: l'ambra in natura; secondo piano: l'ambra nella cultura. Il museo indica almeno 2 ore di visita. Consigliato da tre creator su sei. Il lunedì dalle 12 alle 18 è gratuito. Mostre temporanee in corso: \"Historie, które wydarzyły się naprawdę\" (gioielli di Marcin Tymiński) e \"Spoiler Alert 2027\" (gioielli sperimentali), entrambe fino al 21/02/2027.",
+  "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/museum-of-amber/",
   "instagram": "https://www.instagram.com/muzeumgdansk/"
  },
  {
@@ -1791,7 +1791,7 @@
   "orari": {
    "lun": [
     [
-     "10:00",
+     "12:00",
      "18:00"
     ]
    ],
@@ -1832,24 +1832,24 @@
     ]
    ]
   },
-  "orari_nota": "Gratuito il lunedì.",
+  "orari_nota": "Lunedì 12-18 ingresso gratuito. Nei giorni a ingresso gratuito alcune mostre temporanee possono non essere visitabili. La torre panoramica è chiusa per lavori. Biglietti fino a 45 minuti prima della chiusura.",
   "prezzo": {
    "normale_zl": 26,
    "ridotto_zl": 19,
-   "nota": "Audioguida 10 zł."
+   "nota": "Audioguida PL/EN/DE 10 zł (non in italiano). Galleria Palowa, stesso palazzo, biglietto a parte 11/7 zł, non gratuita il lunedì. Pass 90 giorni per tutte le sedi: 160 zł, ridotto 110 zł."
   },
   "pescatariano": "n.a.",
   "sconto_studenti": "Ridotto per studenti con tessera valida.",
   "perche": "Storico municipio sede del Muzeum Gdańska.",
-  "durata_min": 90,
+  "durata_min": 45,
   "fonti": [
-   "muzeumgdansk.pl",
+   "muzeumgdansk.pl (letto il 25/09/2026)",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
-  "descrizione": "Il Municipio della Città Principale, con la torre che domina via Długa. Dentro ci sono le sale storiche del consiglio cittadino, oggi sede del Muzeum Gdańska. Gratuito il lunedì.",
-  "sito": "https://muzeumgdansk.pl/",
+  "descrizione": "Il Municipio della Città Principale, all'incrocio fra Długa e Długi Targ. Dentro c'è una delle più belle sale rinascimentali del Nord Europa, la porta più antica di Danzica, sotterranei e passaggi segreti. Il museo indica almeno 45 minuti. La torre panoramica ora è chiusa per lavori. Nello stesso palazzo c'è la Galleria Palowa, con mostre temporanee (ora \"Nasi Chłopcy\", sugli abitanti della Pomerania nell'esercito del Terzo Reich).",
+  "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/main-town-hall/",
   "instagram": "https://www.instagram.com/muzeumgdansk/"
  },
  {
@@ -1904,25 +1904,34 @@
     ]
    ]
   },
-  "orari_nota": "Gratuito il lunedì.",
+  "orari_nota": "ATTENZIONE: venerdì 9/10 aperta solo fino alle 14; sabato 10/10 chiusa. Lunedì 12-18 ingresso gratuito. Nei giorni a ingresso gratuito alcune mostre temporanee possono non essere visitabili. Biglietti fino a 45 minuti prima della chiusura. Non si prenota.",
   "prezzo": {
    "normale_zl": 26,
    "ridotto_zl": 19,
-   "nota": "Audioguida 10 zł."
+   "nota": "Audioguida PL/EN/DE 10 zł (non in italiano). Pass 90 giorni per tutte le sedi: 160 zł, ridotto 110 zł."
   },
   "pescatariano": "n.a.",
   "sconto_studenti": "Ridotto per studenti con tessera valida.",
   "perche": "Storica corte di Artù nel cuore della città.",
   "durata_min": 90,
   "fonti": [
-   "muzeumgdansk.pl",
+   "muzeumgdansk.pl (letto il 25/09/2026)",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
-  "descrizione": "La Corte di Artù, dove si riunivano i ricchi mercanti della città, affacciata sul Długi Targ accanto alla Fontana di Nettuno. Dentro c'è una grande sala gotica e una stufa in maiolica tra le più alte d'Europa. Gratuita il lunedì.",
-  "sito": "https://muzeumgdansk.pl/",
-  "instagram": "https://www.instagram.com/muzeumgdansk/"
+  "descrizione": "La Corte di Artù, dove si riunivano le confraternite dei mercanti, di fronte alla Fontana di Nettuno sul Długi Targ. Grande sala gotica con modelli di navi appesi e la stufa in maiolica più grande d'Europa: 10,64 m, 530 piastrelle. Venerdì 9/10 chiude alle 14, sabato 10/10 è chiusa, lunedì 12/10 è gratuita (12-18).",
+  "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/artus-court/",
+  "instagram": "https://www.instagram.com/muzeumgdansk/",
+  "eccezioni": {
+   "2026-10-09": [
+    [
+     "10:00",
+     "14:00"
+    ]
+   ],
+   "2026-10-10": []
+  }
  },
  {
   "id": "dom-uphagena",
@@ -1976,29 +1985,29 @@
     ]
    ]
   },
-  "orari_nota": "Gratuito il lunedì.",
+  "orari_nota": "Lunedì 12-18 ingresso gratuito. Nei giorni a ingresso gratuito alcune mostre temporanee possono non essere visitabili. Biglietti fino a 30 minuti prima della chiusura.",
   "prezzo": {
    "normale_zl": 26,
    "ridotto_zl": 19,
-   "nota": "Audioguida 10 zł."
+   "nota": "Pass 90 giorni per tutte le sedi: 160 zł, ridotto 110 zł."
   },
   "pescatariano": "n.a.",
   "sconto_studenti": "Ridotto per studenti con tessera valida.",
   "perche": "Casa-museo storica lungo Długa.",
   "durata_min": 75,
   "fonti": [
-   "muzeumgdansk.pl",
+   "muzeumgdansk.pl (letto il 25/09/2026)",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
-  "descrizione": "La casa di un ricco mercante del Settecento, con gli interni arredati come allora. Sta su via Długa. Gratuita il lunedì.",
-  "sito": "https://muzeumgdansk.pl/oddzialy-muzeum/dom-uphagena/",
+  "descrizione": "La casa di Johann Uphagen, ricco mercante che la comprò nel 1775 e la arredò: dall'ingresso con lo scalone alla sala da tè, al salotto, alla sala da pranzo, alla stanza della musica, fino alle cucine. Sta su via Długa. Lunedì gratuita (12-18).",
+  "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/uphagen-house/",
   "instagram": "https://www.instagram.com/muzeumgdansk/"
  },
  {
   "id": "katownia-brama-wyzynna",
-  "nome": "Katownia e Brama Wyżynna",
+  "nome": "Zespół Przedbramia (Katownia e Torre della prigione)",
   "categoria": "museo",
   "zona": "Centro storico",
   "indirizzo": "Targ Węglowy 26",
@@ -2048,87 +2057,68 @@
     ]
    ]
   },
-  "orari_nota": "",
+  "orari_nota": "Il lunedì è aperta ma NON è gratuita. Biglietti alla cassa del negozio, ingresso dal cortile, fino a 45 minuti prima della chiusura.",
   "prezzo": {
    "normale_zl": 18,
    "ridotto_zl": 13,
-   "nota": "Audioguida 10 zł."
+   "nota": "Ridotto per studenti con tessera valida."
   },
   "pescatariano": "n.a.",
   "sconto_studenti": "Ridotto per studenti con tessera valida.",
   "perche": "Museo ospitato nella torre della tortura e presso la Porta Alta.",
   "durata_min": 75,
   "fonti": [
-   "muzeumgdansk.pl",
+   "muzeumgdansk.pl (letto il 25/09/2026)",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
-  "descrizione": "La Porta Alta, ingresso monumentale della Via Reale, e accanto la Torre della Prigione con l'ex camera della tortura, oggi museo del Muzeum Gdańska.",
-  "sito": "https://www.prot.gda.pl/kontakt/"
+  "descrizione": "Il complesso davanti alla Porta Alta (Brama Wyżynna), all'inizio della Via Reale: la Torre della prigione e la Katownia, dove un tempo si giudicavano e si tenevano i condannati. Dentro ci sono due mostre.",
+  "sito": "https://muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy/",
+  "instagram": "https://www.instagram.com/muzeumgdansk/"
  },
  {
   "id": "torre-santa-caterina",
-  "nome": "Torre di Santa Caterina",
+  "nome": "Torre di Santa Caterina (Museo della scienza)",
   "categoria": "museo",
   "zona": "Centro storico",
   "indirizzo": "Wielkie Młyny 10",
   "lat": 54.354025,
   "lng": 18.650553,
   "orari": {
-   "lun": [
-    [
-     "12:00",
-     "14:00"
-    ]
-   ],
+   "lun": [],
    "mar": [],
    "mer": [],
    "gio": [],
-   "ven": [
-    [
-     "10:00",
-     "16:00"
-    ]
-   ],
-   "sab": [
-    [
-     "10:00",
-     "16:00"
-    ]
-   ],
-   "dom": [
-    [
-     "10:00",
-     "16:00"
-    ]
-   ]
+   "ven": [],
+   "sab": [],
+   "dom": []
   },
-  "orari_nota": "Orari non riportati per martedì-giovedì.",
+  "orari_nota": "CHIUSA durante il viaggio: il museo è aperto solo da aprile a settembre (ven-dom 10-16).",
   "prezzo": {
    "normale_zl": 26,
    "ridotto_zl": 19,
-   "nota": "Audioguida 10 zł."
+   "nota": "Chiusa in ottobre."
   },
   "pescatariano": "n.a.",
   "sconto_studenti": "Ridotto per studenti con tessera valida.",
   "perche": "Torre del Muzeum Nauki Gdańskiej.",
   "durata_min": 60,
   "fonti": [
-   "muzeumgdansk.pl"
+   "muzeumgdansk.pl (letto il 25/09/2026)"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
-  "descrizione": "La torre della chiesa di Santa Caterina, oggi sede del Muzeum Nauki Gdańskiej, il museo della scienza, con gli orologi da torre. Aperta solo in alcuni giorni: il lunedì dalle 12 alle 14, poi da venerdì a domenica.",
-  "sito": "https://muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy/",
+  "descrizione": "Il Muzeum Nauki Gdańskiej, nella torre della chiesa di Santa Caterina: collezione di orologi da torre dal XIV secolo e il primo orologio a pulsar del mondo (2011). È stagionale, da aprile a settembre: a ottobre è chiuso.",
+  "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/gdansk-museum-of-science/",
   "instagram": "https://www.instagram.com/muzeumgdansk/"
  },
  {
   "id": "poczta-polska",
-  "nome": "Poczta Polska",
+  "nome": "Muzeum Poczty Polskiej",
   "categoria": "museo",
-  "zona": "",
-  "indirizzo": "",
+  "zona": "Centro storico",
+  "indirizzo": "plac Obrońców Poczty Polskiej 1/2",
   "lat": 54.355415,
   "lng": 18.656945,
   "orari": {
@@ -2140,23 +2130,23 @@
    "sab": null,
    "dom": null
   },
-  "orari_nota": "Riapre il 05/10/2026; orari da confermare.",
+  "orari_nota": "Chiuso per modernizzazione. Riapre lunedì 5/10 con la cerimonia; per i visitatori la nuova mostra è aperta dal 6/10. Gli orari nuovi non sono ancora pubblicati.",
   "prezzo": {
    "normale_zl": 15,
    "ridotto_zl": 10,
-   "nota": ""
+   "nota": "Prezzi della pagina attuale; con la riapertura potrebbero cambiare. Pass 90 giorni per tutte le sedi: 160 zł, ridotto 110 zł."
   },
   "pescatariano": "n.a.",
   "sconto_studenti": "",
   "perche": "Sede museale del Muzeum Gdańska.",
   "durata_min": 60,
   "fonti": [
-   "muzeumgdansk.pl"
+   "muzeumgdansk.pl (letto il 25/09/2026)"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": true,
-  "descrizione": "L'ufficio postale polacco difeso dai suoi impiegati il 1° settembre 1939, il giorno in cui cominciò la Seconda guerra mondiale. Oggi è un museo. Riapre il 5 ottobre 2026.",
-  "sito": "https://muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy/",
+  "descrizione": "L'ufficio postale polacco difeso dai suoi impiegati il 1° settembre 1939, uno dei luoghi dove cominciò la Seconda guerra mondiale. Riapre dopo la modernizzazione con una nuova mostra sui polacchi nella Città Libera di Danzica, visitabile dal 6 ottobre.",
+  "sito": "https://muzeumgdansk.pl/wydarzenia/szczegoly/news/nowe-muzeum-poczty-polskiej/",
   "instagram": "https://www.instagram.com/muzeumgdansk/"
  },
  {
@@ -2168,64 +2158,32 @@
   "lat": 54.406701,
   "lng": 18.666969,
   "orari": {
-   "lun": [
-    [
-     "10:00",
-     "16:00"
-    ]
-   ],
-   "mar": [
-    [
-     "10:00",
-     "16:00"
-    ]
-   ],
-   "mer": [
-    [
-     "10:00",
-     "16:00"
-    ]
-   ],
-   "gio": [
-    [
-     "10:00",
-     "16:00"
-    ]
-   ],
-   "ven": [
-    [
-     "10:00",
-     "16:00"
-    ]
-   ],
-   "sab": [
-    [
-     "10:00",
-     "16:00"
-    ]
-   ],
-   "dom": [
-    [
-     "10:00",
-     "16:00"
-    ]
-   ]
+   "lun": null,
+   "mar": null,
+   "mer": null,
+   "gio": null,
+   "ven": null,
+   "sab": null,
+   "dom": null
   },
-  "orari_nota": "",
+  "orari_nota": "La Wartownia nr 1, l'unico museo al chiuso di Westerplatte (8/5 zł), è aperta solo da aprile a settembre: a ottobre è CHIUSA. Il sito del museo non indica orari per l'area all'aperto.",
   "prezzo": {
-   "normale_zl": 8,
-   "ridotto_zl": 5,
-   "nota": ""
+   "normale_zl": null,
+   "ridotto_zl": null,
+   "nota": "Wartownia nr 1: 8/5 zł, ma chiusa in ottobre."
   },
   "pescatariano": "n.a.",
   "sconto_studenti": "",
   "perche": "Sede storica visitabile del Muzeum Gdańska.",
   "durata_min": 90,
   "fonti": [
-   "muzeumgdansk.pl"
+   "muzeumgdansk.pl (letto il 25/09/2026)"
   ],
-  "verificato": "2026-09-14",
-  "descrizione": "La penisola dove il 1° settembre 1939 cominciò la Seconda guerra mondiale. Si visitano il monumento e le rovine delle difese polacche. C'è anche una crociera in battello dal centro, circa 100 minuti."
+  "verificato": "2026-09-25",
+  "descrizione": "La penisola dove il 1° settembre 1939 cominciò la Seconda guerra mondiale. Si visitano il monumento e le rovine delle difese polacche. La Wartownia nr 1, il corpo di guardia con il museo, a ottobre è chiusa. C'è anche una crociera in battello dal centro, circa 100 minuti.",
+  "da_confermare": true,
+  "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/guardhouse-no-1-at-westerplatte/",
+  "instagram": "https://www.instagram.com/muzeumgdansk/"
  },
  {
   "id": "twierdza-wisloujscie",
@@ -2274,23 +2232,23 @@
     ]
    ]
   },
-  "orari_nota": "Gratuito il lunedì; chiuso il martedì.",
+  "orari_nota": "Lunedì 10-16 ingresso gratuito; martedì chiusa. Biglietti fino a 60 minuti prima della chiusura.",
   "prezzo": {
    "normale_zl": 37,
    "ridotto_zl": 26,
-   "nota": ""
+   "nota": "Ridotto per studenti con tessera valida."
   },
   "pescatariano": "n.a.",
   "sconto_studenti": "Ridotto per studenti con tessera valida.",
   "perche": "Fortezza storica del Muzeum Gdańska.",
   "durata_min": 90,
   "fonti": [
-   "muzeumgdansk.pl"
+   "muzeumgdansk.pl (letto il 25/09/2026)"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-25",
   "da_confermare": false,
-  "descrizione": "Fortezza alla foce della Vistola che per secoli ha difeso l'accesso al porto. Il lunedì è gratuita, il martedì chiusa.",
-  "sito": "https://muzeumgdansk.pl/",
+  "descrizione": "Fortezza alla foce della Vistola che per secoli ha difeso il porto; la torre centrale è del 1482. Dentro le caserme napoleoniche c'è la mostra \"Od Batorego do Groma\". Bus 106 o 138 fino a Pokładowa, poi 1,4 km a piedi (circa 18 minuti). Lunedì gratuita, martedì chiusa.",
+  "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/wisloujscie-fortress/",
   "instagram": "https://www.instagram.com/muzeumgdansk/"
  },
  {
@@ -4286,5 +4244,41 @@
   "verificato": "2026-09-16",
   "da_confermare": true,
   "sito": "http://www.sopotcentrum.com.pl/"
+ },
+ {
+  "id": "kuznia-wodna",
+  "nome": "Kuźnia Wodna (Fucina ad acqua di Oliwa)",
+  "categoria": "museo",
+  "zona": "Oliwa",
+  "indirizzo": "Bytowska 1",
+  "lat": 54.4066328,
+  "lng": 18.5392364,
+  "orari": {
+   "lun": [],
+   "mar": [],
+   "mer": [],
+   "gio": [],
+   "ven": [],
+   "sab": [],
+   "dom": []
+  },
+  "orari_nota": "CHIUSA durante il viaggio: aperta solo da aprile a settembre (ven-dom 10-16).",
+  "prezzo": {
+   "normale_zl": 10,
+   "ridotto_zl": 6,
+   "nota": "Chiusa in ottobre."
+  },
+  "pescatariano": "n.a.",
+  "sconto_studenti": "Ridotto per studenti con tessera valida.",
+  "perche": "Sede del Muzeum Gdańska, vicino al Parco Oliwski.",
+  "durata_min": 45,
+  "fonti": [
+   "muzeumgdansk.pl (letto il 25/09/2026)"
+  ],
+  "verificato": "2026-09-25",
+  "da_confermare": false,
+  "descrizione": "L'unica fucina ad acqua di questo tipo rimasta: ha lavorato per circa 350 anni con l'acqua del torrente di Oliwa. È stagionale, da aprile a settembre: a ottobre è chiusa.",
+  "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/hammer-forge-at-oliwa/",
+  "instagram": "https://www.instagram.com/muzeumgdansk/"
  }
 ]

@@ -4,6 +4,7 @@ import {
   ore,
   siglaGiorno,
   statoApertura,
+  chiusoTuttoIlGiorno,
   scegliMezzo,
   calcola
 } from '../piano.js';
@@ -61,6 +62,19 @@ test('statoApertura considera aperta una fascia del giorno prima oltre mezzanott
 
   assert.equal(statoApertura(posto, '2026-10-10', minuti('00:30')), 'aperto');
   assert.equal(statoApertura(posto, '2026-10-10', minuti('02:00')), 'chiuso');
+});
+
+test('le eccezioni per data valgono piu\' dell\'orario settimanale', () => {
+  // Dwor Artusa: 9/10 aperto fino alle 14, 10/10 chiuso (muzeumgdansk.pl)
+  const posto = {
+    orari: { ven: [['10:00', '18:00']], sab: [['10:00', '18:00']] },
+    eccezioni: { '2026-10-09': [['10:00', '14:00']], '2026-10-10': [] }
+  };
+  assert.equal(statoApertura(posto, '2026-10-09', minuti('13:00')), 'aperto');
+  assert.equal(statoApertura(posto, '2026-10-09', minuti('15:00')), 'chiuso');
+  assert.equal(statoApertura(posto, '2026-10-10', minuti('12:00')), 'chiuso');
+  assert.equal(chiusoTuttoIlGiorno(posto, '2026-10-10'), true);
+  assert.equal(chiusoTuttoIlGiorno(posto, '2026-10-09'), false);
 });
 
 test('statoApertura gestisce chiuso, ignoto e aperto tutto il giorno', () => {
