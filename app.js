@@ -35,6 +35,22 @@ let mappaOsm = null, segnalini = [];
 
 // --- avvio -------------------------------------------------------------
 
+// Quando la tastiera si chiude, alcuni telefoni lasciano la pagina spostata
+// verso l'alto e la barra in basso resta fuori dallo schermo: la rimetto a posto.
+function tieniBarraInVista() {
+  const riallinea = () => requestAnimationFrame(() => {
+    if (window.scrollY || document.documentElement.scrollTop || document.body.scrollTop) {
+      window.scrollTo(0, 0);
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+    }
+  });
+  document.addEventListener('focusout', () => setTimeout(riallinea, 100));
+  window.addEventListener('scroll', riallinea, { passive: true });
+  if (window.visualViewport) window.visualViewport.addEventListener('resize', riallinea);
+}
+tieniBarraInVista();
+
 async function avvia() {
   const accesso = leggiAccesso();
   if (!accesso) return mostraAvvio();

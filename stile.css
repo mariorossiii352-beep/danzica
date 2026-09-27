@@ -17,6 +17,9 @@ body{
   background:var(--bg);color:var(--fg);
   font-family:var(--fontBody);font-size:16px;
   display:flex;flex-direction:column;height:100dvh;overflow:hidden;
+  /* inchiodata ai bordi dello schermo: aprendo e chiudendo la tastiera il
+     telefono non puo' far scorrere la pagina e nascondere la barra in basso */
+  position:fixed;inset:0;
 }
 button,input,select,textarea{font:inherit;font-size:16px;color:inherit;background:none;border:none}
 button{cursor:pointer}
