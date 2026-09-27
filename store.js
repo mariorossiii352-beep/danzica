@@ -110,7 +110,9 @@ async function cambiaCuore(postoId, chi, acceso) {
   c[chi] = !!acceso;
   stato.cuori[postoId] = c;
   salvaLocale(); avvisa();
-  if (fb) await fb.fs.setDoc(fb.radice, { cuori: { [postoId]: c } }, { merge: true });
+  // solo il proprio cuore: se l'altra persona tocca lo stesso posto nello
+  // stesso momento, il suo cuore non viene sovrascritto
+  if (fb) await fb.fs.setDoc(fb.radice, { cuori: { [postoId]: { [chi]: !!acceso } } }, { merge: true });
 }
 
 function nuovoId(pre) {

@@ -6,7 +6,13 @@
 export const CONFIG = {
   // Firebase -> Impostazioni progetto -> Le tue app -> Configurazione SDK
   // Esempio: { apiKey: '...', authDomain: '...', projectId: '...', appId: '...' }
-  firebase: null,
+  // Progetto danzica-viaggio (account mariorossiii352), creato il 27/09/2026
+  firebase: {
+    apiKey: 'AIzaSyAoG4lf3JYjhe6BIUJbIkHGyACd5R1RwFU',
+    authDomain: 'danzica-viaggio.firebaseapp.com',
+    projectId: 'danzica-viaggio',
+    appId: '1:207455452051:web:50560ee83bc6983ee8c666'
+  },
 
   // Centro della mappa: Danzica centro storico
   centro: { lat: 54.3489, lng: 18.6532 },
