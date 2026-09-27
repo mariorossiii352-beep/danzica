@@ -1226,6 +1226,33 @@ function disegnaInfo() {
     'Karta Turysty Odkrywca: 24h 75/60 zl, 48h 85/70, 72h 95/80. Non include i trasporti e non include il Museo della Seconda guerra mondiale; il lunedi le sedi del Muzeum Gdanska sono gia\' gratis. Nel vostro caso quasi sicuramente non conviene.',
     'Attenzione: molti sconti commerciali chiedono la ISIC, che voi non avete. La tessera universitaria normale basta solo dove scritto sopra.'
   ], 'Tutte le offerte vengono da fonti_grezze.md, verificate il 13-14/09/2026; Muzeum Gdanska ricontrollato il 25/09/2026'));
+
+  cont.appendChild(bloccoViaggio());
+}
+
+// Codice del viaggio in uso e modo per cambiarlo (o per entrare come l'altra persona).
+function bloccoViaggio() {
+  const a = leggiAccesso() || {};
+  const d = document.createElement('div');
+  d.className = 'info-blocco';
+  const h = document.createElement('h2');
+  h.textContent = 'Il vostro viaggio';
+  d.appendChild(h);
+  const p = document.createElement('p');
+  p.className = 'viaggio-stato';
+  p.textContent = 'Codice: ' + (a.codice || '-') + ' · sei ' + (NOMI[a.io] || '-') + ' · ' +
+    (store.conSincronia() ? 'dati condivisi con l\'altro telefono' : 'dati solo su questo telefono (manca la connessione?)');
+  d.appendChild(p);
+  const b = document.createElement('button');
+  b.className = 'btn grigio';
+  b.textContent = 'Cambia codice o persona';
+  b.addEventListener('click', () => {
+    if (!confirm('Esci da questo viaggio? Le spese e il piano restano salvati: rientrando con lo stesso codice li ritrovi.')) return;
+    try { localStorage.removeItem('danzica:accesso'); } catch (e) { /* niente */ }
+    location.reload();
+  });
+  d.appendChild(b);
+  return d;
 }
 
 function blocco(titolo, voci, nota) {

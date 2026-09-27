@@ -211,3 +211,4 @@ button{cursor:pointer}
 .scelta-chi{display:flex;gap:8px}
 .scelta-chi .cuore{cursor:pointer}
 #entra{margin-top:20px}
+.viaggio-stato{font-size:14px;line-height:1.5;margin:6px 0 10px;color:var(--muted)}
