@@ -192,7 +192,7 @@ function collegaMappa() {
   const voci = [['tutti', 'Tutti']].concat(CATEGORIE.map((c) => [c, c[0].toUpperCase() + c.slice(1)]));
   filtri.innerHTML = '';
   const ap = document.createElement('button');
-  ap.className = 'chip aperti' + (soloAperti ? ' on' : '');
+  ap.className = 'voce-filtro aperti' + (soloAperti ? ' on' : '');
   ap.textContent = 'Aperto ora';
   ap.addEventListener('click', () => {
     soloAperti = !soloAperti;
@@ -202,51 +202,58 @@ function collegaMappa() {
   filtri.appendChild(ap);
   for (const [id, testo] of voci) {
     const b = document.createElement('button');
-    b.className = 'chip' + (id === filtroCat ? ' on' : '');
+    b.className = 'voce-filtro' + (id === filtroCat ? ' on' : '');
     b.textContent = testo;
     b.addEventListener('click', () => {
       filtroCat = id;
-      filtri.querySelectorAll('.chip:not(.aperti)').forEach((x) => x.classList.toggle('on', x === b));
+      filtri.querySelectorAll('.voce-filtro:not(.aperti)').forEach((x) => x.classList.toggle('on', x === b));
       disegnaMappa();
     });
     filtri.appendChild(b);
   }
+  // la ricerca restringe l'elenco sotto la mappa (i pallini restano quelli del filtro)
   const cerca = $('#cerca');
   let attesa = null;
   cerca.addEventListener('input', () => {
     clearTimeout(attesa);
-    attesa = setTimeout(() => cercaPosti(cerca.value.trim()), 400);
+    attesa = setTimeout(() => disegnaElencoMappa(postiVisibili()), 250);
   });
 }
 
-async function cercaPosti(testo) {
-  const box = $('#risultati');
-  if (!testo) { box.classList.add('nascosto'); return; }
-  const t = testo.toLowerCase();
-  const miei = POSTI.concat(store.stato.posti || [])
-    .filter((p) => (p.nome + ' ' + (p.zona || '') + ' ' + (p.indirizzo || '')).toLowerCase().includes(t))
-    .slice(0, 8);
-  box.innerHTML = '';
-  for (const p of miei) {
-    const sotto = [votoBreve(p), p.categoria, p.zona, p.indirizzo].filter(Boolean).join(' · ');
-    box.appendChild(voceRicerca(p.nome, sotto, () => apriScheda(p)));
+// L'elenco dei posti sotto la mappa, come nel disegno "Ambra":
+// categoria e zona in oro, nome grande, una riga sul perche'.
+function disegnaElencoMappa(lista) {
+  const cont = $('#elenco-mappa');
+  const t = $('#cerca').value.trim().toLowerCase();
+  const scelti = t
+    ? POSTI.concat(store.stato.posti || []).filter((p) => p.id !== 'aeroporto' &&
+        (p.nome + ' ' + (p.zona || '') + ' ' + (p.indirizzo || '')).toLowerCase().includes(t))
+    : lista;
+  cont.innerHTML = '';
+  if (!scelti.length) {
+    const v = document.createElement('p');
+    v.className = 'perche';
+    v.textContent = t ? 'Nessun posto con questo nome.' : 'Nessun posto con questo filtro.';
+    cont.appendChild(v);
+    return;
   }
-  box.classList.toggle('nascosto', !box.children.length);
-}
-
-function voceRicerca(titolo, sotto, azione) {
-  const b = document.createElement('button');
-  b.innerHTML = '<span></span><small></small>';
-  b.children[0].textContent = titolo;
-  b.children[1].textContent = sotto;
-  b.addEventListener('click', () => { $('#risultati').classList.add('nascosto'); $('#cerca').value = ''; azione(); });
-  return b;
+  for (const p of scelti) {
+    const b = document.createElement('button');
+    b.className = 'pm';
+    b.innerHTML = '<div class="occhiello"></div><b></b><small></small>';
+    b.querySelector('.occhiello').textContent = [p.categoria, p.zona].filter(Boolean).join(' · ') + (cuoriTesto(p.id) ? '  ' + cuoriTesto(p.id) : '');
+    b.querySelector('b').textContent = p.nome;
+    b.querySelector('small').textContent = [votoBreve(p), p.perche].filter(Boolean).join(' · ');
+    b.addEventListener('click', () => apriScheda(p));
+    cont.appendChild(b);
+  }
 }
 
 async function disegnaMappa() {
   const lista = postiVisibili();
   const a = adesso();
   testa('Danzica', lista.length + (soloAperti ? ' aperti alle ' + P.ore(a.minuto) : ' posti') + ' · ' + LUNGHI[a.data]);
+  disegnaElencoMappa(lista);
   try {
     if (!mappaOsm) mappaOsm = await M.creaMappa($('#mappa'), CONFIG.centro, 14);
     segnalini.forEach((s) => s.remove());
@@ -255,28 +262,17 @@ async function disegnaMappa() {
     mappaOsm.invalidateSize();
   } catch (e) {
     console.error('mappa non disponibile:', e);
-    mappaDiRipiego(lista);
+    mappaDiRipiego();
   }
 }
 
-// Se la mappa non parte l'app resta utile: i posti diventano un elenco.
-function mappaDiRipiego(lista) {
+// Se la mappa non parte l'app resta utile: l'elenco sotto c'e' comunque.
+function mappaDiRipiego() {
   const el = $('#mappa');
   el.innerHTML = '';
   const d = document.createElement('div');
   d.className = 'senza-mappa';
-  d.innerHTML = '<p>La mappa non si e\' caricata: forse manca la connessione. Intanto ecco i posti:</p>';
-  for (const p of lista) {
-    const b = document.createElement('button');
-    b.className = 'sp';
-    b.innerHTML = '<div class="n"></div><div class="z"></div>';
-    b.querySelector('.n').innerHTML = '<span></span><small></small>';
-    b.querySelector('.n span').textContent = p.nome;
-    b.querySelector('.n small').textContent = [votoBreve(p), p.categoria, p.zona, p.indirizzo].filter(Boolean).join(' · ');
-    b.querySelector('.z').textContent = cuoriTesto(p.id);
-    b.addEventListener('click', () => apriScheda(p));
-    d.appendChild(b);
-  }
+  d.textContent = "La mappa non si e' caricata: forse manca la connessione. I posti sono qui sotto.";
   el.appendChild(d);
 }
 

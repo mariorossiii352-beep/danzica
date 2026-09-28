@@ -43,11 +43,12 @@ button{cursor:pointer}
 .chips::-webkit-scrollbar{display:none}
 .chip{font-size:12px;letter-spacing:.04em;padding:7px 13px;border-radius:var(--rChip);background:transparent;color:var(--chipfg);border:1px solid var(--line);white-space:nowrap}
 .chip.on{background:var(--acc);color:var(--accfg);border-color:var(--acc)}
-.search{width:calc(100% - 24px);margin:8px 12px 0;padding:12px;border-radius:var(--rCard);background:var(--card);border:1px solid var(--line)}
+.search{flex:none;width:calc(100% - 24px);margin:10px 12px 0;padding:12px;border-radius:var(--rCard);background:var(--card);border:1px solid var(--line)}
 
 /* mappa */
 /* lo z-index tiene i livelli di Leaflet dentro il riquadro della mappa,
    altrimenti coprirebbero la barra di ricerca qui sopra */
+#riquadro-mappa{flex:none;position:relative;height:38%;min-height:190px;border-bottom:1px solid var(--line)}
 #mappa{position:absolute;inset:0;background:#e9ebe6;z-index:1}
 
 /* segnaposto: pallini colorati per categoria, disegnati in CSS */
@@ -60,16 +61,20 @@ button{cursor:pointer}
 .pin-attrazione i{background:#7B4FA0}
 .pin-shopping i{background:#C2185B}
 .pin-gita i{background:#2E7D32}
-.sopra-mappa{position:absolute;left:0;right:0;top:0;z-index:4}
-/* sopra la mappa chiara i filtri devono avere un fondo pieno, o spariscono */
-.sopra-mappa .chip{background:var(--card);color:var(--fg);border-color:#4a3c2c;font-weight:600;
-  box-shadow:0 2px 8px rgba(0,0,0,.45)}
-.sopra-mappa .chip.on{background:var(--acc);color:var(--accfg);border-color:var(--acc)}
-.sopra-mappa .search{box-shadow:0 2px 10px rgba(0,0,0,.4)}
-.senza-mappa{padding:70px 14px 14px;overflow-y:auto;height:100%;font-size:14px;color:var(--muted)}
-.risultati{position:absolute;left:12px;right:12px;top:96px;z-index:6;background:var(--card);border:1px solid var(--line);max-height:60%;overflow-y:auto}
-.risultati button{display:block;width:100%;text-align:left;padding:12px;border-bottom:1px solid var(--line);font-size:14px}
-.risultati small{display:block;color:var(--muted);font-size:12px}
+.senza-mappa{padding:14px;overflow-y:auto;height:100%;font-size:14px;color:var(--muted)}
+.senza-mappa button{display:block;width:100%;text-align:left;padding:10px 0;border-bottom:1px solid var(--line);color:var(--fg)}
+/* filtri come nel disegno "Ambra": parole, niente riquadri; quella scelta e' oro e sottolineata */
+.voci-filtro{flex:none;display:flex;gap:18px;padding:12px 16px 0;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--line)}
+.voci-filtro::-webkit-scrollbar{display:none}
+.voce-filtro{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);white-space:nowrap;
+  padding:4px 0 9px;border-bottom:2px solid transparent}
+.voce-filtro.on{color:var(--acc);border-bottom-color:var(--acc)}
+.voce-filtro:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+/* elenco dei posti sotto la mappa */
+.pm{display:block;width:100%;text-align:left;padding:14px 4px;border-bottom:1px solid var(--line)}
+.pm .occhiello{margin-bottom:4px}
+.pm b{display:block;font-family:var(--fontTitle);font-weight:600;font-size:19px;letter-spacing:var(--titleSp)}
+.pm small{display:block;color:var(--muted);font-size:13px;line-height:1.45;margin-top:3px}
 
 /* scheda posto */
 .velo{position:fixed;inset:0;background:#000a;z-index:8}
@@ -202,7 +207,6 @@ button{cursor:pointer}
 .pesca-lista button span{display:block;font-family:var(--fontTitle);font-weight:600;font-size:18px;
   letter-spacing:var(--titleSp);line-height:1.2}
 .pesca-lista small{display:block;color:var(--muted);font-size:12px;margin-top:3px}
-.risultati button span{display:block;font-family:var(--fontTitle);font-weight:600;font-size:16px}
 
 /* schermo di avvio */
 .schermo{position:fixed;inset:0;z-index:20;background:var(--bg);display:flex;align-items:center;justify-content:center;padding:24px}
