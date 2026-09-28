@@ -977,10 +977,11 @@
   "perche": "Food hall curato sul lungofiume con proposte diverse.",
   "durata_min": 75,
   "fonti": [
+   "Google Maps (ricontrollato il 28/09/2026: orari uguali a quelli nell'app)",
    "TikTok @alemomastyle",
    "TikTok @cidi.jpg"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-28",
   "da_confermare": false,
   "descrizione": "Food hall ricavata in un granaio sull'isola dei granai: dieci cucine e due bar sotto lo stesso tetto. Comodo quando si hanno voglie diverse; tra i banchi consigliati ci sono NEON e Amito. Da provare i pierogi all'anatra.",
   "sito": "https://slonyspichlerz.pl/",
@@ -1259,7 +1260,7 @@
    "sab": null,
    "dom": null
   },
-  "orari_nota": "Orari da confermare. Servizio lento: tenere margine.",
+  "orari_nota": "Né il sito ufficiale né Google Maps pubblicano gli orari (ricontrollato il 28/09). Il pranzo del 10 è prenotato 12:30-14:30. Servizio lento: tenere margine.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -1270,10 +1271,11 @@
   "perche": "Ristorante di pierogi consigliato per pierogi misti e limonate.",
   "durata_min": 75,
   "fonti": [
+   "sito pierogarnie.com e Google Maps (28/09/2026): orari non pubblicati",
    "TikTok @cidi.jpg",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-28",
   "da_confermare": true,
   "descrizione": "Ristorante di pierogi \"cotti al forno\", molto amato: 4,6 su quasi 18.000 recensioni. Consigliati i pierogi misti, quelli alle castagne quando sono di stagione e le limonate. Il servizio è lento: meglio non avere fretta. Qui c'è il pranzo prenotato del 10 ottobre.",
   "sito": "https://www.pierogarnie.com/restauracje/stary-mlyn-gdansk/",
@@ -3099,9 +3101,10 @@
   "perche": "Sede museale del Muzeum Gdańska.",
   "durata_min": 60,
   "fonti": [
+   "sito ufficiale muzeumgdansk.pl (ricontrollato il 28/09/2026: orari non ancora pubblicati)",
    "muzeumgdansk.pl (letto il 25/09/2026)"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-09-28",
   "da_confermare": true,
   "descrizione": "L'ufficio postale polacco difeso dai suoi impiegati il 1° settembre 1939, uno dei luoghi dove cominciò la Seconda guerra mondiale. Riapre dopo la modernizzazione con una nuova mostra sui polacchi nella Città Libera di Danzica, visitabile dal 6 ottobre.",
   "sito": "https://muzeumgdansk.pl/wydarzenia/szczegoly/news/nowe-muzeum-poczty-polskiej/",
@@ -3534,9 +3537,10 @@
   "perche": "Museo nazionale cittadino.",
   "durata_min": 90,
   "fonti": [
+   "Google Maps (ricontrollato il 28/09/2026: orari uguali a quelli nell'app)",
    "Lista Maps"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-28",
   "da_confermare": false,
   "descrizione": "Il Museo Nazionale di Danzica, in un ex convento francescano. Attenzione: il suo pezzo più famoso, il Giudizio universale di Memling, nel 2026 non è esposto. Chiuso il lunedì.",
   "sito": "http://mng.gda.pl/",
@@ -3938,10 +3942,11 @@
   "perche": "Torre panoramica con vista sulla città dopo 402 gradini.",
   "durata_min": 45,
   "fonti": [
+   "sito ufficiale bazylikamariacka.gdansk.pl (ricontrollato il 28/09/2026: testo invariato)",
    "sito ufficiale bazylikamariacka.gdansk.pl/bazylika/informacja-dla-turystow (letto il 25/09/2026)",
    "TikTok @giuliaarinaldii"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-09-28",
   "da_confermare": true,
   "descrizione": "La torre della Basilica di Santa Maria: 402 gradini ripidi fino a 78 metri, con una vista su tutta la città vecchia che secondo chi l'ha fatta vale la fatica. Chiude quando c'è vento forte.",
   "sito": "https://bazylikamariacka.gdansk.pl/",
@@ -3981,7 +3986,7 @@
   "nome": "Basilica di Santa Brigida",
   "categoria": "chiesa",
   "zona": "",
-  "indirizzo": "",
+  "indirizzo": "Profesorska 17",
   "lat": 54.35459,
   "lng": 18.652253,
   "orari": {
@@ -4039,9 +4044,10 @@
   "perche": "Chiesa con un eccezionale altare d'ambra.",
   "durata_min": 45,
   "fonti": [
+   "Google Maps (ricontrollato il 28/09/2026: orari uguali a quelli nell'app)",
    "TikTok @vpcn.travel"
   ],
-  "verificato": "2026-09-14",
+  "verificato": "2026-09-28",
   "da_confermare": false,
   "descrizione": "Chiesa famosa per l'altare quasi tutto d'ambra, circa una tonnellata, unico al mondo. Ingresso con un'offerta di 4 zł.",
   "sito": "http://brygida.gdansk.pl/",
@@ -5358,7 +5364,7 @@
     ]
    ]
   },
-  "orari_nota": "ATTENZIONE: il sito oggi pubblica solo l'orario estivo (fino al 30/09: mar-dom 9-20, ultimo ingresso al percorso storico 16:30). Quello di ottobre non è ancora pubblicato: gli orari qui sono della ricerca del 14/09, da ricontrollare prima di partire.",
+  "orari_nota": "ATTENZIONE: il 28/09 il sito pubblica ancora solo l'orario estivo (fino al 30/09: mar-dom 9-20, ultimo ingresso al percorso storico 16:30; il lunedì solo il percorso all'aperto, gratis, biglietto solo in cassa). Gli orari qui sono della ricerca del 14/09, da ricontrollare prima di partire.",
   "prezzo": {
    "normale_zl": 29.5,
    "ridotto_zl": 20.5,
@@ -5369,10 +5375,11 @@
   "perche": "Gita al grande castello raggiungibile in treno da Gdańsk Główny.",
   "durata_min": 300,
   "fonti": [
+   "sito ufficiale zamek.malbork.pl (ricontrollato il 28/09/2026: c'è ancora solo l'orario estivo fino al 30/09)",
    "sito ufficiale zamek.malbork.pl/godziny-otwarcia (letto il 25/09/2026)",
    "TikTok @giuliaarinaldii"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-09-28",
   "da_confermare": true,
   "descrizione": "Il castello dei Cavalieri Teutonici, il più grande castello in mattoni del mondo e patrimonio UNESCO. Si raggiunge in treno da Gdańsk Główny in 25-50 minuti. Da ottobre il percorso completo chiude presto: ultimo ingresso alle 12:45. Il lunedì è gratuito ma solo il percorso esterno.",
   "sito": "https://zamek.malbork.pl/",
@@ -6400,15 +6407,50 @@
   "lat": 54.411221,
   "lng": 18.562081,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "05:00",
+     "23:00"
+    ]
+   ],
+   "mar": [
+    [
+     "05:00",
+     "23:00"
+    ]
+   ],
+   "mer": [
+    [
+     "05:00",
+     "23:00"
+    ]
+   ],
+   "gio": [
+    [
+     "05:00",
+     "23:00"
+    ]
+   ],
+   "ven": [
+    [
+     "05:00",
+     "23:00"
+    ]
+   ],
+   "sab": [
+    [
+     "05:00",
+     "23:00"
+    ]
+   ],
+   "dom": [
+    [
+     "05:00",
+     "23:00"
+    ]
+   ]
   },
-  "orari_nota": "",
+  "orari_nota": "Aperto tutti i giorni dalle 5 alle 23.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -6420,11 +6462,12 @@
   "descrizione": "Grande parco storico a Oliwa, accanto alla cattedrale, lontano dal centro. Voto altissimo su Google con decine di migliaia di recensioni.",
   "durata_min": 90,
   "fonti": [
+   "Google Maps (letto il 28/09/2026; il sito ufficiale non riporta gli orari)",
    "Lista Google Maps di Alessia «Danzica must visit»",
    "parkoliwski.gdansk.pl"
   ],
-  "verificato": "2026-09-16",
-  "da_confermare": true,
+  "verificato": "2026-09-28",
+  "da_confermare": false,
   "sito": "http://www.parkoliwski.gdansk.pl/",
   "recensioni": {
    "voto": 4.8,
@@ -6479,15 +6522,50 @@
   "lat": 54.444196,
   "lng": 18.566748,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ],
+   "mar": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ],
+   "mer": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ],
+   "gio": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ],
+   "ven": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ],
+   "sab": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ],
+   "dom": [
+    [
+     "08:00",
+     "23:00"
+    ]
+   ]
   },
-  "orari_nota": "",
+  "orari_nota": "L'edificio (negozi e locali) è aperto 8-23; la facciata si vede sempre dalla strada.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -6499,11 +6577,12 @@
   "descrizione": "La \"casa storta\" di Sopot, sulla via pedonale Monte Cassino: un edificio dalle forme deformate, come disegnato da un bambino. Si guarda da fuori; dentro ci sono negozi e una food hall.",
   "durata_min": 15,
   "fonti": [
+   "Google Maps (letto il 28/09/2026; il sito ufficiale non riporta gli orari)",
    "Lista Google Maps di Alessia «Danzica must visit»",
    "krzywydomek.info"
   ],
-  "verificato": "2026-09-16",
-  "da_confermare": true,
+  "verificato": "2026-09-28",
+  "da_confermare": false,
   "sito": "https://krzywydomek.info/",
   "recensioni": {
    "voto": 4.3,
@@ -6555,15 +6634,35 @@
   "lat": 54.352398,
   "lng": 18.660008,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [],
+   "mar": [
+    [
+     "13:00",
+     "18:00"
+    ]
+   ],
+   "mer": [
+    [
+     "13:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "13:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "13:00",
+     "18:00"
+    ]
+   ],
+   "sab": [],
+   "dom": []
   },
-  "orari_nota": "",
+  "orari_nota": "Su Google Maps: mar-ven 13-18, chiuso sab-dom-lun. Probabilmente è l'orario della biglietteria, non dei concerti: per i concerti vale il programma sul sito.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -6575,10 +6674,11 @@
   "descrizione": "La Filarmonica Baltica, sull'isola di Ołowianka in una ex centrale elettrica sul fiume. Vale la pena controllare il programma dei concerti per le vostre date.",
   "durata_min": 45,
   "fonti": [
+   "Google Maps (letto il 28/09/2026; il sito ufficiale non riporta gli orari)",
    "Lista Google Maps di Alessia «Danzica must visit»",
    "filharmonia.gda.pl"
   ],
-  "verificato": "2026-09-16",
+  "verificato": "2026-09-28",
   "da_confermare": true,
   "sito": "http://www.filharmonia.gda.pl/",
   "instagram": "https://www.instagram.com/polska_filharmonia_baltycka/",
@@ -6632,15 +6732,50 @@
   "lat": 54.440835,
   "lng": 18.562959,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "09:00",
+     "20:00"
+    ]
+   ],
+   "mar": [
+    [
+     "09:00",
+     "20:00"
+    ]
+   ],
+   "mer": [
+    [
+     "09:00",
+     "20:00"
+    ]
+   ],
+   "gio": [
+    [
+     "09:00",
+     "20:00"
+    ]
+   ],
+   "ven": [
+    [
+     "09:00",
+     "20:00"
+    ]
+   ],
+   "sab": [
+    [
+     "09:00",
+     "20:00"
+    ]
+   ],
+   "dom": [
+    [
+     "09:00",
+     "20:00"
+    ]
+   ]
   },
-  "orari_nota": "",
+  "orari_nota": "Tutti i giorni 9-20.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -6652,11 +6787,12 @@
   "descrizione": "Centro commerciale nel centro di Sopot, vicino alla stazione.",
   "durata_min": 45,
   "fonti": [
+   "Google Maps (letto il 28/09/2026; il sito ufficiale non riporta gli orari)",
    "Lista Google Maps di Alessia «Danzica must visit»",
    "sopotcentrum.com.pl"
   ],
-  "verificato": "2026-09-16",
-  "da_confermare": true,
+  "verificato": "2026-09-28",
+  "da_confermare": false,
   "sito": "http://www.sopotcentrum.com.pl/",
   "recensioni": {
    "voto": 4.4,

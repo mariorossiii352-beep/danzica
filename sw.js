@@ -3,7 +3,7 @@
 // Dopo ogni modifica ai file alza VERSIONE: e' l'unico modo per far arrivare
 // l'aggiornamento sui telefoni che hanno gia' installato l'app.
 
-const VERSIONE = 'danzica-v13';
+const VERSIONE = 'danzica-v14';
 
 const GUSCIO = [
   './',
