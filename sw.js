@@ -3,7 +3,7 @@
 // Dopo ogni modifica ai file alza VERSIONE: e' l'unico modo per far arrivare
 // l'aggiornamento sui telefoni che hanno gia' installato l'app.
 
-const VERSIONE = 'danzica-v14';
+const VERSIONE = 'danzica-v15';
 
 const GUSCIO = [
   './',
@@ -39,6 +39,7 @@ const GUSCIO = [
 const MAI_IN_CACHE = [
   'tile.openstreetmap.org',
   'router.project-osrm.org',
+  'routing.openstreetmap.de',
   'api.frankfurter.dev',
   'firestore.googleapis.com',
   'identitytoolkit.googleapis.com',

@@ -7,7 +7,8 @@
 
 window.SEME = {
 
-  // L'appartamento non e' ancora prenotato: si imposta dall'app.
+  // L'appartamento e' salvato solo nei dati condivisi del viaggio,
+  // non in questo file pubblico: si vede e si modifica dall'app, in Info.
   casa: null,
 
   giorni: {

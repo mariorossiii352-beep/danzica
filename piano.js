@@ -106,7 +106,9 @@ function chiaveTratta(a, b) {
 
 // Calcola orari e avvisi. Non tocca l'oggetto giorno: torna roba nuova.
 // posti: mappa id -> posto (per orari e nome). stime: mappa chiave -> tempi.
-function calcola(giorno, posti, stime) {
+// origine: id del posto da cui si parte la mattina (la casa). Se c'e', la
+// partenza e' l'ora in cui si esce di casa e la prima tappa ha la sua tratta.
+function calcola(giorno, posti, stime, origine) {
   const P = posti || {};
   const S = stime || {};
   const tappe = (giorno && giorno.tappe) || [];
@@ -120,7 +122,7 @@ function calcola(giorno, posti, stime) {
 
   for (let i = 0; i < tappe.length; i++) {
     const t = tappe[i];
-    const prec = i > 0 ? tappe[i - 1] : null;
+    const prec = i > 0 ? tappe[i - 1] : (origine && P[origine] ? { postoId: origine } : null);
     let tratta = null;
 
     if (prec) {
@@ -133,7 +135,9 @@ function calcola(giorno, posti, stime) {
         metri: stima ? stima.metri : null,
         biglietto_zl: stima ? stima.biglietto_zl : null,
         manuale: !!t.mezzo,
-        stimato: !stima
+        stimato: !stima,
+        // per i mezzi pubblici il tempo e' ricavato da quello dell'auto
+        mezziIndicativi: !!(stima && stima.mezziStimati && mezzo === 'mezzi')
       };
       orologio += durata == null ? 15 : durata; // senza dato: 15 min di cortesia
     }

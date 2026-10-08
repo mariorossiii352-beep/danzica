@@ -7,7 +7,10 @@
 
 import { CONFIG } from './config.js';
 
-const CACHE = 'danzica:cache';
+// 'cache2' dall'8/10/2026: i tempi a piedi ora vengono dal percorso pedonale vero;
+// quelli vecchi (ricavati dall'auto) si buttano.
+const CACHE = 'danzica:cache2';
+try { localStorage.removeItem('danzica:cache'); } catch (e) { /* niente */ }
 const cache = leggiCache();
 
 function leggiCache() {
@@ -55,13 +58,17 @@ async function segnaposti(mappa, lista, alTocco) {
   const fatti = [];
   for (const p of lista) {
     if (p.lat == null || p.lng == null) continue;
+    // la casa ha un segnaposto suo, piu' grande, e sta sopra agli altri
+    const casa = p.id === 'casa';
     const icona = L.divIcon({
       className: 'pin pin-' + (p.categoria || 'altro'),
-      html: '<i></i>',
-      iconSize: [22, 22],
-      iconAnchor: [11, 11]
+      html: casa ? '<i>⌂</i>' : '<i></i>',
+      iconSize: casa ? [30, 30] : [22, 22],
+      iconAnchor: casa ? [15, 15] : [11, 11]
     });
-    const s = L.marker([p.lat, p.lng], { icon: icona, title: p.nome, keyboard: true }).addTo(mappa);
+    const s = L.marker([p.lat, p.lng], {
+      icon: icona, title: p.nome, keyboard: true, zIndexOffset: casa ? 1000 : 0
+    }).addTo(mappa);
     if (alTocco) s.on('click', () => alTocco(p));
     fatti.push(s);
   }
@@ -94,10 +101,21 @@ function stimaGrezza(a, b) {
 
 function chiaveTratta(a, b) { return 'tratta:' + (a || 'casa') + '>' + (b || 'casa'); }
 
-const OSRM = 'https://router.project-osrm.org/route/v1';
+// La casa puo' cambiare posto: nella cache le sue tratte portano anche le
+// coordinate, cosi' un tempo calcolato per un altro indirizzo non torna fuori.
+function idPerCache(id, posto) {
+  return id === 'casa' && posto && posto.lat != null
+    ? 'casa@' + Number(posto.lat).toFixed(5) + ',' + Number(posto.lng).toFixed(5)
+    : id;
+}
 
-async function percorso(modo, da, a) {
-  const url = OSRM + '/' + modo + '/' + da.lng + ',' + da.lat + ';' + a.lng + ',' + a.lat + '?overview=false';
+const OSRM_AUTO = 'https://router.project-osrm.org/route/v1/driving/';
+// Server OSRM di FOSSGIS con il profilo a piedi: conosce zone pedonali,
+// piazze e passaggi del centro storico, che l'auto deve aggirare.
+const OSRM_PIEDI = 'https://routing.openstreetmap.de/routed-foot/route/v1/foot/';
+
+async function percorso(base, da, a) {
+  const url = base + da.lng + ',' + da.lat + ';' + a.lng + ',' + a.lat + '?overview=false';
   const r = await fetch(url);
   if (!r.ok) return null;
   const d = await r.json();
@@ -106,35 +124,40 @@ async function percorso(modo, da, a) {
   return { min: Math.max(1, Math.round(rotta.duration / 60)), metri: Math.round(rotta.distance) };
 }
 
-// Il server pubblico di OSRM calcola solo percorsi in automobile: anche
-// chiedendo "a piedi" risponde con i tempi dell'auto. Quindi faccio una sola
-// domanda, quella giusta, e ricavo il resto dalla distanza stradale vera.
+// Due domande: il percorso a piedi vero (tempo e distanza) e quello in auto
+// (per il taxi). Per i mezzi pubblici non c'e' un servizio gratuito con gli
+// orari di Danzica: il tempo dei mezzi e' ricavato da quello dell'auto ed e'
+// segnato come indicativo.
 async function tempiDiViaggio(daId, aId, da, a) {
-  const chiave = chiaveTratta(daId, aId);
+  const chiave = chiaveTratta(idPerCache(daId, da), idPerCache(aId, a));
   const salvato = daCache(chiave);
   if (salvato) return salvato;
   if (!da || !a || da.lat == null || a.lat == null) return null;
 
   const grezza = stimaGrezza(da, a);
 
-  // Sotto i 250 metri il percorso stradale mente: gira intorno ai sensi unici
-  // e ignora piazze e portici. Due posti nello stesso palazzo diventerebbero
-  // 600 metri di auto. A piedi, a quella distanza, si va in linea d'aria.
+  // Sotto i 250 metri si va a piedi in linea d'aria: due posti nello stesso
+  // palazzo (Olivia Garden e Treinta y Tres) non hanno bisogno di un percorso.
   if (distanza(da, a) < 250) return inCache(chiave, grezza);
 
   try {
-    const auto = await percorso('driving', da, a);
-    if (!auto) return grezza;
+    const [piedi, auto] = await Promise.all([
+      percorso(OSRM_PIEDI, da, a).catch(() => null),
+      percorso(OSRM_AUTO, da, a).catch(() => null)
+    ]);
+    if (!piedi && !auto) return grezza;
+    const metri = piedi ? piedi.metri : auto.metri;
     const ris = {
-      metri: auto.metri,
-      piedi_min: Math.max(1, Math.round(auto.metri / 75)),          // 4,5 km/h
-      mezzi_min: Math.max(8, Math.round(auto.min * 1.6) + 6),       // piu' lenti, piu' attesa
-      taxi_min: auto.min,
+      metri: metri,
+      piedi_min: piedi ? piedi.min : Math.max(1, Math.round(metri / 75)),   // 4,5 km/h
+      mezzi_min: auto ? Math.max(8, Math.round(auto.min * 1.6) + 6) : grezza.mezzi_min,
+      taxi_min: auto ? auto.min : grezza.taxi_min,
       biglietto_zl: null,
       stimato: false,
       mezziStimati: true
     };
-    return inCache(chiave, ris);
+    // se uno dei due servizi non ha risposto non salvo: si riprova la prossima volta
+    return piedi && auto ? inCache(chiave, ris) : ris;
   } catch (e) {
     return grezza;
   }

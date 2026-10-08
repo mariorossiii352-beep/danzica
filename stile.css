@@ -215,3 +215,12 @@ button{cursor:pointer}
 .scelta-chi .cuore{cursor:pointer}
 #entra{margin-top:20px}
 .viaggio-stato{font-size:14px;line-height:1.5;margin:6px 0 10px;color:var(--muted)}
+
+/* casa: segnaposto proprio sulla mappa, righe di partenza e ritorno nel piano */
+.pin-casa i{width:26px;height:26px;margin:2px;border-radius:6px;background:var(--acc);color:var(--accfg);
+  border:2px solid #fff;font-style:normal;font-size:17px;line-height:22px;text-align:center;font-weight:700}
+.tappa-casa .box{border-top:1px dashed var(--line)}
+.tappa-casa .t{color:var(--acc)}
+.tappa-casa .ora{color:var(--muted)}
+.casa .nome{font-size:24px}
+.info-blocco .casa .descrizione{font-size:14px;margin-top:8px}

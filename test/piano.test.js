@@ -178,5 +178,30 @@ test('calcola crea una catena di orari e tutti gli avvisi necessari', () => {
   assert.ok(risultato.avvisi.some((avviso) => avviso.tipo === 'limite'));
 });
 
+test('calcola con la casa come origine: la prima tappa ha la tratta da casa', () => {
+  const posti = {
+    casa: { id: 'casa', nome: 'Casa' },
+    museo: { id: 'museo', nome: 'Museo', orari: { lun: [['10:00', '18:00']] } }
+  };
+  const giorno = {
+    data: '2026-10-12', partenza: '10:00', limite: null,
+    tappe: [{ id: 'm', postoId: 'museo', nome: 'Museo', durata_min: 60, bloccata: false, ora: null, mezzo: null }]
+  };
+  const stime = { 'casa>museo': { piedi_min: 12, mezzi_min: 20, taxi_min: 6, metri: 900 } };
+
+  const conCasa = calcola(giorno, posti, stime, 'casa');
+  assert.equal(conCasa.righe[0].tratta.mezzo, 'piedi');
+  assert.equal(conCasa.righe[0].oraArrivo, '10:12');
+
+  // senza origine resta come prima: si arriva alla prima tappa all'ora di partenza
+  const senza = calcola(giorno, posti, stime);
+  assert.equal(senza.righe[0].tratta, null);
+  assert.equal(senza.righe[0].oraArrivo, '10:00');
+
+  // origine indicata ma casa non impostata: nessuna tratta
+  const senzaCasa = calcola(giorno, { museo: posti.museo }, stime, 'casa');
+  assert.equal(senzaCasa.righe[0].tratta, null);
+});
+
 console.log(`\nRiepilogo: ${passati} passati, ${falliti} falliti.`);
 process.exit(falliti > 0 ? 1 : 0);

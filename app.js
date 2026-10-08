@@ -105,11 +105,24 @@ async function caricaPosti() {
 }
 
 function indicizza() {
-  const casa = store.stato.casa;
   const tutti = POSTI.concat(store.stato.posti || []);
-  if (casa) tutti.push(Object.assign({ id: 'casa', nome: casa.nome || 'Casa', categoria: 'attrazione' }, casa));
+  const casa = laCasa();
+  if (casa) tutti.push(casa);
   INDICE = {};
   for (const p of tutti) INDICE[p.id] = p;
+}
+
+// L'appartamento come posto dell'app (mappa, piano, ricerca). null se non c'e'.
+function laCasa() {
+  const c = store.stato.casa;
+  if (!c) return null;
+  return Object.assign({}, c, { id: 'casa', nome: c.nome || 'Casa', categoria: 'casa', durata_min: 60 });
+}
+
+// I posti che si possono aggiungere al piano o cercare: la casa per prima.
+function postiConCasa() {
+  const casa = laCasa();
+  return (casa ? [casa] : []).concat(POSTI, store.stato.posti || []);
 }
 
 // Quando esce una versione nuova il service worker la scarica in sottofondo,
@@ -223,7 +236,7 @@ async function cercaPosti(testo) {
   const box = $('#risultati');
   if (!testo) { box.classList.add('nascosto'); return; }
   const t = testo.toLowerCase();
-  const miei = POSTI.concat(store.stato.posti || [])
+  const miei = postiConCasa()
     .filter((p) => (p.nome + ' ' + (p.zona || '') + ' ' + (p.indirizzo || '')).toLowerCase().includes(t))
     .slice(0, 8);
   box.innerHTML = '';
@@ -247,6 +260,9 @@ async function disegnaMappa() {
   const lista = postiVisibili();
   const a = adesso();
   testa('Danzica', lista.length + (soloAperti ? ' aperti alle ' + P.ore(a.minuto) : ' posti') + ' · ' + LUNGHI[a.data]);
+  // la casa resta sempre sulla mappa, qualunque filtro sia acceso
+  const casa = laCasa();
+  if (casa) lista.unshift(casa);
   try {
     if (!mappaOsm) mappaOsm = await M.creaMappa($('#mappa'), CONFIG.centro, 14);
     segnalini.forEach((s) => s.remove());
@@ -345,7 +361,81 @@ function voceLink(box, etichetta, href, dettaglio) {
   box.appendChild(a);
 }
 
+// Scheda della casa: niente orari, cuori o recensioni, solo come arrivarci.
+function apriSchedaCasa() {
+  const casa = laCasa();
+  if (!casa) return modaleCasa();
+  const f = $('#foglio');
+  f.innerHTML = '';
+  f.appendChild(costruisci('<div class="grab"></div>'));
+  f.appendChild(dettagliCasa(casa, { mappa: false }));
+
+  const agg = document.createElement('button');
+  agg.className = 'btn aggiungi';
+  agg.textContent = 'Aggiungi a un giorno (pausa a casa)';
+  agg.addEventListener('click', () => scegliGiorno(casa));
+  f.appendChild(agg);
+
+  f.classList.remove('nascosto');
+  $('#velo').classList.remove('nascosto');
+  $('#velo').onclick = chiudiFoglio;
+}
+
+// Nome, indirizzo, istruzioni di Paweł e link: usato dalla scheda e da Info.
+function dettagliCasa(casa, opz) {
+  const d = document.createElement('div');
+  d.className = 'casa';
+  const occhiello = document.createElement('div');
+  occhiello.className = 'occhiello';
+  occhiello.textContent = 'Dove dormite · 9-12 ottobre';
+  d.appendChild(occhiello);
+  const nome = document.createElement('div');
+  nome.className = 'nome';
+  nome.textContent = casa.indirizzo || casa.nome;
+  d.appendChild(nome);
+  if (casa.dettagli) {
+    const p = document.createElement('p');
+    p.className = 'descrizione';
+    p.textContent = casa.dettagli;
+    d.appendChild(p);
+  }
+  const links = document.createElement('div');
+  links.className = 'links';
+  voceLink(links, 'Portami a casa', M.linkNavigazione(casa), 'Google Maps');
+  if (opz && opz.mappa && casa.lat != null) {
+    const b = document.createElement('a');
+    b.href = '#';
+    b.textContent = 'Mostra sulla mappa';
+    b.addEventListener('click', (e) => { e.preventDefault(); mostraSullaMappa(casa); });
+    links.appendChild(b);
+  }
+  const mod = document.createElement('a');
+  mod.href = '#';
+  mod.textContent = 'Modifica';
+  mod.addEventListener('click', (e) => { e.preventDefault(); chiudiFoglio(); modaleCasa(); });
+  links.appendChild(mod);
+  d.appendChild(links);
+  if (casa.fonte) {
+    const s = document.createElement('div');
+    s.className = 'fonte';
+    s.textContent = 'Fonte: ' + casa.fonte;
+    d.appendChild(s);
+  }
+  return d;
+}
+
+function mostraSullaMappa(p) {
+  vaiA('mappa');
+  // la mappa si crea al primo disegno: aspetto che ci sia
+  const prova = (n) => {
+    if (mappaOsm) { mappaOsm.invalidateSize(); mappaOsm.setView([p.lat, p.lng], 17); }
+    else if (n > 0) setTimeout(() => prova(n - 1), 150);
+  };
+  prova(20);
+}
+
 async function apriScheda(p) {
+  if (p.id === 'casa') return apriSchedaCasa();
   const f = $('#foglio');
   const c = store.stato.cuori[p.id] || {};
   const a = adesso();
@@ -582,7 +672,7 @@ function scegliGiorno(p) {
 // qui ci sono tutti e 64, non solo quelli segnati.
 function scegliTappa(data) {
   apriModale('Aggiungi una tappa a ' + LUNGHI[data], (corpo, chiudi) => {
-    const tutti = POSTI.concat(store.stato.posti || []);
+    const tutti = postiConCasa();
     let cat = 'tutti';
 
     const cerca = document.createElement('input');
@@ -678,7 +768,7 @@ async function aggiungiTappa(data, posto) {
 function disegnaPiano() {
   const cont = $('#timeline');
   const g = giornoDati(giornoScelto);
-  const calcolo = P.calcola(g, INDICE, stime);
+  const calcolo = P.calcola(g, INDICE, stime, 'casa');
   testa('Il piano', LUNGHI[giornoScelto] + ' · ' + g.tappe.length + ' tappe');
 
   const giorni = $('#giorni');
@@ -708,6 +798,9 @@ function disegnaPiano() {
     b.addEventListener('click', modaleCasa);
     cont.appendChild(b);
   }
+
+  // la giornata comincia uscendo di casa: l'ora si cambia toccando la riga
+  if (laCasa()) cont.appendChild(rigaCasa(g.partenza || '10:00', 'si esce di casa · tocca per cambiare l\'ora', () => modalePartenza(g)));
 
   const lista = document.createElement('div');
   lista.id = 'lista-tappe';
@@ -751,6 +844,18 @@ function disegnaPiano() {
     lista.appendChild(blocco);
   });
 
+  // ritorno: solo informativo, non sposta gli orari e non conta per il limite
+  const ultimaRiga = calcolo.righe[calcolo.righe.length - 1];
+  const ultimoId = ultimaRiga && ultimaRiga.tappa.postoId;
+  if (laCasa() && ultimoId && ultimoId !== 'casa' && ultimoId !== 'aeroporto') {
+    const tr = trattaRitorno(ultimoId);
+    const v = document.createElement('div');
+    v.className = 'viaggio';
+    v.textContent = testoTratta(tr);
+    cont.appendChild(v);
+    cont.appendChild(rigaCasa(P.ore(ultimaRiga.fine + (tr.minuti == null ? 15 : tr.minuti)), 'ritorno a casa, verso quest\'ora'));
+  }
+
   for (const a of calcolo.avvisi.filter((x) => !x.tappa)) {
     const d = document.createElement('div');
     d.className = 'avviso';
@@ -769,13 +874,64 @@ function disegnaPiano() {
   calcolaStime(g);
 }
 
+// Riga "Casa" del piano, in cima (partenza) e in fondo (ritorno).
+function rigaCasa(ora, sotto, azione) {
+  const t = document.createElement('div');
+  t.className = 'tappa tappa-casa';
+  t.innerHTML = '<div class="ora"></div><div class="box"><div class="t"></div><div class="d"></div></div>';
+  t.querySelector('.ora').textContent = ora;
+  t.querySelector('.t').textContent = '⌂ ' + laCasa().nome;
+  t.querySelector('.d').textContent = sotto;
+  const box = t.querySelector('.box');
+  if (azione) box.addEventListener('click', azione);
+  else box.addEventListener('click', apriSchedaCasa);
+  return t;
+}
+
+// Tempo per tornare a casa dall'ultima tappa, con la stessa regola del mezzo.
+function trattaRitorno(daId) {
+  const stima = stime[P.chiaveTratta(daId, 'casa')] || null;
+  const mezzo = P.scegliMezzo(stima);
+  return {
+    mezzo: mezzo, minuti: P.durataMezzo(stima, mezzo), metri: stima ? stima.metri : null, stimato: !stima,
+    mezziIndicativi: !!(stima && stima.mezziStimati && mezzo === 'mezzi')
+  };
+}
+
+function modalePartenza(giorno) {
+  apriModale('A che ora uscite di casa?', (corpo, chiudi) => {
+    const d = document.createElement('div');
+    d.className = 'campo';
+    const l = document.createElement('label');
+    l.textContent = LUNGHI[giornoScelto];
+    const i = document.createElement('input');
+    i.type = 'time';
+    i.name = 'partenza';
+    i.value = giorno.partenza || '10:00';
+    d.appendChild(l); d.appendChild(i);
+    corpo.appendChild(d);
+    const salva = document.createElement('button');
+    salva.className = 'btn';
+    salva.textContent = 'Salva';
+    salva.addEventListener('click', async () => {
+      const v = i.value;
+      if (!/^\d{2}:\d{2}$/.test(v)) return;
+      const g = JSON.parse(JSON.stringify(giornoDati(giornoScelto)));
+      g.partenza = v;
+      await store.salvaGiorno(giornoScelto, g);
+      chiudi(); disegnaPiano();
+    });
+    corpo.appendChild(salva);
+  });
+}
+
 function descrizioneTappa(r) {
   const t = r.tappa;
   const p = t.postoId ? INDICE[t.postoId] : null;
   const parti = [];
   if (t.nota) parti.push(t.nota);
   if (t.durata_min) parti.push(t.durata_min + ' min');
-  if (p) parti.push(orariOggi(p, giornoScelto));
+  if (p && p.id !== 'casa') parti.push(orariOggi(p, giornoScelto));
   if (p && p.da_confermare) parti.push('verifica sul posto');
   return parti.join(' · ');
 }
@@ -784,7 +940,7 @@ function testoTratta(tr) {
   if (!tr.mezzo) return 'tempo di viaggio da calcolare';
   const nome = { piedi: '\u{1F6B6} a piedi', mezzi: '\u{1F68C} mezzi', taxi: '\u{1F695} taxi o Bolt' }[tr.mezzo];
   const parti = [nome];
-  if (tr.minuti != null) parti.push(tr.minuti + ' min');
+  if (tr.minuti != null) parti.push((tr.mezziIndicativi ? 'circa ' : '') + tr.minuti + ' min');
   if (tr.metri != null) parti.push(tr.metri >= 1000 ? (tr.metri / 1000).toFixed(1) + ' km' : tr.metri + ' m');
   if (tr.stimato) parti.push('stima');
   if (tr.manuale) parti.push('scelto a mano');
@@ -793,9 +949,15 @@ function testoTratta(tr) {
 
 // Chiede i tempi mancanti (cache o Routes) e ridisegna una volta sola.
 async function calcolaStime(g) {
+  const coppie = [];
+  for (let i = 1; i < g.tappe.length; i++) coppie.push([g.tappe[i - 1].postoId, g.tappe[i].postoId]);
+  // da casa alla prima tappa e dall'ultima di nuovo a casa
+  if (INDICE.casa && g.tappe.length) {
+    coppie.unshift(['casa', g.tappe[0].postoId]);
+    coppie.push([g.tappe[g.tappe.length - 1].postoId, 'casa']);
+  }
   const mancanti = [];
-  for (let i = 1; i < g.tappe.length; i++) {
-    const a = g.tappe[i - 1].postoId, b = g.tappe[i].postoId;
+  for (const [a, b] of coppie) {
     const k = P.chiaveTratta(a, b);
     if (!(k in stime)) mancanti.push([a, b, k]);
   }
@@ -946,6 +1108,7 @@ function modaleCasa() {
     const casa = store.stato.casa || {};
     corpo.appendChild(campo('Nome', 'testo', 'nome', casa.nome || 'Casa'));
     corpo.appendChild(campo('Indirizzo', 'testo', 'indirizzo', casa.indirizzo || ''));
+    corpo.appendChild(campo('Come entrare (piano, porta...)', 'testo', 'dettagli', casa.dettagli || ''));
     corpo.appendChild(campo('Coordinate (lat, lng) se le sai', 'testo', 'coord',
       casa.lat != null ? casa.lat + ', ' + casa.lng : ''));
     const salva = document.createElement('button');
@@ -953,13 +1116,15 @@ function modaleCasa() {
     salva.textContent = 'Salva';
     salva.addEventListener('click', async () => {
       const c = corpo.querySelector('[name=coord]').value.split(',').map((x) => parseFloat(x.trim()));
-      await store.impostaCasa({
+      // gli altri campi (la fonte) restano com'erano
+      await store.impostaCasa(Object.assign({}, casa, {
         nome: corpo.querySelector('[name=nome]').value.trim() || 'Casa',
         indirizzo: corpo.querySelector('[name=indirizzo]').value.trim(),
+        dettagli: corpo.querySelector('[name=dettagli]').value.trim(),
         lat: isFinite(c[0]) ? c[0] : null, lng: isFinite(c[1]) ? c[1] : null
-      });
+      }));
       indicizza(); stime = {};
-      chiudi(); disegnaPiano();
+      chiudi(); disegna();
     });
     corpo.appendChild(salva);
   });
@@ -1203,9 +1368,22 @@ function statoTassi() {
 }
 
 function disegnaInfo() {
-  testa('Info', 'tassi, sconti e cose pratiche');
+  testa('Info', 'casa, cambio, sconti e cose pratiche');
   const cont = $('#info');
   cont.innerHTML = '';
+
+  const casa = laCasa();
+  const bc = document.createElement('div');
+  bc.className = 'info-blocco';
+  if (casa) bc.appendChild(dettagliCasa(casa, { mappa: true }));
+  else {
+    const b = document.createElement('button');
+    b.className = 'avviso';
+    b.textContent = 'Casa non ancora impostata: toccami per aggiungere l\'appartamento.';
+    b.addEventListener('click', modaleCasa);
+    bc.appendChild(b);
+  }
+  cont.appendChild(bc);
 
   const conv = document.createElement('div');
   conv.className = 'info-blocco conv-box';
