@@ -6,6 +6,7 @@ import * as store from './store.js';
 import * as P from './piano.js';
 import * as M from './mappa.js';
 import * as S from './spese.js';
+import { icona } from './icone.js';
 
 const $ = (s) => document.querySelector(s);
 const $$ = (s) => Array.from(document.querySelectorAll(s));
@@ -51,6 +52,11 @@ function tieniBarraInVista() {
     }
   });
   document.addEventListener('focusout', () => setTimeout(riallinea, 100));
+  const campo = (el) => el && el.matches && el.matches('input, textarea, select');
+  document.addEventListener('focusin', (e) => { if (campo(e.target)) document.body.classList.add('tastiera'); });
+  document.addEventListener('focusout', () => setTimeout(() => {
+    if (!campo(document.activeElement)) document.body.classList.remove('tastiera');
+  }, 150));
   window.addEventListener('scroll', riallinea, { passive: true });
   if (window.visualViewport) window.visualViewport.addEventListener('resize', riallinea);
 }
@@ -164,6 +170,7 @@ function registraServiceWorker() {
 function collegaTabs() {
   $$('#tabs button').forEach((b) => b.addEventListener('click', () => {
     vista = b.dataset.vista;
+    document.body.dataset.vista = vista; // sulla mappa niente intestazione
     $$('#tabs button').forEach((x) => x.classList.toggle('on', x === b));
     $$('.vista').forEach((v) => v.classList.toggle('nascosto', v.id !== 'v-' + vista));
     disegna();
@@ -792,7 +799,7 @@ function disegnaPiano() {
   if (giornoScelto === '2026-10-10') {
     const t = document.createElement('div');
     t.className = 'torta';
-    t.textContent = '\u{1F382} Oggi Alessia compie 24 anni';
+    t.innerHTML = icona('cake') + '<span>Oggi Alessia compie 24 anni</span>';
     cont.appendChild(t);
   }
   if (giornoScelto === '2026-10-12') cont.appendChild(riquadroLunedi());
@@ -818,9 +825,7 @@ function disegnaPiano() {
     blocco.dataset.bloccata = r.tappa.bloccata ? '1' : '0';
 
     if (r.tratta) {
-      const v = document.createElement('div');
-      v.className = 'viaggio';
-      v.appendChild(document.createTextNode(testoTratta(r.tratta)));
+      const v = rigaViaggio(r.tratta);
       const cambia = document.createElement('button');
       cambia.textContent = 'cambia';
       cambia.addEventListener('click', () => modaleMezzo(r.tappa));
@@ -828,10 +833,7 @@ function disegnaPiano() {
       blocco.appendChild(v);
     }
     for (const a of calcolo.avvisi.filter((x) => x.tappa === r.tappa.id)) {
-      const d = document.createElement('div');
-      d.className = 'avviso';
-      d.textContent = '⚠ ' + a.testo;
-      blocco.appendChild(d);
+      blocco.appendChild(avviso(a.testo));
     }
 
     const t = document.createElement('div');
@@ -841,7 +843,9 @@ function disegnaPiano() {
     t.querySelector('.ora').textContent = r.oraArrivo;
     const box = t.querySelector('.box');
     if (r.tappa.bloccata) box.classList.add('lock');
-    box.querySelector('.drag').textContent = r.tappa.bloccata ? '\u{1F512}' : '⠇';
+    const maniglia = box.querySelector('.drag');
+    maniglia.innerHTML = icona(r.tappa.bloccata ? 'lock' : 'grip-vertical');
+    maniglia.setAttribute('aria-label', r.tappa.bloccata ? 'Tappa prenotata, non si sposta' : 'Trascina per spostare');
     box.querySelector('.t').textContent = r.tappa.nome;
     box.querySelector('.d').textContent = descrizioneTappa(r);
     box.addEventListener('click', (e) => { if (!e.target.closest('.drag')) modaleTappa(r.tappa); });
@@ -854,19 +858,11 @@ function disegnaPiano() {
   const ultimoId = ultimaRiga && ultimaRiga.tappa.postoId;
   if (laCasa() && ultimoId && ultimoId !== 'casa' && ultimoId !== 'aeroporto') {
     const tr = trattaRitorno(ultimoId);
-    const v = document.createElement('div');
-    v.className = 'viaggio';
-    v.textContent = testoTratta(tr);
-    cont.appendChild(v);
+    cont.appendChild(rigaViaggio(tr));
     cont.appendChild(rigaCasa(P.ore(ultimaRiga.fine + (tr.minuti == null ? 15 : tr.minuti)), 'ritorno a casa, verso quest\'ora'));
   }
 
-  for (const a of calcolo.avvisi.filter((x) => !x.tappa)) {
-    const d = document.createElement('div');
-    d.className = 'avviso';
-    d.textContent = '⚠ ' + a.testo;
-    cont.appendChild(d);
-  }
+  for (const a of calcolo.avvisi.filter((x) => !x.tappa)) cont.appendChild(avviso(a.testo));
 
   const agg = document.createElement('button');
   agg.className = 'btn sec';
@@ -885,7 +881,8 @@ function rigaCasa(ora, sotto, azione) {
   t.className = 'tappa tappa-casa';
   t.innerHTML = '<div class="ora"></div><div class="box"><div class="t"></div><div class="d"></div></div>';
   t.querySelector('.ora').textContent = ora;
-  t.querySelector('.t').textContent = '⌂ ' + laCasa().nome;
+  t.querySelector('.t').innerHTML = icona('house') + '<span></span>';
+  t.querySelector('.t span').textContent = laCasa().nome;
   t.querySelector('.d').textContent = sotto;
   const box = t.querySelector('.box');
   if (azione) box.addEventListener('click', azione);
@@ -941,9 +938,27 @@ function descrizioneTappa(r) {
   return parti.join(' · ');
 }
 
+// Riga dello spostamento fra due tappe: icona del mezzo e tempi.
+function rigaViaggio(tr) {
+  const v = document.createElement('div');
+  v.className = 'viaggio';
+  const ic = { piedi: 'footprints', mezzi: 'tram-front', taxi: 'car-taxi-front' }[tr.mezzo] || 'navigation';
+  v.innerHTML = icona(ic) + '<span></span>';
+  v.querySelector('span').textContent = testoTratta(tr);
+  return v;
+}
+
+function avviso(testo) {
+  const d = document.createElement('div');
+  d.className = 'avviso';
+  d.innerHTML = icona('triangle-alert') + '<span></span>';
+  d.querySelector('span').textContent = testo;
+  return d;
+}
+
 function testoTratta(tr) {
   if (!tr.mezzo) return 'tempo di viaggio da calcolare';
-  const nome = { piedi: '\u{1F6B6} a piedi', mezzi: '\u{1F68C} mezzi', taxi: '\u{1F695} taxi o Bolt' }[tr.mezzo];
+  const nome = { piedi: 'a piedi', mezzi: 'mezzi', taxi: 'taxi o Bolt' }[tr.mezzo];
   const parti = [nome];
   if (tr.minuti != null) parti.push((tr.mezziIndicativi ? 'circa ' : '') + tr.minuti + ' min');
   if (tr.metri != null) parti.push(tr.metri >= 1000 ? (tr.metri / 1000).toFixed(1) + ' km' : tr.metri + ' m');

@@ -3,7 +3,7 @@
 // Dopo ogni modifica ai file alza VERSIONE: e' l'unico modo per far arrivare
 // l'aggiornamento sui telefoni che hanno gia' installato l'app.
 
-const VERSIONE = 'danzica-v16';
+const VERSIONE = 'danzica-v17';
 
 const GUSCIO = [
   './',
@@ -16,6 +16,7 @@ const GUSCIO = [
   './piano.js',
   './mappa.js',
   './spese.js',
+  './icone.js',
   './contenuti/posti.json',
   './manifest.webmanifest',
   './icone/icona-180.png',

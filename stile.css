@@ -1,21 +1,39 @@
-/* Tema "Ambra": scuro e caldo, come l'ambra controluce.
-   Un solo colore forte, l'oro, su fondo bruno. Niente riquadri: la struttura
-   la fanno le righe sottili e i nomi in un carattere con grazie. */
+/* Tema "Vetro": la mappa a tutto schermo, comandi in vetro smerigliato che
+   galleggiano sopra, il carattere del telefono. Segue il tema chiaro o scuro
+   del telefono. Un solo colore forte, il blu; i colori delle categorie
+   servono solo ai segnaposti. */
 :root{
-  --bg:#171310;--fg:#F3E9DB;--muted:#A08D77;--card:#201913;--line:#2E2519;
-  --acc:#E0A03F;--acc2:#8FA6A0;--accfg:#1A1208;--head:#171310;--headfg:#F3E9DB;--nav:#1B1510;
-  --chip:#211A14;--chipfg:#C9B69C;--okBg:#1C2A21;--okFg:#93C2A0;--noBg:#2E1A18;--noFg:#E4938A;
-  --warnBg:#2B2113;--warnFg:#E4B963;--saldoBg:#201913;--saldoFg:#F3E9DB;
-  --rCard:2px;--rChip:2px;--rBtn:2px;
-  --fontTitle:"Fraunces",Georgia,"Times New Roman",serif;--titleSp:-.01em;
-  --fontBody:"Karla",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --bg:#F2F3F5;--fg:#111418;--muted:#69707A;--card:#FFFFFF;--line:rgba(17,20,24,.10);
+  --acc:#1D6FE0;--acc2:#7A5AF8;--accfg:#FFFFFF;--accSoft:rgba(29,111,224,.12);
+  --glass:rgba(255,255,255,.74);--glassLine:rgba(255,255,255,.65);--glassShadow:0 6px 24px rgba(17,20,24,.16);
+  --chip:#FFFFFF;--chipfg:#111418;--cuore:#E0457F;--cuoreBg:rgba(224,69,127,.10);
+  --okBg:#DFF3E6;--okFg:#1B6B3A;--noBg:#FDE4E1;--noFg:#B42318;--warnBg:#FFF1D6;--warnFg:#7A4A00;
+  --stella:#F2A30F;--stellaVuota:#D5D9DF;--mapBg:#e9ebe6;
+  --mapFiltro:saturate(.85) brightness(1.03);
+  --c-cibo:#F2542D;--c-dolci:#E8459A;--c-caffe:#A86B2D;--c-bar:#9B3FD0;--c-museo:#5B5BD6;--c-vista:#0891B2;
+  --c-chiesa:#0F766E;--c-attrazione:#D97706;--c-shopping:#64748B;--c-gita:#16A34A;
+  --font:-apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,Roboto,"Segoe UI",sans-serif;
+  --fontTitle:-apple-system,BlinkMacSystemFont,"SF Pro Display",system-ui,Roboto,"Segoe UI",sans-serif;
   --sicuroSopra:env(safe-area-inset-top);--sicuroSotto:env(safe-area-inset-bottom);
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0E1013;--fg:#F2F4F7;--muted:#99A1AC;--card:#1A1D22;--line:rgba(255,255,255,.10);
+    --acc:#4D8EF5;--acc2:#9B87FF;--accfg:#FFFFFF;--accSoft:rgba(77,142,245,.18);
+    --glass:rgba(30,33,38,.74);--glassLine:rgba(255,255,255,.08);--glassShadow:0 6px 24px rgba(0,0,0,.45);
+    --chip:#22262C;--chipfg:#F2F4F7;--cuore:#FF6FA3;--cuoreBg:rgba(255,111,163,.14);
+    --okBg:#173322;--okFg:#7FD39B;--noBg:#3A1714;--noFg:#FF8A7A;--warnBg:#3A2A0C;--warnFg:#F5C26B;
+    --stella:#F5B83D;--stellaVuota:#3A3F47;--mapBg:#1c1f23;
+    --mapFiltro:invert(1) hue-rotate(180deg) brightness(.92) contrast(.88) saturate(.55);
+    color-scheme:dark;
+  }
 }
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html,body{height:100%;overscroll-behavior:none}
 body{
   background:var(--bg);color:var(--fg);
-  font-family:var(--fontBody);font-size:16px;
+  font-family:var(--font);font-size:16px;-webkit-font-smoothing:antialiased;
   display:flex;flex-direction:column;height:100dvh;overflow:hidden;
   /* inchiodata ai bordi dello schermo: aprendo e chiudendo la tastiera il
      telefono non puo' far scorrere la pagina e nascondere la barra in basso */
@@ -24,203 +42,248 @@ body{
 button,input,select,textarea{font:inherit;font-size:16px;color:inherit;background:none;border:none}
 button{cursor:pointer}
 .nascosto{display:none !important}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
 
-.head{flex:none;padding:calc(14px + var(--sicuroSopra)) 16px 12px;background:var(--head);color:var(--headfg);
-  border-bottom:1px solid var(--line)}
-.h1{font-size:26px;font-weight:600;font-family:var(--fontTitle);letter-spacing:var(--titleSp)}
-.sub{font-size:13px;color:var(--muted);margin-top:2px}
+/* icone Lucide: prendono il colore del testo */
+.ic{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* intestazione grande, come nelle app del telefono; sulla mappa non c'e' */
+.head{flex:none;padding:calc(12px + var(--sicuroSopra)) 18px 6px;background:var(--bg)}
+.h1{font-family:var(--fontTitle);font-size:30px;font-weight:700;letter-spacing:-.02em;line-height:1.1}
+.sub{font-size:13px;color:var(--muted);margin-top:3px}
+body[data-vista="mappa"] .head{display:none}
 
 #corpo{flex:1;position:relative;overflow:hidden}
 .vista{position:absolute;inset:0;display:flex;flex-direction:column;overflow:hidden}
-.scroll{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:0 12px calc(24px + var(--sicuroSotto))}
+/* spazio in fondo per la barra che galleggia */
+.scroll{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:6px 16px calc(112px + var(--sicuroSotto))}
+body.tastiera .scroll{padding-bottom:24px}
 
-.tabs{flex:none;display:flex;background:var(--nav);border-top:1px solid var(--line);padding:6px 0 calc(8px + var(--sicuroSotto))}
-.tabs button{flex:1;text-align:center;font-size:11px;color:var(--muted);line-height:1.5;padding:2px 0}
-.tabs b{display:block;font-size:20px;font-weight:400}
-.tabs .on{color:var(--acc);font-weight:700}
+/* barra in basso: vetro smerigliato che galleggia */
+.tabs{position:fixed;left:12px;right:12px;bottom:calc(10px + var(--sicuroSotto));z-index:7;display:flex;
+  padding:7px 4px 6px;border-radius:24px;background:var(--glass);border:1px solid var(--glassLine);box-shadow:var(--glassShadow);
+  -webkit-backdrop-filter:blur(20px) saturate(1.8);backdrop-filter:blur(20px) saturate(1.8)}
+.tabs button{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10.5px;font-weight:600;color:var(--muted);padding:3px 0}
+.tabs .ic{width:23px;height:23px}
+.tabs .on{color:var(--acc)}
+body.tastiera .tabs{display:none}
+@media (min-width:560px){.tabs{left:calc(50% - 260px);right:calc(50% - 260px)}}
 
-.chips{display:flex;gap:6px;padding:8px 12px;overflow-x:auto;scrollbar-width:none}
+.chips{display:flex;gap:7px;padding:8px 16px;overflow-x:auto;scrollbar-width:none}
 .chips::-webkit-scrollbar{display:none}
-.chip{font-size:12px;letter-spacing:.04em;padding:7px 13px;border-radius:var(--rChip);background:transparent;color:var(--chipfg);border:1px solid var(--line);white-space:nowrap}
+.chip{font-size:13px;font-weight:600;padding:7px 14px;border-radius:999px;background:var(--chip);color:var(--chipfg);
+  border:1px solid var(--line);white-space:nowrap}
 .chip.on{background:var(--acc);color:var(--accfg);border-color:var(--acc)}
-.search{width:calc(100% - 24px);margin:8px 12px 0;padding:12px;border-radius:var(--rCard);background:var(--card);border:1px solid var(--line)}
+.search,.pesca-cerca{-webkit-appearance:none;appearance:none;width:calc(100% - 32px);margin:0 16px;padding:12px 14px 12px 40px;border-radius:14px;
+  background:var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%237A818C' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='m21 21-4.34-4.34'/%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3C/svg%3E") no-repeat 13px center/18px;
+  border:1px solid var(--line)}
 
 /* mappa */
 /* lo z-index tiene i livelli di Leaflet dentro il riquadro della mappa,
-   altrimenti coprirebbero la barra di ricerca qui sopra */
-#mappa{position:absolute;inset:0;background:#e9ebe6;z-index:1}
+   altrimenti coprirebbero la ricerca qui sopra */
+#mappa{position:absolute;inset:0;background:var(--mapBg);z-index:1}
+.leaflet-tile-pane{filter:var(--mapFiltro)}
+/* comandi di Leaflet sopra la barra in basso, in vetro anche loro */
+.leaflet-bottom{bottom:calc(84px + var(--sicuroSotto))}
+.leaflet-touch .leaflet-bar,.leaflet-bar{border:0;border-radius:14px;overflow:hidden;box-shadow:var(--glassShadow)}
+.leaflet-touch .leaflet-bar a,.leaflet-bar a{width:38px;height:38px;line-height:38px;background:var(--glass);color:var(--fg);
+  border-bottom:1px solid var(--line);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px)}
+.leaflet-control-attribution{background:var(--glass) !important;color:var(--muted);border-radius:8px 0 0 0;font-size:10px}
+.leaflet-control-attribution a{color:var(--acc)}
 
-/* segnaposto: pallini colorati per categoria, disegnati in CSS */
-.pin i{display:block;width:16px;height:16px;margin:3px;border-radius:50%;
-  background:#6b7280;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)}
-.pin-cibo i,.pin-bar i{background:#C62828}
-.pin-dolci i,.pin-caffe i{background:#E08A1E}
-.pin-museo i,.pin-chiesa i{background:#3F51B5}
-.pin-vista i{background:#00897B}
-.pin-attrazione i{background:#7B4FA0}
-.pin-shopping i{background:#C2185B}
-.pin-gita i{background:#2E7D32}
-.sopra-mappa{position:absolute;left:0;right:0;top:0;z-index:4}
-/* sopra la mappa chiara i filtri devono avere un fondo pieno, o spariscono */
-.sopra-mappa .chip{background:var(--card);color:var(--fg);border-color:#4a3c2c;font-weight:600;
-  box-shadow:0 2px 8px rgba(0,0,0,.45)}
-.sopra-mappa .chip.on{background:var(--acc);color:var(--accfg);border-color:var(--acc)}
-.sopra-mappa .search{box-shadow:0 2px 10px rgba(0,0,0,.4)}
-.senza-mappa{padding:70px 14px 14px;overflow-y:auto;height:100%;font-size:14px;color:var(--muted)}
-.risultati{position:absolute;left:12px;right:12px;top:96px;z-index:6;background:var(--card);border:1px solid var(--line);max-height:60%;overflow-y:auto}
-.risultati button{display:block;width:100%;text-align:left;padding:12px;border-bottom:1px solid var(--line);font-size:14px}
-.risultati small{display:block;color:var(--muted);font-size:12px}
+/* segnaposto: tondi col colore e l'icona della categoria */
+.pin i{display:grid;place-items:center;width:24px;height:24px;margin:2px;border-radius:50%;background:var(--pc,#64748B);color:#FFFFFF;
+  border:2px solid #FFFFFF;box-shadow:0 2px 6px rgba(0,0,0,.35)}
+.pin i .ic{width:13px;height:13px;stroke-width:2.4}
+.pin-cibo i{--pc:var(--c-cibo)}
+.pin-dolci i{--pc:var(--c-dolci)}
+.pin-caffe i{--pc:var(--c-caffe)}
+.pin-bar i{--pc:var(--c-bar)}
+.pin-museo i{--pc:var(--c-museo)}
+.pin-vista i{--pc:var(--c-vista)}
+.pin-chiesa i{--pc:var(--c-chiesa)}
+.pin-attrazione i{--pc:var(--c-attrazione)}
+.pin-shopping i{--pc:var(--c-shopping)}
+.pin-gita i{--pc:var(--c-gita)}
+.pin-casa i{width:30px;height:30px;border-radius:9px;background:var(--acc)}
+.pin-casa i .ic{width:17px;height:17px;stroke-width:2.2}
 
-/* scheda posto */
-.velo{position:fixed;inset:0;background:#000a;z-index:8}
-.sheet{position:fixed;left:0;right:0;bottom:0;z-index:9;background:var(--card);border-top:2px solid var(--acc);
-  padding:12px 16px calc(16px + var(--sicuroSotto));max-height:88%;overflow-y:auto}
-.grab{width:38px;height:4px;border-radius:3px;background:var(--line);margin:0 auto 10px}
-.occhiello{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--acc);margin-bottom:5px}
-.nome{font-size:26px;font-weight:600;font-family:var(--fontTitle);letter-spacing:var(--titleSp);line-height:1.15}
-.indirizzo{font-size:13px;color:var(--muted);margin-top:3px}
-.descrizione{font-size:15px;line-height:1.6;color:var(--fg);margin-top:14px;max-width:62ch}
-/* fatti: etichetta a sinistra, valore a destra, righe sottili */
-.fatti{margin-top:14px;border-top:1px solid var(--line)}
-.fatto{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}
+.sopra-mappa{position:absolute;left:0;right:0;top:0;z-index:4;padding-top:calc(10px + var(--sicuroSopra))}
+.sopra-mappa .search{background-color:var(--glass);border-color:var(--glassLine);box-shadow:var(--glassShadow);
+  -webkit-backdrop-filter:blur(20px) saturate(1.8);backdrop-filter:blur(20px) saturate(1.8)}
+.sopra-mappa .chip{background:var(--glass);border-color:var(--glassLine);box-shadow:0 2px 10px rgba(17,20,24,.14);
+  -webkit-backdrop-filter:blur(16px) saturate(1.6);backdrop-filter:blur(16px) saturate(1.6)}
+.sopra-mappa .chip.on{background:var(--acc);border-color:var(--acc);color:var(--accfg)}
+.senza-mappa{padding:calc(var(--sicuroSopra) + 130px) 16px calc(110px + var(--sicuroSotto));overflow-y:auto;height:100%;font-size:14px;color:var(--muted)}
+.risultati{position:absolute;left:16px;right:16px;top:calc(var(--sicuroSopra) + 112px);z-index:6;background:var(--card);
+  border:1px solid var(--line);border-radius:16px;box-shadow:var(--glassShadow);max-height:55%;overflow-y:auto}
+.risultati button{display:block;width:100%;text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);font-size:14px}
+.risultati button:last-child{border-bottom:0}
+.risultati button span{display:block;font-family:var(--fontTitle);font-weight:600;font-size:16px}
+.risultati small{display:block;color:var(--muted);font-size:12.5px;margin-top:1px}
+
+/* scheda posto: foglio che sale dal basso */
+.velo{position:fixed;inset:0;background:rgba(0,0,0,.28);z-index:8}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:9;background:var(--card);border-radius:24px 24px 0 0;
+  padding:8px 18px calc(18px + var(--sicuroSotto));max-height:88%;overflow-y:auto;box-shadow:0 -8px 30px rgba(0,0,0,.20)}
+@media (min-width:640px){.sheet{left:calc(50% - 310px);right:calc(50% - 310px)}}
+.grab{width:36px;height:5px;border-radius:3px;background:var(--line);margin:0 auto 12px}
+.occhiello{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--acc);font-weight:700;margin-bottom:4px}
+.nome{font-family:var(--fontTitle);font-size:26px;font-weight:700;letter-spacing:-.02em;line-height:1.12}
+.indirizzo{font-size:14px;color:var(--muted);margin-top:3px}
+.descrizione{font-size:15px;line-height:1.55;color:var(--fg);margin-top:12px;max-width:62ch}
+/* elenchi di fatti e link: gruppi arrotondati come nelle impostazioni del telefono */
+.fatti,.links{margin-top:12px;background:var(--bg);border-radius:14px;padding:0 14px}
+.fatto{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px solid var(--line);font-size:14px}
+.fatto:last-child{border-bottom:0}
 .fatto dt{color:var(--muted);flex:none}
 .fatto dd{text-align:right;font-variant-numeric:tabular-nums}
-.links{margin-top:6px}
-.links a{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 0;
-  border-bottom:1px solid var(--line);color:var(--acc);text-decoration:none;font-size:15px;font-weight:600}
+.links a{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 0;border-bottom:1px solid var(--line);
+  color:var(--acc);text-decoration:none;font-size:15px;font-weight:600}
+.links a:last-child{border-bottom:0}
 .links a span{color:var(--muted);font-weight:400;font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.links a:focus-visible,.btn:focus-visible,.chip:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
 .btn.aggiungi{margin-top:12px}
-.riga{display:flex;gap:8px;align-items:center;font-size:13px;margin-top:8px;flex-wrap:wrap}
-.tag{font-size:12px;padding:4px 9px;border-radius:var(--rChip);background:var(--chip);border:1px solid var(--line)}
+.riga{display:flex;gap:6px;align-items:center;font-size:13px;margin-top:10px;flex-wrap:wrap}
+.tag{font-size:12.5px;padding:4px 10px;border-radius:999px;background:var(--bg);border:1px solid var(--line)}
 .tag.ok{background:var(--okBg);color:var(--okFg);border-color:transparent}
 .tag.no{background:var(--noBg);color:var(--noFg);border-color:transparent}
 .tag.warn{background:var(--warnBg);color:var(--warnFg);border-color:transparent}
 .perche{font-size:14px;color:var(--muted);margin-top:10px;line-height:1.5}
 .cuori{display:flex;gap:8px;margin-top:12px}
-.cuore{flex:1;text-align:center;font-size:14px;padding:11px;border-radius:var(--rCard);border:1px solid var(--line);
-  background:transparent;color:var(--muted)}
-.cuore.on{color:var(--acc);border-color:var(--acc);font-weight:700}
+.cuore{flex:1;text-align:center;font-size:14px;font-weight:600;padding:11px;border-radius:14px;border:1px solid var(--line);
+  background:var(--bg);color:var(--muted)}
+.cuore.on{color:var(--cuore);border-color:var(--cuore);background:var(--cuoreBg)}
 .btns{display:flex;gap:8px;margin-top:12px}
-.btn{flex:1;text-align:center;padding:14px;border-radius:var(--rBtn);background:var(--acc);color:var(--accfg);font-weight:700;font-size:15px;display:block;width:100%}
-.btn.sec{background:transparent;color:var(--acc);border:1.5px solid var(--acc)}
-.btn.grigio{background:var(--chip);color:var(--fg);border:1px solid var(--line)}
+.btn{flex:1;text-align:center;padding:14px;border-radius:14px;background:var(--acc);color:var(--accfg);font-weight:700;font-size:16px;display:block;width:100%}
+.btn.sec{background:var(--accSoft);color:var(--acc)}
+.btn.grigio{background:var(--card);color:var(--fg);border:1px solid var(--line)}
 /* galleria di foto a scorrimento: una foto per schermata, si scorre col dito */
-.galleria{position:relative;margin:0 -16px 14px}
-.striscia{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;background:#0e0b09}
+.galleria{position:relative;margin:0 0 12px}
+.striscia{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;background:var(--bg);border-radius:18px}
 .striscia::-webkit-scrollbar{display:none}
-.striscia img{flex:none;width:100%;height:230px;object-fit:cover;scroll-snap-align:center;display:block}
+.striscia img{flex:none;width:100%;height:220px;object-fit:cover;scroll-snap-align:center;display:block}
 .striscia img.rotta{display:none}
-.galleria .conta{position:absolute;top:10px;right:12px;font-size:11px;padding:3px 8px;background:#000b;color:#fff;border-radius:var(--rChip);font-variant-numeric:tabular-nums}
-.galleria .credito{display:block;padding:5px 16px 0;font-size:10.5px;color:var(--muted);text-decoration:none;
+.galleria .conta{position:absolute;top:10px;right:10px;font-size:11px;font-weight:600;padding:3px 9px;background:rgba(0,0,0,.55);color:#FFFFFF;
+  border-radius:999px;font-variant-numeric:tabular-nums}
+.galleria .credito{display:block;padding:5px 2px 0;font-size:10.5px;color:var(--muted);text-decoration:none;
   overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 /* recensioni */
-.recensioni{margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+.recensioni{margin-top:12px;padding:14px;background:var(--bg);border-radius:14px}
 .recensioni .voto{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
 .recensioni .voto b{font-size:20px;font-family:var(--fontTitle)}
-.recensioni .voto small{font-size:12px;color:var(--muted)}
+.recensioni .voto small{font-size:12.5px;color:var(--muted)}
 .stelle{position:relative;display:inline-block;font-size:17px;letter-spacing:2px;line-height:1}
-.stelle .vuote{color:var(--line)}
-.stelle .piene{position:absolute;left:0;top:0;overflow:hidden;white-space:nowrap;color:var(--acc)}
+.stelle .vuote{color:var(--stellaVuota)}
+.stelle .piene{position:absolute;left:0;top:0;overflow:hidden;white-space:nowrap;color:var(--stella)}
 .recensioni p{font-size:14px;line-height:1.55;margin-top:8px;max-width:62ch}
-.recensioni .etichetta{font-size:12px;color:var(--muted)}
+.recensioni .riga .tag{background:var(--card)}
+.recensioni .etichetta{font-size:12.5px;color:var(--muted)}
 .recensioni .nota{display:block;font-size:11px;color:var(--muted);margin-top:8px}
-.fonte{font-size:11px;color:var(--muted);margin-top:10px;word-break:break-all}
+.fonte{font-size:11px;color:var(--muted);margin-top:12px;word-break:break-word}
 .fonte a{color:var(--muted)}
 
 /* piano */
-.giorni{flex:none;display:flex;gap:6px;padding:10px 12px 4px}
-.g{flex:1;text-align:center;font-size:12px;padding:8px 0;border-radius:var(--rChip);background:var(--chip);border:1px solid var(--line);line-height:1.3}
-.g b{display:block;font-size:16px}
-.g.on{background:var(--acc);color:var(--accfg);border-color:var(--acc)}
-.avviso{display:flex;gap:8px;font-size:13px;padding:10px 12px;border-radius:var(--rCard);background:var(--warnBg);color:var(--warnFg);margin:6px 0;line-height:1.4}
+.giorni{flex:none;display:flex;gap:8px;padding:6px 16px 8px}
+.g{flex:1;text-align:center;font-size:12px;padding:8px 0;border-radius:16px;background:var(--card);color:var(--muted);
+  border:1px solid var(--line);line-height:1.25}
+.g b{display:block;font-size:18px;font-weight:700;color:var(--fg)}
+.g.on{background:var(--acc);border-color:var(--acc);color:var(--accfg)}
+.g.on b{color:var(--accfg)}
+.avviso{display:flex;gap:8px;align-items:flex-start;width:100%;text-align:left;font-size:13px;padding:10px 12px;border-radius:14px;
+  background:var(--warnBg);color:var(--warnFg);margin:6px 0;line-height:1.4}
+.avviso .ic{width:16px;height:16px;margin-top:1px}
+.blocco.presa{opacity:.75}
+.blocco.presa .box{box-shadow:var(--glassShadow)}
 .tappa{display:flex;gap:10px;margin:2px 0;touch-action:pan-y}
-.tappa.presa{opacity:.6}
-.ora{width:50px;flex:none;font-size:16px;font-weight:600;font-family:var(--fontTitle);color:var(--acc);
-  padding-top:15px;font-variant-numeric:tabular-nums}
-/* niente riquadri: le tappe sono separate da una riga sottile */
-.box{flex:1;background:transparent;border:0;border-top:1px solid var(--line);border-radius:0;
-  padding:14px 0 14px 2px;position:relative}
-.box.lock{box-shadow:inset 3px 0 0 var(--acc);padding-left:12px}
-.box .t{font-size:18px;font-weight:600;font-family:var(--fontTitle);letter-spacing:var(--titleSp);
-  line-height:1.2;padding-right:26px}
-.box .d{font-size:12px;color:var(--muted);margin-top:3px;line-height:1.4}
-.drag{position:absolute;right:6px;top:6px;color:var(--muted);font-size:16px;padding:6px;letter-spacing:2px;touch-action:none}
-.viaggio{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--muted);padding:5px 0 5px 56px}
-.viaggio button{font-size:12px;color:var(--acc);text-decoration:underline}
-.torta{font-size:13px;padding:10px 12px;border-radius:var(--rCard);background:var(--okBg);color:var(--okFg);margin:6px 0}
-.chiusure{font-size:13px;padding:10px 12px;border-radius:var(--rCard);background:var(--chip);margin:6px 0;line-height:1.5}
+.ora{width:48px;flex:none;font-size:15px;font-weight:700;color:var(--acc);padding-top:14px;
+  font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+.box{flex:1;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:16px;
+  padding:12px 42px 12px 14px;position:relative;box-shadow:0 1px 2px rgba(17,20,24,.05)}
+.box .t{font-family:var(--fontTitle);font-size:17px;font-weight:700;letter-spacing:-.01em;line-height:1.25}
+.box .d{font-size:12.5px;color:var(--muted);margin-top:3px;line-height:1.4}
+.drag{position:absolute;right:6px;top:7px;color:var(--muted);padding:7px;touch-action:none;display:grid;place-items:center}
+.drag .ic{width:17px;height:17px}
+.box.lock .drag{color:var(--acc)}
+.viaggio{display:flex;gap:7px;align-items:center;flex-wrap:wrap;font-size:12.5px;color:var(--muted);padding:6px 0 6px 58px}
+.viaggio .ic{width:15px;height:15px}
+.viaggio button{font-size:12.5px;color:var(--acc);font-weight:600}
+.tappa-casa .box{background:transparent;border:1.5px dashed var(--line);box-shadow:none}
+.tappa-casa .t{display:flex;align-items:center;gap:6px;color:var(--acc)}
+.tappa-casa .t .ic{width:17px;height:17px}
+.tappa-casa .ora{color:var(--muted)}
+.torta{display:flex;gap:8px;align-items:center;font-size:14px;font-weight:600;padding:11px 14px;border-radius:14px;
+  background:var(--okBg);color:var(--okFg);margin:4px 0 8px}
+.chiusure{font-size:13px;padding:12px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line);margin:6px 0;line-height:1.5}
 .chiusure b{display:block;margin-bottom:4px}
 
-/* posti e spese */
-.sez{font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:var(--acc);padding:16px 4px 6px}
-.sp{display:flex;align-items:center;gap:10px;padding:12px 4px;border-bottom:1px solid var(--line);width:100%;text-align:left}
-.av{width:32px;height:32px;border-radius:50%;background:var(--acc);color:var(--accfg);font-size:14px;font-weight:700;display:flex;align-items:center;justify-content:center;flex:none}
+/* posti e spese: righe-scheda arrotondate */
+.sez{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700;padding:18px 4px 8px}
+.sp{display:flex;align-items:center;gap:12px;padding:12px 14px;margin-bottom:8px;width:100%;text-align:left;
+  background:var(--card);border:1px solid var(--line);border-radius:14px}
+.av{width:34px;height:34px;border-radius:50%;background:var(--acc);color:var(--accfg);font-size:14px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;flex:none}
 .av.a{background:var(--acc2)}
-.sp .n{flex:1;font-size:15px}
-.sp .n span{display:block;font-family:var(--fontTitle);font-weight:600;font-size:18px;
-  letter-spacing:var(--titleSp);line-height:1.2}
-.sp .n small{display:block;color:var(--muted);font-size:12px;margin-top:3px;letter-spacing:.02em}
+.sp .n{flex:1;min-width:0;font-size:15px}
+.sp .n span{display:block;font-family:var(--fontTitle);font-weight:600;font-size:16px;letter-spacing:-.01em;line-height:1.25}
+.sp .n small{display:block;color:var(--muted);font-size:12.5px;margin-top:2px}
 .sp .z{text-align:right;font-size:15px;font-weight:700;font-variant-numeric:tabular-nums}
-.sp .z small{display:block;font-weight:400;color:var(--muted);font-size:11px}
-.saldo{margin:12px 0;padding:16px;background:var(--saldoBg);color:var(--saldoFg)}
-.saldo .p{font-size:12px;opacity:.8}
-.saldo{border:1px solid var(--line)}
-.saldo .v{font-size:27px;font-weight:600;font-family:var(--fontTitle);color:var(--acc);
-  letter-spacing:var(--titleSp);margin-top:4px;line-height:1.2}
-.saldo .e{font-size:12px;opacity:.75;margin-top:4px}
-.saldo .b{display:inline-block;margin-top:12px;padding:10px 16px;border-radius:var(--rBtn);background:var(--saldoFg);color:var(--saldoBg);font-size:13px;font-weight:700}
-.fab{position:absolute;right:16px;bottom:calc(16px + var(--sicuroSotto));padding:14px 20px;border-radius:var(--rBtn);background:var(--acc);color:var(--accfg);font-weight:700;font-size:15px;box-shadow:0 6px 18px #0004;z-index:5}
+.sp .z small{display:block;font-weight:400;color:var(--muted);font-size:11.5px}
+#lista-posti .sp .z,.senza-mappa .sp .z{color:var(--cuore)}
+.saldo{margin:8px 0 12px;padding:18px;background:var(--card);border:1px solid var(--line);border-radius:20px}
+.saldo .p{font-size:13px;color:var(--muted);font-weight:600}
+.saldo .v{font-size:26px;font-weight:700;font-family:var(--fontTitle);letter-spacing:-.02em;margin-top:4px;line-height:1.2}
+.saldo .e{font-size:13px;color:var(--muted);margin-top:4px}
+.saldo .b{display:inline-block;margin-top:12px;padding:10px 16px;border-radius:12px;background:var(--accSoft);color:var(--acc);font-size:14px;font-weight:700}
+.fab{position:absolute;right:16px;bottom:calc(92px + var(--sicuroSotto));padding:14px 20px;border-radius:999px;background:var(--acc);
+  color:var(--accfg);font-weight:700;font-size:15px;box-shadow:0 8px 22px rgba(29,111,224,.35);z-index:5}
+body.tastiera .fab{display:none}
 
 /* info */
-.info-blocco{border-bottom:1px solid var(--line);padding:14px 0}
-.info-blocco h2{font-size:16px;font-family:var(--fontTitle);margin-bottom:8px}
+.info-blocco{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;margin-bottom:12px}
+.info-blocco h2{font-size:18px;font-family:var(--fontTitle);font-weight:700;letter-spacing:-.01em;margin-bottom:8px}
 .info-blocco p,.info-blocco li{font-size:14px;line-height:1.55;color:var(--fg)}
 .info-blocco li{margin:0 0 8px 18px}
-.info-blocco small{color:var(--muted);font-size:11px;display:block;margin-top:3px}
+.info-blocco small{color:var(--muted);font-size:11.5px;display:block;margin-top:4px}
+.info-blocco > .avviso{margin:0}
 .conv{display:flex;gap:8px;margin-bottom:8px}
-.conv label{flex:1;font-size:12px;color:var(--muted)}
-.conv input{width:100%;padding:12px;border:1px solid var(--line);border-radius:var(--rCard);margin-top:4px;font-variant-numeric:tabular-nums}
+.conv label{flex:1;font-size:12px;color:var(--muted);font-weight:600}
+.conv input{width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--fg);margin-top:4px;font-variant-numeric:tabular-nums}
 
 /* moduli e finestre */
 .modale{position:fixed;inset:0;z-index:10;background:var(--bg);display:flex;flex-direction:column;
-  padding:calc(14px + var(--sicuroSopra)) 16px calc(14px + var(--sicuroSotto));overflow-y:auto}
-.modale h2{font-size:20px;font-family:var(--fontTitle);margin-bottom:12px}
+  padding:calc(16px + var(--sicuroSopra)) 16px calc(16px + var(--sicuroSotto));overflow-y:auto}
+.modale h2{font-size:24px;font-family:var(--fontTitle);font-weight:700;letter-spacing:-.02em;margin-bottom:14px}
 .campo{margin-bottom:12px}
-.campo label{display:block;font-size:12px;color:var(--muted);margin-bottom:4px}
-.campo input,.campo select,.campo textarea{width:100%;padding:12px;border:1px solid var(--line);border-radius:var(--rCard);background:var(--card)}
+.campo label{display:block;font-size:13px;color:var(--muted);font-weight:600;margin-bottom:5px}
+.campo input,.campo select,.campo textarea{width:100%;padding:13px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--fg)}
 .scelte{display:flex;gap:6px}
-.scelte button{flex:1;padding:11px;border:1px solid var(--line);border-radius:var(--rCard);background:var(--chip);font-size:14px}
-.scelte button.on{background:var(--acc);color:var(--accfg);border-color:var(--acc);font-weight:700}
+.scelte button{flex:1;padding:11px;border:1px solid var(--line);border-radius:12px;background:var(--card);font-size:14px;font-weight:600}
+.scelte button.on{background:var(--acc);color:var(--accfg);border-color:var(--acc)}
 .errore{color:var(--noFg);font-size:13px;margin-top:8px;min-height:18px}
 
 /* elenco completo dei posti, per aggiungere una tappa */
-.pesca-cerca{width:100%;padding:12px;border:1px solid var(--line);border-radius:var(--rCard);background:var(--card)}
-.pesca-chips{margin:8px -16px 0;padding-left:16px;padding-right:16px}
-.pesca-lista{margin-top:10px;border-top:1px solid var(--line)}
-.pesca-lista button{display:block;width:100%;text-align:left;padding:13px 2px;border-bottom:1px solid var(--line);font-size:15px}
-.pesca-lista button span{display:block;font-family:var(--fontTitle);font-weight:600;font-size:18px;
-  letter-spacing:var(--titleSp);line-height:1.2}
-.pesca-lista small{display:block;color:var(--muted);font-size:12px;margin-top:3px}
-.risultati button span{display:block;font-family:var(--fontTitle);font-weight:600;font-size:16px}
+.pesca-cerca{width:100%;margin:0}
+.pesca-chips{margin:8px -16px 0}
+.pesca-lista{margin-top:10px;background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.pesca-lista button{display:block;width:100%;text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);font-size:15px}
+.pesca-lista button:last-child{border-bottom:0}
+.pesca-lista button span{display:block;font-family:var(--fontTitle);font-weight:600;font-size:16px;letter-spacing:-.01em;line-height:1.25}
+.pesca-lista small{display:block;color:var(--muted);font-size:12.5px;margin-top:2px}
+.pesca-lista .perche{padding:12px 14px;margin:0}
 
 /* schermo di avvio */
 .schermo{position:fixed;inset:0;z-index:20;background:var(--bg);display:flex;align-items:center;justify-content:center;padding:24px}
-.avvio-box{width:100%;max-width:360px}
+.avvio-box{width:100%;max-width:360px;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}
 .avvio-box .h1{color:var(--fg)}
-.avvio-box .sub{color:var(--muted);margin-bottom:24px}
-.avvio-box label{display:block;font-size:12px;color:var(--muted);margin:14px 0 4px}
-.avvio-box input{width:100%;padding:13px;border:1px solid var(--line);border-radius:var(--rCard)}
+.avvio-box .sub{color:var(--muted);margin-bottom:20px}
+.avvio-box label{display:block;font-size:13px;color:var(--muted);font-weight:600;margin:14px 0 5px}
+.avvio-box input{width:100%;padding:13px;border:1px solid var(--line);border-radius:12px;background:var(--bg)}
 .scelta-chi{display:flex;gap:8px}
 .scelta-chi .cuore{cursor:pointer}
+.scelta-chi .cuore.on{color:var(--acc);border-color:var(--acc);background:var(--accSoft)}
 #entra{margin-top:20px}
 .viaggio-stato{font-size:14px;line-height:1.5;margin:6px 0 10px;color:var(--muted)}
 
-/* casa: segnaposto proprio sulla mappa, righe di partenza e ritorno nel piano */
-.pin-casa i{width:26px;height:26px;margin:2px;border-radius:6px;background:var(--acc);color:var(--accfg);
-  border:2px solid #fff;font-style:normal;font-size:17px;line-height:22px;text-align:center;font-weight:700}
-.tappa-casa .box{border-top:1px dashed var(--line)}
-.tappa-casa .t{color:var(--acc)}
-.tappa-casa .ora{color:var(--muted)}
+/* casa: scheda in Info e nel foglio */
 .casa .nome{font-size:24px}
 .info-blocco .casa .descrizione{font-size:14px;margin-top:8px}

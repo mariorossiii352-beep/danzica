@@ -6,6 +6,7 @@
 // Ogni percorso calcolato finisce in cache: la stessa tratta non si chiede due volte.
 
 import { CONFIG } from './config.js';
+import { icona, PER_CATEGORIA } from './icone.js';
 
 // 'cache2' dall'8/10/2026: i tempi a piedi ora vengono dal percorso pedonale vero;
 // quelli vecchi (ricavati dall'auto) si buttano.
@@ -51,8 +52,8 @@ async function creaMappa(elemento, centro, zoom) {
   return m;
 }
 
-// Segnaposto rotondi disegnati in CSS: nessuna immagine da scaricare e
-// il colore dice la categoria.
+// Segnaposto rotondi disegnati in CSS con l'icona della categoria: nessuna
+// immagine da scaricare; colore e icona dicono la categoria.
 async function segnaposti(mappa, lista, alTocco) {
   const L = await caricaLeaflet();
   const fatti = [];
@@ -60,14 +61,14 @@ async function segnaposti(mappa, lista, alTocco) {
     if (p.lat == null || p.lng == null) continue;
     // la casa ha un segnaposto suo, piu' grande, e sta sopra agli altri
     const casa = p.id === 'casa';
-    const icona = L.divIcon({
+    const segno = L.divIcon({
       className: 'pin pin-' + (p.categoria || 'altro'),
-      html: casa ? '<i>⌂</i>' : '<i></i>',
-      iconSize: casa ? [30, 30] : [22, 22],
-      iconAnchor: casa ? [15, 15] : [11, 11]
+      html: '<i>' + icona(PER_CATEGORIA[p.categoria] || 'camera') + '</i>',
+      iconSize: casa ? [34, 34] : [28, 28],
+      iconAnchor: casa ? [17, 17] : [14, 14]
     });
     const s = L.marker([p.lat, p.lng], {
-      icon: icona, title: p.nome, keyboard: true, zIndexOffset: casa ? 1000 : 0
+      icon: segno, title: p.nome, keyboard: true, zIndexOffset: casa ? 1000 : 0
     }).addTo(mappa);
     if (alTocco) s.on('click', () => alTocco(p));
     fatti.push(s);

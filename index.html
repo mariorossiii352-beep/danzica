@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
-<meta name="theme-color" content="#171310">
+<meta name="theme-color" content="#F2F3F5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1013" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Danzica">
 <title>Danzica</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icone/icona-180.png">
-<link rel="stylesheet" href="vendor/font.css">
 <link rel="stylesheet" href="vendor/leaflet.css">
 <link rel="stylesheet" href="stile.css">
 </head>
-<body>
+<body data-vista="mappa">
 
 <!-- primo avvio: codice viaggio e chi sei -->
 <div id="avvio" class="schermo nascosto">
@@ -74,11 +74,11 @@
 </main>
 
 <nav class="tabs" id="tabs">
-  <button data-vista="mappa" class="on"><b>&#9673;</b>Mappa</button>
-  <button data-vista="piano"><b>&#8801;</b>Piano</button>
-  <button data-vista="posti"><b>&#9825;</b>Posti</button>
-  <button data-vista="spese"><b>z&#322;</b>Spese</button>
-  <button data-vista="info"><b>i</b>Info</button>
+  <button data-vista="mappa" class="on"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"/> <path d="M15 5.764v15"/> <path d="M9 3.236v15"/></svg><span>Mappa</span></button>
+  <button data-vista="piano"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 2v3"/> <path d="M16 2v3"/> <rect x="3" y="3" width="18" height="18" rx="2"/> <path d="M3 9h18"/> <path d="M8 13h.01"/> <path d="M12 13h.01"/> <path d="M16 13h.01"/> <path d="M8 17h.01"/> <path d="M12 17h.01"/> <path d="M16 17h.01"/></svg><span>Piano</span></button>
+  <button data-vista="posti"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/></svg><span>Posti</span></button>
+  <button data-vista="spese"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"/> <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"/></svg><span>Spese</span></button>
+  <button data-vista="info"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/> <path d="M12 16v-4"/> <path d="M12 8h.01"/></svg><span>Info</span></button>
 </nav>
 
 <div id="foglio" class="sheet nascosto"></div>
