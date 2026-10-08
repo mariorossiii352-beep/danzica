@@ -25,7 +25,12 @@ const FISSI = [
 let POSTI = [];          // tutti i posti: elenco + aggiunti + fissi + casa
 let INDICE = {};         // id -> posto
 let vista = 'mappa';
-let giornoScelto = '2026-10-10';
+// durante il viaggio il piano si apre sul giorno di oggi, prima sul sabato
+let giornoScelto = (() => {
+  const d = new Date();
+  const oggi = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  return GIORNI.includes(oggi) ? oggi : '2026-10-10';
+})();
 let filtroCat = 'tutti';
 let soloAperti = false;
 let filtroPosti = 'tutti';
@@ -977,10 +982,10 @@ function riquadroLunedi() {
   d.innerHTML = '<b>Lunedi: cosa e\' chiuso</b>' +
     '<div>Chiusi: Museo della Seconda guerra mondiale, Museo Nazionale, Zuraw (Museo Marittimo), Muzeum Westerplatte, Hevelianum.</div>' +
     '<div style="margin-top:6px"><b>Gratis o aperto</b></div>' +
-    '<div>Gratis: Museo dell\'ambra (12-18), Ratusz Glownego Miasta (12-18), Dwor Artusa (12-18), ' +
-    'Dom Uphagena (12-18), Twierdza Wisloujscie (10-16). Aperti a pagamento: ECS (10-17), ' +
-    'Zespol Przedbramia/Katownia (12-18). Malbork: gratis ma solo il percorso esterno (9-16).</div>' +
-    '<div style="margin-top:6px">Chiusi in ottobre: Torre di Santa Caterina e Wartownia di Westerplatte (aperte solo aprile-settembre), nave Blyskawica (fino al 31/03/2027).</div>';
+    '<div>Gratis: Museo dell\'ambra (10-18), Ratusz Glownego Miasta (10-16), Dwor Artusa (10-16), ' +
+    'Dom Uphagena (10-16), Twierdza Wisloujscie (10-16), Museo della Posta polacca (10-18). Aperti a pagamento: ECS (10-17), ' +
+    'Zespol Przedbramia/Katownia (10-16). Malbork: gratis ma solo il percorso esterno (9-16, ultimo ingresso 14:30).</div>' +
+    '<div style="margin-top:6px">Chiusi in ottobre: Torre di Santa Caterina, Kuznia Wodna e Wartownia di Westerplatte (aperte solo aprile-settembre), nave Blyskawica (fino al 31/03/2027).</div>';
   return d;
 }
 
@@ -1401,25 +1406,26 @@ function disegnaInfo() {
     'Mancia 10% al ristorante se il servizio e\' buono: dillo al cameriere prima che batta la carta, il POS spesso non la chiede.',
     'Carta accettata quasi ovunque, anche su bus e taxi. Poco contante per le bancarelle.',
     'Al POS scegli sempre zloty, mai euro: il cambio del terminale e\' peggiore.',
-    'Zabka: minimarket aperti anche nelle domeniche senza commercio.',
+    'Domenica 11/10 e\' una domenica senza commercio (in ottobre non ce ne sono di commerciali): negozi e centri commerciali chiusi per legge. Restano aperti ristoranti, bar, musei e molte Zabka.',
     'Biglietti ZTM: corsa singola 4,80 zl, 75 minuti con cambi 6 zl, 24 ore 22 zl. In app (Jakdojade, moBILET, SkyCash) valgono anche su SKM.',
     'Aeroporto-centro: bus 210 fino a Gdansk Glowny, 40-50 min (a bordo non si comprano biglietti), oppure treno PKM con cambio SKM a Wrzeszcz, circa 45 min. Bolt o Uber circa 40 zl.',
-    'Sopot: treno SKM da Gdansk Glowny, 15-25 min, circa 5,20 zl, ogni 7-15 minuti.',
-    'Malbork: treno da Gdansk Glowny, 24-50 min. Castello da ottobre mar-dom 9-15, ultimo ingresso 12:45 (dato del 14/09: al 25/09 il sito pubblica solo l\'orario estivo, ricontrollare prima di andare).'
-  ], 'Fonti: gdansk.pl, odkryjgdansk.pl, gdanskbyjakub.pl · verificate il 13-14/09/2026'));
+    'Sopot: treno SKM da Gdansk Glowny, 15-25 min, ogni 7-15 minuti. Biglietto SKM singolo in base ai km: 8 zl fino a 12 km, 9 zl fino a 18 km; il biglietto urbano Danzica+Sopot costa 8,50 zl.',
+    'Malbork: treno da Gdansk Glowny, 24-50 min. Castello mar-dom 9-16: percorso completo con ultimo ingresso alle 12:45, interni chiusi alle 15. Lunedi solo il percorso esterno, gratis. Biglietto 80 zl, ridotto 60; Alessia 1 zl con "Muzeum za 1 zl".'
+  ], 'Fonti: gdansk.pl, odkryjgdansk.pl, gdanskbyjakub.pl (13-14/09/2026); prezzi ZTM e SKM e castello di Malbork ricontrollati sui siti ufficiali l\'8/10/2026'));
 
   cont.appendChild(blocco('Offerte verificate', [
-    'Musei gratis il lunedi (Muzeum Gdanska): Museo dell\'ambra 12-18, Ratusz Glownego Miasta 12-18, Dwor Artusa 12-18, Dom Uphagena 12-18, Twierdza Wisloujscie 10-16. Vale per tutti e due. Nei giorni gratuiti alcune mostre temporanee possono essere chiuse. Fonte: muzeumgdansk.pl, 25/09/2026.',
-    'Muzeum Gdanska, pass 90 giorni per tutte le sedi: 160 zl, ridotto studenti 110 zl. Con i ridotti, le 5 sedi aperte in citta\' che lo accettano (ambra 26, Ratusz 19, Artus 19, Uphagen 19, Poczta Polska 10) fanno 93 zl: il pass costa di piu\'. Fonte: muzeumgdansk.pl, 25/09/2026.',
-    'Olivia Star terrazza + Olivia Garden: online 26 zl (cassa 29), ridotto online 18 zl (cassa 20) per studenti fino a 26 anni, quindi solo Alessia. Fonte: oliviastar.pl, 25/09/2026.',
-    'Malbork il lunedi: ingresso gratis ma solo percorso esterno, 9-16. Fonte: zamek.malbork.pl, 14/09/2026; l\'orario di ottobre al 25/09 non e\' ancora pubblicato.',
+    'Musei gratis il lunedi (Muzeum Gdanska): Museo dell\'ambra 10-18, Ratusz Glownego Miasta 10-16, Dwor Artusa 10-16, Dom Uphagena 10-16, Twierdza Wisloujscie 10-16, Museo della Posta polacca 10-18. Vale per tutti e due. Nei giorni gratuiti alcune mostre temporanee possono essere chiuse. Fonte: muzeumgdansk.pl, 8/10/2026.',
+    '"Muzeum za 1 zl" (Ministero della Cultura): dagli 8 ai 26 anni le mostre permanenti costano 1 zl. Qui vale al Museo Nazionale (studenti 7-26 anni) e al castello di Malbork (con tessera scolastica o universitaria, fino al 31/12/2026): quindi per Alessia. Fonte: gov.pl, mng.gda.pl, zamek.malbork.pl, 8/10/2026.',
+    'Muzeum Gdanska, pass 90 giorni per tutte le sedi: 160 zl, ridotto studenti 110 zl. Con i ridotti, le 5 sedi aperte in citta\' che lo accettano (ambra 26, Ratusz 19, Artus 19, Uphagen 19, Poczta Polska 10) fanno 93 zl: il pass costa di piu\'. Fonte: muzeumgdansk.pl, ricontrollato l\'8/10/2026.',
+    'Olivia Star terrazza + Olivia Garden: online 26 zl (cassa 29), ridotto online 18 zl (cassa 20) per studenti fino a 26 anni, quindi solo Alessia. Fonte: oliviastar.pl, ricontrollato l\'8/10/2026.',
+    'Malbork il lunedi: ingresso gratis ma solo percorso esterno, 9-16 (ultimo ingresso 14:30); il biglietto gratuito si ritira solo in cassa. Fonte: zamek.malbork.pl, 8/10/2026.',
     'Sconto 10% con la tessera universitaria da: Pomelo Bistro, Under Beer, Faloviec, Akademic Bar, Zabusia. Fonte: raccolta locali, 14/09/2026.',
     'Masna Micha: 15% dal lunedi al venerdi dalle 16 alle 19. Fonte: raccolta locali, 14/09/2026.',
     'Riduzioni studenti dei musei: Museo 2a guerra 23 zl invece di 33 e ECS 35 invece di 40 valgono fino a 26 anni, quindi solo Alessia. Al Muzeum Gdanska il ridotto e\' per "studenci" senza limite d\'eta\' scritto: da chiedere in cassa.',
     'Too Good To Go funziona anche a Danzica: cibo invenduto a poco.',
     'Karta Turysty Odkrywca: 24h 75/60 zl, 48h 85/70, 72h 95/80. Non include i trasporti e non include il Museo della Seconda guerra mondiale; il lunedi le sedi del Muzeum Gdanska sono gia\' gratis. Nel vostro caso quasi sicuramente non conviene.',
     'Attenzione: molti sconti commerciali chiedono la ISIC, che voi non avete. La tessera universitaria normale basta solo dove scritto sopra.'
-  ], 'Tutte le offerte vengono da fonti_grezze.md, verificate il 13-14/09/2026; Muzeum Gdanska ricontrollato il 25/09/2026'));
+  ], 'Le offerte vengono da fonti_grezze.md (13-14/09/2026); Muzeum Gdanska, Museo Nazionale e Malbork ricontrollati l\'8/10/2026'));
 
   cont.appendChild(bloccoViaggio());
 }

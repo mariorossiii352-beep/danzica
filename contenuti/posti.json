@@ -715,7 +715,7 @@
     ]
    ]
   },
-  "orari_nota": "",
+  "orari_nota": "Domenica 11/10 è una domenica senza commercio: per legge i negozi restano chiusi, salvo eccezioni (per esempio se al banco c'è il titolare). Google Maps indica comunque 10-22: verificare sul posto.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -727,7 +727,8 @@
   "durata_min": 30,
   "fonti": [
    "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
-   "TikTok @alemomastyle"
+   "TikTok @alemomastyle",
+   "legge polacca sul divieto di commercio domenicale; calendario 2026 delle domeniche commerciali da wiadomoscihandlowe.pl e gazetaprawna.pl (letti l'8/10/2026): in ottobre non ce ne sono"
   ],
   "verificato": "2026-09-25",
   "da_confermare": false,
@@ -740,6 +741,9 @@
    "da_provare": [],
    "fonte": "Google Maps",
    "letto": "2026-09-26"
+  },
+  "eccezioni": {
+   "2026-10-11": []
   }
  },
  {
@@ -894,12 +898,13 @@
   "durata_min": 90,
   "fonti": [
    "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
-   "TikTok @alemomastyle"
+   "TikTok @alemomastyle",
+   "il sito restauracjabazar.pl l'8/10/2026 non risponde: link tolto"
   ],
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Ristorante di cucina polacca rivisitata in chiave moderna, sulla riva del fiume in via Szafarnia. Il dolce da non perdere, secondo chi lo consiglia, è la cheesecake alla zucca con confettura di rose.",
-  "sito": "http://www.restauracjabazar.pl/",
+  "sito": "",
   "recensioni": {
    "voto": 4.7,
    "numero": 3017,
@@ -1260,7 +1265,7 @@
    "sab": null,
    "dom": null
   },
-  "orari_nota": "Né il sito ufficiale né Google Maps pubblicano gli orari (ricontrollato il 28/09). Il pranzo del 10 è prenotato 12:30-14:30. Servizio lento: tenere margine.",
+  "orari_nota": "Il sito ufficiale scrive solo \"aperti tutti i giorni dalle 8:03\", senza l'ora di chiusura. Il pranzo del 10 è prenotato 12:30-14:30. Telefono: 58 727 71 14. Servizio lento: tenere margine.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -1271,11 +1276,12 @@
   "perche": "Ristorante di pierogi consigliato per pierogi misti e limonate.",
   "durata_min": 75,
   "fonti": [
+   "sito ufficiale pierogarnie.com/restauracje/stary-mlyn-gdansk (letto l'8/10/2026: apertura dalle 8:03, chiusura non scritta)",
    "sito pierogarnie.com e Google Maps (28/09/2026): orari non pubblicati",
    "TikTok @cidi.jpg",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-28",
+  "verificato": "2026-10-08",
   "da_confermare": true,
   "descrizione": "Ristorante di pierogi \"cotti al forno\", molto amato: 4,6 su quasi 18.000 recensioni. Consigliati i pierogi misti, quelli alle castagne quando sono di stagione e le limonate. Il servizio è lento: meglio non avere fretta. Qui c'è il pranzo prenotato del 10 ottobre.",
   "sito": "https://www.pierogarnie.com/restauracje/stary-mlyn-gdansk/",
@@ -1358,12 +1364,13 @@
   "durata_min": 60,
   "fonti": [
    "sito ufficiale barstagiewna.pl (letto il 25/09/2026)",
-   "TikTok @cidi.jpg"
+   "TikTok @cidi.jpg",
+   "il sito barstagiewna.pl l'8/10/2026 non risponde: link tolto"
   ],
   "verificato": "2026-09-25",
   "da_confermare": false,
   "descrizione": "Bar mleczny economico in via Stągiewna, con piatti polacchi tradizionali. Una creator ci è tornata due volte: involtini di cavolo, naleśniki (crêpes) e polpette di pollo ripiene.",
-  "sito": "http://www.barstagiewna.pl/",
+  "sito": "",
   "recensioni": {
    "voto": 4.2,
    "numero": 5431,
@@ -1624,7 +1631,7 @@
     ]
    ]
   },
-  "orari_nota": "Lunedì chiuso; mar-ven 16-24; sabato 12-24; domenica 13-18.",
+  "orari_nota": "Lunedì chiuso; mar-ven 16-24; sabato 12-24; domenica 13-18. Telefono: +48 731 334 332.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -1635,10 +1642,11 @@
   "perche": "Ristorante Bib Gourmand 2026 di tapas e pesce al trentatreesimo piano.",
   "durata_min": 90,
   "fonti": [
+   "sito ufficiale oliviastar.pl/restauracje/treinta-y-tres (ricontrollato l'8/10/2026: orari uguali)",
    "sito ufficiale oliviastar.pl/restauracje/treinta-y-tres (letto il 25/09/2026)",
    "oliviastar.pl"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": false,
   "descrizione": "Ristorante spagnolo al trentatreesimo piano di Olivia Star, con Bib Gourmand Michelin 2026: tapas, pesce e frutti di mare con vista sulla città. Qui c'è la cena di compleanno del 10 ottobre alle 20:30.",
   "sito": "https://www.oliviastar.pl/restauracje/treinta-y-tres/",
@@ -2361,7 +2369,7 @@
     ]
    ]
   },
-  "orari_nota": "Lunedì chiuso; martedì 10-16 gratis; mer-dom 10-18. Casse fino alle 17 (mar 14:30). Chiuso anche martedì 6/10.",
+  "orari_nota": "Lunedì chiuso; martedì 10-16 gratis; mer-dom 10-18. Casse fino alle 17 (mar 14:30).",
   "prezzo": {
    "normale_zl": 33,
    "ridotto_zl": 23,
@@ -2372,12 +2380,13 @@
   "perche": "Grande museo storico, indicato come uno dei migliori al mondo.",
   "durata_min": 120,
   "fonti": [
+   "sito ufficiale muzeum1939.pl/wizyta/wizyta-miiws/godziny-otwarcia (ricontrollato l'8/10/2026: orari uguali)",
    "sito ufficiale muzeum1939.pl (letto il 25/09/2026)",
    "muzeum1939.pl",
    "TikTok @vpcn.travel",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": false,
   "descrizione": "Uno dei musei più importanti di Danzica, inaugurato nel 2017 e considerato tra i migliori al mondo sull'argomento. Racconta la guerra soprattutto dal punto di vista dei civili. Servono almeno due ore. È chiuso il lunedì; il martedì dalle 10 alle 16 l'ingresso è gratuito.",
   "sito": "https://muzeum1939.pl/",
@@ -2437,16 +2446,11 @@
   "orari": {
    "lun": [
     [
-     "12:00",
-     "18:00"
-    ]
-   ],
-   "mar": [
-    [
      "10:00",
      "18:00"
     ]
    ],
+   "mar": [],
    "mer": [
     [
      "10:00",
@@ -2478,7 +2482,7 @@
     ]
    ]
   },
-  "orari_nota": "Lunedì 12-18 ingresso gratuito. Nei giorni a ingresso gratuito alcune mostre temporanee possono non essere visitabili. Biglietti fino a 60 minuti prima della chiusura. Non si prenota.",
+  "orari_nota": "Lunedì 10-18 ingresso gratuito; martedì chiuso. Nei giorni a ingresso gratuito alcune mostre temporanee possono non essere visitabili. Biglietti fino a 60 minuti prima della chiusura. Non si prenota.",
   "prezzo": {
    "normale_zl": 37,
    "ridotto_zl": 26,
@@ -2489,14 +2493,15 @@
   "perche": "Museo dedicato all'ambra, consigliato da più creator.",
   "durata_min": 120,
   "fonti": [
+   "sito ufficiale muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy (ricontrollato l'8/10/2026: orario invernale)",
    "muzeumgdansk.pl (letto il 25/09/2026)",
    "TikTok @vpcn.travel",
    "TikTok @simi.larity",
    "TikTok @giuliaarinaldii"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": false,
-  "descrizione": "Il museo dell'ambra, la resina fossile che ha reso ricca Danzica, nel Grande Mulino costruito dai Cavalieri Teutonici. Primo piano: l'ambra in natura; secondo piano: l'ambra nella cultura. Il museo indica almeno 2 ore di visita. Consigliato da tre creator su sei. Il lunedì dalle 12 alle 18 è gratuito. Mostre temporanee in corso: \"Historie, które wydarzyły się naprawdę\" (gioielli di Marcin Tymiński) e \"Spoiler Alert 2027\" (gioielli sperimentali), entrambe fino al 21/02/2027.",
+  "descrizione": "Il museo dell'ambra, la resina fossile che ha reso ricca Danzica, nel Grande Mulino costruito dai Cavalieri Teutonici. Primo piano: l'ambra in natura; secondo piano: l'ambra nella cultura. Il museo indica almeno 2 ore di visita. Consigliato da tre creator su sei. Il lunedì (10-18) è gratuito. Mostre temporanee in corso: \"Historie, które wydarzyły się naprawdę\" (gioielli di Marcin Tymiński) e \"Spoiler Alert 2027\" (gioielli sperimentali), entrambe fino al 21/02/2027.",
   "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/museum-of-amber/",
   "instagram": "https://www.instagram.com/muzeumgdansk/",
   "recensioni": {
@@ -2554,20 +2559,15 @@
   "orari": {
    "lun": [
     [
-     "12:00",
-     "18:00"
-    ]
-   ],
-   "mar": [
-    [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
+   "mar": [],
    "mer": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
    "gio": [
@@ -2579,23 +2579,23 @@
    "ven": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
    "sab": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
    "dom": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ]
   },
-  "orari_nota": "Lunedì 12-18 ingresso gratuito. Nei giorni a ingresso gratuito alcune mostre temporanee possono non essere visitabili. La torre panoramica è chiusa per lavori. Biglietti fino a 45 minuti prima della chiusura.",
+  "orari_nota": "Lunedì 10-16 ingresso gratuito; martedì chiuso; giovedì fino alle 18, gli altri giorni fino alle 16. Nei giorni a ingresso gratuito alcune mostre temporanee possono non essere visitabili. La torre panoramica è chiusa per lavori. Biglietti fino a 45 minuti prima della chiusura.",
   "prezzo": {
    "normale_zl": 26,
    "ridotto_zl": 19,
@@ -2606,10 +2606,11 @@
   "perche": "Storico municipio sede del Muzeum Gdańska.",
   "durata_min": 45,
   "fonti": [
+   "sito ufficiale muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy (ricontrollato l'8/10/2026: orario invernale)",
    "muzeumgdansk.pl (letto il 25/09/2026)",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": false,
   "descrizione": "Il Municipio della Città Principale, all'incrocio fra Długa e Długi Targ. Dentro c'è una delle più belle sale rinascimentali del Nord Europa, la porta più antica di Danzica, sotterranei e passaggi segreti. Il museo indica almeno 45 minuti. La torre panoramica ora è chiusa per lavori. Nello stesso palazzo c'è la Galleria Palowa, con mostre temporanee (ora \"Nasi Chłopcy\", sugli abitanti della Pomerania nell'esercito del Terzo Reich).",
   "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/main-town-hall/",
@@ -2668,20 +2669,15 @@
   "orari": {
    "lun": [
     [
-     "12:00",
-     "18:00"
-    ]
-   ],
-   "mar": [
-    [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
+   "mar": [],
    "mer": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
    "gio": [
@@ -2693,23 +2689,23 @@
    "ven": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
    "sab": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
    "dom": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ]
   },
-  "orari_nota": "ATTENZIONE: venerdì 9/10 aperta solo fino alle 14; sabato 10/10 chiusa. Lunedì 12-18 ingresso gratuito. Nei giorni a ingresso gratuito alcune mostre temporanee possono non essere visitabili. Biglietti fino a 45 minuti prima della chiusura. Non si prenota.",
+  "orari_nota": "ATTENZIONE: venerdì 9/10 aperta solo fino alle 14; sabato 10/10 chiusa. Lunedì 10-16 ingresso gratuito; martedì chiusa. Nei giorni a ingresso gratuito alcune mostre temporanee possono non essere visitabili. Biglietti fino a 45 minuti prima della chiusura. Non si prenota.",
   "prezzo": {
    "normale_zl": 26,
    "ridotto_zl": 19,
@@ -2720,12 +2716,13 @@
   "perche": "Storica corte di Artù nel cuore della città.",
   "durata_min": 90,
   "fonti": [
+   "sito ufficiale muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy (ricontrollato l'8/10/2026: orario invernale)",
    "muzeumgdansk.pl (letto il 25/09/2026)",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": false,
-  "descrizione": "La Corte di Artù, dove si riunivano le confraternite dei mercanti, di fronte alla Fontana di Nettuno sul Długi Targ. Grande sala gotica con modelli di navi appesi e la stufa in maiolica più grande d'Europa: 10,64 m, 530 piastrelle. Venerdì 9/10 chiude alle 14, sabato 10/10 è chiusa, lunedì 12/10 è gratuita (12-18).",
+  "descrizione": "La Corte di Artù, dove si riunivano le confraternite dei mercanti, di fronte alla Fontana di Nettuno sul Długi Targ. Grande sala gotica con modelli di navi appesi e la stufa in maiolica più grande d'Europa: 10,64 m, 530 piastrelle. Venerdì 9/10 chiude alle 14, sabato 10/10 è chiusa, lunedì 12/10 è gratuita (10-16).",
   "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/artus-court/",
   "instagram": "https://www.instagram.com/muzeumgdansk/",
   "eccezioni": {
@@ -2792,20 +2789,15 @@
   "orari": {
    "lun": [
     [
-     "12:00",
-     "18:00"
-    ]
-   ],
-   "mar": [
-    [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
+   "mar": [],
    "mer": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
    "gio": [
@@ -2817,23 +2809,23 @@
    "ven": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
    "sab": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
    "dom": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ]
   },
-  "orari_nota": "Lunedì 12-18 ingresso gratuito. Nei giorni a ingresso gratuito alcune mostre temporanee possono non essere visitabili. Biglietti fino a 30 minuti prima della chiusura.",
+  "orari_nota": "Lunedì 10-16 ingresso gratuito; martedì chiuso. Nei giorni a ingresso gratuito alcune mostre temporanee possono non essere visitabili. Biglietti fino a 30 minuti prima della chiusura.",
   "prezzo": {
    "normale_zl": 26,
    "ridotto_zl": 19,
@@ -2844,12 +2836,13 @@
   "perche": "Casa-museo storica lungo Długa.",
   "durata_min": 75,
   "fonti": [
+   "sito ufficiale muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy (ricontrollato l'8/10/2026: orario invernale)",
    "muzeumgdansk.pl (letto il 25/09/2026)",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": false,
-  "descrizione": "La casa di Johann Uphagen, ricco mercante che la comprò nel 1775 e la arredò: dall'ingresso con lo scalone alla sala da tè, al salotto, alla sala da pranzo, alla stanza della musica, fino alle cucine. Sta su via Długa. Lunedì gratuita (12-18).",
+  "descrizione": "La casa di Johann Uphagen, ricco mercante che la comprò nel 1775 e la arredò: dall'ingresso con lo scalone alla sala da tè, al salotto, alla sala da pranzo, alla stanza della musica, fino alle cucine. Sta su via Długa. Lunedì gratuita (10-16).",
   "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/uphagen-house/",
   "instagram": "https://www.instagram.com/muzeumgdansk/",
   "recensioni": {
@@ -2894,20 +2887,15 @@
   "orari": {
    "lun": [
     [
-     "12:00",
-     "18:00"
-    ]
-   ],
-   "mar": [
-    [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
+   "mar": [],
    "mer": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
    "gio": [
@@ -2919,23 +2907,23 @@
    "ven": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
    "sab": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
    "dom": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ]
   },
-  "orari_nota": "Il lunedì è aperta ma NON è gratuita. Biglietti alla cassa del negozio, ingresso dal cortile, fino a 45 minuti prima della chiusura.",
+  "orari_nota": "Lunedì 10-16: aperta ma NON gratuita. Martedì chiusa. Biglietti alla cassa del negozio, ingresso dal cortile, fino a 45 minuti prima della chiusura.",
   "prezzo": {
    "normale_zl": 18,
    "ridotto_zl": 13,
@@ -2946,10 +2934,11 @@
   "perche": "Museo ospitato nella torre della tortura e presso la Porta Alta.",
   "durata_min": 75,
   "fonti": [
+   "sito ufficiale muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy (ricontrollato l'8/10/2026: orario invernale)",
    "muzeumgdansk.pl (letto il 25/09/2026)",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": false,
   "descrizione": "Il complesso davanti alla Porta Alta (Brama Wyżynna), all'inizio della Via Reale: la Torre della prigione e la Katownia, dove un tempo si giudicavano e si tenevano i condannati. Dentro ci sono due mostre.",
   "sito": "https://muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy/",
@@ -3025,9 +3014,10 @@
   "perche": "Torre del Muzeum Nauki Gdańskiej.",
   "durata_min": 60,
   "fonti": [
+   "sito ufficiale muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy (ricontrollato l'8/10/2026: orario invernale): chiusa, stagionale aprile-settembre",
    "muzeumgdansk.pl (letto il 25/09/2026)"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": false,
   "descrizione": "Il Muzeum Nauki Gdańskiej, nella torre della chiesa di Santa Caterina: collezione di orologi da torre dal XIV secolo e il primo orologio a pulsar del mondo (2011). È stagionale, da aprile a settembre: a ottobre è chiuso.",
   "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/gdansk-museum-of-science/",
@@ -3082,31 +3072,67 @@
   "lat": 54.355415,
   "lng": 18.656945,
   "orari": {
-   "lun": null,
-   "mar": null,
-   "mer": null,
-   "gio": null,
-   "ven": null,
-   "sab": null,
-   "dom": null
+   "lun": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "mar": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "mer": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "gio": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "ven": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "sab": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ],
+   "dom": [
+    [
+     "10:00",
+     "18:00"
+    ]
+   ]
   },
-  "orari_nota": "Chiuso per modernizzazione. Riapre lunedì 5/10 con la cerimonia; per i visitatori la nuova mostra è aperta dal 6/10. Gli orari nuovi non sono ancora pubblicati.",
+  "orari_nota": "Ha riaperto dopo la modernizzazione: tutti i giorni 10-18, lunedì ingresso gratuito. Biglietti fino a 30 minuti prima della chiusura.",
   "prezzo": {
    "normale_zl": 15,
    "ridotto_zl": 10,
-   "nota": "Prezzi della pagina attuale; con la riapertura potrebbero cambiare. Pass 90 giorni per tutte le sedi: 160 zł, ridotto 110 zł."
+   "nota": "Ridotto per studenti con tessera valida. Pass 90 giorni per tutte le sedi: 160 zł, ridotto 110 zł."
   },
   "pescatariano": "n.a.",
-  "sconto_studenti": "",
+  "sconto_studenti": "Ridotto per studenti con tessera valida.",
   "perche": "Sede museale del Muzeum Gdańska.",
   "durata_min": 60,
   "fonti": [
+   "sito ufficiale muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy (ricontrollato l'8/10/2026: orario invernale)",
    "sito ufficiale muzeumgdansk.pl (ricontrollato il 28/09/2026: orari non ancora pubblicati)",
    "muzeumgdansk.pl (letto il 25/09/2026)"
   ],
-  "verificato": "2026-09-28",
-  "da_confermare": true,
-  "descrizione": "L'ufficio postale polacco difeso dai suoi impiegati il 1° settembre 1939, uno dei luoghi dove cominciò la Seconda guerra mondiale. Riapre dopo la modernizzazione con una nuova mostra sui polacchi nella Città Libera di Danzica, visitabile dal 6 ottobre.",
+  "verificato": "2026-10-08",
+  "da_confermare": false,
+  "descrizione": "L'ufficio postale polacco difeso dai suoi impiegati il 1° settembre 1939, uno dei luoghi dove cominciò la Seconda guerra mondiale. Ha riaperto a ottobre 2026 dopo la modernizzazione, con una nuova mostra sui polacchi nella Città Libera di Danzica. Lunedì gratuito.",
   "sito": "https://muzeumgdansk.pl/wydarzenia/szczegoly/news/nowe-muzeum-poczty-polskiej/",
   "instagram": "https://www.instagram.com/muzeumgdansk/",
   "recensioni": {
@@ -3169,35 +3195,35 @@
    "mer": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
    "gio": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
    "ven": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
    "sab": [
     [
      "10:00",
-     "18:00"
+     "16:00"
     ]
    ],
    "dom": [
     [
-     "13:00",
-     "19:00"
+     "10:00",
+     "16:00"
     ]
    ]
   },
-  "orari_nota": "Orari del Muzeum Westerplatte (Museo della Seconda guerra mondiale): mostra nella Centrale elettrica e centro visitatori. Lunedì chiuso; mar 10-16; mer-sab 10-18; dom 13-19. La Wartownia nr 1 del Muzeum Gdańska è chiusa in ottobre.",
+  "orari_nota": "Mostra nella Centrale elettrica (\"Pamięć w ziemi zapisana. Archeologia Westerplatte\"): lunedì chiusa, mar-dom 10-16. Centro visitatori tutti i giorni 9-16. Da febbraio 2026 ci sono lavori: via Sucharskiego è chiusa al traffico e nel cantiere non si entra. La Wartownia nr 1 del Muzeum Gdańska è chiusa in ottobre.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -3208,14 +3234,15 @@
   "perche": "Sede storica visitabile del Muzeum Gdańska.",
   "durata_min": 90,
   "fonti": [
+   "sito ufficiale muzeum1939.pl/wizyta/wizyta-westerplatte/godziny-otwarcia (letto l'8/10/2026)",
    "sito ufficiale muzeum1939.pl (letto il 25/09/2026); muzeumgdansk.pl",
    "muzeumgdansk.pl (letto il 25/09/2026)"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "descrizione": "La penisola dove il 1° settembre 1939 cominciò la Seconda guerra mondiale. Oltre al monumento e alle rovine, il Museo della Seconda guerra mondiale ha aperto qui la mostra archeologica nella vecchia Centrale elettrica del deposito e un centro visitatori con ristorante e caffè sul golfo. La Wartownia nr 1 del Muzeum Gdańska a ottobre è chiusa. C'è anche una crociera in battello dal centro, circa 100 minuti.",
   "da_confermare": false,
-  "sito": "https://www.muzeum1939.pl/en/visit-and-tickets/westerplatte-visit/opening-hours-8032",
-  "instagram": "https://www.instagram.com/muzeumgdansk/",
+  "sito": "https://www.muzeum1939.pl/wizyta/wizyta-westerplatte/godziny-otwarcia",
+  "instagram": "https://www.instagram.com/muzeum1939/",
   "recensioni": {
    "voto": 4.7,
    "numero": 28139,
@@ -3318,9 +3345,10 @@
   "perche": "Fortezza storica del Muzeum Gdańska.",
   "durata_min": 90,
   "fonti": [
+   "sito ufficiale muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy (ricontrollato l'8/10/2026: orario invernale)",
    "muzeumgdansk.pl (letto il 25/09/2026)"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": false,
   "descrizione": "Fortezza alla foce della Vistola che per secoli ha difeso il porto; la torre centrale è del 1482. Dentro le caserme napoleoniche c'è la mostra \"Od Batorego do Groma\". Bus 106 o 138 fino a Pokładowa, poi 1,4 km a piedi (circa 18 minuti). Lunedì gratuita, martedì chiusa.",
   "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/wisloujscie-fortress/",
@@ -3427,10 +3455,11 @@
   "perche": "Centro espositivo dedicato alla storia di Solidarność.",
   "durata_min": 120,
   "fonti": [
+   "sito ufficiale ecs.gda.pl/en/plan-your-visit/opening-hours (ricontrollato l'8/10/2026: orari uguali, nessuna chiusura dal 9 al 12/10)",
    "sito ufficiale ecs.gda.pl/en/plan-your-visit/opening-hours (letto il 25/09/2026)",
    "Lista Maps"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": false,
   "descrizione": "Il Centro europeo di Solidarność, accanto ai cantieri navali dove nacque il sindacato che fece cadere il comunismo in Polonia. La mostra permanente racconta quella rivoluzione. Audioguida inclusa nel biglietto. Chiuso il martedì.",
   "sito": "http://www.ecs.gda.pl/",
@@ -3528,19 +3557,20 @@
   },
   "orari_nota": "Il Giudizio universale di Memling non è esposto nel 2026.",
   "prezzo": {
-   "normale_zl": 20,
-   "ridotto_zl": 10,
-   "nota": ""
+   "normale_zl": 25,
+   "ridotto_zl": 20,
+   "nota": "Studenti dai 7 ai 26 anni: 1 zł (programma \"Muzeum za 1 zł\" del Ministero della Cultura, solo mostre permanenti): vale per Alessia. Martedì ingresso gratuito."
   },
   "pescatariano": "n.a.",
-  "sconto_studenti": "",
+  "sconto_studenti": "Studenti dai 7 ai 26 anni: 1 zł.",
   "perche": "Museo nazionale cittadino.",
   "durata_min": 90,
   "fonti": [
+   "sito ufficiale mng.gda.pl/lokalizacje/oddzial-sztuki-dawnej (letto l'8/10/2026); elenco dei musei \"Muzeum za 1 zł\" su gov.pl",
    "Google Maps (ricontrollato il 28/09/2026: orari uguali a quelli nell'app)",
    "Lista Maps"
   ],
-  "verificato": "2026-09-28",
+  "verificato": "2026-10-08",
   "da_confermare": false,
   "descrizione": "Il Museo Nazionale di Danzica, in un ex convento francescano. Attenzione: il suo pezzo più famoso, il Giudizio universale di Memling, nel 2026 non è esposto. Chiuso il lunedì.",
   "sito": "http://mng.gda.pl/",
@@ -3638,19 +3668,20 @@
   },
   "orari_nota": "Lunedì chiuso; mar 9-17; mer 13-17 ingresso gratuito; gio-dom 9-17. Ultimo ingresso 60 minuti prima della chiusura.",
   "prezzo": {
-   "normale_zl": 26,
-   "ridotto_zl": 19,
-   "nota": "Listino indicato valido fino al 29/09/2026: in ottobre potrebbe cambiare."
+   "normale_zl": 23,
+   "ridotto_zl": 17,
+   "nota": "Mercoledì ingresso gratuito. Listino valido fino al 31/12/2026."
   },
   "pescatariano": "n.a.",
   "sconto_studenti": "",
   "perche": "Gru portuale medievale, parte del Museo Marittimo.",
   "durata_min": 60,
   "fonti": [
+   "sito ufficiale nmm.pl/zuraw (ricontrollato l'8/10/2026: orari uguali, prezzi nuovi)",
    "sito ufficiale nmm.pl/zuraw (letto il 25/09/2026)",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": false,
   "descrizione": "La gru portuale medievale sul fiume Motława, simbolo della città: una delle più grandi gru portuali del Medioevo europeo. Fa parte del Museo Marittimo.",
   "sito": "https://www.nmm.pl/zuraw",
@@ -3756,10 +3787,11 @@
   "perche": "Centro della scienza sulla collina panoramica Góra Gradowa.",
   "durata_min": 120,
   "fonti": [
+   "sito ufficiale hevelianum.pl/zaplanuj-wizyte-gora-gradowa (ricontrollato l'8/10/2026: orari uguali)",
    "sito ufficiale hevelianum.pl/zaplanuj-wizyte-gora-gradowa (letto il 25/09/2026)",
    "Lista Maps"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": false,
   "descrizione": "Centro della scienza dentro un forte ottocentesco sulla collina Góra Gradowa, intitolato all'astronomo Johannes Hevelius. La collina, con il panorama sulla città vecchia, è gratuita; si paga solo il centro della scienza.",
   "sito": "https://hevelianum.pl/",
@@ -3868,11 +3900,12 @@
   "perche": "Grande basilica storica nel cuore della città vecchia.",
   "durata_min": 60,
   "fonti": [
+   "sito ufficiale bazylikamariacka.gdansk.pl/bazylika/informacja-dla-turystow (ricontrollato l'8/10/2026: testo invariato)",
    "sito ufficiale bazylikamariacka.gdansk.pl/bazylika/informacja-dla-turystow (letto il 25/09/2026)",
    "TikTok @simi.larity",
    "TikTok @giuliaarinaldii"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": false,
   "descrizione": "La Basilica di Santa Maria, una delle più grandi chiese in mattoni del mondo, nel cuore della città vecchia. Dentro, da vedere l'orologio astronomico.",
   "sito": "https://bazylikamariacka.gdansk.pl/",
@@ -3942,11 +3975,12 @@
   "perche": "Torre panoramica con vista sulla città dopo 402 gradini.",
   "durata_min": 45,
   "fonti": [
+   "sito ufficiale bazylikamariacka.gdansk.pl/bazylika/informacja-dla-turystow (ricontrollato l'8/10/2026: testo invariato, l'orario di ottobre resta poco chiaro)",
    "sito ufficiale bazylikamariacka.gdansk.pl (ricontrollato il 28/09/2026: testo invariato)",
    "sito ufficiale bazylikamariacka.gdansk.pl/bazylika/informacja-dla-turystow (letto il 25/09/2026)",
    "TikTok @giuliaarinaldii"
   ],
-  "verificato": "2026-09-28",
+  "verificato": "2026-10-08",
   "da_confermare": true,
   "descrizione": "La torre della Basilica di Santa Maria: 402 gradini ripidi fino a 78 metri, con una vista su tutta la città vecchia che secondo chi l'ha fatta vale la fatica. Chiude quando c'è vento forte.",
   "sito": "https://bazylikamariacka.gdansk.pl/",
@@ -4125,7 +4159,7 @@
    "sab": [
     [
      "11:00",
-     "01:00"
+     "23:00"
     ]
    ],
    "dom": [
@@ -4135,7 +4169,7 @@
     ]
    ]
   },
-  "orari_nota": "Ultimo ingresso 1 ora e 20 minuti prima della chiusura.",
+  "orari_nota": "Lun-gio 12-22, ven 12-01, sab 11-23, dom 11-20. Ultimo ingresso 1 ora e 20 minuti prima della chiusura (sabato 10/10: entro le 21:40).",
   "prezzo": {
    "normale_zl": 26,
    "ridotto_zl": 18,
@@ -4146,9 +4180,10 @@
   "perche": "Terrazza panoramica al trentaduesimo piano, con Olivia Garden incluso nel biglietto.",
   "durata_min": 60,
   "fonti": [
+   "sito ufficiale oliviastar.pl/pietro-widokowe (letto l'8/10/2026: il sabato ora chiude alle 23)",
    "sito ufficiale oliviastar.pl/pietro-widokowe e /znizki (letto il 25/09/2026)"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": false,
   "descrizione": "Terrazza panoramica al trentaduesimo piano del grattacielo Olivia Star, con il giardino Olivia Garden compreso nel biglietto. Online costa meno che in cassa. Qui c'è l'aperitivo del 10 ottobre alle 19:15.",
   "sito": "https://www.oliviastar.pl/pietro-widokowe/",
@@ -5330,57 +5365,58 @@
    "mar": [
     [
      "09:00",
-     "15:00"
+     "16:00"
     ]
    ],
    "mer": [
     [
      "09:00",
-     "15:00"
+     "16:00"
     ]
    ],
    "gio": [
     [
      "09:00",
-     "15:00"
+     "16:00"
     ]
    ],
    "ven": [
     [
      "09:00",
-     "15:00"
+     "16:00"
     ]
    ],
    "sab": [
     [
      "09:00",
-     "15:00"
+     "16:00"
     ]
    ],
    "dom": [
     [
      "09:00",
-     "15:00"
+     "16:00"
     ]
    ]
   },
-  "orari_nota": "ATTENZIONE: il 28/09 il sito pubblica ancora solo l'orario estivo (fino al 30/09: mar-dom 9-20, ultimo ingresso al percorso storico 16:30; il lunedì solo il percorso all'aperto, gratis, biglietto solo in cassa). Gli orari qui sono della ricerca del 14/09, da ricontrollare prima di partire.",
+  "orari_nota": "Orario dal 1/10/2026 al 25/4/2027. Mar-dom: percorso storico completo 9-16, ultimo ingresso 12:45; interni e mostre chiudono alle 15. Percorso esterno mar-dom dalle 13:30 alle 16 (la pagina degli orari dice dalle 13:00), ultimo ingresso 14:30. Lunedì: solo il percorso esterno, 9-16, ultimo ingresso 14:30, gratis con biglietto da ritirare in cassa (non online). Massimo 500 ingressi l'ora: conviene comprare online.",
   "prezzo": {
-   "normale_zl": 29.5,
-   "ridotto_zl": 20.5,
-   "nota": "Prezzi del percorso completo."
+   "normale_zl": 80,
+   "ridotto_zl": 60,
+   "nota": "Percorso storico completo, con guida in polacco o audioguida inclusa (anche in italiano). Percorso esterno 35 zł, ridotto 25. \"Muzeum za 1 zł\": dal 1/10 al 31/12/2026 chi ha dagli 8 ai 26 anni entra con 1 zł mostrando una tessera scolastica o universitaria valida, quindi Alessia. Si sceglie il biglietto \"Muzeum za złotówkę\" su bilety.zamek.malbork.pl o in cassa."
   },
   "pescatariano": "n.a.",
-  "sconto_studenti": "Ridotto disponibile.",
+  "sconto_studenti": "1 zł dagli 8 ai 26 anni con tessera scolastica o universitaria (fino al 31/12/2026).",
   "perche": "Gita al grande castello raggiungibile in treno da Gdańsk Główny.",
   "durata_min": 300,
   "fonti": [
+   "sito ufficiale zamek.malbork.pl: godziny-otwarcia, wizyta/bilety e notizia \"Muzeum za 1zł od października\" (letti l'8/10/2026)",
    "sito ufficiale zamek.malbork.pl (ricontrollato il 28/09/2026: c'è ancora solo l'orario estivo fino al 30/09)",
    "sito ufficiale zamek.malbork.pl/godziny-otwarcia (letto il 25/09/2026)",
    "TikTok @giuliaarinaldii"
   ],
-  "verificato": "2026-09-28",
-  "da_confermare": true,
+  "verificato": "2026-10-08",
+  "da_confermare": false,
   "descrizione": "Il castello dei Cavalieri Teutonici, il più grande castello in mattoni del mondo e patrimonio UNESCO. Si raggiunge in treno da Gdańsk Główny in 25-50 minuti. Da ottobre il percorso completo chiude presto: ultimo ingresso alle 12:45. Il lunedì è gratuito ma solo il percorso esterno.",
   "sito": "https://zamek.malbork.pl/",
   "recensioni": {
@@ -5581,24 +5617,25 @@
     ]
    ]
   },
-  "orari_nota": "Aperto 24 ore su 24 (Google Maps). Il biglietto d'ingresso non è stato ricontrollato.",
+  "orari_nota": "Il molo è sempre aperto (Google Maps). Biglietto 2026: 10 zł nella stagione a pagamento cominciata il 10/4. Quando finisce la stagione 2026 non è scritto in nessuna fonte che ho trovato (nel 2025 si pagava fino al 30/9): chiedere alla cassa.",
   "prezzo": {
-   "normale_zl": null,
+   "normale_zl": 10,
    "ridotto_zl": null,
-   "nota": "Prezzo da confermare."
+   "nota": "Prezzo della stagione a pagamento 2026; in ottobre non è confermato che si paghi."
   },
   "pescatariano": "n.a.",
   "sconto_studenti": "",
   "perche": "Molo di legno indicato come il più lungo d'Europa.",
   "durata_min": 45,
   "fonti": [
+   "gazetaprawna.pl (prezzi 2026) e rmf24.pl (stagione 2025), letti l'8/10/2026; il sito molo.sopot.pl rimanda a una pagina del MOSiR senza informazioni sul molo",
    "Google Maps (letto il 25/09/2026; il sito del locale non riporta gli orari)",
    "TikTok @simi.larity"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": true,
   "descrizione": "Il molo di legno più lungo d'Europa, oltre mezzo chilometro dentro il Baltico.",
-  "sito": "http://www.molo.sopot.pl/",
+  "sito": "",
   "instagram": "https://www.instagram.com/mosirsopot/",
   "recensioni": {
    "voto": 4.6,
@@ -5654,7 +5691,7 @@
    "sab": [],
    "dom": []
   },
-  "orari_nota": "CHIUSA fino al 31/03/2027 (periodo invernale). Nella stessa zona è aperta la nave ORP Sokół, mar-dom 10-18.",
+  "orari_nota": "CHIUSA fino al 31/03/2027 (periodo invernale). Nella stessa zona è aperto il sottomarino ORP Sokół, mar-dom 10-16 (10 persone alla volta, visita di 15 minuti).",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -5665,10 +5702,11 @@
   "perche": "Nave museo a Gdynia, raggiungibile in circa 30 minuti di treno.",
   "durata_min": 90,
   "fonti": [
+   "sito ufficiale muzeummw.pl/cennik-i-godziny-otwarcia (letto l'8/10/2026)",
    "sito ufficiale muzeummw.pl (letto il 25/09/2026)",
    "Reddit"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": false,
   "descrizione": "Il cacciatorpediniere Błyskawica, nave da guerra polacca della Seconda guerra mondiale, ormeggiato a Gdynia. È chiuso fino al 31 marzo 2027.",
   "sito": "https://muzeummw.pl/",
@@ -6378,11 +6416,12 @@
   "descrizione": "Museo delle illusioni: illusioni ottiche e arte digitale, tutto interattivo e fatto per le foto. A Długie Ogrody, appena oltre il fiume dal centro storico.",
   "durata_min": 60,
   "fonti": [
+   "sito ufficiale dejavumuzeum.pl (ricontrollato l'8/10/2026: orari uguali)",
    "sito ufficiale dejavumuzeum.pl (letto il 25/09/2026)",
    "Lista Google Maps di Alessia «Danzica must visit»",
    "dejavumuzeum.pl"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": false,
   "sito": "http://www.dejavumuzeum.pl/",
   "instagram": "https://www.instagram.com/dejavumuzeum/",
@@ -6464,11 +6503,12 @@
   "fonti": [
    "Google Maps (letto il 28/09/2026; il sito ufficiale non riporta gli orari)",
    "Lista Google Maps di Alessia «Danzica must visit»",
-   "parkoliwski.gdansk.pl"
+   "parkoliwski.gdansk.pl",
+   "il sito parkoliwski.gdansk.pl l'8/10/2026 risponde \"pagina non trovata\": link tolto"
   ],
   "verificato": "2026-09-28",
   "da_confermare": false,
-  "sito": "http://www.parkoliwski.gdansk.pl/",
+  "sito": "",
   "recensioni": {
    "voto": 4.8,
    "numero": 36777,
@@ -6565,7 +6605,7 @@
     ]
    ]
   },
-  "orari_nota": "L'edificio (negozi e locali) è aperto 8-23; la facciata si vede sempre dalla strada.",
+  "orari_nota": "L'edificio (negozi e locali) è aperto 8-23; la facciata si vede sempre dalla strada. Domenica 11/10 (senza commercio) i negozi dentro sono chiusi per legge, i locali possono restare aperti.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -6578,6 +6618,7 @@
   "durata_min": 15,
   "fonti": [
    "Google Maps (letto il 28/09/2026; il sito ufficiale non riporta gli orari)",
+   "legge polacca sul divieto di commercio domenicale (domenica 11/10/2026 senza commercio)",
    "Lista Google Maps di Alessia «Danzica must visit»",
    "krzywydomek.info"
   ],
@@ -6775,7 +6816,7 @@
     ]
    ]
   },
-  "orari_nota": "Tutti i giorni 9-20.",
+  "orari_nota": "Tutti i giorni 9-20 secondo Google Maps. ATTENZIONE: domenica 11/10 in Polonia è una domenica senza commercio: i negozi restano chiusi per legge, possono restare aperti ristoranti e bar.",
   "prezzo": {
    "normale_zl": null,
    "ridotto_zl": null,
@@ -6789,11 +6830,12 @@
   "fonti": [
    "Google Maps (letto il 28/09/2026; il sito ufficiale non riporta gli orari)",
    "Lista Google Maps di Alessia «Danzica must visit»",
-   "sopotcentrum.com.pl"
+   "sopotcentrum.com.pl",
+   "legge polacca sul divieto di commercio domenicale; calendario 2026 delle domeniche commerciali da wiadomoscihandlowe.pl e gazetaprawna.pl (letti l'8/10/2026): in ottobre non ce ne sono; il sito sopotcentrum.com.pl non esiste più"
   ],
   "verificato": "2026-09-28",
   "da_confermare": false,
-  "sito": "http://www.sopotcentrum.com.pl/",
+  "sito": "",
   "recensioni": {
    "voto": 4.4,
    "numero": 7011,
@@ -6801,6 +6843,9 @@
    "da_provare": [],
    "fonte": "Google Maps",
    "letto": "2026-09-26"
+  },
+  "eccezioni": {
+   "2026-10-11": []
   }
  },
  {
@@ -6831,9 +6876,10 @@
   "perche": "Sede del Muzeum Gdańska, vicino al Parco Oliwski.",
   "durata_min": 45,
   "fonti": [
+   "sito ufficiale muzeumgdansk.pl/wizyta-w-muzeum-gdanska/oddzialy (ricontrollato l'8/10/2026: orario invernale): chiusa, stagionale aprile-settembre",
    "muzeumgdansk.pl (letto il 25/09/2026)"
   ],
-  "verificato": "2026-09-25",
+  "verificato": "2026-10-08",
   "da_confermare": false,
   "descrizione": "L'unica fucina ad acqua di questo tipo rimasta: ha lavorato per circa 350 anni con l'acqua del torrente di Oliwa. È stagionale, da aprile a settembre: a ottobre è chiusa.",
   "sito": "https://muzeumgdansk.pl/en/oddzialy-muzeum/hammer-forge-at-oliwa/",

@@ -29,7 +29,7 @@ window.SEME = {
           bloccata: true,
           durata_min: 120,
           mezzo: null,
-          nota: 'Pranzo prenotato, 12:30-14:30. Oggi Alessia compie 24 anni.'
+          nota: 'Pranzo prenotato, 12:30-14:30. Oggi Alessia compie 24 anni. Telefono della Pierogarnia: 58 727 71 14 (sito ufficiale).'
         },
         {
           id: 'sab-aperitivo',
@@ -52,7 +52,7 @@ window.SEME = {
           // sabato il ristorante e' aperto 12-24 (oliviastar.pl, 25/09/2026)
           durata_min: 90,
           mezzo: null,
-          nota: 'Cena di compleanno, tavolo per 2 confermato. Tolleranza di 15 minuti: se tardate di più, telefonate al ristorante.'
+          nota: 'Cena di compleanno, tavolo per 2 confermato. Tolleranza di 15 minuti: se tardate di più, telefonate al ristorante. Telefono del Treinta y Tres: +48 731 334 332 (sito ufficiale).'
         }
       ]
     },
